@@ -35,3 +35,7 @@ Base = qwen3:8b. Mean F1 scores (0-1); scored 5/5 papers.
 | `outputs/results.md` | Mean F1 table: Model, R1, R2, RL, BERTScore; includes the scored-paper count |
 | `.extraction/` | Hidden cache of extracted paper text |
 | `README.md` | This guide |
+
+## GPU24 follow-up pilot
+
+The separate [GPU24 Qwen3-8B versus Qwen3-14B result](../docs/gpu24-qwen-baselines-2026-09-28.md) reports a five-paper full-text rerun on 2026-09-28. Its scores belong to that run and do not replace the local results above.
