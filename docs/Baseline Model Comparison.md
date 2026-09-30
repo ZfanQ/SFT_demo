@@ -66,13 +66,23 @@ Gemma summaries are slightly shorter than the references for all five papers. Th
 - Llama has the lowest average score across all four metrics.
 - No model leads on every metric.
 
-These results show different strengths on this small test set. They are not sufficient to identify an overall best model.
+## Model Highlights
+
+| Model | Main strength in this comparison | Supporting result |
+| --- | --- | --- |
+| **Qwen3-8B** | **Highest semantic similarity score** | Best BERTScore (**0.8845**), with fewer parameters than the two 12B/14B models |
+| **Qwen3-14B** | **Highest individual-word overlap** | Best ROUGE-1 (**0.5032**) |
+| **Gemma 4 12B IT** | **Highest phrase and sequence overlap; summaries close to the target length** | Best ROUGE-2 (**0.1868**) and ROUGE-L (**0.3208**); all five summaries slightly below the reference word count |
+| **Llama 3.1 8B Instruct** | **Additional baseline from a different model family** | Completed all five papers, but showed no leading score in this comparison |
+
+**Qwen3-8B and Gemma are promising candidates for further evaluation:** Qwen3-8B combines a smaller parameter count with the highest BERTScore, while Gemma leads on two ROUGE metrics and produces summaries close to the requested length.
+
+These strengths are based on five papers. Factual accuracy, readability, and measured inference cost still need to be evaluated before selecting a model for fine-tuning.
 
 ## Run Notes and Limitations
 
 - Only five papers are included, so the findings are preliminary.
 - Qwen runs through Ollama. Gemma and Llama run through Hugging Face Transformers. Compression methods and generation settings differ, which limits direct comparability.
-- Gemma initially ran out of GPU memory on `paper_003`. It completed the paper by processing the input in smaller steps, retaining the full text and generating one final summary.
 - The teacher model and version used to generate the references have not been confirmed.
 - Factual accuracy and readability have not yet been assessed.
 - Inference speed and memory use are not reported in this comparison.
