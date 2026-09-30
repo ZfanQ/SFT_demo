@@ -39,3 +39,7 @@ Base = qwen3:8b. Mean F1 scores (0-1); scored 5/5 papers.
 ## GPU24 follow-up pilot
 
 The separate [GPU24 Qwen3-8B versus Qwen3-14B result](../docs/gpu24-qwen-baselines-2026-09-28.md) reports a five-paper full-text rerun on 2026-09-28. Its scores belong to that run and do not replace the local results above.
+
+## Gemma / Llama on H100
+
+See [the CUDA evaluation guide](README_Gemma_Llama.md) for `Gemma_Llama_eval.py`, which evaluates Gemma 4 12B IT and Llama 3.1 8B Instruct on the same five papers and writes a separate results README with R1, R2, RL and BERTScore. This pipeline has not yet been run on the server.
