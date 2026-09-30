@@ -10,3 +10,5 @@ pymupdf
 pymupdf4llm
 rouge-score
 bert-score
+# Required for --quantization nf4 / --load-in-4bit on 24 GB GPUs.
+bitsandbytes

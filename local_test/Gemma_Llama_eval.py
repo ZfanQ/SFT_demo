@@ -42,6 +42,10 @@ def parse_args(argv=None):
         parser.add_argument(f'--{key}-revision', default='main')
     parser.add_argument('--device', default='cuda:0', help='CUDA device; CPU fallback is disabled.')
     parser.add_argument('--dtype', choices=('bfloat16', 'float16'), default='bfloat16')
+    parser.add_argument('--quantization', choices=('none', 'nf4'), default='none',
+                        help='Use nf4 for bitsandbytes 4-bit weights on a 24 GB GPU; dtype sets compute precision.')
+    parser.add_argument('--load-in-4bit', dest='quantization', action='store_const', const='nf4',
+                        help='Alias for --quantization nf4.')
     parser.add_argument('--attn-implementation', choices=('sdpa', 'flash_attention_2'), default='sdpa')
     parser.add_argument('--context-cap', type=int, default=40960)
     parser.add_argument('--context-margin', type=int, default=256)
@@ -85,6 +89,13 @@ def cell(value):
     return str(value).replace('|', '/').replace('\n', ' ')
 
 
+def model_label(label, state):
+    settings = state['experiment']['settings']
+    if settings.get('quantization', 'none') == 'nf4':
+        return label + ' (4-bit NF4)'
+    return label
+
+
 def persist(state, output):
     state['updated_at'] = base.now()
     base.save_json(output / 'run_state.json', state)
@@ -94,6 +105,7 @@ def persist(state, output):
              '| Model | Scored | R1 | R2 | RL | BERTScore |',
              '| --- | ---: | ---: | ---: | ---: | ---: |']
     for key, (label, _) in MODELS.items():
+        label = model_label(label, state)
         rows = state['rows'][key]
         scored = [r for r in rows if r['status'] == 'scored']
         values = [f'{sum(r[m] for r in scored) / 5:.4f}' for m in SCORES] if len(scored) == 5 else ['N/A'] * 4
@@ -102,6 +114,7 @@ def persist(state, output):
               '| Model | Paper | R1 | R2 | RL | BERTScore | Words / target | Status |',
               '| --- | --- | ---: | ---: | ---: | ---: | ---: | --- |']
     for key, (label, _) in MODELS.items():
+        label = model_label(label, state)
         for row in state['rows'][key]:
             values = [f'{row[m]:.4f}' for m in SCORES] if row['status'] == 'scored' else ['N/A'] * 4
             words = f"{row.get('generated_words', '—')} / {row['target_words']}"
@@ -112,6 +125,7 @@ def persist(state, output):
               '- Full-text extraction and English summary prompts are imported from `qwen_eval.py`.',
               '- Only the reference word count enters the prompt; reference text is used only for scoring.',
               '- Greedy decoding, thinking disabled for Gemma, one paper at a time; no input truncation.',
+              '- Weight quantization is recorded below and in model labels; BERTScore is not quantized.',
               '- ROUGE uses stemming; BERTScore uses roberta-large layer 17, no IDF or baseline rescaling.',
               '- BERTScore runs on CUDA with batch size 1; inputs exceeding its tokenizer limit fail explicitly.',
               '- References are teacher-generated; their model/version is unknown.',
@@ -130,12 +144,23 @@ def initialize(args):
     pairs = base.discover(args.data_dir, args.reference_dir)
     settings = {k: v for k, v in vars(args).items()
                 if k not in ('stage', 'models', 'output_dir', 'data_dir', 'reference_dir')}
+    packages = list(PACKAGES)
+    if args.quantization == 'nf4':
+        try:
+            importlib.metadata.version('bitsandbytes')
+        except importlib.metadata.PackageNotFoundError as exc:
+            raise RuntimeError('4-bit mode requires bitsandbytes. Run: python -m pip install -U bitsandbytes') from exc
+        packages.append('bitsandbytes')
+        settings['quantization_details'] = {
+            'backend': 'bitsandbytes', 'weight_format': 'nf4', 'double_quantization': True,
+            'compute_dtype': args.dtype, 'unquantized_modules_dtype': args.dtype,
+            'note': 'Supported Linear layers are quantized; embeddings and excluded layers keep floating-point weights.'}
     experiment = {
         'settings': settings,
         'inputs': [{k: p[k] for k in ('paper_id', 'pdf_sha256', 'reference_sha256', 'target_words')} for p in pairs],
         'system_prompt': base.SYSTEM, 'user_prompt': base.USER, 'extraction': base.EXTRACTION,
         'metrics': dict(base.METRIC_CONFIG, device=args.device),
-        'versions': {p: importlib.metadata.version(p) for p in PACKAGES},
+        'versions': {p: importlib.metadata.version(p) for p in packages},
         'implementation_sha256': base.file_hash(__file__),
         'qwen_implementation_sha256': base.file_hash(base.__file__),
     }
@@ -195,6 +220,36 @@ def clean_completion(tokenizer, token_ids, eos_ids, max_tokens):
     return text
 
 
+class ModelLoadError(RuntimeError):
+    """A shared model setup failure must not be retried once per paper."""
+
+
+def load_generation_model(key, repository, revision, config, args):
+    import torch
+    import transformers as hf
+    # Quantize during loading rather than first allocating the full BF16 model.
+    model_class = (getattr(hf, 'Gemma4UnifiedForConditionalGeneration', None)
+                   if key == 'gemma' else hf.AutoModelForCausalLM)
+    if model_class is None:
+        raise ModelLoadError('Transformers lacks Gemma4Unified support; install a current release (see README).')
+    kwargs = {'revision': revision, 'config': config, 'trust_remote_code': False,
+              'dtype': getattr(torch, args.dtype), 'device_map': {'': args.device},
+              'attn_implementation': args.attn_implementation}
+    if args.quantization == 'nf4':
+        kwargs['quantization_config'] = hf.BitsAndBytesConfig(
+            load_in_4bit=True, bnb_4bit_quant_type='nf4',
+            bnb_4bit_use_double_quant=True, bnb_4bit_compute_dtype=getattr(torch, args.dtype))
+    base.log(f'LOAD {repository}: quantization={args.quantization}, compute={args.dtype}, {args.device}')
+    model = model_class.from_pretrained(repository, **kwargs)
+    model.eval()
+    if any(p.device.type != 'cuda' for p in model.parameters()):
+        raise ModelLoadError('All model weights must be on CUDA; CPU/disk offload is disabled.')
+    if args.quantization == 'nf4' and not getattr(model, 'is_loaded_in_4bit', False):
+        raise ModelLoadError('Requested NF4 but the model was not loaded in 4-bit mode.')
+    base.log(f'LOADED {repository}: model footprint {model.get_memory_footprint() / 1024**3:.2f} GiB')
+    return model
+
+
 def generate_model(key, state, args):
     import torch
     import transformers as hf
@@ -230,6 +285,7 @@ def generate_model(key, state, args):
         state['model_identities'][key] = identity
         persist(state, args.output_dir)
         for row in pending:
+            inputs = output = None
             try:
                 request = base.messages(row['source_text'], row['target_words'])
                 inputs = tokenizer.apply_chat_template(
@@ -250,19 +306,19 @@ def generate_model(key, state, args):
                     base.log(f"REUSE {key} {row['paper_id']}")
                 else:
                     if model is None:
-                        # Gemma 4 12B is a unified multimodal architecture, not Gemma 3.
-                        model_class = (getattr(hf, 'Gemma4UnifiedForConditionalGeneration', None)
-                                       if key == 'gemma' else hf.AutoModelForCausalLM)
-                        if model_class is None:
-                            raise RuntimeError('Transformers lacks Gemma4Unified support; install a current release (see README).')
-                        base.log(f'LOAD {repository}: {args.dtype}, {args.device}')
-                        model = model_class.from_pretrained(
-                            repository, revision=revision, config=config, trust_remote_code=False,
-                            dtype=getattr(torch, args.dtype), device_map={'': args.device},
-                            attn_implementation=args.attn_implementation)
-                        model.eval()
-                        if any(p.device.type != 'cuda' for p in model.parameters()):
-                            raise RuntimeError('All model weights must be on CUDA; CPU/disk offload is disabled.')
+                        try:
+                            model = load_generation_model(key, repository, revision, config, args)
+                        except Exception as exc:
+                            raise ModelLoadError(f'{type(exc).__name__}: {exc}') from exc
+                        quant_config = getattr(model.config, 'quantization_config', None)
+                        if hasattr(quant_config, 'to_dict'):
+                            quant_config = quant_config.to_dict()
+                        state.setdefault('model_runtime', {})[key] = {
+                            'quantization': args.quantization,
+                            'is_loaded_in_4bit': bool(getattr(model, 'is_loaded_in_4bit', False)),
+                            'footprint_bytes': model.get_memory_footprint(),
+                            'quantization_config': quant_config}
+                        persist(state, args.output_dir)
                     eos = model.generation_config.eos_token_id
                     if eos is None:
                         eos = config.eos_token_id
@@ -294,7 +350,7 @@ def generate_model(key, state, args):
                              'generation_config': gen_config.to_dict(), 'created_at': base.now()}
                     # Save the first response before validation; never select a better retry.
                     base.save_json(raw_path, saved)
-                    del output, inputs
+                    output = inputs = None
                 prediction = clean_completion(tokenizer, saved['token_ids'], saved['eos_ids'], args.num_predict)
                 words = len(prediction.split())
                 row.update(prediction=prediction, prediction_sha256=base.digest(prediction),
@@ -304,9 +360,15 @@ def generate_model(key, state, args):
                            format_warnings=[] if len(prediction.split('\n\n')) == 1 else ['Multiple paragraphs retained unchanged.'],
                            status='generated')
                 row.pop('error', None)
+            except ModelLoadError:
+                raise
             except Exception as exc:
                 row.update(status='generation_failed', error=f'{type(exc).__name__}: {exc}')
                 base.log(f"FAILED {key} {row['paper_id']}: {row['error']}")
+            finally:
+                # Release per-paper tensors even after OOM; never retain them for the next paper.
+                inputs = output = None
+            release_cuda()
             persist(state, args.output_dir)
     except Exception as exc:
         for row in pending:
