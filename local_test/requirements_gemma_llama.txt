@@ -1,0 +1,14 @@
+# Install CUDA-enabled torch separately; see README_Gemma_Llama.md.
+# Use a current transformers release with Gemma4Unified support.
+transformers
+accelerate
+huggingface-hub
+tokenizers
+safetensors
+sentencepiece
+pymupdf
+pymupdf4llm
+rouge-score
+bert-score
+# Required for --quantization nf4 / --load-in-4bit on 24 GB GPUs.
+bitsandbytes
