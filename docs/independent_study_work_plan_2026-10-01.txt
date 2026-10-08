@@ -1,0 +1,143 @@
+Independent Study 工作计划
+日期：2026-10-01
+
+近期目标
+用约 10 篇开发论文验证完整评估流程，再对独立冻结的 baseline benchmark 开展四模型全文摘要比较，交付质量、事实错误和效率报告；据此决定 student 与 SFT pilot。另保留未用于选模型的 final test，供最终 base/SFT 比较。
+以下是根据 9 月 30 日会议和当前本地仓库制定的建议计划，不是老师已经批准的截止日期或分工。以工作日表示顺序，预计约 1–2 周完成近期阶段；实际运行时间、judge 可用方式及资源限制可能调整进度。SFT 是后续有条件的阶段。
+
+计划依据和当前状态
+- 会议核对：全文输入已经明确；先小规模调试；扩大样本数取决于耗时；需要 GPT 质量评估、作者 abstract reference 比较、GPU 记录和事实反转测试。
+- 当前本地分支 main，计划检查时提交为 2c1ccf8（2026-10-01）。工作区在创建本计划前干净。
+- local_test/model_comparison_results.md 已汇总五篇论文的四模型结果。Qwen GPU24 结果日期为 9 月 28 日，Gemma/Llama 结果日期为 9 月 30 日。此处接受为仓库报告，服务器原始输出尚未独立核对。
+- 最新报告中的 BERTScore F1：Qwen3-8B 0.8845，Qwen3-14B 0.8797，Gemma 0.8825，Llama 3.1 8B 0.8704。它们是五篇、teacher reference 条件下的描述性结果，不能据此确定总体优劣或事实正确性。
+- 新报告和 Gemma_Llama_eval.py 写 Gemma 4 12B IT/google/gemma-4-12B-it，而原交接总结写 Gemma 3 12B IT。先核实实际加载 checkpoint，不能凭旧总结或音频自动改名。
+- local_test/README.md 仍写 Gemma/Llama 尚未在服务器运行，与新结果表不一致；根 README 仍是 abstract-first，评分文档仍为 1–5 整数。这些需要同步。
+
+执行原则
+1. 新的约 10 篇用作开发和校准，可以包含原五篇及五篇新论文；不把它们当作未触碰的最终 test。
+2. 近期约 100 篇正式 baseline benchmark 用于 model selection，登记为 selection benchmark，不称为未用于任何开发决策的 final test；它与十篇开发论文及训练论文分开，重复版本按论文身份去重。后续另保留独立 final test；final test 不参与 prompt、rubric、模型、checkpoint 或训练选择。
+3. 先在十篇开发数据决定样本数、prompt、评估规则和运行设置，再冻结 baseline benchmark。正式比较期间不改变 prompt/rubric 或补有利样本；需要新设计时登记为新的开发实验。final test 只在学生模型和训练方案冻结后用于最终报告。
+4. 模型输入为相同的清理后全文，输出先沿用英文单段摘要。建议新一轮统一目标为 150 词；这是计划默认值，不是老师指定值。在开发 pilot 中验证后冻结，长度独立于 reference。字数合规仅作诊断，不作质量替代。
+5. 每个模型用官方接口/chat template；保持等价任务要求，记录 tokenizer、context、量化、后端及 prefill 差异。历史结果与新协议结果分开存放，不平均混合。
+6. 同一组候选摘要分别对 GPT reference 和作者 abstract 评分；切换 reference 不重生成候选。
+7. 先沿用已有五个质量维度，建议改成 1–10、允许小数并写明评分锚点；不把五维总分当事实正确性的证明。老师允许的 1–100 是替代尺度，没有明确要求必须采用。
+8. 生成、reference、quality judgment 和 factual judgment 分开保存，支持按阶段恢复，失败保留原因，不填零或当作无错误。
+9. 大文件、模型、环境、缓存及运行输出留在 /data；执行前核对实际服务器目录和共享权限。每轮单独输出目录，历史输出保持可追溯。
+
+任务 1 核对来源与实验身份（第 1 个工作日）
+行动：
+[ ] 确认主要协作仓库是 m2b3/Summarize_LLM_SFT 还是 ZfanQ/SFT_demo，并选定执行分支；未确认前以当前 main 作计划依据。
+[ ] 检查共享服务器 Git 状态、运行目录和备份，不覆盖另一位同学的未提交工作或摘要。
+[ ] 核对四模型原始输出、run_state/run_manifest、模型 digest/实际解析出的 revision、输入 hash、参数和运行日期。
+[ ] 核对 Gemma checkpoint；若只是显示名称有误，修正文档，若实际模型变更，则单独记录实验身份。
+[ ] 查清旧 GPT reference 的来源；无法恢复时标记 unknown，不推测 teacher 版本。
+[ ] 落实 GPT judge 的实际运行方式、上下文容量、额度、耗时和预算，并明确由谁操作。
+交付：模型和历史 run 清单、已知缺失信息、统一状态说明。
+验收：20 个历史模型/论文结果都有可追溯文件或清楚的缺失标记；每行对应实际模型与 run，README 不再把已报告完成的实验称为未运行。
+
+任务 2 扩展数据与分离生成和评分（第 2 个工作日）
+行动：
+[ ] 将固定 paper_001–005 的数据发现与 --limit 限制改为数据清单驱动，支持十篇及更大数据集；保留旧五篇的复现入口。
+[ ] 为每篇记录 paper_id、DOI/来源、全文及作者 abstract、学科/类型、抽取文本 hash、抽取检查、split 和是否人工熟悉。
+[ ] 检查全文抽取的表格、数字、关键结果和结论；保存模型实际收到的文本。超出上下文不能静默截断；明确记录并进入失败或单独预声明的长文条件。
+[ ] 把生成目标长度与 reference 词数分离；生成配置中保存独立 target_words。
+[ ] 同一 candidate_id/source_hash/prompt_version/model_id 的预测只生成一次，指标评分按 reference_kind=teacher 或 author_abstract 区分。
+[ ] 两类指标使用相同 ROUGE/BERTScore 配置，保留 reference 来源和 metric config hash。
+涉及文件：local_test/qwen_eval.py、local_test/Gemma_Llama_eval.py；新增数据清单与独立评分入口的确切路径在实现前根据权威仓库确定。
+交付：约 10 篇开发清单、两类 reference、可单独生成/评分/导出的流程。
+验收：十篇可被发现；更换 reference 后 candidate 文本及 hash 完全不变；被评分文本无未披露的截断；数据去重和错误都能追踪。
+
+任务 3 十篇四模型 pilot 与资源记录（第 3–4 个工作日）
+行动：
+[ ] 使用相同开发论文运行四个现有模型；按论文和模型保存最多 40 个目标摘要，失败明确记录。
+[ ] 固定新一轮 prompt 和生成参数，保留 seed、reasoning mode、context/token 数、后端、量化与 prefill 设置。
+[ ] 核对并复用现有耗时/peak_cuda_allocated_bytes 等记录，补运行期间 GPU/显存时序；GPU 利用率和显存是不同量。
+[ ] 对 MIG 不支持的监控字段记录 unavailable/原因，不以零替代，不用整个物理 GPU 的指标冒充该分区指标。
+[ ] 将加载时间、抽取时间、生成时间和评分时间分开，说明吞吐是否包含加载/排队；区分冷启动和预热后的运行。
+[ ] 检查生成是否完成、关键结论是否保留、长度偏离和失败模式，冻结后续使用的输入/输出约定。
+交付：pilot 摘要、参数记录、时序或可用显存指标、失败表、运行时间估计。
+验收：40 个目标项均有有效输出或明确失败原因；所有有效候选能关联到同一输入版本；不能只给均值而隐去失败。
+
+任务 4 GPT 评分校准与事实反转测试（第 4–5 个工作日，可与资源分析交错）
+行动：
+[ ] 定义 coherence、consistency、fluency、relevance、conciseness 的 1–10 评分解释和锚点；保存短理由及 source evidence。
+[ ] 隐去生成模型身份，固定 judge 和 prompt 版本，对单个候选独立评分；另保存 factual-error 检查，不让 judge 看到候选来自哪个模型或其他评分。
+[ ] 沿用项目已记录的四类事实错误定义，保存问题 claim、证据、解释和不可评估原因。
+[ ] 两名学生检查熟悉论文上的判断，讨论明显分歧；这只是开发校准，不自动代表已建立统计意义上的人类一致性。
+[ ] 在至少三篇熟悉论文上保留原版、同义改写版和结论反转版。例如仅把最后一句 A 优于 B 改成 B 优于 A，其余不变。
+[ ] 比较这些版本的 ROUGE、BERTScore、GPT consistency/factual labels 与人工判断；不预设指标会完全不变，也不预设 GPT 一定能发现错误。
+[ ] 分别对 teacher reference 与作者 abstract 计算已有候选的指标；两套结果各自报告。
+交付：评分协议新版本、逐篇 GPT 结果、人工核对说明、敏感性实验表。
+验收：构造的事实反转已经过人工确认；judge 是否发现反转和误报情况如实记录。若明显错误无法被稳定识别，先在开发数据修正或将 GPT 评估降为辅助，不能直接据此宣布事实准确。
+
+任务 5 检查 batching 和决定正式规模（第 5–6 个工作日）
+行动：
+[ ] 在固定的开发子集比较逐篇处理与小批量/并发请求，先比较实际同时处理数 1 和 2；若稳定且有收益，再决定是否继续增加。
+[ ] 同一时刻优先只加载一个生成模型；记录与原始逐篇设置的差异，不把预处理/HTTP 并发误称为 GPU batch inference。
+[ ] 保持每篇独立摘要，检查实际吞吐、延迟、OOM、摘要和 prompt 的正确配对。batching 无收益或不支持时，保留稳定逐篇方案。
+[ ] 用 pilot 的总生成时间、judge 时间、失败重试比例和可用资源估算正式 100 篇的成本。
+[ ] 初步建议正式规模为 100 篇；若预算、时间及覆盖需求允许，可在看正式结果前改为 500 篇。500 不是会议的固定配额。
+交付：batch 可行性与吞吐对比、正式样本数及资源依据。
+验收：用实测数据解释选择；不把老师举的一次 50 篇、1–2 小时完成等数字写成硬件能力或保证。
+
+任务 6 冻结正式 baseline benchmark 并执行（第 7–10 个工作日，实际耗时另估）
+行动：
+[ ] 根据可获取全文的目标论文总体，按学科/论文类型、全文长度及结果复杂度选择未参与开发的论文；记录筛选和去重规则，不只挑易处理的论文。
+[ ] 冻结论文清单、prompt、reference 条件、judge 协议、生成设置和统计方案，保留版本及 hash。登记此集用于选 student；最终 test 另行保留。
+[ ] 如 teacher reference 需要新增生成，先固定 teacher/prompt，对 baseline benchmark 生成的 reference 只用于评估，绝不进入训练。
+[ ] 执行四模型全文摘要、两类 reference 指标、GPT quality/factual assessment 和效率统计；可按阶段恢复，但不覆盖旧 run。
+[ ] 报告共同可评估的论文上的配对比较，也分别报告覆盖率、OOM、上下文失败及缺失原因。
+[ ] 报告逐论文指标和差值分布；样本和条件允许时按论文为单位给不确定性区间，不把同篇多次判断当作新增独立论文。
+规模说明：100 篇 × 4 模型 = 400 个候选；每候选分别评分两类 reference，共 800 个 reference 条件比较。若 quality 与 factuality 分开各一条请求，则约 800 次 judge 请求，未包括 reference 生成、重试和额外复核；实际调用方式在任务 1 确认。
+交付：冻结清单、正式摘要文件夹、逐篇结果、效率/失败记录、报告草稿。
+验收：全部目标项都有完成或失败记录；四模型比较使用同一论文集；报告区分相似度、GPT 质量、GPT 检出的事实错误与效率。
+
+任务 7 整理老师可审阅的交付与 student 选择（正式结果完成后 1 个工作日）
+行动：
+[ ] 在核实的 /data 项目目录下整理论文、实际输入、四模型摘要、references、评分、配置、运行日志与报告，提供路径说明。
+[ ] 把适合老师独立 Claude 评估的材料单独列出：相同论文、匿名候选映射、任务说明；等待老师实际评估后再记录结果。
+[ ] 根据质量、事实错误、吞吐、显存和训练可行性筛选 student。Qwen3-8B 保留为初始候选，不因五篇最高 BERTScore 就直接定案。
+[ ] 更新 README.md、docs/rubric.md、docs/model_evaluation_plan.md、local_test/README.md 和结果表，保留历史 run 的来源与条件。
+交付：老师审阅文件夹、1–2 页结果说明、student 选择理由、未解决事项。
+验收：读者能区分实测结果、老师计划、研究解释和下一步；研究代码、参数及报告一致。
+说明：本计划只安排准备交付，不代表已向老师发送消息或材料。
+
+后续阶段 SFT 的进入条件与计划
+进入条件：
+[ ] baseline 和 judge 流程可复现，reference 来源及模型身份可追溯。
+[ ] student 候选及其实际全文长度预算明确，训练、验证、final test 划分已经固定；final test 与 pilot/selection benchmark 分开。
+[ ] teacher model、生成 prompt、过滤和人工抽查规则、生成费用/额度落实。
+[ ] 能用与最终目标一致的输入长度在 H100 MIG 24 GB 做训练可行性试验；能推理不等于能训练。
+
+执行顺序：
+1. 用独立于正式 test 的少量论文建立 teacher 数据 pilot，检查配对、来源与事实支持，再决定正式规模。
+2. 先做数据格式和少量更新步骤的训练试验，记录真实显存、序列长度、有效 batch、运行时间及保存/恢复情况。
+3. 若全文长度下超出显存，明确评估内存优化、较小 student 或改变输入策略的代价；不能静默截断后仍称为同一全文任务。
+4. 使用 development/validation 选择训练设置与 checkpoint；不根据 test 分数调参。
+5. base 与 fine-tuned 在同一实际推理后端、相同输入、prompt、references、生成/量化设置及 judge 下做最终配对评估。旧 Ollama base 分数不能直接和新 HF fine-tuned 分数当作只改变训练的对照。
+6. 冻结 student 和训练方案后使用独立 final test 做一次最终比较；近期约 100 篇 selection benchmark 的分数不是 final test 分数。final test 的论文数按独立样本覆盖、可得数据与最终评估预算，在训练前固定。
+7. 报告质量改善、事实错误、训练开销和推理效率；网页接入与新增合作者协调，学生优先完成研究结果。
+
+建议分工（不是既定分配）
+Ruihe：数据拆分、评价协议、事实反转实验、人工校准、分析及汇报。
+Zifan：四模型推理流程、服务器运行、显存/耗时记录、结果导出。
+共同：核实模型/reference 身份、抽取检查、复现关键结果、student 与 SFT 决策。
+新增网页合作者：到岗和职责确认后安排 SciCommons 接入；目前不假定已经开始工作。
+可按实际熟悉程度互换；两人都应能复现一个完整 paper→summary→evaluation 流程。
+
+需补充的信息与推进方式
+- 权威仓库、服务器实际 run 路径、Gemma checkpoint：任务 1 核对原始文件，当前计划无需等这些信息才能形成。
+- 老师下次汇报日期和最终报告期限：目前未见明确记录，以相对工作日估计；收到日期后倒排进度。
+- judge 的可用执行方式与预算、正式论文来源、teacher/reference 的身份：pilot 前落实，不在计划中假造凭据或模型版本。
+
+find-skills 搜索结果
+已搜索“llm evaluation experiment planning”（没有匹配）及“llm evaluation”。相关候选：
+wshobson/agents@llm-evaluation
+说明：供执行评估任务前审阅的候选能力，搜索命中并不代表已验证适用于全文科学论文、现有 rubric 或工作账号。
+介绍：https://skills.sh/wshobson/agents/llm-evaluation
+安装命令：npx skills add wshobson/agents --skill llm-evaluation --global --agent codex --yes
+本次只查找并制定计划，未安装这个候选，也未执行实验或修改现有研究脚本。
+
+计划出处
+本仓库：local_test/model_comparison_results.md、docs/gpu24-qwen-baselines-2026-09-28.md、local_test/qwen_eval.py、local_test/Gemma_Llama_eval.py、README.md、docs/rubric.md。
+会议核对：/Users/fredericzhang/.codex/visualizations/2026/10/01/01a0f672-1b74-7930-a87e-744e486f71cd/meeting-2026-09-30/meeting_audit.txt
