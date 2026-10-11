@@ -6,7 +6,6 @@ import hashlib
 import json
 import os
 import re
-import shutil
 import time
 import urllib.error
 import urllib.parse
@@ -93,7 +92,8 @@ def validate(body, kind):
                 _ = page.rect
     elif kind == "xml":
         article = ET.fromstring(body)
-        if not any(node.tag.split("}")[-1] == "body" for node in article.iter()):
+        tags = {node.tag.split("}")[-1] for node in article.iter()}
+        if "article" not in tags or "body" not in tags:
             raise ValueError("XML has no article body")
     elif kind == "txt":
         text = body.decode("utf-8").strip()
@@ -114,6 +114,10 @@ def save_file(root, relative, kind, url=None, reuse=None, expected_sha=None):
         if expected_sha and digest(body) != expected_sha:
             raise ValueError("Source file checksum mismatch: " + relative)
         atomic(path, body)
+    if url:
+        md5 = urllib.parse.parse_qs(urllib.parse.urlsplit(url).query).get("md5", [None])[0]
+        if md5 and hashlib.md5(body).hexdigest() != md5.lower():
+            raise ValueError("PMC source checksum mismatch: " + relative)
     return {"path": relative, "format": kind, "sha256": digest(body),
             "bytes": len(body), "url": url}
 
@@ -181,7 +185,7 @@ def main():
                       "fulltext_extraction_verified": False, "checked_at": stamp()}
             # Reuse completed files only after hash and format checks.
             old = prior.get(row["paper_id"], {})
-            if old.get("status") == "downloaded_unchecked" and not old.get("errors"):
+            if old.get("status") == "downloaded_unchecked" and old.get("files") and not old.get("errors"):
                 try:
                     for item in old["files"]:
                         save_file(root, item["path"], item["format"],
