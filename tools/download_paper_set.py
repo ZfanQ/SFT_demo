@@ -103,7 +103,8 @@ def validate(body, kind):
 
 def save_file(root, relative, kind, url=None, reuse=None, expected_sha=None):
     path = root / relative
-    if path.exists():
+    existed = path.exists()
+    if existed:
         body = path.read_bytes()
         validate(body, kind)
         if expected_sha and digest(body) != expected_sha:
@@ -113,11 +114,12 @@ def save_file(root, relative, kind, url=None, reuse=None, expected_sha=None):
         validate(body, kind)
         if expected_sha and digest(body) != expected_sha:
             raise ValueError("Source file checksum mismatch: " + relative)
-        atomic(path, body)
     if url:
         md5 = urllib.parse.parse_qs(urllib.parse.urlsplit(url).query).get("md5", [None])[0]
         if md5 and hashlib.md5(body).hexdigest() != md5.lower():
             raise ValueError("PMC source checksum mismatch: " + relative)
+    if not existed:
+        atomic(path, body)
     return {"path": relative, "format": kind, "sha256": digest(body),
             "bytes": len(body), "url": url}
 
@@ -148,6 +150,8 @@ def main():
         "/data/SFT_demo/.cache/datasets/scicommons-20261008-pbb6slrn"))
     parser.add_argument("--output", type=Path, default=Path(
         "/data/SFT_demo/tools_codex/papers_200_20261011"))
+    parser.add_argument("--reuse-from", type=Path,
+                        help="Reuse checked PDF assets from an existing collection")
     args = parser.parse_args()
     os.umask(0o002)
     source, root = args.source.resolve(), args.output.resolve()
@@ -170,6 +174,27 @@ def main():
         if frozen.exists() and frozen.read_bytes() != original:
             raise ValueError("Output directory belongs to a different candidate set")
         atomic(frozen, original)
+        if args.reuse_from:
+            reuse_root = args.reuse_from.resolve()
+            if (reuse_root / "candidates.jsonl").read_bytes() != original:
+                raise ValueError("Reuse collection has a different candidate manifest")
+            old_rows = [json.loads(x) for x in
+                        (reuse_root / "download_status.jsonl").read_text().splitlines() if x.strip()]
+            wanted = set(ids)
+            reused = 0
+            for old in old_rows:
+                if old.get("paper_id") not in wanted:
+                    continue
+                for asset in old.get("assets", []):
+                    if asset.get("kind") != "pdf":
+                        continue
+                    relative = asset["path"]
+                    if relative != "pdfs/" + old["paper_id"] + ".pdf":
+                        continue
+                    save_file(root, relative, "pdf", reuse=reuse_root / relative,
+                              expected_sha=asset["sha256"])
+                    reused += 1
+            print(f"Reused {reused} existing checked PDFs", flush=True)
         for row in rows:
             atomic(root / "abstracts" / (row["paper_id"] + ".txt"),
                    (str(row.get("abstract") or "").strip() + "\n").encode())
@@ -177,6 +202,21 @@ def main():
         prior = {r["paper_id"]: r for r in (
             [json.loads(x) for x in prior_path.read_text().splitlines() if x.strip()]
             if prior_path.exists() else [])}
+        mapping_by_pmid, mapping_error = {}, None
+        pubmed_ids = list(dict.fromkeys(pmid_for(r) for r in rows if r["source"] == "pubmed"))
+        try:
+            for start in range(0, len(pubmed_ids), 200):
+                query = urllib.parse.urlencode({"ids": ",".join(pubmed_ids[start:start+200]),
+                    "idtype": "pmid", "format": "json", "tool": "SFT-study-paper-download"})
+                mapping_body = fetch(ID_API + "?" + query)
+                atomic(root / "metadata" / f"pubmed-mapping-{start//200+1}.json", mapping_body)
+                mapping = json.loads(mapping_body)
+                if mapping.get("status") != "ok":
+                    raise ValueError("PMC batch identifier lookup failed")
+                for entry in mapping.get("records", []):
+                    mapping_by_pmid[str(entry.get("requested-id") or entry.get("pmid"))] = entry
+        except Exception as error:
+            mapping_error = str(error)
         results = []
         for row in rows:
             result = {"paper_id": row["paper_id"], "source": row["source"],
@@ -206,16 +246,12 @@ def main():
                             reuse=reuse, expected_sha=row.get("pdf_sha256")))
                     elif row["source"] == "pubmed":
                         pmid = pmid_for(row)
-                        query = urllib.parse.urlencode({"ids": pmid, "idtype": "pmid",
-                            "format": "json", "tool": "SFT-study-paper-download"})
-                        mapping_body = fetch(ID_API + "?" + query)
-                        atomic(root / "metadata" / (row["paper_id"] + "-mapping.json"), mapping_body)
-                        mapping = json.loads(mapping_body)
-                        if mapping.get("status") != "ok":
-                            raise ValueError("PMC identifier lookup failed")
-                        matches = [r for r in mapping.get("records", [])
-                            if str(r.get("requested-id") or r.get("pmid")) == pmid]
-                        entry = matches[0] if matches else {}
+                        if mapping_error:
+                            raise ValueError(mapping_error)
+                        if pmid not in mapping_by_pmid:
+                            raise ValueError("PMC lookup omitted this requested PMID")
+                        entry = mapping_by_pmid[pmid]
+                        json_save(root / "metadata" / (row["paper_id"] + "-mapping.json"), entry)
                         result["pmid"] = pmid
                         pmcid = entry.get("pmcid")
                         if not pmcid:
