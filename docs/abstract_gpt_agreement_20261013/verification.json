@@ -1,0 +1,13 @@
+{
+  "unique_pairs": 200,
+  "same_reference_hashes_as_previous_qwen_run": true,
+  "all_means_recomputed": true,
+  "finite_scores_in_range": true,
+  "current_reference_changes": [],
+  "files": {
+    "per_paper.csv": "b87addcc8a30e2dfedad925aa6ad95fab84c1cd6e58dded18f47ac6bb732a29b",
+    "summary.json": "a9f69ed4bb47c23ad9f66b77d4b50b28083b69f9250be6e42c8994c224d9bd10",
+    "metric_config.json": "616a32ddd27085dba87278dab6f389ef4982aa1a47934c99b77d0a32f1c18adf",
+    "input_manifest.json": "2ab62c8d7e94d37ce68140f955533718e879d82e303df9c6ee63b8b115b50f2f"
+  }
+}

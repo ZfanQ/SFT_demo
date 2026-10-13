@@ -1,0 +1,85 @@
+{
+  "scope": "200 summaries screened;16 flagged papers checked contextually; lexical support is not factual quality scoring",
+  "findings": [
+    {
+      "paper": 15,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "Leading-zero notation: −.615 and .551; PDF page4 confirms coefficients; table2 rounds them."
+    },
+    {
+      "paper": 18,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "Million-to-billion conversion and rounding: 18,008 / 9,187 / 8,821 /14,427 million INR; cohort26,640,200."
+    },
+    {
+      "paper": 30,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "Leading-zero negative correlation notation; lexical screen artifact."
+    },
+    {
+      "paper": 36,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "p=.600 notation."
+    },
+    {
+      "paper": 39,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "p<.001 notation."
+    },
+    {
+      "paper": 69,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "13 781 uses a space as thousands separator."
+    },
+    {
+      "paper": 81,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "P=.41 and P=.48 notation."
+    },
+    {
+      "paper": 93,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "0.735 and0.643 converted to73.5% and64.3%."
+    },
+    {
+      "paper": 101,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "β=.479/.502/.511 notation."
+    },
+    {
+      "paper": 103,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "Table denominator13,218,859 doses rounded to13.22 million; raw text concatenates table cells."
+    },
+    {
+      "paper": 110,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "314.53 rounds toapproximately315;230.62 rounds to231; variant-specific estimates preserved."
+    },
+    {
+      "paper": 123,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "RMSEA=.058 appears in source; text-node separation artifact."
+    },
+    {
+      "paper": 126,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "9,877,775 births and8,578.1 /8,483.1 million EGP rounded/scaled."
+    },
+    {
+      "paper": 173,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "$64,536.98 rounds to$64,537."
+    },
+    {
+      "paper": 175,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "243+241=484 participants; dollar figures24,928.81 /18,448.74 /66,303.62 rounded."
+    },
+    {
+      "paper": 198,
+      "status": "screen flag resolved; no correction indicated by this numerical check",
+      "evidence": "Physical subscale p=.029 notation."
+    }
+  ]
+}

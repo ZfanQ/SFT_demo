@@ -1,0 +1,162 @@
+[00:05:07 – 00:05:14] okay and you can do not just five papers you can use a suit an evaluation suit of say
+[00:05:14 – 00:05:28] uh 500 papers and ask your llm to summarize it then ask then ask gpt to evaluate each model's
+[00:05:28 – 00:05:32] summary after reading the paper carefully.
+[00:05:33 – 00:05:39] And also the model only has access to the abstract.
+[00:05:39 – 00:05:41] So tell GPT that.
+[00:05:42 – 00:05:45] To evaluate, only use the paper's abstract.
+[00:05:47 – 00:05:50] So the input is just the abstract?
+[00:05:50 – 00:05:52] Right now, when you are doing this,
+[00:05:52 – 00:05:55] are you using only the abstract or the whole paper?
+[00:05:55 – 00:05:57] We are using the whole paper.
+[00:05:57 – 00:05:57] Right, right.
+[00:05:58 – 00:06:03] Remember, ah, so this is interesting because when you use PubMed, when the feed shows up,
+[00:06:03 – 00:06:06] it is not guaranteed that you will have the full paper.
+[00:06:07 – 00:06:07] Okay.
+[00:06:08 – 00:06:13] So, but effectively, if there is already an abstract, there is no point making a summary
+[00:06:13 – 00:06:13] of an abstract.
+[00:06:14 – 00:06:14] That's pointless.
+[00:06:14 – 00:06:15] So, okay.
+[00:06:15 – 00:06:16] So I reverse this.
+[00:06:16 – 00:06:19] I take it back, use the whole paper.
+[00:06:19 – 00:06:20] Okay.
+[00:06:20 – 00:06:20] I'm sorry.
+[00:06:21 – 00:06:23] I retract what I wrote.
+[00:06:23 – 00:06:25] Forget what I said about the abstract.
+[00:06:26 – 00:06:26] Okay.
+[00:06:28 – 00:06:33] paper summarization for sure. Okay. This is clear. You're correct. You're absolutely correct.
+[00:06:34 – 00:06:38] So please watch the chat as well. I'm typing stuff into the Zoom chat. You're watching, right?
+[00:06:39 – 00:06:46] Yeah. Okay. So I retracted. We are talking about full paper summarization. And what you do is you,
+[00:06:46 – 00:06:52] what you're doing is you're creating an evaluation suite. So I said 500 papers. It can be 100 or
+[00:06:52 – 00:07:00] 5 000 or 5 000 it all depends on how long it takes okay so if it takes one minute per paper you can
+[00:07:00 – 00:07:05] calculate one minute per paper is 500 minutes so you can decide how many you know that's quite a
+[00:07:05 – 00:07:11] lot of hours right but if it is because you can do 60 papers per minute but if it's 10 seconds
+[00:07:11 – 00:07:16] per paper in a batch because it's batching the papers together it can do 50 papers at a time
+[00:07:16 – 00:07:21] right because it has space you won't do it one paper at a time you will usually you will batch
+[00:07:22 – 00:07:28] that the llm does it all in one go you have to check that okay maybe you will do or maybe you
+[00:07:28 – 00:07:34] don't i'm not sure that is something you have to check um so right now sorry what's that go ahead
+[00:07:34 – 00:07:41] what's the question uh right now we are putting one paper one by one so the timing takes for one
+[00:07:41 – 00:07:46] paper but that is the thing if you do it like this you when the gpu utilization when you check it you
+[00:07:46 – 00:07:52] may not be using up the gpu properly it is actually capable of doing batched versions it will
+[00:07:52 – 00:07:54] which paper is which and do each one independently.
+[00:07:55 – 00:07:56] But these are all details.
+[00:07:56 – 00:07:58] I'm not an LLM expert, right?
+[00:07:58 – 00:08:00] And you're learning for me, okay?
+[00:08:00 – 00:08:01] So I'm giving you ideas.
+[00:08:01 – 00:08:02] You can check quickly.
+[00:08:02 – 00:08:04] In 10 minutes, you will know if I'm right or wrong.
+[00:08:04 – 00:08:06] It's for you to check, okay?
+[00:08:07 – 00:08:08] Check if batching is possible.
+[00:08:15 – 00:08:16] Okay, check if batching is possible.
+[00:08:16 – 00:08:17] I'm not sure.
+[00:08:17 – 00:08:22] and that will affect the rate at which the model can run.
+[00:08:22 – 00:08:26] Remember, GPT, the actual Astra in the cloud,
+[00:08:26 – 00:08:28] is not doing one query at a time.
+[00:08:29 – 00:08:30] Impossible, right?
+[00:08:30 – 00:08:33] It is taking large batches of queries
+[00:08:33 – 00:08:35] and operating on them at the same time.
+[00:08:35 – 00:08:36] Otherwise, it's impossible.
+[00:08:36 – 00:08:39] It cannot serve serially so many million people, okay?
+[00:08:40 – 00:08:44] So that will affect the rate.
+[00:08:44 – 00:08:45] And depending on the rate,
+[00:08:45 – 00:08:50] you can decide the size of the evaluation suit.
+[00:08:51 – 00:08:56] Now, obviously you should start with a small number
+[00:08:56 – 00:08:59] to debug your code, okay?
+[00:08:59 – 00:09:01] Say 10, all right?
+[00:09:01 – 00:09:03] But eventually I think something like,
+[00:09:03 – 00:09:06] depending on your computational ability,
+[00:09:06 – 00:09:09] computational time that you have on the server,
+[00:09:10 – 00:09:13] you can go to 100 or 500 or 1,000, all depends.
+[00:09:15 – 00:09:44] Okay, you have this dedicated GPUs, you can run it for two days if you need to, right? It can run on the evaluation suite. And then what you do is GPT will handle this no problem. If you give a folder with 1000 papers, and the summaries from four models, it will handle it, I would think in a couple of hours max, not more, one or two hours, maybe. Okay, it should be able to finish the evaluation of the evaluation of the output. Is that making sense?
+[00:09:45 – 00:09:48] to evaluate model output quality, not the number of words.
+[00:09:51 – 00:09:51] Sure.
+[00:09:52 – 00:09:52] Okay.
+[00:09:52 – 00:09:55] So this is something you can give to GPT.
+[00:09:55 – 00:09:57] Now, the thing you can do is when you have this output,
+[00:09:57 – 00:10:00] send it to me and I will give you the cloud evaluation.
+[00:10:03 – 00:10:04] Oh, that would be helpful.
+[00:10:04 – 00:10:05] Right?
+[00:10:05 – 00:10:09] I will send you the cloud evaluation once you give me the folders
+[00:10:09 – 00:10:12] with the papers and the output.
+[00:10:12 – 00:10:16] You can put that on SharePoint or simply on the server itself.
+[00:10:16 – 00:10:17] You have enough space.
+[00:10:19 – 00:10:21] I will FTP from the server.
+[00:10:23 – 00:10:25] Yeah, right now we have a share folder.
+[00:10:25 – 00:10:26] We put all the papers.
+[00:10:27 – 00:10:29] No, yeah, but the shared folder on SharePoint.
+[00:10:29 – 00:10:30] But now you have a server.
+[00:10:30 – 00:10:31] I have access to the server.
+[00:10:32 – 00:10:33] So I can FTP from the server.
+[00:10:33 – 00:10:35] We can forget about SharePoint now.
+[00:10:36 – 00:10:38] Right? Because there's no need to move.
+[00:10:38 – 00:10:39] We both have a server.
+[00:10:39 – 00:10:40] Yeah.
+[00:10:40 – 00:10:41] JOHN MUELLER, You can put stuff in the server,
+[00:10:41 – 00:10:42] and I will take it from the server.
+[00:10:42 – 00:10:43] OK?
+[00:10:44 – 00:10:44] All right.
+[00:10:44 – 00:10:46] So good.
+[00:10:47 – 00:10:49] Your main, what is the score?
+[00:10:49 – 00:10:52] When you say the BERT score and RougeOne score,
+[00:10:52 – 00:10:56] you're looking at how closely the summary approximates
+[00:10:56 – 00:10:57] the paper?
+[00:10:57 – 00:10:59] What is the score, the quality?
+[00:11:00 – 00:11:03] For BERT score, it's more about the semantic meaning
+[00:11:03 – 00:11:08] between the GBT-Altra and our Q1 model or Gemma model.
+[00:11:09 – 00:11:10] Yeah.
+[00:11:10 – 00:11:17] So huge one is about overlap of individual words, like whether the reference one, like
+[00:11:17 – 00:11:22] the outro one and the human one use the same words or not.
+[00:11:22 – 00:11:29] And for huge two is like two consecutive words they are using, whether it's more similar
+[00:11:29 – 00:11:30] or not similar.
+[00:11:30 – 00:11:30] Okay.
+[00:11:30 – 00:11:31] Okay.
+[00:11:31 – 00:11:32] Let me ask only one question.
+[00:11:33 – 00:11:38] The bird is between the GPT abstract and your model's abstract, correct?
+[00:11:40 – 00:11:46] Yes, all of this score is between the GPT and our tested model.
+[00:11:46 – 00:11:47] Excellent.
+[00:11:47 – 00:11:49] Have you tried it with the papers abstract?
+[00:11:52 – 00:11:54] Not tried with the paper abstract.
+[00:11:55 – 00:11:57] That also makes sense to do, right?
+[00:11:59 – 00:11:59] Sure.
+[00:12:00 – 00:12:00] Yeah.
+[00:12:00 – 00:12:02] And you can do it very easily.
+[00:12:02 – 00:12:06] You just replace the GPT summary with the paper summary.
+[00:12:06 – 00:12:07] It's one line change in your code.
+[00:12:09 – 00:12:10] Yeah.
+[00:12:10 – 00:12:12] You run the whole pipeline.
+[00:12:12 – 00:12:14] You just change it to GPT summary.
+[00:12:14 – 00:12:16] You change it to paper summary.
+[00:12:16 – 00:12:17] And the paper summary you get from the paper.
+[00:12:18 – 00:12:19] You just take it from the paper.
+[00:12:20 – 00:12:20] Yes.
+[00:12:21 – 00:12:21] Okay.
+[00:12:21 – 00:12:22] Very good.
+[00:12:22 – 00:12:23] This is great.
+[00:12:23 – 00:12:27] Now what you did was BERT and ROUGE check.
+[00:12:28 – 00:12:30] I would recommend in addition to that,
+[00:12:30 – 00:12:32] asking GPT to evaluate the summary,
+[00:12:33 – 00:12:34] not using BERT and ROUGE.
+[00:12:36 – 00:12:36] Sure.
+[00:12:36 – 00:12:38] That's what we just talked about.
+[00:12:38 – 00:12:40] So I suggested two changes to what you did.
+[00:12:40 – 00:12:44] One change is use the papers abstract for the BERT and ROUGE.
+[00:12:44 – 00:12:45] Okay.
+[00:12:45 – 00:12:48] And the second change is use GPT to evaluate.
+[00:12:49 – 00:12:50] Yeah.
+[00:12:52 – 00:13:00] So for the GPT evaluation, you prefer for the score or is on comments or for just for score?
+[00:13:00 – 00:13:08] score? Like the GPT gave us a score, whether it's good or not. Yeah, you can ask GPT to rank it one
+[00:13:08 – 00:13:16] to 10 and ask it to be consistent across papers. Okay, got it. Ask GPT to use a consistent score
+[00:13:16 – 00:13:25] from one to 10 among papers and allow decimals, you know, so not just unique, not just
+[00:13:25 – 00:13:30] just one, two, three, but also 1.23.
+[00:13:34 – 00:13:35] Sure.
+[00:13:35 – 00:13:39] Otherwise, you have to go 1 to 100 just to give you enough space.
+[00:13:39 – 00:13:39] Okay?
+[00:13:40 – 00:13:41] Yeah.
+[00:13:42 – 00:13:42] Okay.
+[00:13:43 – 00:13:44] And yeah, exactly.
+[00:13:44 – 00:13:47] And tell GPT, give it clear instructions.
+[00:13:47 – 00:13:48] You know, one paragraph is enough.
+[00:13:49 – 00:13:51] Say that here is the paper.
+[00:13:51 – 00:13:52] Here is a summary.
+[00:13:52 – 00:13:56] rate the quality of the summary from each of the models for each paper.
+[00:13:59 – 00:14:03] And ask it to go. Tell it here is the folder, here are the papers. Go.
+[00:14:05 – 00:14:09] Come back when you're finished and say at the end, stop when you're finished.

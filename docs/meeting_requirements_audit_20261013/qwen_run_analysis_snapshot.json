@@ -1,0 +1,49 @@
+{
+  "snapshot_status": {
+    "run_id": "2026-10-13T08:26:20+00:00",
+    "state": "running",
+    "model": "qwen3:8b",
+    "total": 200,
+    "completed": 135,
+    "skipped": 1,
+    "failed": [
+      {
+        "paper": "paper076.pdf",
+        "error": "Length/language validation failed (256 words)"
+      },
+      {
+        "paper": "paper083.pdf",
+        "error": "Length/language validation failed (268 words)"
+      },
+      {
+        "paper": "paper095.pdf",
+        "error": "Length/language validation failed (265 words)"
+      }
+    ],
+    "current_paper": "paper140.pdf",
+    "context_tokens": 32768,
+    "max_words": 250,
+    "started_utc": "2026-10-13T08:26:20+00:00",
+    "gpu_note": "Device utilization may be N/A on this vGPU. CSV preserves reported values; charts show missing measurements explicitly, never as zero."
+  },
+  "log_successes": 137,
+  "mean_seconds": 21.13941605839416,
+  "median_seconds": 18.8,
+  "total_logged_success_seconds": 2896.0999999999995,
+  "segmented_papers": [
+    5,
+    6,
+    59,
+    67,
+    89,
+    109,
+    125,
+    133
+  ],
+  "max_sampled_vram_mib": 9797.0,
+  "gpu_samples": 1493,
+  "compute_util_values": [
+    "[N/A]"
+  ],
+  "timing_scope": "PDF extraction, all model calls and length correction for each paper; may include first load; not standalone token throughput"
+}

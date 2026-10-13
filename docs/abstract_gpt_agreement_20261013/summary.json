@@ -1,0 +1,43 @@
+{
+  "completed_utc": "2026-10-13T12:12:32.572330+00:00",
+  "pairs": 200,
+  "candidate_type": "gpt_reference",
+  "reference_type": "author_abstract",
+  "aggregates": [
+    {
+      "subset": "all_available",
+      "papers": 200,
+      "rouge1_f1": 0.44494414387045783,
+      "rouge2_f1": 0.131168546121002,
+      "rougeL_f1": 0.2278301237156872,
+      "bertscore_precision": 0.8597974774241447,
+      "bertscore_recall": 0.8582426643371582,
+      "bertscore_f1": 0.8589599624276161
+    },
+    {
+      "subset": "matched_full_bertscore_inputs",
+      "papers": 189,
+      "rouge1_f1": 0.44511381500272407,
+      "rouge2_f1": 0.13093860091590231,
+      "rougeL_f1": 0.22795297517827812,
+      "bertscore_precision": 0.8595907965665142,
+      "bertscore_recall": 0.8591783418857232,
+      "bertscore_f1": 0.8593318556982373
+    }
+  ],
+  "bertscore_overlength_papers": [
+    "paper049",
+    "paper061",
+    "paper095",
+    "paper130",
+    "paper141",
+    "paper147",
+    "paper153",
+    "paper154",
+    "paper173",
+    "paper190",
+    "paper192"
+  ],
+  "elapsed_seconds": 240.37534422287717,
+  "same_reference_files_as_previous_qwen_run": true
+}

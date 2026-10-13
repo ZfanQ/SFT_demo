@@ -1,0 +1,51 @@
+[00:21:10 – 00:21:15] The next thing we want to do is do the GPT evaluation to see if the BERT score is a good
+[00:21:15 – 00:21:16] way to do this.
+[00:21:17 – 00:21:18] Sure.
+[00:21:18 – 00:21:20] Let me give you an example and you can answer me.
+[00:21:21 – 00:21:24] Let us say there is an abstract of the paper.
+[00:21:24 – 00:21:29] The last line says the result shows that A is better than B.
+[00:21:29 – 00:21:30] Okay.
+[00:21:31 – 00:21:34] Imagine that your summary is the same abstract.
+[00:21:35 – 00:21:35] Okay.
+[00:21:35 – 00:21:38] But the last line says B is better than A.
+[00:21:41 – 00:21:41] Yeah.
+[00:21:41 – 00:21:43] Will the BERT score be high or low?
+[00:21:45 – 00:21:46] Can you test it?
+[00:21:46 – 00:21:50] I think the BERT score, yeah, it's not influenced.
+[00:21:50 – 00:21:52] The BERT score will be the same, yeah.
+[00:21:52 – 00:21:54] It will be very high, right?
+[00:21:54 – 00:21:56] Because it's only the last sentence that changed.
+[00:21:57 – 00:21:57] Yeah.
+[00:21:57 – 00:21:58] Correct?
+[00:21:58 – 00:21:58] Yes.
+[00:21:58 – 00:22:01] So this is the immediate problem with the BERT score.
+[00:22:03 – 00:22:07] Yeah, we need to pay more attention to the accuracy of the results.
+[00:22:07 – 00:22:08] Of the summary.
+[00:22:10 – 00:22:18] what GPT will help. So I was suggesting three things. One is use GPT. Secondly, use papers you know
+[00:22:18 – 00:22:26] so that you can evaluate it yourself, not just use the score. Right now we are manually
+[00:22:26 – 00:22:32] checking the result of the text as you can see. We keep the files here. Here's the GPT output.
+[00:22:32 – 00:22:39] And what do you think? So what do you think? Is it good? I think they are similar, but just
+[00:22:40 – 00:22:44] change of the sentences, like using another way of express.
+[00:22:44 – 00:22:44] Okay.
+[00:22:44 – 00:22:45] Okay.
+[00:22:45 – 00:22:46] If that, then you're happy.
+[00:22:46 – 00:22:47] That means you're happy with it.
+[00:22:47 – 00:22:48] That's what I'm asking.
+[00:22:48 – 00:22:49] Are you happy with it?
+[00:22:49 – 00:22:49] Yeah.
+[00:22:50 – 00:22:52] We have five papers.
+[00:22:52 – 00:22:55] So we can manually check it.
+[00:22:55 – 00:22:57] But if we go to 1,000, then we can't go.
+[00:22:58 – 00:23:00] But you can definitely check 100.
+[00:23:01 – 00:23:03] In one hour, I'm sure you can check 100.
+[00:23:03 – 00:23:05] Sit down and check, right?
+[00:23:05 – 00:23:06] One hour, you can do it.
+[00:23:07 – 00:23:08] Yes?
+[00:23:08 – 00:23:08] Okay.
+[00:23:10 – 00:23:15] Well, what happens if last sentence, hello, changed in bird?
+[00:23:15 – 00:23:16] Okay.
+[00:23:18 – 00:23:24] So make sure you have the chat copied, exported, because there's a lot of stuff in the chat.
+[00:23:24 – 00:23:29] I think it automatically saves the chat when Zoom closes, but you can also make sure you copy the chat over.
+[00:23:30 – 00:23:31] Oh, sure.
+[00:23:31 – 00:23:33] We'll definitely copy it.
+[00:23:33 – 00:23:34] all the tanks from the game.

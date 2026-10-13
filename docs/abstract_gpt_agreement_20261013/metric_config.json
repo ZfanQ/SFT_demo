@@ -1,0 +1,33 @@
+{
+  "rouge_types": [
+    "rouge1",
+    "rouge2",
+    "rougeL"
+  ],
+  "use_stemmer": true,
+  "bertscore_model": "roberta-large",
+  "num_layers": 17,
+  "lang": "en",
+  "idf": false,
+  "rescale_with_baseline": false,
+  "use_fast_tokenizer": false,
+  "device": "cpu",
+  "batch_size": 1,
+  "nthreads": 4,
+  "normalization": "single-space join of str.split() on both sides",
+  "long_input_policy": "ROUGE uses complete texts. Standard BERTScore tokenizer truncates to512 tokens including special tokens; affected pairs explicitly flagged; matched untruncated subset also reported.",
+  "averaging": "unweighted arithmetic mean across papers; no corpus concatenation",
+  "encoder_revision": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+  "packages": {
+    "torch": "2.14.0",
+    "transformers": "5.17.0",
+    "bert-score": "0.3.13",
+    "rouge-score": "0.1.2",
+    "huggingface-hub": "1.33.0"
+  },
+  "script_sha256": "0591dcc2879c1f2878291de170448f40f23d171e6a5781dafae3b90468d1ab7e",
+  "input_snapshot_sha256": "1a60c44d870505ffa1e2faee15a59b976353d36efd89c108cff7c852787fd234",
+  "bertscore_hash": "roberta-large_L17_no-idf_version=0.3.12(hug_trans=5.17.0)",
+  "tokenizer_limit": 512,
+  "direction": "GPT summary as candidate; author abstract as reference"
+}
