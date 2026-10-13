@@ -1,0 +1,18 @@
+{
+  "verified_utc": "2026-10-13T11:33:59.156188+00:00",
+  "unique_score_pairs": 400,
+  "same_200_candidate_hashes_for_both_references": true,
+  "recomputed_aggregate_means_agree": true,
+  "finite_scores_in_0_1_range": true,
+  "source_changes_since_snapshot": 0,
+  "explicitly_flagged_reference_truncations": 11,
+  "files": {
+    "results.md": "d4c45015214b5dcf513e5ff46b43cd3257a5a371081365b0188b711fe750583b",
+    "per_paper.csv": "1371d46743d7497ac56f9a3e00416836cd76f9feabfcbf6c8e282c108473d462",
+    "summary.json": "53a8fb71f785ba4f1dcaeba84a9ba4019cdcf9338c19e0896227afc11bc432c3",
+    "metric_config.json": "1bc424bcec3173385d6f0647f0de5f242ceb940232657f30ee5b6e9e9b1a9fd7",
+    "input_manifest.json": "53e4071500b7689644ef06f0e7e97f6a2adc469f449f50f4ef4cfdde84377d3a",
+    "token_length_check.json": "c3088e6a08ffcbd89f142d1a4a1c467a907b74e8daf9a44de7db2dd098ba6a27",
+    "status.json": "44803b702e77b0d4905d01c61375a0bca268686ece8a7baf721e4da76e2c3f25"
+  }
+}

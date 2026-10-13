@@ -1,0 +1,3602 @@
+[
+  {
+    "paper": 1,
+    "group": "candidate_qwen8b",
+    "tokens": 251,
+    "over_limit": false
+  },
+  {
+    "paper": 2,
+    "group": "candidate_qwen8b",
+    "tokens": 302,
+    "over_limit": false
+  },
+  {
+    "paper": 3,
+    "group": "candidate_qwen8b",
+    "tokens": 221,
+    "over_limit": false
+  },
+  {
+    "paper": 4,
+    "group": "candidate_qwen8b",
+    "tokens": 248,
+    "over_limit": false
+  },
+  {
+    "paper": 5,
+    "group": "candidate_qwen8b",
+    "tokens": 298,
+    "over_limit": false
+  },
+  {
+    "paper": 6,
+    "group": "candidate_qwen8b",
+    "tokens": 257,
+    "over_limit": false
+  },
+  {
+    "paper": 7,
+    "group": "candidate_qwen8b",
+    "tokens": 318,
+    "over_limit": false
+  },
+  {
+    "paper": 8,
+    "group": "candidate_qwen8b",
+    "tokens": 301,
+    "over_limit": false
+  },
+  {
+    "paper": 9,
+    "group": "candidate_qwen8b",
+    "tokens": 331,
+    "over_limit": false
+  },
+  {
+    "paper": 10,
+    "group": "candidate_qwen8b",
+    "tokens": 355,
+    "over_limit": false
+  },
+  {
+    "paper": 11,
+    "group": "candidate_qwen8b",
+    "tokens": 294,
+    "over_limit": false
+  },
+  {
+    "paper": 12,
+    "group": "candidate_qwen8b",
+    "tokens": 394,
+    "over_limit": false
+  },
+  {
+    "paper": 13,
+    "group": "candidate_qwen8b",
+    "tokens": 314,
+    "over_limit": false
+  },
+  {
+    "paper": 14,
+    "group": "candidate_qwen8b",
+    "tokens": 359,
+    "over_limit": false
+  },
+  {
+    "paper": 15,
+    "group": "candidate_qwen8b",
+    "tokens": 241,
+    "over_limit": false
+  },
+  {
+    "paper": 16,
+    "group": "candidate_qwen8b",
+    "tokens": 316,
+    "over_limit": false
+  },
+  {
+    "paper": 17,
+    "group": "candidate_qwen8b",
+    "tokens": 311,
+    "over_limit": false
+  },
+  {
+    "paper": 18,
+    "group": "candidate_qwen8b",
+    "tokens": 251,
+    "over_limit": false
+  },
+  {
+    "paper": 19,
+    "group": "candidate_qwen8b",
+    "tokens": 315,
+    "over_limit": false
+  },
+  {
+    "paper": 20,
+    "group": "candidate_qwen8b",
+    "tokens": 300,
+    "over_limit": false
+  },
+  {
+    "paper": 21,
+    "group": "candidate_qwen8b",
+    "tokens": 276,
+    "over_limit": false
+  },
+  {
+    "paper": 22,
+    "group": "candidate_qwen8b",
+    "tokens": 307,
+    "over_limit": false
+  },
+  {
+    "paper": 23,
+    "group": "candidate_qwen8b",
+    "tokens": 248,
+    "over_limit": false
+  },
+  {
+    "paper": 24,
+    "group": "candidate_qwen8b",
+    "tokens": 325,
+    "over_limit": false
+  },
+  {
+    "paper": 25,
+    "group": "candidate_qwen8b",
+    "tokens": 283,
+    "over_limit": false
+  },
+  {
+    "paper": 26,
+    "group": "candidate_qwen8b",
+    "tokens": 251,
+    "over_limit": false
+  },
+  {
+    "paper": 27,
+    "group": "candidate_qwen8b",
+    "tokens": 318,
+    "over_limit": false
+  },
+  {
+    "paper": 28,
+    "group": "candidate_qwen8b",
+    "tokens": 321,
+    "over_limit": false
+  },
+  {
+    "paper": 29,
+    "group": "candidate_qwen8b",
+    "tokens": 274,
+    "over_limit": false
+  },
+  {
+    "paper": 30,
+    "group": "candidate_qwen8b",
+    "tokens": 316,
+    "over_limit": false
+  },
+  {
+    "paper": 31,
+    "group": "candidate_qwen8b",
+    "tokens": 263,
+    "over_limit": false
+  },
+  {
+    "paper": 32,
+    "group": "candidate_qwen8b",
+    "tokens": 252,
+    "over_limit": false
+  },
+  {
+    "paper": 33,
+    "group": "candidate_qwen8b",
+    "tokens": 307,
+    "over_limit": false
+  },
+  {
+    "paper": 34,
+    "group": "candidate_qwen8b",
+    "tokens": 403,
+    "over_limit": false
+  },
+  {
+    "paper": 35,
+    "group": "candidate_qwen8b",
+    "tokens": 232,
+    "over_limit": false
+  },
+  {
+    "paper": 36,
+    "group": "candidate_qwen8b",
+    "tokens": 271,
+    "over_limit": false
+  },
+  {
+    "paper": 37,
+    "group": "candidate_qwen8b",
+    "tokens": 313,
+    "over_limit": false
+  },
+  {
+    "paper": 38,
+    "group": "candidate_qwen8b",
+    "tokens": 295,
+    "over_limit": false
+  },
+  {
+    "paper": 39,
+    "group": "candidate_qwen8b",
+    "tokens": 284,
+    "over_limit": false
+  },
+  {
+    "paper": 40,
+    "group": "candidate_qwen8b",
+    "tokens": 252,
+    "over_limit": false
+  },
+  {
+    "paper": 41,
+    "group": "candidate_qwen8b",
+    "tokens": 292,
+    "over_limit": false
+  },
+  {
+    "paper": 42,
+    "group": "candidate_qwen8b",
+    "tokens": 317,
+    "over_limit": false
+  },
+  {
+    "paper": 43,
+    "group": "candidate_qwen8b",
+    "tokens": 253,
+    "over_limit": false
+  },
+  {
+    "paper": 44,
+    "group": "candidate_qwen8b",
+    "tokens": 293,
+    "over_limit": false
+  },
+  {
+    "paper": 45,
+    "group": "candidate_qwen8b",
+    "tokens": 312,
+    "over_limit": false
+  },
+  {
+    "paper": 46,
+    "group": "candidate_qwen8b",
+    "tokens": 240,
+    "over_limit": false
+  },
+  {
+    "paper": 47,
+    "group": "candidate_qwen8b",
+    "tokens": 232,
+    "over_limit": false
+  },
+  {
+    "paper": 48,
+    "group": "candidate_qwen8b",
+    "tokens": 311,
+    "over_limit": false
+  },
+  {
+    "paper": 49,
+    "group": "candidate_qwen8b",
+    "tokens": 283,
+    "over_limit": false
+  },
+  {
+    "paper": 50,
+    "group": "candidate_qwen8b",
+    "tokens": 360,
+    "over_limit": false
+  },
+  {
+    "paper": 51,
+    "group": "candidate_qwen8b",
+    "tokens": 326,
+    "over_limit": false
+  },
+  {
+    "paper": 52,
+    "group": "candidate_qwen8b",
+    "tokens": 310,
+    "over_limit": false
+  },
+  {
+    "paper": 53,
+    "group": "candidate_qwen8b",
+    "tokens": 259,
+    "over_limit": false
+  },
+  {
+    "paper": 54,
+    "group": "candidate_qwen8b",
+    "tokens": 271,
+    "over_limit": false
+  },
+  {
+    "paper": 55,
+    "group": "candidate_qwen8b",
+    "tokens": 288,
+    "over_limit": false
+  },
+  {
+    "paper": 56,
+    "group": "candidate_qwen8b",
+    "tokens": 283,
+    "over_limit": false
+  },
+  {
+    "paper": 57,
+    "group": "candidate_qwen8b",
+    "tokens": 286,
+    "over_limit": false
+  },
+  {
+    "paper": 58,
+    "group": "candidate_qwen8b",
+    "tokens": 327,
+    "over_limit": false
+  },
+  {
+    "paper": 59,
+    "group": "candidate_qwen8b",
+    "tokens": 397,
+    "over_limit": false
+  },
+  {
+    "paper": 60,
+    "group": "candidate_qwen8b",
+    "tokens": 313,
+    "over_limit": false
+  },
+  {
+    "paper": 61,
+    "group": "candidate_qwen8b",
+    "tokens": 370,
+    "over_limit": false
+  },
+  {
+    "paper": 62,
+    "group": "candidate_qwen8b",
+    "tokens": 331,
+    "over_limit": false
+  },
+  {
+    "paper": 63,
+    "group": "candidate_qwen8b",
+    "tokens": 267,
+    "over_limit": false
+  },
+  {
+    "paper": 64,
+    "group": "candidate_qwen8b",
+    "tokens": 334,
+    "over_limit": false
+  },
+  {
+    "paper": 65,
+    "group": "candidate_qwen8b",
+    "tokens": 247,
+    "over_limit": false
+  },
+  {
+    "paper": 66,
+    "group": "candidate_qwen8b",
+    "tokens": 264,
+    "over_limit": false
+  },
+  {
+    "paper": 67,
+    "group": "candidate_qwen8b",
+    "tokens": 343,
+    "over_limit": false
+  },
+  {
+    "paper": 68,
+    "group": "candidate_qwen8b",
+    "tokens": 293,
+    "over_limit": false
+  },
+  {
+    "paper": 69,
+    "group": "candidate_qwen8b",
+    "tokens": 314,
+    "over_limit": false
+  },
+  {
+    "paper": 70,
+    "group": "candidate_qwen8b",
+    "tokens": 307,
+    "over_limit": false
+  },
+  {
+    "paper": 71,
+    "group": "candidate_qwen8b",
+    "tokens": 350,
+    "over_limit": false
+  },
+  {
+    "paper": 72,
+    "group": "candidate_qwen8b",
+    "tokens": 316,
+    "over_limit": false
+  },
+  {
+    "paper": 73,
+    "group": "candidate_qwen8b",
+    "tokens": 290,
+    "over_limit": false
+  },
+  {
+    "paper": 74,
+    "group": "candidate_qwen8b",
+    "tokens": 311,
+    "over_limit": false
+  },
+  {
+    "paper": 75,
+    "group": "candidate_qwen8b",
+    "tokens": 350,
+    "over_limit": false
+  },
+  {
+    "paper": 76,
+    "group": "candidate_qwen8b",
+    "tokens": 393,
+    "over_limit": false
+  },
+  {
+    "paper": 77,
+    "group": "candidate_qwen8b",
+    "tokens": 296,
+    "over_limit": false
+  },
+  {
+    "paper": 78,
+    "group": "candidate_qwen8b",
+    "tokens": 323,
+    "over_limit": false
+  },
+  {
+    "paper": 79,
+    "group": "candidate_qwen8b",
+    "tokens": 240,
+    "over_limit": false
+  },
+  {
+    "paper": 80,
+    "group": "candidate_qwen8b",
+    "tokens": 343,
+    "over_limit": false
+  },
+  {
+    "paper": 81,
+    "group": "candidate_qwen8b",
+    "tokens": 221,
+    "over_limit": false
+  },
+  {
+    "paper": 82,
+    "group": "candidate_qwen8b",
+    "tokens": 320,
+    "over_limit": false
+  },
+  {
+    "paper": 83,
+    "group": "candidate_qwen8b",
+    "tokens": 417,
+    "over_limit": false
+  },
+  {
+    "paper": 84,
+    "group": "candidate_qwen8b",
+    "tokens": 285,
+    "over_limit": false
+  },
+  {
+    "paper": 85,
+    "group": "candidate_qwen8b",
+    "tokens": 320,
+    "over_limit": false
+  },
+  {
+    "paper": 86,
+    "group": "candidate_qwen8b",
+    "tokens": 321,
+    "over_limit": false
+  },
+  {
+    "paper": 87,
+    "group": "candidate_qwen8b",
+    "tokens": 238,
+    "over_limit": false
+  },
+  {
+    "paper": 88,
+    "group": "candidate_qwen8b",
+    "tokens": 289,
+    "over_limit": false
+  },
+  {
+    "paper": 89,
+    "group": "candidate_qwen8b",
+    "tokens": 379,
+    "over_limit": false
+  },
+  {
+    "paper": 90,
+    "group": "candidate_qwen8b",
+    "tokens": 359,
+    "over_limit": false
+  },
+  {
+    "paper": 91,
+    "group": "candidate_qwen8b",
+    "tokens": 262,
+    "over_limit": false
+  },
+  {
+    "paper": 92,
+    "group": "candidate_qwen8b",
+    "tokens": 296,
+    "over_limit": false
+  },
+  {
+    "paper": 93,
+    "group": "candidate_qwen8b",
+    "tokens": 295,
+    "over_limit": false
+  },
+  {
+    "paper": 94,
+    "group": "candidate_qwen8b",
+    "tokens": 219,
+    "over_limit": false
+  },
+  {
+    "paper": 95,
+    "group": "candidate_qwen8b",
+    "tokens": 289,
+    "over_limit": false
+  },
+  {
+    "paper": 96,
+    "group": "candidate_qwen8b",
+    "tokens": 383,
+    "over_limit": false
+  },
+  {
+    "paper": 97,
+    "group": "candidate_qwen8b",
+    "tokens": 292,
+    "over_limit": false
+  },
+  {
+    "paper": 98,
+    "group": "candidate_qwen8b",
+    "tokens": 343,
+    "over_limit": false
+  },
+  {
+    "paper": 99,
+    "group": "candidate_qwen8b",
+    "tokens": 335,
+    "over_limit": false
+  },
+  {
+    "paper": 100,
+    "group": "candidate_qwen8b",
+    "tokens": 281,
+    "over_limit": false
+  },
+  {
+    "paper": 101,
+    "group": "candidate_qwen8b",
+    "tokens": 286,
+    "over_limit": false
+  },
+  {
+    "paper": 102,
+    "group": "candidate_qwen8b",
+    "tokens": 281,
+    "over_limit": false
+  },
+  {
+    "paper": 103,
+    "group": "candidate_qwen8b",
+    "tokens": 298,
+    "over_limit": false
+  },
+  {
+    "paper": 104,
+    "group": "candidate_qwen8b",
+    "tokens": 337,
+    "over_limit": false
+  },
+  {
+    "paper": 105,
+    "group": "candidate_qwen8b",
+    "tokens": 294,
+    "over_limit": false
+  },
+  {
+    "paper": 106,
+    "group": "candidate_qwen8b",
+    "tokens": 299,
+    "over_limit": false
+  },
+  {
+    "paper": 107,
+    "group": "candidate_qwen8b",
+    "tokens": 294,
+    "over_limit": false
+  },
+  {
+    "paper": 108,
+    "group": "candidate_qwen8b",
+    "tokens": 272,
+    "over_limit": false
+  },
+  {
+    "paper": 109,
+    "group": "candidate_qwen8b",
+    "tokens": 311,
+    "over_limit": false
+  },
+  {
+    "paper": 110,
+    "group": "candidate_qwen8b",
+    "tokens": 324,
+    "over_limit": false
+  },
+  {
+    "paper": 111,
+    "group": "candidate_qwen8b",
+    "tokens": 209,
+    "over_limit": false
+  },
+  {
+    "paper": 112,
+    "group": "candidate_qwen8b",
+    "tokens": 244,
+    "over_limit": false
+  },
+  {
+    "paper": 113,
+    "group": "candidate_qwen8b",
+    "tokens": 274,
+    "over_limit": false
+  },
+  {
+    "paper": 114,
+    "group": "candidate_qwen8b",
+    "tokens": 269,
+    "over_limit": false
+  },
+  {
+    "paper": 115,
+    "group": "candidate_qwen8b",
+    "tokens": 292,
+    "over_limit": false
+  },
+  {
+    "paper": 116,
+    "group": "candidate_qwen8b",
+    "tokens": 265,
+    "over_limit": false
+  },
+  {
+    "paper": 117,
+    "group": "candidate_qwen8b",
+    "tokens": 280,
+    "over_limit": false
+  },
+  {
+    "paper": 118,
+    "group": "candidate_qwen8b",
+    "tokens": 331,
+    "over_limit": false
+  },
+  {
+    "paper": 119,
+    "group": "candidate_qwen8b",
+    "tokens": 346,
+    "over_limit": false
+  },
+  {
+    "paper": 120,
+    "group": "candidate_qwen8b",
+    "tokens": 317,
+    "over_limit": false
+  },
+  {
+    "paper": 121,
+    "group": "candidate_qwen8b",
+    "tokens": 281,
+    "over_limit": false
+  },
+  {
+    "paper": 122,
+    "group": "candidate_qwen8b",
+    "tokens": 251,
+    "over_limit": false
+  },
+  {
+    "paper": 123,
+    "group": "candidate_qwen8b",
+    "tokens": 334,
+    "over_limit": false
+  },
+  {
+    "paper": 124,
+    "group": "candidate_qwen8b",
+    "tokens": 278,
+    "over_limit": false
+  },
+  {
+    "paper": 125,
+    "group": "candidate_qwen8b",
+    "tokens": 261,
+    "over_limit": false
+  },
+  {
+    "paper": 126,
+    "group": "candidate_qwen8b",
+    "tokens": 346,
+    "over_limit": false
+  },
+  {
+    "paper": 127,
+    "group": "candidate_qwen8b",
+    "tokens": 361,
+    "over_limit": false
+  },
+  {
+    "paper": 128,
+    "group": "candidate_qwen8b",
+    "tokens": 336,
+    "over_limit": false
+  },
+  {
+    "paper": 129,
+    "group": "candidate_qwen8b",
+    "tokens": 270,
+    "over_limit": false
+  },
+  {
+    "paper": 130,
+    "group": "candidate_qwen8b",
+    "tokens": 385,
+    "over_limit": false
+  },
+  {
+    "paper": 131,
+    "group": "candidate_qwen8b",
+    "tokens": 298,
+    "over_limit": false
+  },
+  {
+    "paper": 132,
+    "group": "candidate_qwen8b",
+    "tokens": 285,
+    "over_limit": false
+  },
+  {
+    "paper": 133,
+    "group": "candidate_qwen8b",
+    "tokens": 240,
+    "over_limit": false
+  },
+  {
+    "paper": 134,
+    "group": "candidate_qwen8b",
+    "tokens": 343,
+    "over_limit": false
+  },
+  {
+    "paper": 135,
+    "group": "candidate_qwen8b",
+    "tokens": 301,
+    "over_limit": false
+  },
+  {
+    "paper": 136,
+    "group": "candidate_qwen8b",
+    "tokens": 283,
+    "over_limit": false
+  },
+  {
+    "paper": 137,
+    "group": "candidate_qwen8b",
+    "tokens": 240,
+    "over_limit": false
+  },
+  {
+    "paper": 138,
+    "group": "candidate_qwen8b",
+    "tokens": 307,
+    "over_limit": false
+  },
+  {
+    "paper": 139,
+    "group": "candidate_qwen8b",
+    "tokens": 382,
+    "over_limit": false
+  },
+  {
+    "paper": 140,
+    "group": "candidate_qwen8b",
+    "tokens": 331,
+    "over_limit": false
+  },
+  {
+    "paper": 141,
+    "group": "candidate_qwen8b",
+    "tokens": 349,
+    "over_limit": false
+  },
+  {
+    "paper": 142,
+    "group": "candidate_qwen8b",
+    "tokens": 240,
+    "over_limit": false
+  },
+  {
+    "paper": 143,
+    "group": "candidate_qwen8b",
+    "tokens": 316,
+    "over_limit": false
+  },
+  {
+    "paper": 144,
+    "group": "candidate_qwen8b",
+    "tokens": 341,
+    "over_limit": false
+  },
+  {
+    "paper": 145,
+    "group": "candidate_qwen8b",
+    "tokens": 359,
+    "over_limit": false
+  },
+  {
+    "paper": 146,
+    "group": "candidate_qwen8b",
+    "tokens": 281,
+    "over_limit": false
+  },
+  {
+    "paper": 147,
+    "group": "candidate_qwen8b",
+    "tokens": 301,
+    "over_limit": false
+  },
+  {
+    "paper": 148,
+    "group": "candidate_qwen8b",
+    "tokens": 300,
+    "over_limit": false
+  },
+  {
+    "paper": 149,
+    "group": "candidate_qwen8b",
+    "tokens": 352,
+    "over_limit": false
+  },
+  {
+    "paper": 150,
+    "group": "candidate_qwen8b",
+    "tokens": 311,
+    "over_limit": false
+  },
+  {
+    "paper": 151,
+    "group": "candidate_qwen8b",
+    "tokens": 350,
+    "over_limit": false
+  },
+  {
+    "paper": 152,
+    "group": "candidate_qwen8b",
+    "tokens": 353,
+    "over_limit": false
+  },
+  {
+    "paper": 153,
+    "group": "candidate_qwen8b",
+    "tokens": 313,
+    "over_limit": false
+  },
+  {
+    "paper": 154,
+    "group": "candidate_qwen8b",
+    "tokens": 286,
+    "over_limit": false
+  },
+  {
+    "paper": 155,
+    "group": "candidate_qwen8b",
+    "tokens": 288,
+    "over_limit": false
+  },
+  {
+    "paper": 156,
+    "group": "candidate_qwen8b",
+    "tokens": 251,
+    "over_limit": false
+  },
+  {
+    "paper": 157,
+    "group": "candidate_qwen8b",
+    "tokens": 324,
+    "over_limit": false
+  },
+  {
+    "paper": 158,
+    "group": "candidate_qwen8b",
+    "tokens": 332,
+    "over_limit": false
+  },
+  {
+    "paper": 159,
+    "group": "candidate_qwen8b",
+    "tokens": 307,
+    "over_limit": false
+  },
+  {
+    "paper": 160,
+    "group": "candidate_qwen8b",
+    "tokens": 283,
+    "over_limit": false
+  },
+  {
+    "paper": 161,
+    "group": "candidate_qwen8b",
+    "tokens": 307,
+    "over_limit": false
+  },
+  {
+    "paper": 162,
+    "group": "candidate_qwen8b",
+    "tokens": 276,
+    "over_limit": false
+  },
+  {
+    "paper": 163,
+    "group": "candidate_qwen8b",
+    "tokens": 281,
+    "over_limit": false
+  },
+  {
+    "paper": 164,
+    "group": "candidate_qwen8b",
+    "tokens": 270,
+    "over_limit": false
+  },
+  {
+    "paper": 165,
+    "group": "candidate_qwen8b",
+    "tokens": 282,
+    "over_limit": false
+  },
+  {
+    "paper": 166,
+    "group": "candidate_qwen8b",
+    "tokens": 328,
+    "over_limit": false
+  },
+  {
+    "paper": 167,
+    "group": "candidate_qwen8b",
+    "tokens": 290,
+    "over_limit": false
+  },
+  {
+    "paper": 168,
+    "group": "candidate_qwen8b",
+    "tokens": 335,
+    "over_limit": false
+  },
+  {
+    "paper": 169,
+    "group": "candidate_qwen8b",
+    "tokens": 387,
+    "over_limit": false
+  },
+  {
+    "paper": 170,
+    "group": "candidate_qwen8b",
+    "tokens": 287,
+    "over_limit": false
+  },
+  {
+    "paper": 171,
+    "group": "candidate_qwen8b",
+    "tokens": 273,
+    "over_limit": false
+  },
+  {
+    "paper": 172,
+    "group": "candidate_qwen8b",
+    "tokens": 285,
+    "over_limit": false
+  },
+  {
+    "paper": 173,
+    "group": "candidate_qwen8b",
+    "tokens": 357,
+    "over_limit": false
+  },
+  {
+    "paper": 174,
+    "group": "candidate_qwen8b",
+    "tokens": 311,
+    "over_limit": false
+  },
+  {
+    "paper": 175,
+    "group": "candidate_qwen8b",
+    "tokens": 315,
+    "over_limit": false
+  },
+  {
+    "paper": 176,
+    "group": "candidate_qwen8b",
+    "tokens": 236,
+    "over_limit": false
+  },
+  {
+    "paper": 177,
+    "group": "candidate_qwen8b",
+    "tokens": 322,
+    "over_limit": false
+  },
+  {
+    "paper": 178,
+    "group": "candidate_qwen8b",
+    "tokens": 296,
+    "over_limit": false
+  },
+  {
+    "paper": 179,
+    "group": "candidate_qwen8b",
+    "tokens": 261,
+    "over_limit": false
+  },
+  {
+    "paper": 180,
+    "group": "candidate_qwen8b",
+    "tokens": 381,
+    "over_limit": false
+  },
+  {
+    "paper": 181,
+    "group": "candidate_qwen8b",
+    "tokens": 310,
+    "over_limit": false
+  },
+  {
+    "paper": 182,
+    "group": "candidate_qwen8b",
+    "tokens": 361,
+    "over_limit": false
+  },
+  {
+    "paper": 183,
+    "group": "candidate_qwen8b",
+    "tokens": 387,
+    "over_limit": false
+  },
+  {
+    "paper": 184,
+    "group": "candidate_qwen8b",
+    "tokens": 236,
+    "over_limit": false
+  },
+  {
+    "paper": 185,
+    "group": "candidate_qwen8b",
+    "tokens": 335,
+    "over_limit": false
+  },
+  {
+    "paper": 186,
+    "group": "candidate_qwen8b",
+    "tokens": 317,
+    "over_limit": false
+  },
+  {
+    "paper": 187,
+    "group": "candidate_qwen8b",
+    "tokens": 274,
+    "over_limit": false
+  },
+  {
+    "paper": 188,
+    "group": "candidate_qwen8b",
+    "tokens": 231,
+    "over_limit": false
+  },
+  {
+    "paper": 189,
+    "group": "candidate_qwen8b",
+    "tokens": 265,
+    "over_limit": false
+  },
+  {
+    "paper": 190,
+    "group": "candidate_qwen8b",
+    "tokens": 301,
+    "over_limit": false
+  },
+  {
+    "paper": 191,
+    "group": "candidate_qwen8b",
+    "tokens": 334,
+    "over_limit": false
+  },
+  {
+    "paper": 192,
+    "group": "candidate_qwen8b",
+    "tokens": 305,
+    "over_limit": false
+  },
+  {
+    "paper": 193,
+    "group": "candidate_qwen8b",
+    "tokens": 238,
+    "over_limit": false
+  },
+  {
+    "paper": 194,
+    "group": "candidate_qwen8b",
+    "tokens": 300,
+    "over_limit": false
+  },
+  {
+    "paper": 195,
+    "group": "candidate_qwen8b",
+    "tokens": 281,
+    "over_limit": false
+  },
+  {
+    "paper": 196,
+    "group": "candidate_qwen8b",
+    "tokens": 292,
+    "over_limit": false
+  },
+  {
+    "paper": 197,
+    "group": "candidate_qwen8b",
+    "tokens": 357,
+    "over_limit": false
+  },
+  {
+    "paper": 198,
+    "group": "candidate_qwen8b",
+    "tokens": 268,
+    "over_limit": false
+  },
+  {
+    "paper": 199,
+    "group": "candidate_qwen8b",
+    "tokens": 219,
+    "over_limit": false
+  },
+  {
+    "paper": 200,
+    "group": "candidate_qwen8b",
+    "tokens": 261,
+    "over_limit": false
+  },
+  {
+    "paper": 1,
+    "group": "author_abstract",
+    "tokens": 271,
+    "over_limit": false
+  },
+  {
+    "paper": 2,
+    "group": "author_abstract",
+    "tokens": 382,
+    "over_limit": false
+  },
+  {
+    "paper": 3,
+    "group": "author_abstract",
+    "tokens": 273,
+    "over_limit": false
+  },
+  {
+    "paper": 4,
+    "group": "author_abstract",
+    "tokens": 309,
+    "over_limit": false
+  },
+  {
+    "paper": 5,
+    "group": "author_abstract",
+    "tokens": 259,
+    "over_limit": false
+  },
+  {
+    "paper": 6,
+    "group": "author_abstract",
+    "tokens": 230,
+    "over_limit": false
+  },
+  {
+    "paper": 7,
+    "group": "author_abstract",
+    "tokens": 388,
+    "over_limit": false
+  },
+  {
+    "paper": 8,
+    "group": "author_abstract",
+    "tokens": 395,
+    "over_limit": false
+  },
+  {
+    "paper": 9,
+    "group": "author_abstract",
+    "tokens": 397,
+    "over_limit": false
+  },
+  {
+    "paper": 10,
+    "group": "author_abstract",
+    "tokens": 326,
+    "over_limit": false
+  },
+  {
+    "paper": 11,
+    "group": "author_abstract",
+    "tokens": 344,
+    "over_limit": false
+  },
+  {
+    "paper": 12,
+    "group": "author_abstract",
+    "tokens": 340,
+    "over_limit": false
+  },
+  {
+    "paper": 13,
+    "group": "author_abstract",
+    "tokens": 400,
+    "over_limit": false
+  },
+  {
+    "paper": 14,
+    "group": "author_abstract",
+    "tokens": 488,
+    "over_limit": false
+  },
+  {
+    "paper": 15,
+    "group": "author_abstract",
+    "tokens": 292,
+    "over_limit": false
+  },
+  {
+    "paper": 16,
+    "group": "author_abstract",
+    "tokens": 452,
+    "over_limit": false
+  },
+  {
+    "paper": 17,
+    "group": "author_abstract",
+    "tokens": 304,
+    "over_limit": false
+  },
+  {
+    "paper": 18,
+    "group": "author_abstract",
+    "tokens": 325,
+    "over_limit": false
+  },
+  {
+    "paper": 19,
+    "group": "author_abstract",
+    "tokens": 390,
+    "over_limit": false
+  },
+  {
+    "paper": 20,
+    "group": "author_abstract",
+    "tokens": 360,
+    "over_limit": false
+  },
+  {
+    "paper": 21,
+    "group": "author_abstract",
+    "tokens": 315,
+    "over_limit": false
+  },
+  {
+    "paper": 22,
+    "group": "author_abstract",
+    "tokens": 396,
+    "over_limit": false
+  },
+  {
+    "paper": 23,
+    "group": "author_abstract",
+    "tokens": 298,
+    "over_limit": false
+  },
+  {
+    "paper": 24,
+    "group": "author_abstract",
+    "tokens": 361,
+    "over_limit": false
+  },
+  {
+    "paper": 25,
+    "group": "author_abstract",
+    "tokens": 434,
+    "over_limit": false
+  },
+  {
+    "paper": 26,
+    "group": "author_abstract",
+    "tokens": 393,
+    "over_limit": false
+  },
+  {
+    "paper": 27,
+    "group": "author_abstract",
+    "tokens": 372,
+    "over_limit": false
+  },
+  {
+    "paper": 28,
+    "group": "author_abstract",
+    "tokens": 496,
+    "over_limit": false
+  },
+  {
+    "paper": 29,
+    "group": "author_abstract",
+    "tokens": 430,
+    "over_limit": false
+  },
+  {
+    "paper": 30,
+    "group": "author_abstract",
+    "tokens": 409,
+    "over_limit": false
+  },
+  {
+    "paper": 31,
+    "group": "author_abstract",
+    "tokens": 279,
+    "over_limit": false
+  },
+  {
+    "paper": 32,
+    "group": "author_abstract",
+    "tokens": 245,
+    "over_limit": false
+  },
+  {
+    "paper": 33,
+    "group": "author_abstract",
+    "tokens": 283,
+    "over_limit": false
+  },
+  {
+    "paper": 34,
+    "group": "author_abstract",
+    "tokens": 475,
+    "over_limit": false
+  },
+  {
+    "paper": 35,
+    "group": "author_abstract",
+    "tokens": 274,
+    "over_limit": false
+  },
+  {
+    "paper": 36,
+    "group": "author_abstract",
+    "tokens": 421,
+    "over_limit": false
+  },
+  {
+    "paper": 37,
+    "group": "author_abstract",
+    "tokens": 423,
+    "over_limit": false
+  },
+  {
+    "paper": 38,
+    "group": "author_abstract",
+    "tokens": 354,
+    "over_limit": false
+  },
+  {
+    "paper": 39,
+    "group": "author_abstract",
+    "tokens": 419,
+    "over_limit": false
+  },
+  {
+    "paper": 40,
+    "group": "author_abstract",
+    "tokens": 378,
+    "over_limit": false
+  },
+  {
+    "paper": 41,
+    "group": "author_abstract",
+    "tokens": 378,
+    "over_limit": false
+  },
+  {
+    "paper": 42,
+    "group": "author_abstract",
+    "tokens": 408,
+    "over_limit": false
+  },
+  {
+    "paper": 43,
+    "group": "author_abstract",
+    "tokens": 390,
+    "over_limit": false
+  },
+  {
+    "paper": 44,
+    "group": "author_abstract",
+    "tokens": 326,
+    "over_limit": false
+  },
+  {
+    "paper": 45,
+    "group": "author_abstract",
+    "tokens": 221,
+    "over_limit": false
+  },
+  {
+    "paper": 46,
+    "group": "author_abstract",
+    "tokens": 363,
+    "over_limit": false
+  },
+  {
+    "paper": 47,
+    "group": "author_abstract",
+    "tokens": 285,
+    "over_limit": false
+  },
+  {
+    "paper": 48,
+    "group": "author_abstract",
+    "tokens": 349,
+    "over_limit": false
+  },
+  {
+    "paper": 49,
+    "group": "author_abstract",
+    "tokens": 515,
+    "over_limit": true
+  },
+  {
+    "paper": 50,
+    "group": "author_abstract",
+    "tokens": 449,
+    "over_limit": false
+  },
+  {
+    "paper": 51,
+    "group": "author_abstract",
+    "tokens": 374,
+    "over_limit": false
+  },
+  {
+    "paper": 52,
+    "group": "author_abstract",
+    "tokens": 368,
+    "over_limit": false
+  },
+  {
+    "paper": 53,
+    "group": "author_abstract",
+    "tokens": 248,
+    "over_limit": false
+  },
+  {
+    "paper": 54,
+    "group": "author_abstract",
+    "tokens": 497,
+    "over_limit": false
+  },
+  {
+    "paper": 55,
+    "group": "author_abstract",
+    "tokens": 395,
+    "over_limit": false
+  },
+  {
+    "paper": 56,
+    "group": "author_abstract",
+    "tokens": 383,
+    "over_limit": false
+  },
+  {
+    "paper": 57,
+    "group": "author_abstract",
+    "tokens": 215,
+    "over_limit": false
+  },
+  {
+    "paper": 58,
+    "group": "author_abstract",
+    "tokens": 468,
+    "over_limit": false
+  },
+  {
+    "paper": 59,
+    "group": "author_abstract",
+    "tokens": 413,
+    "over_limit": false
+  },
+  {
+    "paper": 60,
+    "group": "author_abstract",
+    "tokens": 400,
+    "over_limit": false
+  },
+  {
+    "paper": 61,
+    "group": "author_abstract",
+    "tokens": 670,
+    "over_limit": true
+  },
+  {
+    "paper": 62,
+    "group": "author_abstract",
+    "tokens": 405,
+    "over_limit": false
+  },
+  {
+    "paper": 63,
+    "group": "author_abstract",
+    "tokens": 405,
+    "over_limit": false
+  },
+  {
+    "paper": 64,
+    "group": "author_abstract",
+    "tokens": 478,
+    "over_limit": false
+  },
+  {
+    "paper": 65,
+    "group": "author_abstract",
+    "tokens": 418,
+    "over_limit": false
+  },
+  {
+    "paper": 66,
+    "group": "author_abstract",
+    "tokens": 293,
+    "over_limit": false
+  },
+  {
+    "paper": 67,
+    "group": "author_abstract",
+    "tokens": 355,
+    "over_limit": false
+  },
+  {
+    "paper": 68,
+    "group": "author_abstract",
+    "tokens": 274,
+    "over_limit": false
+  },
+  {
+    "paper": 69,
+    "group": "author_abstract",
+    "tokens": 352,
+    "over_limit": false
+  },
+  {
+    "paper": 70,
+    "group": "author_abstract",
+    "tokens": 324,
+    "over_limit": false
+  },
+  {
+    "paper": 71,
+    "group": "author_abstract",
+    "tokens": 426,
+    "over_limit": false
+  },
+  {
+    "paper": 72,
+    "group": "author_abstract",
+    "tokens": 392,
+    "over_limit": false
+  },
+  {
+    "paper": 73,
+    "group": "author_abstract",
+    "tokens": 219,
+    "over_limit": false
+  },
+  {
+    "paper": 74,
+    "group": "author_abstract",
+    "tokens": 427,
+    "over_limit": false
+  },
+  {
+    "paper": 75,
+    "group": "author_abstract",
+    "tokens": 313,
+    "over_limit": false
+  },
+  {
+    "paper": 76,
+    "group": "author_abstract",
+    "tokens": 417,
+    "over_limit": false
+  },
+  {
+    "paper": 77,
+    "group": "author_abstract",
+    "tokens": 349,
+    "over_limit": false
+  },
+  {
+    "paper": 78,
+    "group": "author_abstract",
+    "tokens": 386,
+    "over_limit": false
+  },
+  {
+    "paper": 79,
+    "group": "author_abstract",
+    "tokens": 319,
+    "over_limit": false
+  },
+  {
+    "paper": 80,
+    "group": "author_abstract",
+    "tokens": 342,
+    "over_limit": false
+  },
+  {
+    "paper": 81,
+    "group": "author_abstract",
+    "tokens": 452,
+    "over_limit": false
+  },
+  {
+    "paper": 82,
+    "group": "author_abstract",
+    "tokens": 410,
+    "over_limit": false
+  },
+  {
+    "paper": 83,
+    "group": "author_abstract",
+    "tokens": 500,
+    "over_limit": false
+  },
+  {
+    "paper": 84,
+    "group": "author_abstract",
+    "tokens": 436,
+    "over_limit": false
+  },
+  {
+    "paper": 85,
+    "group": "author_abstract",
+    "tokens": 404,
+    "over_limit": false
+  },
+  {
+    "paper": 86,
+    "group": "author_abstract",
+    "tokens": 307,
+    "over_limit": false
+  },
+  {
+    "paper": 87,
+    "group": "author_abstract",
+    "tokens": 419,
+    "over_limit": false
+  },
+  {
+    "paper": 88,
+    "group": "author_abstract",
+    "tokens": 402,
+    "over_limit": false
+  },
+  {
+    "paper": 89,
+    "group": "author_abstract",
+    "tokens": 396,
+    "over_limit": false
+  },
+  {
+    "paper": 90,
+    "group": "author_abstract",
+    "tokens": 490,
+    "over_limit": false
+  },
+  {
+    "paper": 91,
+    "group": "author_abstract",
+    "tokens": 289,
+    "over_limit": false
+  },
+  {
+    "paper": 92,
+    "group": "author_abstract",
+    "tokens": 349,
+    "over_limit": false
+  },
+  {
+    "paper": 93,
+    "group": "author_abstract",
+    "tokens": 423,
+    "over_limit": false
+  },
+  {
+    "paper": 94,
+    "group": "author_abstract",
+    "tokens": 433,
+    "over_limit": false
+  },
+  {
+    "paper": 95,
+    "group": "author_abstract",
+    "tokens": 561,
+    "over_limit": true
+  },
+  {
+    "paper": 96,
+    "group": "author_abstract",
+    "tokens": 434,
+    "over_limit": false
+  },
+  {
+    "paper": 97,
+    "group": "author_abstract",
+    "tokens": 334,
+    "over_limit": false
+  },
+  {
+    "paper": 98,
+    "group": "author_abstract",
+    "tokens": 364,
+    "over_limit": false
+  },
+  {
+    "paper": 99,
+    "group": "author_abstract",
+    "tokens": 403,
+    "over_limit": false
+  },
+  {
+    "paper": 100,
+    "group": "author_abstract",
+    "tokens": 381,
+    "over_limit": false
+  },
+  {
+    "paper": 101,
+    "group": "author_abstract",
+    "tokens": 494,
+    "over_limit": false
+  },
+  {
+    "paper": 102,
+    "group": "author_abstract",
+    "tokens": 390,
+    "over_limit": false
+  },
+  {
+    "paper": 103,
+    "group": "author_abstract",
+    "tokens": 314,
+    "over_limit": false
+  },
+  {
+    "paper": 104,
+    "group": "author_abstract",
+    "tokens": 354,
+    "over_limit": false
+  },
+  {
+    "paper": 105,
+    "group": "author_abstract",
+    "tokens": 333,
+    "over_limit": false
+  },
+  {
+    "paper": 106,
+    "group": "author_abstract",
+    "tokens": 300,
+    "over_limit": false
+  },
+  {
+    "paper": 107,
+    "group": "author_abstract",
+    "tokens": 420,
+    "over_limit": false
+  },
+  {
+    "paper": 108,
+    "group": "author_abstract",
+    "tokens": 264,
+    "over_limit": false
+  },
+  {
+    "paper": 109,
+    "group": "author_abstract",
+    "tokens": 310,
+    "over_limit": false
+  },
+  {
+    "paper": 110,
+    "group": "author_abstract",
+    "tokens": 444,
+    "over_limit": false
+  },
+  {
+    "paper": 111,
+    "group": "author_abstract",
+    "tokens": 267,
+    "over_limit": false
+  },
+  {
+    "paper": 112,
+    "group": "author_abstract",
+    "tokens": 352,
+    "over_limit": false
+  },
+  {
+    "paper": 113,
+    "group": "author_abstract",
+    "tokens": 263,
+    "over_limit": false
+  },
+  {
+    "paper": 114,
+    "group": "author_abstract",
+    "tokens": 263,
+    "over_limit": false
+  },
+  {
+    "paper": 115,
+    "group": "author_abstract",
+    "tokens": 395,
+    "over_limit": false
+  },
+  {
+    "paper": 116,
+    "group": "author_abstract",
+    "tokens": 210,
+    "over_limit": false
+  },
+  {
+    "paper": 117,
+    "group": "author_abstract",
+    "tokens": 387,
+    "over_limit": false
+  },
+  {
+    "paper": 118,
+    "group": "author_abstract",
+    "tokens": 352,
+    "over_limit": false
+  },
+  {
+    "paper": 119,
+    "group": "author_abstract",
+    "tokens": 397,
+    "over_limit": false
+  },
+  {
+    "paper": 120,
+    "group": "author_abstract",
+    "tokens": 314,
+    "over_limit": false
+  },
+  {
+    "paper": 121,
+    "group": "author_abstract",
+    "tokens": 378,
+    "over_limit": false
+  },
+  {
+    "paper": 122,
+    "group": "author_abstract",
+    "tokens": 411,
+    "over_limit": false
+  },
+  {
+    "paper": 123,
+    "group": "author_abstract",
+    "tokens": 399,
+    "over_limit": false
+  },
+  {
+    "paper": 124,
+    "group": "author_abstract",
+    "tokens": 362,
+    "over_limit": false
+  },
+  {
+    "paper": 125,
+    "group": "author_abstract",
+    "tokens": 325,
+    "over_limit": false
+  },
+  {
+    "paper": 126,
+    "group": "author_abstract",
+    "tokens": 414,
+    "over_limit": false
+  },
+  {
+    "paper": 127,
+    "group": "author_abstract",
+    "tokens": 391,
+    "over_limit": false
+  },
+  {
+    "paper": 128,
+    "group": "author_abstract",
+    "tokens": 448,
+    "over_limit": false
+  },
+  {
+    "paper": 129,
+    "group": "author_abstract",
+    "tokens": 410,
+    "over_limit": false
+  },
+  {
+    "paper": 130,
+    "group": "author_abstract",
+    "tokens": 528,
+    "over_limit": true
+  },
+  {
+    "paper": 131,
+    "group": "author_abstract",
+    "tokens": 352,
+    "over_limit": false
+  },
+  {
+    "paper": 132,
+    "group": "author_abstract",
+    "tokens": 320,
+    "over_limit": false
+  },
+  {
+    "paper": 133,
+    "group": "author_abstract",
+    "tokens": 509,
+    "over_limit": false
+  },
+  {
+    "paper": 134,
+    "group": "author_abstract",
+    "tokens": 358,
+    "over_limit": false
+  },
+  {
+    "paper": 135,
+    "group": "author_abstract",
+    "tokens": 353,
+    "over_limit": false
+  },
+  {
+    "paper": 136,
+    "group": "author_abstract",
+    "tokens": 364,
+    "over_limit": false
+  },
+  {
+    "paper": 137,
+    "group": "author_abstract",
+    "tokens": 362,
+    "over_limit": false
+  },
+  {
+    "paper": 138,
+    "group": "author_abstract",
+    "tokens": 435,
+    "over_limit": false
+  },
+  {
+    "paper": 139,
+    "group": "author_abstract",
+    "tokens": 368,
+    "over_limit": false
+  },
+  {
+    "paper": 140,
+    "group": "author_abstract",
+    "tokens": 347,
+    "over_limit": false
+  },
+  {
+    "paper": 141,
+    "group": "author_abstract",
+    "tokens": 560,
+    "over_limit": true
+  },
+  {
+    "paper": 142,
+    "group": "author_abstract",
+    "tokens": 308,
+    "over_limit": false
+  },
+  {
+    "paper": 143,
+    "group": "author_abstract",
+    "tokens": 279,
+    "over_limit": false
+  },
+  {
+    "paper": 144,
+    "group": "author_abstract",
+    "tokens": 415,
+    "over_limit": false
+  },
+  {
+    "paper": 145,
+    "group": "author_abstract",
+    "tokens": 427,
+    "over_limit": false
+  },
+  {
+    "paper": 146,
+    "group": "author_abstract",
+    "tokens": 365,
+    "over_limit": false
+  },
+  {
+    "paper": 147,
+    "group": "author_abstract",
+    "tokens": 520,
+    "over_limit": true
+  },
+  {
+    "paper": 148,
+    "group": "author_abstract",
+    "tokens": 298,
+    "over_limit": false
+  },
+  {
+    "paper": 149,
+    "group": "author_abstract",
+    "tokens": 504,
+    "over_limit": false
+  },
+  {
+    "paper": 150,
+    "group": "author_abstract",
+    "tokens": 435,
+    "over_limit": false
+  },
+  {
+    "paper": 151,
+    "group": "author_abstract",
+    "tokens": 464,
+    "over_limit": false
+  },
+  {
+    "paper": 152,
+    "group": "author_abstract",
+    "tokens": 388,
+    "over_limit": false
+  },
+  {
+    "paper": 153,
+    "group": "author_abstract",
+    "tokens": 518,
+    "over_limit": true
+  },
+  {
+    "paper": 154,
+    "group": "author_abstract",
+    "tokens": 615,
+    "over_limit": true
+  },
+  {
+    "paper": 155,
+    "group": "author_abstract",
+    "tokens": 376,
+    "over_limit": false
+  },
+  {
+    "paper": 156,
+    "group": "author_abstract",
+    "tokens": 305,
+    "over_limit": false
+  },
+  {
+    "paper": 157,
+    "group": "author_abstract",
+    "tokens": 356,
+    "over_limit": false
+  },
+  {
+    "paper": 158,
+    "group": "author_abstract",
+    "tokens": 406,
+    "over_limit": false
+  },
+  {
+    "paper": 159,
+    "group": "author_abstract",
+    "tokens": 393,
+    "over_limit": false
+  },
+  {
+    "paper": 160,
+    "group": "author_abstract",
+    "tokens": 275,
+    "over_limit": false
+  },
+  {
+    "paper": 161,
+    "group": "author_abstract",
+    "tokens": 319,
+    "over_limit": false
+  },
+  {
+    "paper": 162,
+    "group": "author_abstract",
+    "tokens": 410,
+    "over_limit": false
+  },
+  {
+    "paper": 163,
+    "group": "author_abstract",
+    "tokens": 351,
+    "over_limit": false
+  },
+  {
+    "paper": 164,
+    "group": "author_abstract",
+    "tokens": 416,
+    "over_limit": false
+  },
+  {
+    "paper": 165,
+    "group": "author_abstract",
+    "tokens": 384,
+    "over_limit": false
+  },
+  {
+    "paper": 166,
+    "group": "author_abstract",
+    "tokens": 309,
+    "over_limit": false
+  },
+  {
+    "paper": 167,
+    "group": "author_abstract",
+    "tokens": 317,
+    "over_limit": false
+  },
+  {
+    "paper": 168,
+    "group": "author_abstract",
+    "tokens": 440,
+    "over_limit": false
+  },
+  {
+    "paper": 169,
+    "group": "author_abstract",
+    "tokens": 475,
+    "over_limit": false
+  },
+  {
+    "paper": 170,
+    "group": "author_abstract",
+    "tokens": 402,
+    "over_limit": false
+  },
+  {
+    "paper": 171,
+    "group": "author_abstract",
+    "tokens": 192,
+    "over_limit": false
+  },
+  {
+    "paper": 172,
+    "group": "author_abstract",
+    "tokens": 340,
+    "over_limit": false
+  },
+  {
+    "paper": 173,
+    "group": "author_abstract",
+    "tokens": 544,
+    "over_limit": true
+  },
+  {
+    "paper": 174,
+    "group": "author_abstract",
+    "tokens": 429,
+    "over_limit": false
+  },
+  {
+    "paper": 175,
+    "group": "author_abstract",
+    "tokens": 357,
+    "over_limit": false
+  },
+  {
+    "paper": 176,
+    "group": "author_abstract",
+    "tokens": 375,
+    "over_limit": false
+  },
+  {
+    "paper": 177,
+    "group": "author_abstract",
+    "tokens": 233,
+    "over_limit": false
+  },
+  {
+    "paper": 178,
+    "group": "author_abstract",
+    "tokens": 385,
+    "over_limit": false
+  },
+  {
+    "paper": 179,
+    "group": "author_abstract",
+    "tokens": 377,
+    "over_limit": false
+  },
+  {
+    "paper": 180,
+    "group": "author_abstract",
+    "tokens": 474,
+    "over_limit": false
+  },
+  {
+    "paper": 181,
+    "group": "author_abstract",
+    "tokens": 349,
+    "over_limit": false
+  },
+  {
+    "paper": 182,
+    "group": "author_abstract",
+    "tokens": 391,
+    "over_limit": false
+  },
+  {
+    "paper": 183,
+    "group": "author_abstract",
+    "tokens": 399,
+    "over_limit": false
+  },
+  {
+    "paper": 184,
+    "group": "author_abstract",
+    "tokens": 352,
+    "over_limit": false
+  },
+  {
+    "paper": 185,
+    "group": "author_abstract",
+    "tokens": 399,
+    "over_limit": false
+  },
+  {
+    "paper": 186,
+    "group": "author_abstract",
+    "tokens": 278,
+    "over_limit": false
+  },
+  {
+    "paper": 187,
+    "group": "author_abstract",
+    "tokens": 409,
+    "over_limit": false
+  },
+  {
+    "paper": 188,
+    "group": "author_abstract",
+    "tokens": 271,
+    "over_limit": false
+  },
+  {
+    "paper": 189,
+    "group": "author_abstract",
+    "tokens": 280,
+    "over_limit": false
+  },
+  {
+    "paper": 190,
+    "group": "author_abstract",
+    "tokens": 515,
+    "over_limit": true
+  },
+  {
+    "paper": 191,
+    "group": "author_abstract",
+    "tokens": 398,
+    "over_limit": false
+  },
+  {
+    "paper": 192,
+    "group": "author_abstract",
+    "tokens": 521,
+    "over_limit": true
+  },
+  {
+    "paper": 193,
+    "group": "author_abstract",
+    "tokens": 267,
+    "over_limit": false
+  },
+  {
+    "paper": 194,
+    "group": "author_abstract",
+    "tokens": 415,
+    "over_limit": false
+  },
+  {
+    "paper": 195,
+    "group": "author_abstract",
+    "tokens": 340,
+    "over_limit": false
+  },
+  {
+    "paper": 196,
+    "group": "author_abstract",
+    "tokens": 422,
+    "over_limit": false
+  },
+  {
+    "paper": 197,
+    "group": "author_abstract",
+    "tokens": 319,
+    "over_limit": false
+  },
+  {
+    "paper": 198,
+    "group": "author_abstract",
+    "tokens": 278,
+    "over_limit": false
+  },
+  {
+    "paper": 199,
+    "group": "author_abstract",
+    "tokens": 451,
+    "over_limit": false
+  },
+  {
+    "paper": 200,
+    "group": "author_abstract",
+    "tokens": 271,
+    "over_limit": false
+  },
+  {
+    "paper": 1,
+    "group": "gpt_reference",
+    "tokens": 241,
+    "over_limit": false
+  },
+  {
+    "paper": 2,
+    "group": "gpt_reference",
+    "tokens": 267,
+    "over_limit": false
+  },
+  {
+    "paper": 3,
+    "group": "gpt_reference",
+    "tokens": 243,
+    "over_limit": false
+  },
+  {
+    "paper": 4,
+    "group": "gpt_reference",
+    "tokens": 259,
+    "over_limit": false
+  },
+  {
+    "paper": 5,
+    "group": "gpt_reference",
+    "tokens": 273,
+    "over_limit": false
+  },
+  {
+    "paper": 6,
+    "group": "gpt_reference",
+    "tokens": 291,
+    "over_limit": false
+  },
+  {
+    "paper": 7,
+    "group": "gpt_reference",
+    "tokens": 269,
+    "over_limit": false
+  },
+  {
+    "paper": 8,
+    "group": "gpt_reference",
+    "tokens": 267,
+    "over_limit": false
+  },
+  {
+    "paper": 9,
+    "group": "gpt_reference",
+    "tokens": 287,
+    "over_limit": false
+  },
+  {
+    "paper": 10,
+    "group": "gpt_reference",
+    "tokens": 333,
+    "over_limit": false
+  },
+  {
+    "paper": 11,
+    "group": "gpt_reference",
+    "tokens": 326,
+    "over_limit": false
+  },
+  {
+    "paper": 12,
+    "group": "gpt_reference",
+    "tokens": 363,
+    "over_limit": false
+  },
+  {
+    "paper": 13,
+    "group": "gpt_reference",
+    "tokens": 304,
+    "over_limit": false
+  },
+  {
+    "paper": 14,
+    "group": "gpt_reference",
+    "tokens": 295,
+    "over_limit": false
+  },
+  {
+    "paper": 15,
+    "group": "gpt_reference",
+    "tokens": 323,
+    "over_limit": false
+  },
+  {
+    "paper": 16,
+    "group": "gpt_reference",
+    "tokens": 283,
+    "over_limit": false
+  },
+  {
+    "paper": 17,
+    "group": "gpt_reference",
+    "tokens": 361,
+    "over_limit": false
+  },
+  {
+    "paper": 18,
+    "group": "gpt_reference",
+    "tokens": 327,
+    "over_limit": false
+  },
+  {
+    "paper": 19,
+    "group": "gpt_reference",
+    "tokens": 323,
+    "over_limit": false
+  },
+  {
+    "paper": 20,
+    "group": "gpt_reference",
+    "tokens": 304,
+    "over_limit": false
+  },
+  {
+    "paper": 21,
+    "group": "gpt_reference",
+    "tokens": 299,
+    "over_limit": false
+  },
+  {
+    "paper": 22,
+    "group": "gpt_reference",
+    "tokens": 301,
+    "over_limit": false
+  },
+  {
+    "paper": 23,
+    "group": "gpt_reference",
+    "tokens": 296,
+    "over_limit": false
+  },
+  {
+    "paper": 24,
+    "group": "gpt_reference",
+    "tokens": 304,
+    "over_limit": false
+  },
+  {
+    "paper": 25,
+    "group": "gpt_reference",
+    "tokens": 301,
+    "over_limit": false
+  },
+  {
+    "paper": 26,
+    "group": "gpt_reference",
+    "tokens": 301,
+    "over_limit": false
+  },
+  {
+    "paper": 27,
+    "group": "gpt_reference",
+    "tokens": 325,
+    "over_limit": false
+  },
+  {
+    "paper": 28,
+    "group": "gpt_reference",
+    "tokens": 308,
+    "over_limit": false
+  },
+  {
+    "paper": 29,
+    "group": "gpt_reference",
+    "tokens": 303,
+    "over_limit": false
+  },
+  {
+    "paper": 30,
+    "group": "gpt_reference",
+    "tokens": 319,
+    "over_limit": false
+  },
+  {
+    "paper": 31,
+    "group": "gpt_reference",
+    "tokens": 317,
+    "over_limit": false
+  },
+  {
+    "paper": 32,
+    "group": "gpt_reference",
+    "tokens": 297,
+    "over_limit": false
+  },
+  {
+    "paper": 33,
+    "group": "gpt_reference",
+    "tokens": 373,
+    "over_limit": false
+  },
+  {
+    "paper": 34,
+    "group": "gpt_reference",
+    "tokens": 310,
+    "over_limit": false
+  },
+  {
+    "paper": 35,
+    "group": "gpt_reference",
+    "tokens": 298,
+    "over_limit": false
+  },
+  {
+    "paper": 36,
+    "group": "gpt_reference",
+    "tokens": 298,
+    "over_limit": false
+  },
+  {
+    "paper": 37,
+    "group": "gpt_reference",
+    "tokens": 290,
+    "over_limit": false
+  },
+  {
+    "paper": 38,
+    "group": "gpt_reference",
+    "tokens": 334,
+    "over_limit": false
+  },
+  {
+    "paper": 39,
+    "group": "gpt_reference",
+    "tokens": 323,
+    "over_limit": false
+  },
+  {
+    "paper": 40,
+    "group": "gpt_reference",
+    "tokens": 287,
+    "over_limit": false
+  },
+  {
+    "paper": 41,
+    "group": "gpt_reference",
+    "tokens": 375,
+    "over_limit": false
+  },
+  {
+    "paper": 42,
+    "group": "gpt_reference",
+    "tokens": 380,
+    "over_limit": false
+  },
+  {
+    "paper": 43,
+    "group": "gpt_reference",
+    "tokens": 363,
+    "over_limit": false
+  },
+  {
+    "paper": 44,
+    "group": "gpt_reference",
+    "tokens": 385,
+    "over_limit": false
+  },
+  {
+    "paper": 45,
+    "group": "gpt_reference",
+    "tokens": 381,
+    "over_limit": false
+  },
+  {
+    "paper": 46,
+    "group": "gpt_reference",
+    "tokens": 310,
+    "over_limit": false
+  },
+  {
+    "paper": 47,
+    "group": "gpt_reference",
+    "tokens": 321,
+    "over_limit": false
+  },
+  {
+    "paper": 48,
+    "group": "gpt_reference",
+    "tokens": 335,
+    "over_limit": false
+  },
+  {
+    "paper": 49,
+    "group": "gpt_reference",
+    "tokens": 351,
+    "over_limit": false
+  },
+  {
+    "paper": 50,
+    "group": "gpt_reference",
+    "tokens": 392,
+    "over_limit": false
+  },
+  {
+    "paper": 51,
+    "group": "gpt_reference",
+    "tokens": 372,
+    "over_limit": false
+  },
+  {
+    "paper": 52,
+    "group": "gpt_reference",
+    "tokens": 339,
+    "over_limit": false
+  },
+  {
+    "paper": 53,
+    "group": "gpt_reference",
+    "tokens": 332,
+    "over_limit": false
+  },
+  {
+    "paper": 54,
+    "group": "gpt_reference",
+    "tokens": 360,
+    "over_limit": false
+  },
+  {
+    "paper": 55,
+    "group": "gpt_reference",
+    "tokens": 325,
+    "over_limit": false
+  },
+  {
+    "paper": 56,
+    "group": "gpt_reference",
+    "tokens": 370,
+    "over_limit": false
+  },
+  {
+    "paper": 57,
+    "group": "gpt_reference",
+    "tokens": 334,
+    "over_limit": false
+  },
+  {
+    "paper": 58,
+    "group": "gpt_reference",
+    "tokens": 332,
+    "over_limit": false
+  },
+  {
+    "paper": 59,
+    "group": "gpt_reference",
+    "tokens": 371,
+    "over_limit": false
+  },
+  {
+    "paper": 60,
+    "group": "gpt_reference",
+    "tokens": 337,
+    "over_limit": false
+  },
+  {
+    "paper": 61,
+    "group": "gpt_reference",
+    "tokens": 293,
+    "over_limit": false
+  },
+  {
+    "paper": 62,
+    "group": "gpt_reference",
+    "tokens": 360,
+    "over_limit": false
+  },
+  {
+    "paper": 63,
+    "group": "gpt_reference",
+    "tokens": 350,
+    "over_limit": false
+  },
+  {
+    "paper": 64,
+    "group": "gpt_reference",
+    "tokens": 320,
+    "over_limit": false
+  },
+  {
+    "paper": 65,
+    "group": "gpt_reference",
+    "tokens": 341,
+    "over_limit": false
+  },
+  {
+    "paper": 66,
+    "group": "gpt_reference",
+    "tokens": 339,
+    "over_limit": false
+  },
+  {
+    "paper": 67,
+    "group": "gpt_reference",
+    "tokens": 327,
+    "over_limit": false
+  },
+  {
+    "paper": 68,
+    "group": "gpt_reference",
+    "tokens": 254,
+    "over_limit": false
+  },
+  {
+    "paper": 69,
+    "group": "gpt_reference",
+    "tokens": 249,
+    "over_limit": false
+  },
+  {
+    "paper": 70,
+    "group": "gpt_reference",
+    "tokens": 298,
+    "over_limit": false
+  },
+  {
+    "paper": 71,
+    "group": "gpt_reference",
+    "tokens": 270,
+    "over_limit": false
+  },
+  {
+    "paper": 72,
+    "group": "gpt_reference",
+    "tokens": 266,
+    "over_limit": false
+  },
+  {
+    "paper": 73,
+    "group": "gpt_reference",
+    "tokens": 279,
+    "over_limit": false
+  },
+  {
+    "paper": 74,
+    "group": "gpt_reference",
+    "tokens": 277,
+    "over_limit": false
+  },
+  {
+    "paper": 75,
+    "group": "gpt_reference",
+    "tokens": 263,
+    "over_limit": false
+  },
+  {
+    "paper": 76,
+    "group": "gpt_reference",
+    "tokens": 263,
+    "over_limit": false
+  },
+  {
+    "paper": 77,
+    "group": "gpt_reference",
+    "tokens": 337,
+    "over_limit": false
+  },
+  {
+    "paper": 78,
+    "group": "gpt_reference",
+    "tokens": 345,
+    "over_limit": false
+  },
+  {
+    "paper": 79,
+    "group": "gpt_reference",
+    "tokens": 292,
+    "over_limit": false
+  },
+  {
+    "paper": 80,
+    "group": "gpt_reference",
+    "tokens": 371,
+    "over_limit": false
+  },
+  {
+    "paper": 81,
+    "group": "gpt_reference",
+    "tokens": 318,
+    "over_limit": false
+  },
+  {
+    "paper": 82,
+    "group": "gpt_reference",
+    "tokens": 320,
+    "over_limit": false
+  },
+  {
+    "paper": 83,
+    "group": "gpt_reference",
+    "tokens": 383,
+    "over_limit": false
+  },
+  {
+    "paper": 84,
+    "group": "gpt_reference",
+    "tokens": 369,
+    "over_limit": false
+  },
+  {
+    "paper": 85,
+    "group": "gpt_reference",
+    "tokens": 308,
+    "over_limit": false
+  },
+  {
+    "paper": 86,
+    "group": "gpt_reference",
+    "tokens": 356,
+    "over_limit": false
+  },
+  {
+    "paper": 87,
+    "group": "gpt_reference",
+    "tokens": 345,
+    "over_limit": false
+  },
+  {
+    "paper": 88,
+    "group": "gpt_reference",
+    "tokens": 331,
+    "over_limit": false
+  },
+  {
+    "paper": 89,
+    "group": "gpt_reference",
+    "tokens": 320,
+    "over_limit": false
+  },
+  {
+    "paper": 90,
+    "group": "gpt_reference",
+    "tokens": 377,
+    "over_limit": false
+  },
+  {
+    "paper": 91,
+    "group": "gpt_reference",
+    "tokens": 267,
+    "over_limit": false
+  },
+  {
+    "paper": 92,
+    "group": "gpt_reference",
+    "tokens": 345,
+    "over_limit": false
+  },
+  {
+    "paper": 93,
+    "group": "gpt_reference",
+    "tokens": 358,
+    "over_limit": false
+  },
+  {
+    "paper": 94,
+    "group": "gpt_reference",
+    "tokens": 317,
+    "over_limit": false
+  },
+  {
+    "paper": 95,
+    "group": "gpt_reference",
+    "tokens": 349,
+    "over_limit": false
+  },
+  {
+    "paper": 96,
+    "group": "gpt_reference",
+    "tokens": 357,
+    "over_limit": false
+  },
+  {
+    "paper": 97,
+    "group": "gpt_reference",
+    "tokens": 365,
+    "over_limit": false
+  },
+  {
+    "paper": 98,
+    "group": "gpt_reference",
+    "tokens": 357,
+    "over_limit": false
+  },
+  {
+    "paper": 99,
+    "group": "gpt_reference",
+    "tokens": 300,
+    "over_limit": false
+  },
+  {
+    "paper": 100,
+    "group": "gpt_reference",
+    "tokens": 364,
+    "over_limit": false
+  },
+  {
+    "paper": 101,
+    "group": "gpt_reference",
+    "tokens": 303,
+    "over_limit": false
+  },
+  {
+    "paper": 102,
+    "group": "gpt_reference",
+    "tokens": 314,
+    "over_limit": false
+  },
+  {
+    "paper": 103,
+    "group": "gpt_reference",
+    "tokens": 319,
+    "over_limit": false
+  },
+  {
+    "paper": 104,
+    "group": "gpt_reference",
+    "tokens": 332,
+    "over_limit": false
+  },
+  {
+    "paper": 105,
+    "group": "gpt_reference",
+    "tokens": 300,
+    "over_limit": false
+  },
+  {
+    "paper": 106,
+    "group": "gpt_reference",
+    "tokens": 352,
+    "over_limit": false
+  },
+  {
+    "paper": 107,
+    "group": "gpt_reference",
+    "tokens": 337,
+    "over_limit": false
+  },
+  {
+    "paper": 108,
+    "group": "gpt_reference",
+    "tokens": 316,
+    "over_limit": false
+  },
+  {
+    "paper": 109,
+    "group": "gpt_reference",
+    "tokens": 377,
+    "over_limit": false
+  },
+  {
+    "paper": 110,
+    "group": "gpt_reference",
+    "tokens": 361,
+    "over_limit": false
+  },
+  {
+    "paper": 111,
+    "group": "gpt_reference",
+    "tokens": 289,
+    "over_limit": false
+  },
+  {
+    "paper": 112,
+    "group": "gpt_reference",
+    "tokens": 341,
+    "over_limit": false
+  },
+  {
+    "paper": 113,
+    "group": "gpt_reference",
+    "tokens": 298,
+    "over_limit": false
+  },
+  {
+    "paper": 114,
+    "group": "gpt_reference",
+    "tokens": 283,
+    "over_limit": false
+  },
+  {
+    "paper": 115,
+    "group": "gpt_reference",
+    "tokens": 368,
+    "over_limit": false
+  },
+  {
+    "paper": 116,
+    "group": "gpt_reference",
+    "tokens": 324,
+    "over_limit": false
+  },
+  {
+    "paper": 117,
+    "group": "gpt_reference",
+    "tokens": 292,
+    "over_limit": false
+  },
+  {
+    "paper": 118,
+    "group": "gpt_reference",
+    "tokens": 347,
+    "over_limit": false
+  },
+  {
+    "paper": 119,
+    "group": "gpt_reference",
+    "tokens": 310,
+    "over_limit": false
+  },
+  {
+    "paper": 120,
+    "group": "gpt_reference",
+    "tokens": 345,
+    "over_limit": false
+  },
+  {
+    "paper": 121,
+    "group": "gpt_reference",
+    "tokens": 309,
+    "over_limit": false
+  },
+  {
+    "paper": 122,
+    "group": "gpt_reference",
+    "tokens": 346,
+    "over_limit": false
+  },
+  {
+    "paper": 123,
+    "group": "gpt_reference",
+    "tokens": 310,
+    "over_limit": false
+  },
+  {
+    "paper": 124,
+    "group": "gpt_reference",
+    "tokens": 336,
+    "over_limit": false
+  },
+  {
+    "paper": 125,
+    "group": "gpt_reference",
+    "tokens": 332,
+    "over_limit": false
+  },
+  {
+    "paper": 126,
+    "group": "gpt_reference",
+    "tokens": 317,
+    "over_limit": false
+  },
+  {
+    "paper": 127,
+    "group": "gpt_reference",
+    "tokens": 347,
+    "over_limit": false
+  },
+  {
+    "paper": 128,
+    "group": "gpt_reference",
+    "tokens": 366,
+    "over_limit": false
+  },
+  {
+    "paper": 129,
+    "group": "gpt_reference",
+    "tokens": 339,
+    "over_limit": false
+  },
+  {
+    "paper": 130,
+    "group": "gpt_reference",
+    "tokens": 325,
+    "over_limit": false
+  },
+  {
+    "paper": 131,
+    "group": "gpt_reference",
+    "tokens": 299,
+    "over_limit": false
+  },
+  {
+    "paper": 132,
+    "group": "gpt_reference",
+    "tokens": 322,
+    "over_limit": false
+  },
+  {
+    "paper": 133,
+    "group": "gpt_reference",
+    "tokens": 334,
+    "over_limit": false
+  },
+  {
+    "paper": 134,
+    "group": "gpt_reference",
+    "tokens": 314,
+    "over_limit": false
+  },
+  {
+    "paper": 135,
+    "group": "gpt_reference",
+    "tokens": 251,
+    "over_limit": false
+  },
+  {
+    "paper": 136,
+    "group": "gpt_reference",
+    "tokens": 263,
+    "over_limit": false
+  },
+  {
+    "paper": 137,
+    "group": "gpt_reference",
+    "tokens": 242,
+    "over_limit": false
+  },
+  {
+    "paper": 138,
+    "group": "gpt_reference",
+    "tokens": 307,
+    "over_limit": false
+  },
+  {
+    "paper": 139,
+    "group": "gpt_reference",
+    "tokens": 259,
+    "over_limit": false
+  },
+  {
+    "paper": 140,
+    "group": "gpt_reference",
+    "tokens": 245,
+    "over_limit": false
+  },
+  {
+    "paper": 141,
+    "group": "gpt_reference",
+    "tokens": 280,
+    "over_limit": false
+  },
+  {
+    "paper": 142,
+    "group": "gpt_reference",
+    "tokens": 328,
+    "over_limit": false
+  },
+  {
+    "paper": 143,
+    "group": "gpt_reference",
+    "tokens": 335,
+    "over_limit": false
+  },
+  {
+    "paper": 144,
+    "group": "gpt_reference",
+    "tokens": 342,
+    "over_limit": false
+  },
+  {
+    "paper": 145,
+    "group": "gpt_reference",
+    "tokens": 313,
+    "over_limit": false
+  },
+  {
+    "paper": 146,
+    "group": "gpt_reference",
+    "tokens": 320,
+    "over_limit": false
+  },
+  {
+    "paper": 147,
+    "group": "gpt_reference",
+    "tokens": 303,
+    "over_limit": false
+  },
+  {
+    "paper": 148,
+    "group": "gpt_reference",
+    "tokens": 372,
+    "over_limit": false
+  },
+  {
+    "paper": 149,
+    "group": "gpt_reference",
+    "tokens": 350,
+    "over_limit": false
+  },
+  {
+    "paper": 150,
+    "group": "gpt_reference",
+    "tokens": 298,
+    "over_limit": false
+  },
+  {
+    "paper": 151,
+    "group": "gpt_reference",
+    "tokens": 343,
+    "over_limit": false
+  },
+  {
+    "paper": 152,
+    "group": "gpt_reference",
+    "tokens": 309,
+    "over_limit": false
+  },
+  {
+    "paper": 153,
+    "group": "gpt_reference",
+    "tokens": 338,
+    "over_limit": false
+  },
+  {
+    "paper": 154,
+    "group": "gpt_reference",
+    "tokens": 323,
+    "over_limit": false
+  },
+  {
+    "paper": 155,
+    "group": "gpt_reference",
+    "tokens": 310,
+    "over_limit": false
+  },
+  {
+    "paper": 156,
+    "group": "gpt_reference",
+    "tokens": 309,
+    "over_limit": false
+  },
+  {
+    "paper": 157,
+    "group": "gpt_reference",
+    "tokens": 375,
+    "over_limit": false
+  },
+  {
+    "paper": 158,
+    "group": "gpt_reference",
+    "tokens": 325,
+    "over_limit": false
+  },
+  {
+    "paper": 159,
+    "group": "gpt_reference",
+    "tokens": 312,
+    "over_limit": false
+  },
+  {
+    "paper": 160,
+    "group": "gpt_reference",
+    "tokens": 351,
+    "over_limit": false
+  },
+  {
+    "paper": 161,
+    "group": "gpt_reference",
+    "tokens": 323,
+    "over_limit": false
+  },
+  {
+    "paper": 162,
+    "group": "gpt_reference",
+    "tokens": 343,
+    "over_limit": false
+  },
+  {
+    "paper": 163,
+    "group": "gpt_reference",
+    "tokens": 317,
+    "over_limit": false
+  },
+  {
+    "paper": 164,
+    "group": "gpt_reference",
+    "tokens": 320,
+    "over_limit": false
+  },
+  {
+    "paper": 165,
+    "group": "gpt_reference",
+    "tokens": 309,
+    "over_limit": false
+  },
+  {
+    "paper": 166,
+    "group": "gpt_reference",
+    "tokens": 349,
+    "over_limit": false
+  },
+  {
+    "paper": 167,
+    "group": "gpt_reference",
+    "tokens": 317,
+    "over_limit": false
+  },
+  {
+    "paper": 168,
+    "group": "gpt_reference",
+    "tokens": 327,
+    "over_limit": false
+  },
+  {
+    "paper": 169,
+    "group": "gpt_reference",
+    "tokens": 349,
+    "over_limit": false
+  },
+  {
+    "paper": 170,
+    "group": "gpt_reference",
+    "tokens": 339,
+    "over_limit": false
+  },
+  {
+    "paper": 171,
+    "group": "gpt_reference",
+    "tokens": 327,
+    "over_limit": false
+  },
+  {
+    "paper": 172,
+    "group": "gpt_reference",
+    "tokens": 335,
+    "over_limit": false
+  },
+  {
+    "paper": 173,
+    "group": "gpt_reference",
+    "tokens": 327,
+    "over_limit": false
+  },
+  {
+    "paper": 174,
+    "group": "gpt_reference",
+    "tokens": 355,
+    "over_limit": false
+  },
+  {
+    "paper": 175,
+    "group": "gpt_reference",
+    "tokens": 380,
+    "over_limit": false
+  },
+  {
+    "paper": 176,
+    "group": "gpt_reference",
+    "tokens": 283,
+    "over_limit": false
+  },
+  {
+    "paper": 177,
+    "group": "gpt_reference",
+    "tokens": 313,
+    "over_limit": false
+  },
+  {
+    "paper": 178,
+    "group": "gpt_reference",
+    "tokens": 347,
+    "over_limit": false
+  },
+  {
+    "paper": 179,
+    "group": "gpt_reference",
+    "tokens": 299,
+    "over_limit": false
+  },
+  {
+    "paper": 180,
+    "group": "gpt_reference",
+    "tokens": 327,
+    "over_limit": false
+  },
+  {
+    "paper": 181,
+    "group": "gpt_reference",
+    "tokens": 310,
+    "over_limit": false
+  },
+  {
+    "paper": 182,
+    "group": "gpt_reference",
+    "tokens": 310,
+    "over_limit": false
+  },
+  {
+    "paper": 183,
+    "group": "gpt_reference",
+    "tokens": 304,
+    "over_limit": false
+  },
+  {
+    "paper": 184,
+    "group": "gpt_reference",
+    "tokens": 310,
+    "over_limit": false
+  },
+  {
+    "paper": 185,
+    "group": "gpt_reference",
+    "tokens": 303,
+    "over_limit": false
+  },
+  {
+    "paper": 186,
+    "group": "gpt_reference",
+    "tokens": 337,
+    "over_limit": false
+  },
+  {
+    "paper": 187,
+    "group": "gpt_reference",
+    "tokens": 318,
+    "over_limit": false
+  },
+  {
+    "paper": 188,
+    "group": "gpt_reference",
+    "tokens": 304,
+    "over_limit": false
+  },
+  {
+    "paper": 189,
+    "group": "gpt_reference",
+    "tokens": 290,
+    "over_limit": false
+  },
+  {
+    "paper": 190,
+    "group": "gpt_reference",
+    "tokens": 322,
+    "over_limit": false
+  },
+  {
+    "paper": 191,
+    "group": "gpt_reference",
+    "tokens": 326,
+    "over_limit": false
+  },
+  {
+    "paper": 192,
+    "group": "gpt_reference",
+    "tokens": 345,
+    "over_limit": false
+  },
+  {
+    "paper": 193,
+    "group": "gpt_reference",
+    "tokens": 299,
+    "over_limit": false
+  },
+  {
+    "paper": 194,
+    "group": "gpt_reference",
+    "tokens": 304,
+    "over_limit": false
+  },
+  {
+    "paper": 195,
+    "group": "gpt_reference",
+    "tokens": 293,
+    "over_limit": false
+  },
+  {
+    "paper": 196,
+    "group": "gpt_reference",
+    "tokens": 350,
+    "over_limit": false
+  },
+  {
+    "paper": 197,
+    "group": "gpt_reference",
+    "tokens": 322,
+    "over_limit": false
+  },
+  {
+    "paper": 198,
+    "group": "gpt_reference",
+    "tokens": 323,
+    "over_limit": false
+  },
+  {
+    "paper": 199,
+    "group": "gpt_reference",
+    "tokens": 312,
+    "over_limit": false
+  },
+  {
+    "paper": 200,
+    "group": "gpt_reference",
+    "tokens": 286,
+    "over_limit": false
+  }
+]
