@@ -1,0 +1,14 @@
+{
+  "state": "completed",
+  "profile_id": "cardiovascular",
+  "parallel": 4,
+  "effective_sequences": 4,
+  "requests": 200,
+  "valid": 200,
+  "elapsed_s": 161.56685832701623,
+  "documents_per_minute": 74.27265792166135,
+  "median_latency_s": 3.1804665925446898,
+  "shared_service_activity": false,
+  "finished_utc": "2026-10-31T11:52:28.582477+00:00",
+  "backend": "llama_cpp"
+}

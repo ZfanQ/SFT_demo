@@ -1,0 +1,58 @@
+[
+  {
+    "round": 2,
+    "parallel": 2,
+    "paper_id": "paper019",
+    "first_serial_score": 2,
+    "score": 1
+  },
+  {
+    "round": 3,
+    "parallel": 4,
+    "paper_id": "paper019",
+    "first_serial_score": 2,
+    "score": 1
+  },
+  {
+    "round": 3,
+    "parallel": 4,
+    "paper_id": "paper038",
+    "first_serial_score": 0,
+    "score": 1
+  },
+  {
+    "round": 4,
+    "parallel": 4,
+    "paper_id": "paper019",
+    "first_serial_score": 2,
+    "score": 1
+  },
+  {
+    "round": 4,
+    "parallel": 4,
+    "paper_id": "paper060",
+    "first_serial_score": 2,
+    "score": 3
+  },
+  {
+    "round": 4,
+    "parallel": 4,
+    "paper_id": "paper137",
+    "first_serial_score": 0,
+    "score": 1
+  },
+  {
+    "round": 5,
+    "parallel": 2,
+    "paper_id": "paper019",
+    "first_serial_score": 2,
+    "score": 1
+  },
+  {
+    "round": 5,
+    "parallel": 2,
+    "paper_id": "paper038",
+    "first_serial_score": 0,
+    "score": 1
+  }
+]

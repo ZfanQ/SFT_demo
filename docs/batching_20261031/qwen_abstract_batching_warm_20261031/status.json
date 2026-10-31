@@ -1,0 +1,9 @@
+{
+  "state": "completed",
+  "started_utc": "2026-10-31T10:37:16.084670+00:00",
+  "completed_rounds": 6,
+  "current_round": 6,
+  "parallel": 1,
+  "inferences": 192,
+  "finished_utc": "2026-10-31T10:39:56.691640+00:00"
+}

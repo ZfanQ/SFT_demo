@@ -1,0 +1,1 @@
+This study examined the role of N6-methyladenosine (m6A) in temozolomide (TMZ) resistance in glioblastoma (GBM) cells, finding that METTL3 inhibition reduced TMZ resistance by destabilizing m6A-methylated transcripts like MGMT. However, the results are based on in vitro models, and the full mechanisms of m6A regulation in TMZ resistance remain unclear.

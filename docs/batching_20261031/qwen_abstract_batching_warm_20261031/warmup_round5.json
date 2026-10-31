@@ -1,0 +1,82 @@
+[
+  {
+    "paper_id": "paper171",
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T10:39:11.011717294Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"paper_id\": \"paper171\", \"relevance\": 3}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4510483331,
+      "load_duration": 3499843794,
+      "prompt_eval_count": 318,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 264583000,
+      "eval_count": 18,
+      "eval_duration": 366669000
+    }
+  },
+  {
+    "paper_id": "paper073",
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T10:39:10.994181963Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"paper_id\": \"paper073\", \"relevance\": 1}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4493327818,
+      "load_duration": 3498144733,
+      "prompt_eval_count": 337,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 366019000,
+      "eval_count": 18,
+      "eval_duration": 614219000
+    }
+  },
+  {
+    "paper_id": "paper097",
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T10:39:11.875658444Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"paper_id\": \"paper097\", \"relevance\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 874775178,
+      "load_duration": 2244734,
+      "prompt_eval_count": 463,
+      "prompt_eval_cached_count": 107,
+      "prompt_eval_duration": 408999000,
+      "eval_count": 18,
+      "eval_duration": 343378000
+    }
+  },
+  {
+    "paper_id": "paper167",
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T10:39:11.874884149Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"paper_id\": \"paper167\", \"relevance\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 862070550,
+      "load_duration": 4003693,
+      "prompt_eval_count": 465,
+      "prompt_eval_cached_count": 107,
+      "prompt_eval_duration": 408072000,
+      "eval_count": 18,
+      "eval_duration": 343852000
+    }
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "audio_path": "/Users/fredericzhang/Documents/GitHub/SFT_demo/Meetings/GMT20261023-133731_Recording_1920x1080.mp4",
+  "audio_sha256": "c0fd0d7fb5e3b36921ed265563af2ba201a191521d2fafcd5ff33fc63fa3f118",
+  "model_path": "/Users/fredericzhang/.local/share/sft-transcription/models/whisper-large-v3",
+  "offset_seconds": 0,
+  "duration_seconds": 345.3866875,
+  "runtime_seconds": 69.02110719680786,
+  "mlx_whisper_version": "0.4.3",
+  "language": "en",
+  "temperature_fallback": [
+    0.0,
+    0.2,
+    0.4,
+    0.6
+  ],
+  "condition_on_previous_text": false,
+  "hallucination_silence_threshold": 2.0,
+  "word_timestamps": true,
+  "initial_prompt_is_vocabulary_only": true,
+  "speaker_diarization": false,
+  "status": "automatic transcription; not a verbatim human-certified transcript",
+  "analysis_date": "2026-10-31",
+  "recording_date_from_filename": "2026-10-23",
+  "recording_is_recap_not_complete_meeting": true,
+  "independent_recheck": {
+    "start_seconds": 90,
+    "duration_seconds": 210,
+    "model": "whisper-turbo",
+    "no_initial_prompt": true
+  },
+  "video_frames_inspected_seconds": [
+    30,
+    120,
+    240
+  ],
+  "suspicious_automatic_segments": [],
+  "exact_new_model_identifier": "uncertain; not used to select a model",
+  "analysis_file": "next_steps_en.md"
+}

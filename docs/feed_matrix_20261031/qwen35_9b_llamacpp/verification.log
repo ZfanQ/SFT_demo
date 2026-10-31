@@ -1,0 +1,102 @@
+{
+  "label": "qwen35_9b_llamacpp",
+  "state": "verified_complete",
+  "timed_requests": 1800,
+  "aggregates": [
+    {
+      "parallel": 2,
+      "profiles": 3,
+      "requests": 600,
+      "elapsed_s": 545.389890155755,
+      "documents_per_minute": 66.00782421859516,
+      "median_latency_s": 1.7850677808746696,
+      "p95_latency_s": 2.5197566646849734,
+      "peak_sampled_memory_mib": 5445.0,
+      "output_tokens_per_second": 30.079398786279267
+    },
+    {
+      "parallel": 4,
+      "profiles": 3,
+      "requests": 600,
+      "elapsed_s": 484.4666263102554,
+      "documents_per_minute": 74.30852414784374,
+      "median_latency_s": 3.169120356440544,
+      "p95_latency_s": 4.308030204288661,
+      "peak_sampled_memory_mib": 5803.0,
+      "output_tokens_per_second": 34.192241736361986
+    },
+    {
+      "parallel": 8,
+      "profiles": 3,
+      "requests": 600,
+      "elapsed_s": 454.027083333116,
+      "documents_per_minute": 79.29042412121281,
+      "median_latency_s": 5.848512275144458,
+      "p95_latency_s": 8.101835827389731,
+      "peak_sampled_memory_mib": 6515.0,
+      "output_tokens_per_second": 36.82379446895992
+    }
+  ],
+  "stability_vs_p2": [
+    {
+      "profile_id": "oncology",
+      "parallel": 4,
+      "reference_parallel": 2,
+      "pairs": 200,
+      "exact_agreement": 0.99,
+      "mean_absolute_difference": 0.01,
+      "relevant_threshold_flips": 1,
+      "tied_rank_spearman": 0.992480386315143
+    },
+    {
+      "profile_id": "oncology",
+      "parallel": 8,
+      "reference_parallel": 2,
+      "pairs": 200,
+      "exact_agreement": 0.98,
+      "mean_absolute_difference": 0.02,
+      "relevant_threshold_flips": 1,
+      "tied_rank_spearman": 0.9775830264012076
+    },
+    {
+      "profile_id": "cardiovascular",
+      "parallel": 4,
+      "reference_parallel": 2,
+      "pairs": 200,
+      "exact_agreement": 0.945,
+      "mean_absolute_difference": 0.055,
+      "relevant_threshold_flips": 2,
+      "tied_rank_spearman": 0.8986020614879202
+    },
+    {
+      "profile_id": "cardiovascular",
+      "parallel": 8,
+      "reference_parallel": 2,
+      "pairs": 200,
+      "exact_agreement": 0.95,
+      "mean_absolute_difference": 0.05,
+      "relevant_threshold_flips": 3,
+      "tied_rank_spearman": 0.9207829490829378
+    },
+    {
+      "profile_id": "neuroscience",
+      "parallel": 4,
+      "reference_parallel": 2,
+      "pairs": 200,
+      "exact_agreement": 0.985,
+      "mean_absolute_difference": 0.015,
+      "relevant_threshold_flips": 1,
+      "tied_rank_spearman": 0.9882956874877313
+    },
+    {
+      "profile_id": "neuroscience",
+      "parallel": 8,
+      "reference_parallel": 2,
+      "pairs": 200,
+      "exact_agreement": 0.98,
+      "mean_absolute_difference": 0.02,
+      "relevant_threshold_flips": 0,
+      "tied_rank_spearman": 0.9772830698599227
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "evaluation_date": "2026-10-23",
+  "candidate_model": "google/gemma-4-12B-it",
+  "judge_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "scope": "scores_only_complete_pdf",
+  "paper_count": 200,
+  "candidate_words": {
+    "min": 158,
+    "max": 203
+  },
+  "reference_files_identical_to_qwen_snapshot": true,
+  "rubric_difference_from_qwen": "Candidate name Qwen replaced by Gemma; criteria, weights, scale, score cap and score-only instructions unchanged.",
+  "scores_not_error_adjudication": true,
+  "scripts": {
+    "score_gemma_gpt.py": "51590a872351dccc112956a4f17802e9a43f84c5425bcb5b734b17e6e3c9ceca",
+    "score_gemma_saved_summaries.py": "111669f05e5da101a9835a2e0f17923ba5ee33b657aba75b60131e6749f5192e",
+    "prepare_gemma_judge_inputs.py": "488daea27ce3ef8e3668bb400e27ec6b1ee6a6eba7b1997aea5adaaf08f6d8fc",
+    "verify_gemma_evaluation.py": "481db6e6530fc117c4d971e03aa7801f2f4781f451f44d1dcf8873b3a645fce6"
+  },
+  "codex_cli_version": "codex-cli 0.163.0-alpha.11.1",
+  "concurrent_requests": 4,
+  "one_paper_per_session": true,
+  "numeric_judge_blinded_to_candidate_model": false,
+  "interruption_note": "A workspace spend-cap interruption preserved 107 completed records; the run resumed with identical inputs and rubric after the user requested continuation."
+}

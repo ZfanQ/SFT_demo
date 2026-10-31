@@ -1,0 +1,14 @@
+{
+  "source/analyze_feed_matrix.py": "5c9085e444178e5ccbbf6a02b0470587af0321ee8fcdff947b06594d49481ded",
+  "source/benchmark_feed_matrix.py": "eac50bd7a5969869c37cadefc81db57c51547b7434c8b2510496f3aa3f11fa00",
+  "source/benchmark_feed_matrix_gemma.py": "34ff372b4ab6f73f707558e3c9186a09a52d013fbb3a9675c713472aff81c531",
+  "source/benchmark_feed_matrix_llamacpp.py": "82c2896cc19aababfd074d14eb02156ac77dadeea07c2cec42bf9efbf05c45c3",
+  "source/continue_feed_matrix_gemma.py": "f801c8f0e86b9dc9349fe4abaf42ae1752516bb2b491af30f8258f43f5137fa5",
+  "source/continue_feed_matrix_models.py": "330c637aceab7001f41c2b41ff742672f3700d928d3302f68174320536b97a8d",
+  "source/continue_feed_matrix_native.py": "77991c54ce2d861bfbf279a6d77856500c0bd91bbeab14f1a480ed5b6fec0f8f",
+  "source/finalize_feed_matrix_server.py": "080deafd47e55c5bed1e641bf938f56315838af3ee278820dc684041704203aa",
+  "source/plot_feed_matrix.py": "c193765674f6abca2cac7e798cfcb4197f1a24eacb1316ecc5fb25b77faeecd2",
+  "source/probe_gemma_llamacpp.py": "dcbb141898dff6b7900516de4af88012c761026784e6b99da760391a56b68b53",
+  "source/report_feed_matrix.py": "3270bedf2b28e84c309a01b2b51f47cb024269cb2370e4f51cd674dafc22077d",
+  "source/verify_feed_matrix_bundle.py": "a23bcefd889e816a10c3159f20d04681c84d9041842ba2f3329f0ca2fc81dd0e"
+}

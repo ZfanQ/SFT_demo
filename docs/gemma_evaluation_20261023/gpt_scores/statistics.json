@@ -1,0 +1,17 @@
+{
+  "evaluated": 200,
+  "expected": 200,
+  "model": "gpt-6.1-sol",
+  "candidate_model": "google/gemma-4-12B-it",
+  "evaluation_mode": "scores_only",
+  "overall_mean": 8.566,
+  "overall_median": 9.0,
+  "overall_min": 5.0,
+  "overall_max": 9.6,
+  "criterion_means": {
+    "accuracy": 8.515,
+    "coverage": 8.325,
+    "clarity": 9.289,
+    "conciseness": 9.522
+  }
+}

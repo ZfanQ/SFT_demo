@@ -1,0 +1,14 @@
+{
+  "state": "completed",
+  "profile_id": "neuroscience",
+  "parallel": 4,
+  "effective_sequences": 4,
+  "requests": 200,
+  "valid": 200,
+  "elapsed_s": 250.73694260418415,
+  "documents_per_minute": 47.85892288294877,
+  "median_latency_s": 4.941346375271678,
+  "shared_service_activity": false,
+  "finished_utc": "2026-10-31T13:06:58.969214+00:00",
+  "backend": "llama_cpp"
+}

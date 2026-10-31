@@ -1,0 +1,69 @@
+[00:21:32 – 00:21:34] So that is the other thing.
+[00:21:34 – 00:21:36] So you've checked off some very important things,
+[00:21:36 – 00:21:38] which is you know how to use the LLM,
+[00:21:38 – 00:21:40] you can optimize, try to optimize it.
+[00:21:40 – 00:21:41] You've got codecs set up,
+[00:21:41 – 00:21:43] you've got some way of getting summary.
+[00:21:43 – 00:21:45] So this is all very positive, right?
+[00:21:46 – 00:21:49] The real use case that I can see for sure
+[00:21:49 – 00:21:56] is using codecs for ranking the feed.
+[00:21:56 – 00:21:59] So using codecs to produce the feed,
+[00:22:00 – 00:22:11] So if a user has given semantic interest, currently, Ziphan, you have set up the semantic score using that, I forget, Skeptor or whatever you used, right, to create the semantic score.
+[00:22:11 – 00:22:16] The next one would be to get the Skeptor scores for a bunch of things.
+[00:22:17 – 00:22:20] Then ask Codex, look, here are the Skeptor scores.
+[00:22:20 – 00:22:23] You read it and you tell me your scores.
+[00:22:24 – 00:22:24] Okay.
+[00:22:24 – 00:22:29] And you see if whether it agrees with the skeptic scores, ask it to critique the skeptic scores.
+[00:22:29 – 00:22:32] Tell it, give me, you know, give me a criticism of these scores.
+[00:22:32 – 00:22:37] See whether this ranking is good, because right now the score ranking, it's OK.
+[00:22:37 – 00:22:40] I mean, the feed is not that great. It's not bad. It's not that great either.
+[00:22:41 – 00:22:45] Right. You can ask Codex to evaluate that score and even suggest other scores.
+[00:22:47 – 00:22:52] Right. Or simply ask Codex, ask Quen to do the scoring.
+[00:22:52 – 00:22:59] okay ask Quen to suggest a feed and ask Codex to evaluate Quen's feed versus the Skeptor score feed
+[00:22:59 – 00:23:04] because we won't use Codex for the feed right so that's kind of useless because we don't have
+[00:23:04 – 00:23:10] tokens for that we can use Quen to produce the feed right the best matching abstracts and titles
+[00:23:10 – 00:23:16] for the user's semantic interest so what you do is you create 20 users with 20 different semantic
+[00:23:16 – 00:23:23] keywords, cancer, machine learning, backpropagation, you know, computer vision.
+[00:23:24 – 00:23:26] You just create some wildly different ones, right?
+[00:23:27 – 00:23:31] And so neuroscience, you create some users with 20 different interests.
+[00:23:31 – 00:23:36] And then you see if the feeds are being different because you have the PubMed feed for that
+[00:23:36 – 00:23:37] day, right?
+[00:23:37 – 00:23:39] You can just do a simple call and get the PubMed feed for yesterday.
+[00:23:40 – 00:23:42] You know that, right?
+[00:23:42 – 00:23:53] So you get the PubMed feed for yesterday and you say split up the PubMed feed for these 20 users and then ask Codex to evaluate what the skeptic rankings are and Quinn's own rankings are.
+[00:23:54 – 00:23:58] This would be very useful because this we can use immediately to create the feed.
+[00:23:59 – 00:24:00] This is a different use case, right?
+[00:24:00 – 00:24:06] What Quinn is doing is it's reading the PubMed feed and splitting the PubMed feed based on interests.
+[00:24:06 – 00:24:09] So if somebody is interested in cancer, which are the articles I'm interested in?
+[00:24:10 – 00:24:12] and Quen knows this because it has language.
+[00:24:13 – 00:24:16] It can read the PubMed feed and decide
+[00:24:16 – 00:24:17] which ones are interesting.
+[00:24:21 – 00:24:22] Yeah, yeah.
+[00:24:22 – 00:24:24] I think we can think about it.
+[00:24:24 – 00:24:27] And you can compare it to the Skeptor score as well.
+[00:24:27 – 00:24:29] So if the score is doing equally well, it's faster.
+[00:24:30 – 00:24:30] Sure, right?
+[00:24:30 – 00:24:32] But if the score is not so good
+[00:24:32 – 00:24:34] and Quen can do a better job,
+[00:24:34 – 00:24:35] then Quen is the way to go.
+[00:24:36 – 00:24:38] So this is something that immediately we can use.
+[00:24:39 – 00:24:41] We will use it to make the feed.
+[00:24:41 – 00:24:43] This will be core, right, for us.
+[00:24:47 – 00:24:48] And you have everything set up.
+[00:24:48 – 00:24:50] You have everything set up right now.
+[00:24:50 – 00:24:51] You can do it.
+[00:24:51 – 00:24:51] You can do this.
+[00:24:53 – 00:24:55] It's only a few prompts.
+[00:24:55 – 00:24:55] That's it.
+[00:24:58 – 00:24:58] Yeah.
+[00:24:58 – 00:24:59] Yes.
+[00:25:00 – 00:25:02] Yeah, we can definitely try that.
+[00:25:02 – 00:25:02] Yeah.
+[00:25:03 – 00:25:04] So this would be my suggestion.
+[00:25:04 – 00:25:08] And otherwise, from my side, no other comments, except very good.
+[00:25:08 – 00:25:09] Good progress.
+[00:25:09 – 00:25:09] Keep going.
+[00:25:09 – 00:25:13] and if you have any questions, you can of course ask me on Zulip or here.
+[00:25:14 – 00:25:19] Sure. Yeah. Okay. No questions. Other questions for now, right?
+[00:25:20 – 00:25:28] Yeah. I think we will spend some time figuring out your suggestion and think about really in deep
+[00:25:28 – 00:25:29] and see how whether it's...

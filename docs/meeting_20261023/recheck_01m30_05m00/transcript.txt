@@ -1,0 +1,64 @@
+[00:01:30 – 00:01:34] written about in the literature. So that is the next open question, right? So which is kind of
+[00:01:34 – 00:01:39] actually an important open question. So if you solve that one, that's a major technical solution
+[00:01:39 – 00:01:47] for us. So did you have the chance to look at that at all? Not yet. Yeah. I would consider
+[00:01:47 – 00:01:51] looking at that first before you think of serial versus parallel versus batching, because the
+[00:01:51 – 00:01:58] answer to your question depends on whether batching is possible. So the question of,
+[00:02:00 – 00:02:04] it one by one, right? So the only thing is that you have to, the context has to be compacted or
+[00:02:04 – 00:02:08] changed after a certain number. That's all you're talking about. But the speed is the same. It's
+[00:02:08 – 00:02:14] still one by one. So rather the interesting thing there would be we have to batch it.
+[00:02:14 – 00:02:19] So even for these abstracts, how did you do it? You did it one by one. So you must have had this
+[00:02:19 – 00:02:24] context issue R because you only took 200 abstracts. So here it's a test. So that's why you did not run
+[00:02:24 – 00:02:25] into this problem.
+[00:02:25 – 00:02:28] But when you actually try to implement it
+[00:02:28 – 00:02:30] in a real situation,
+[00:02:30 – 00:02:31] it will not work
+[00:02:31 – 00:02:33] because there will be 10,000 abstracts per day, right?
+[00:02:33 – 00:02:36] That's the number of updates every day for PubMed.
+[00:02:38 – 00:02:39] So yeah, I think that
+[00:02:39 – 00:02:42] if you can look into the batching problem,
+[00:02:42 – 00:02:43] it's an exploratory thing
+[00:02:43 – 00:02:44] to see if there is a solution.
+[00:02:44 – 00:02:48] How can one use QN in a batched format
+[00:02:48 – 00:02:50] given that you have a 24 GB GPU?
+[00:02:50 – 00:02:51] There has to be a solution.
+[00:02:51 – 00:02:52] It must be there
+[00:02:52 – 00:02:54] because it is impossible
+[00:02:54 – 00:02:56] the whole world is running it serially.
+[00:02:57 – 00:02:58] It's not possible, right?
+[00:02:58 – 00:02:59] So they must be running it best,
+[00:03:00 – 00:03:01] which means there must be a package
+[00:03:01 – 00:03:02] that allows you to do it.
+[00:03:02 – 00:03:03] It has to exist.
+[00:03:05 – 00:03:06] These are open-weight models,
+[00:03:06 – 00:03:08] so people must have written things.
+[00:03:08 – 00:03:09] I haven't looked into it myself,
+[00:03:09 – 00:03:11] but it could be something you could look into first
+[00:03:11 – 00:03:14] because that seems like an important technical thing to do.
+[00:03:16 – 00:03:17] Yeah, that's right.
+[00:03:17 – 00:03:17] Yeah.
+[00:03:19 – 00:03:20] Cool. Anything else for me?
+[00:03:23 – 00:03:28] Actually, Q1 just released the 3.5, 9 billion models.
+[00:03:28 – 00:03:32] So shall we update our 8 billion to the 9 billion?
+[00:03:32 – 00:03:34] If it fits, you can update, no problem.
+[00:03:36 – 00:03:38] But it will change the baseline, right?
+[00:03:38 – 00:03:39] That's okay. That's okay.
+[00:03:39 – 00:03:41] This will keep on changing.
+[00:03:41 – 00:03:43] This is something we will keep on doing these tests.
+[00:03:43 – 00:03:44] Don't worry.
+[00:03:44 – 00:03:46] So what you should think about is not the answer.
+[00:03:46 – 00:03:50] You should set up a pipeline for producing this kind of number.
+[00:03:50 – 00:03:51] You see what I mean?
+[00:03:52 – 00:03:59] So what you do is you produce the pipeline that can be run literally every two months or so to repeat this test to see how it is going.
+[00:04:00 – 00:04:04] Because one year from now, right, what you just found that the abstract is not good.
+[00:04:05 – 00:04:06] One year from now, it may be very good.
+[00:04:08 – 00:04:11] So you should not worry too much about these numbers.
+[00:04:11 – 00:04:18] It is more about setting up a pipeline for testing so that it can be repeated again and again every two months or so.
+[00:04:20 – 00:04:22] So try not to make it manual.
+[00:04:22 – 00:04:30] Try to make it as automated as possible so that everything you're doing, you try to automate it so that there is basically a script that can do everything, right?
+[00:04:30 – 00:04:34] This is always you should try to do it like that, not by hand.
+[00:04:39 – 00:04:44] because the other aspect of this is that right now you have a 24 gb gpu but we might have better
+[00:04:44 – 00:04:49] resources later as well so the more automated it is the more the model can do things in the
+[00:04:49 – 00:04:54] background while it is sitting around so that's what you should look for of course in gpt there's
+[00:04:54 – 00:04:58] the problem you can always set it in yolo mode and try to get it to run automatically as much
+[00:04:58 – 00:04:59] as possible, right?
+[00:04:59 – 00:04:59] So.

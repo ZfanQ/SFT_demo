@@ -1,0 +1,12 @@
+{
+  "state": "blocked",
+  "started_utc": "2026-10-31T11:25:04.871322+00:00",
+  "model": "study-qwen35-9b-q4:20261031",
+  "expected_rounds": 9,
+  "expected_inferences": 1800,
+  "completed_rounds": 0,
+  "current_profile": "oncology",
+  "parallel": 2,
+  "error": "Effective engine sequences 1, requested 2; configuration unsupported",
+  "finished_utc": "2026-10-31T11:25:34.377669+00:00"
+}

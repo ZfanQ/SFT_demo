@@ -1,0 +1,669 @@
+{
+  "label": "qwen3_8b",
+  "model": {
+    "name": "qwen3:8b",
+    "model": "qwen3:8b",
+    "modified_at": "2026-09-24T16:37:44.792629634Z",
+    "size": 5225388164,
+    "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen3",
+      "families": [
+        "qwen3"
+      ],
+      "parameter_size": "8.2B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 40960,
+      "embedding_length": 4096
+    },
+    "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+    ]
+  },
+  "state": "verified_complete",
+  "backend": {
+    "backend": "ollama",
+    "version": {
+      "version": "0.34.4"
+    }
+  },
+  "timed_requests": 1800,
+  "rounds": [
+    {
+      "state": "completed",
+      "profile_id": "oncology",
+      "parallel": 2,
+      "effective_sequences": 2,
+      "requests": 200,
+      "valid": 200,
+      "elapsed_s": 119.2485134168528,
+      "documents_per_minute": 100.63018528417227,
+      "median_latency_s": 1.1856677029281855,
+      "shared_service_activity": false,
+      "finished_utc": "2026-10-31T11:08:38.615903+00:00",
+      "attempt": "oncology_p2/attempt01",
+      "observed_request_span_s": 119.241658,
+      "p95_latency_s": 1.357845023344271,
+      "peak_sampled_memory_mib": 6305.0,
+      "output_tokens_per_second": 52.87277651805884,
+      "input_tokens_min": 326,
+      "input_tokens_max": 833,
+      "engine": {
+        "configured_sequences": 2,
+        "observed_measured_slot_peak": 2,
+        "measured_task_launches": 200,
+        "all_measured_slots_released": true
+      },
+      "telemetry_errors": []
+    },
+    {
+      "state": "completed",
+      "profile_id": "oncology",
+      "parallel": 4,
+      "effective_sequences": 4,
+      "requests": 200,
+      "valid": 200,
+      "elapsed_s": 105.01059226319194,
+      "documents_per_minute": 114.27418645467645,
+      "median_latency_s": 2.03309403010644,
+      "shared_service_activity": false,
+      "finished_utc": "2026-10-31T11:10:34.229503+00:00",
+      "attempt": "oncology_p4/attempt01",
+      "observed_request_span_s": 105.008359,
+      "p95_latency_s": 2.4035318348789585,
+      "peak_sampled_memory_mib": 7455.0,
+      "output_tokens_per_second": 59.613033933856215,
+      "input_tokens_min": 326,
+      "input_tokens_max": 833,
+      "engine": {
+        "configured_sequences": 4,
+        "observed_measured_slot_peak": 4,
+        "measured_task_launches": 200,
+        "all_measured_slots_released": true
+      },
+      "telemetry_errors": []
+    },
+    {
+      "state": "completed",
+      "profile_id": "oncology",
+      "parallel": 8,
+      "effective_sequences": 8,
+      "requests": 200,
+      "valid": 200,
+      "elapsed_s": 102.94845374673605,
+      "documents_per_minute": 116.5631883070459,
+      "median_latency_s": 4.00366821186617,
+      "shared_service_activity": false,
+      "finished_utc": "2026-10-31T11:12:32.746882+00:00",
+      "attempt": "oncology_p8/attempt01",
+      "observed_request_span_s": 102.946437,
+      "p95_latency_s": 5.071839860081672,
+      "peak_sampled_memory_mib": 9759.0,
+      "output_tokens_per_second": 60.90426589043149,
+      "input_tokens_min": 326,
+      "input_tokens_max": 833,
+      "engine": {
+        "configured_sequences": 8,
+        "observed_measured_slot_peak": 8,
+        "measured_task_launches": 200,
+        "all_measured_slots_released": true
+      },
+      "telemetry_errors": []
+    },
+    {
+      "state": "completed",
+      "profile_id": "cardiovascular",
+      "parallel": 2,
+      "effective_sequences": 2,
+      "requests": 200,
+      "valid": 200,
+      "elapsed_s": 120.4676821748726,
+      "documents_per_minute": 99.61177789227014,
+      "median_latency_s": 1.2038076424505562,
+      "shared_service_activity": false,
+      "finished_utc": "2026-10-31T11:18:37.462700+00:00",
+      "attempt": "cardiovascular_p2/attempt01",
+      "observed_request_span_s": 120.465321,
+      "p95_latency_s": 1.3674044704530386,
+      "peak_sampled_memory_mib": 6315.0,
+      "output_tokens_per_second": 52.752737375448056,
+      "input_tokens_min": 332,
+      "input_tokens_max": 839,
+      "engine": {
+        "configured_sequences": 2,
+        "observed_measured_slot_peak": 2,
+        "measured_task_launches": 200,
+        "all_measured_slots_released": true
+      },
+      "telemetry_errors": []
+    },
+    {
+      "state": "completed",
+      "profile_id": "cardiovascular",
+      "parallel": 4,
+      "effective_sequences": 4,
+      "requests": 200,
+      "valid": 200,
+      "elapsed_s": 109.24663753760979,
+      "documents_per_minute": 109.84319765328082,
+      "median_latency_s": 2.1082429154776037,
+      "shared_service_activity": false,
+      "finished_utc": "2026-10-31T11:14:33.297944+00:00",
+      "attempt": "cardiovascular_p4/attempt01",
+      "observed_request_span_s": 109.239256,
+      "p95_latency_s": 2.379770665662362,
+      "peak_sampled_memory_mib": 7451.0,
+      "output_tokens_per_second": 57.988054761127835,
+      "input_tokens_min": 332,
+      "input_tokens_max": 839,
+      "engine": {
+        "configured_sequences": 4,
+        "observed_measured_slot_peak": 4,
+        "measured_task_launches": 200,
+        "all_measured_slots_released": true
+      },
+      "telemetry_errors": []
+    },
+    {
+      "state": "completed",
+      "profile_id": "cardiovascular",
+      "parallel": 8,
+      "effective_sequences": 8,
+      "requests": 200,
+      "valid": 200,
+      "elapsed_s": 100.07084189495072,
+      "documents_per_minute": 119.91504990631526,
+      "median_latency_s": 3.905349727254361,
+      "shared_service_activity": false,
+      "finished_utc": "2026-10-31T11:16:26.896269+00:00",
+      "attempt": "cardiovascular_p8/attempt01",
+      "observed_request_span_s": 100.05643,
+      "p95_latency_s": 4.709296514862217,
+      "peak_sampled_memory_mib": 9749.0,
+      "output_tokens_per_second": 63.20522422145367,
+      "input_tokens_min": 332,
+      "input_tokens_max": 839,
+      "engine": {
+        "configured_sequences": 8,
+        "observed_measured_slot_peak": 8,
+        "measured_task_launches": 200,
+        "all_measured_slots_released": true
+      },
+      "telemetry_errors": []
+    },
+    {
+      "state": "completed",
+      "profile_id": "neuroscience",
+      "parallel": 2,
+      "effective_sequences": 2,
+      "requests": 200,
+      "valid": 200,
+      "elapsed_s": 116.4359589330852,
+      "documents_per_minute": 103.06094534675755,
+      "median_latency_s": 1.1613854879979044,
+      "shared_service_activity": false,
+      "finished_utc": "2026-10-31T11:22:31.441138+00:00",
+      "attempt": "neuroscience_p2/attempt01",
+      "observed_request_span_s": 116.433633,
+      "p95_latency_s": 1.3144035259494558,
+      "peak_sampled_memory_mib": 6329.0,
+      "output_tokens_per_second": 52.77579242965209,
+      "input_tokens_min": 333,
+      "input_tokens_max": 840,
+      "engine": {
+        "configured_sequences": 2,
+        "observed_measured_slot_peak": 2,
+        "measured_task_launches": 200,
+        "all_measured_slots_released": true
+      },
+      "telemetry_errors": []
+    },
+    {
+      "state": "completed",
+      "profile_id": "neuroscience",
+      "parallel": 4,
+      "effective_sequences": 4,
+      "requests": 200,
+      "valid": 200,
+      "elapsed_s": 102.22539142798632,
+      "documents_per_minute": 117.38766496632607,
+      "median_latency_s": 2.0314669189974666,
+      "shared_service_activity": false,
+      "finished_utc": "2026-10-31T11:24:24.788158+00:00",
+      "attempt": "neuroscience_p4/attempt01",
+      "observed_request_span_s": 102.222576,
+      "p95_latency_s": 2.3983203592943028,
+      "peak_sampled_memory_mib": 7449.0,
+      "output_tokens_per_second": 59.9655321869649,
+      "input_tokens_min": 333,
+      "input_tokens_max": 840,
+      "engine": {
+        "configured_sequences": 4,
+        "observed_measured_slot_peak": 4,
+        "measured_task_launches": 200,
+        "all_measured_slots_released": true
+      },
+      "telemetry_errors": []
+    },
+    {
+      "state": "completed",
+      "profile_id": "neuroscience",
+      "parallel": 8,
+      "effective_sequences": 8,
+      "requests": 200,
+      "valid": 200,
+      "elapsed_s": 95.27416838007048,
+      "documents_per_minute": 125.95229330293655,
+      "median_latency_s": 3.7953472207300365,
+      "shared_service_activity": false,
+      "finished_utc": "2026-10-31T11:20:24.958111+00:00",
+      "attempt": "neuroscience_p8/attempt01",
+      "observed_request_span_s": 95.267319,
+      "p95_latency_s": 4.427276438707485,
+      "peak_sampled_memory_mib": 9767.0,
+      "output_tokens_per_second": 64.18318946228808,
+      "input_tokens_min": 333,
+      "input_tokens_max": 840,
+      "engine": {
+        "configured_sequences": 8,
+        "observed_measured_slot_peak": 8,
+        "measured_task_launches": 200,
+        "all_measured_slots_released": true
+      },
+      "telemetry_errors": []
+    }
+  ],
+  "aggregates": [
+    {
+      "parallel": 2,
+      "profiles": 3,
+      "requests": 600,
+      "elapsed_s": 356.1521545248106,
+      "documents_per_minute": 101.08039370990842,
+      "median_latency_s": 1.1842329199425876,
+      "p95_latency_s": 1.3575455697253347,
+      "peak_sampled_memory_mib": 6329.0,
+      "output_tokens_per_second": 52.80046676985633
+    },
+    {
+      "parallel": 4,
+      "profiles": 3,
+      "requests": 600,
+      "elapsed_s": 316.48262122878805,
+      "documents_per_minute": 113.7503217719348,
+      "median_latency_s": 2.057875477010384,
+      "p95_latency_s": 2.402794689428992,
+      "peak_sampled_memory_mib": 7455.0,
+      "output_tokens_per_second": 59.16596597720775
+    },
+    {
+      "parallel": 8,
+      "profiles": 3,
+      "requests": 600,
+      "elapsed_s": 298.29346402175725,
+      "documents_per_minute": 120.68651962610282,
+      "median_latency_s": 3.931471509160474,
+      "p95_latency_s": 4.6678570101503265,
+      "peak_sampled_memory_mib": 9767.0,
+      "output_tokens_per_second": 62.72346617234399
+    }
+  ],
+  "stability_vs_p2": [
+    {
+      "profile_id": "oncology",
+      "parallel": 4,
+      "reference_parallel": 2,
+      "pairs": 200,
+      "exact_agreement": 0.985,
+      "mean_absolute_difference": 0.015,
+      "relevant_threshold_flips": 0,
+      "tied_rank_spearman": 0.9988651790712971
+    },
+    {
+      "profile_id": "oncology",
+      "parallel": 8,
+      "reference_parallel": 2,
+      "pairs": 200,
+      "exact_agreement": 0.985,
+      "mean_absolute_difference": 0.015,
+      "relevant_threshold_flips": 0,
+      "tied_rank_spearman": 0.9830376426850452
+    },
+    {
+      "profile_id": "cardiovascular",
+      "parallel": 4,
+      "reference_parallel": 2,
+      "pairs": 200,
+      "exact_agreement": 0.98,
+      "mean_absolute_difference": 0.02,
+      "relevant_threshold_flips": 0,
+      "tied_rank_spearman": 0.9831710170150227
+    },
+    {
+      "profile_id": "cardiovascular",
+      "parallel": 8,
+      "reference_parallel": 2,
+      "pairs": 200,
+      "exact_agreement": 0.98,
+      "mean_absolute_difference": 0.02,
+      "relevant_threshold_flips": 0,
+      "tied_rank_spearman": 0.9750701242354095
+    },
+    {
+      "profile_id": "neuroscience",
+      "parallel": 4,
+      "reference_parallel": 2,
+      "pairs": 200,
+      "exact_agreement": 0.98,
+      "mean_absolute_difference": 0.02,
+      "relevant_threshold_flips": 1,
+      "tied_rank_spearman": 0.9738167107537697
+    },
+    {
+      "profile_id": "neuroscience",
+      "parallel": 8,
+      "reference_parallel": 2,
+      "pairs": 200,
+      "exact_agreement": 0.95,
+      "mean_absolute_difference": 0.05,
+      "relevant_threshold_flips": 1,
+      "tied_rank_spearman": 0.9220139377529394
+    }
+  ],
+  "score_variations": [
+    {
+      "profile_id": "oncology",
+      "paper_id": "paper151",
+      "parallel": 4,
+      "p2": 2,
+      "score": 3
+    },
+    {
+      "profile_id": "oncology",
+      "paper_id": "paper173",
+      "parallel": 4,
+      "p2": 3,
+      "score": 2
+    },
+    {
+      "profile_id": "oncology",
+      "paper_id": "paper175",
+      "parallel": 4,
+      "p2": 2,
+      "score": 3
+    },
+    {
+      "profile_id": "oncology",
+      "paper_id": "paper061",
+      "parallel": 8,
+      "p2": 1,
+      "score": 0
+    },
+    {
+      "profile_id": "oncology",
+      "paper_id": "paper076",
+      "parallel": 8,
+      "p2": 1,
+      "score": 0
+    },
+    {
+      "profile_id": "oncology",
+      "paper_id": "paper138",
+      "parallel": 8,
+      "p2": 1,
+      "score": 0
+    },
+    {
+      "profile_id": "cardiovascular",
+      "paper_id": "paper008",
+      "parallel": 4,
+      "p2": 2,
+      "score": 3
+    },
+    {
+      "profile_id": "cardiovascular",
+      "paper_id": "paper069",
+      "parallel": 4,
+      "p2": 3,
+      "score": 2
+    },
+    {
+      "profile_id": "cardiovascular",
+      "paper_id": "paper093",
+      "parallel": 4,
+      "p2": 1,
+      "score": 0
+    },
+    {
+      "profile_id": "cardiovascular",
+      "paper_id": "paper112",
+      "parallel": 4,
+      "p2": 1,
+      "score": 0
+    },
+    {
+      "profile_id": "cardiovascular",
+      "paper_id": "paper031",
+      "parallel": 8,
+      "p2": 0,
+      "score": 1
+    },
+    {
+      "profile_id": "cardiovascular",
+      "paper_id": "paper069",
+      "parallel": 8,
+      "p2": 3,
+      "score": 2
+    },
+    {
+      "profile_id": "cardiovascular",
+      "paper_id": "paper085",
+      "parallel": 8,
+      "p2": 0,
+      "score": 1
+    },
+    {
+      "profile_id": "cardiovascular",
+      "paper_id": "paper118",
+      "parallel": 8,
+      "p2": 1,
+      "score": 0
+    },
+    {
+      "profile_id": "neuroscience",
+      "paper_id": "paper012",
+      "parallel": 4,
+      "p2": 1,
+      "score": 2
+    },
+    {
+      "profile_id": "neuroscience",
+      "paper_id": "paper025",
+      "parallel": 4,
+      "p2": 1,
+      "score": 0
+    },
+    {
+      "profile_id": "neuroscience",
+      "paper_id": "paper163",
+      "parallel": 4,
+      "p2": 1,
+      "score": 0
+    },
+    {
+      "profile_id": "neuroscience",
+      "paper_id": "paper181",
+      "parallel": 4,
+      "p2": 1,
+      "score": 0
+    },
+    {
+      "profile_id": "neuroscience",
+      "paper_id": "paper012",
+      "parallel": 8,
+      "p2": 1,
+      "score": 2
+    },
+    {
+      "profile_id": "neuroscience",
+      "paper_id": "paper025",
+      "parallel": 8,
+      "p2": 1,
+      "score": 0
+    },
+    {
+      "profile_id": "neuroscience",
+      "paper_id": "paper034",
+      "parallel": 8,
+      "p2": 0,
+      "score": 1
+    },
+    {
+      "profile_id": "neuroscience",
+      "paper_id": "paper040",
+      "parallel": 8,
+      "p2": 1,
+      "score": 0
+    },
+    {
+      "profile_id": "neuroscience",
+      "paper_id": "paper106",
+      "parallel": 8,
+      "p2": 1,
+      "score": 0
+    },
+    {
+      "profile_id": "neuroscience",
+      "paper_id": "paper123",
+      "parallel": 8,
+      "p2": 0,
+      "score": 1
+    },
+    {
+      "profile_id": "neuroscience",
+      "paper_id": "paper143",
+      "parallel": 8,
+      "p2": 0,
+      "score": 1
+    },
+    {
+      "profile_id": "neuroscience",
+      "paper_id": "paper163",
+      "parallel": 8,
+      "p2": 1,
+      "score": 0
+    },
+    {
+      "profile_id": "neuroscience",
+      "paper_id": "paper181",
+      "parallel": 8,
+      "p2": 1,
+      "score": 0
+    },
+    {
+      "profile_id": "neuroscience",
+      "paper_id": "paper199",
+      "parallel": 8,
+      "p2": 1,
+      "score": 0
+    }
+  ],
+  "score_distributions": [
+    {
+      "profile_id": "oncology",
+      "parallel": 2,
+      "counts": {
+        "0": 106,
+        "1": 53,
+        "2": 5,
+        "3": 36
+      }
+    },
+    {
+      "profile_id": "oncology",
+      "parallel": 4,
+      "counts": {
+        "0": 106,
+        "1": 53,
+        "2": 4,
+        "3": 37
+      }
+    },
+    {
+      "profile_id": "oncology",
+      "parallel": 8,
+      "counts": {
+        "0": 109,
+        "1": 50,
+        "2": 5,
+        "3": 36
+      }
+    },
+    {
+      "profile_id": "cardiovascular",
+      "parallel": 2,
+      "counts": {
+        "0": 131,
+        "1": 46,
+        "2": 14,
+        "3": 9
+      }
+    },
+    {
+      "profile_id": "cardiovascular",
+      "parallel": 4,
+      "counts": {
+        "0": 133,
+        "1": 44,
+        "2": 14,
+        "3": 9
+      }
+    },
+    {
+      "profile_id": "cardiovascular",
+      "parallel": 8,
+      "counts": {
+        "0": 130,
+        "1": 47,
+        "2": 15,
+        "3": 8
+      }
+    },
+    {
+      "profile_id": "neuroscience",
+      "parallel": 2,
+      "counts": {
+        "0": 137,
+        "1": 38,
+        "2": 14,
+        "3": 11
+      }
+    },
+    {
+      "profile_id": "neuroscience",
+      "parallel": 4,
+      "counts": {
+        "0": 140,
+        "1": 34,
+        "2": 15,
+        "3": 11
+      }
+    },
+    {
+      "profile_id": "neuroscience",
+      "parallel": 8,
+      "counts": {
+        "0": 140,
+        "1": 34,
+        "2": 15,
+        "3": 11
+      }
+    }
+  ],
+  "dataset_sha256": "d7167d37541c88eb8f98a36f117821f467174680107990cfccd4b0c63410949a",
+  "no_relevance_gold_labels": true
+}

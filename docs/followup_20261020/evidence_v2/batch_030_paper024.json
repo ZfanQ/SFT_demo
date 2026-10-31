@@ -1,0 +1,438 @@
+{
+  "fingerprint": "22b12ef1f21769e811e15e9c99da54b13cdd7e31a01d350adc1fd36cd5aaa543",
+  "metadata": {
+    "request_sha256": "945cc09565e5d5e14832fb5a8423cd87c46a2f6277b0dcda56bb99bf998d2f14",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "usage": [
+      {
+        "input_tokens": 36518,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4188,
+        "reasoning_output_tokens": 516
+      }
+    ],
+    "thread_ids": [
+      "01a1598d-72f0-7460-be42-bee8e80e5adf"
+    ],
+    "completed_utc": "2026-10-20T13:45:04+00:00",
+    "scope": "author_abstract_only"
+  },
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper024",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly organized, but repetitive conclusions and broad adjustment language reduce precision.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "major",
+                "candidate_quote": "These effects remained significant after controlling for autoregressive pathways, worry, rumination, avoidance, and childhood adversity.",
+                "reference_quote": "Nuanced effects persisted after accounting for autoregressive pathways, worry, rumination, avoidance, and childhood adversity.",
+                "explanation": "The candidate implies that all previously listed predictor–outcome associations retained significance after adjustment. The abstract qualifies the adjusted findings as nuanced. Full-text adjudication is needed to determine which associations survived and whether this blanket statement overstates robustness."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": false,
+            "readability_observation": "Clear and precise, though statistical thresholds and adjustment stages make the results dense.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "major",
+                "candidate_quote": "Proposed longitudinal serial mediation through discrepancy and emotional impact was not supported.",
+                "reference_quote": "In mediation pathways, frequent comparison amplified perceived discrepancies, eliciting negative affective impact, which in turn contributed to depression, anxiety, and somatic symptoms.",
+                "explanation": "The candidate rejects longitudinal serial mediation while the abstract reports the proposed sequential pathway positively. Concurrent versus longitudinal models and significance thresholds could reconcile these statements, but full-text adjudication is required because the mechanism's evidential support changes substantially."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper026",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Generally clear, with repetitive limitations and an insufficiently qualified comparison between disorders.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "major",
+                "candidate_quote": "The findings suggest that complex PTSD symptoms are more persistent and severe than PTSD symptoms",
+                "reference_quote": "In adolescents with complex PTSD at the last wave, all symptom cluster trajectories were elevated through time in comparison to the no current trauma disorder status group.",
+                "explanation": "The candidate changes the stated comparison from no current trauma disorder to PTSD and concludes greater persistence and severity. The reported persistent diagnostic percentages alone do not establish that symptom comparison. Full-text adjudication must determine whether direct between-disorder analyses support it."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Well structured and clear; technical details remain connected to the central longitudinal findings.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper027",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Readable and appropriately qualified, although numerous supplementary percentages make it dense.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear progression from design to findings and implications, with accessible methodological caveats.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper028",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and informative, with a helpful plain-language explanation of negative urgency.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Well organized, though confidence intervals and statistical notation make the central results somewhat dense.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper029",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Generally clear, but the truncated term “Dissoci” makes one result unnecessarily ambiguous.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Coherent and readable, with clear distinctions between associations, clinical implications, and causal uncertainty.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper030",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly organized but technically dense, particularly in its measurement-model and missing-data discussion.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible overall, but repeats the distinctness of grief and well-being several times.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper031",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear but repetitive; causal-sounding conclusions sit awkwardly beside the final association-only qualification.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Precise and logically organized, although the numerous effect estimates require attentive reading.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper032",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible and empathetic, with some repetition of awareness, validation, and support recommendations.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear thematic narrative with explicit distinctions between lived experiences and efficacy or causality claims.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper033",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Technically dense but coherent, separating human observations, experimental findings, and translational uncertainty.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Generally clear, but repeats the binding mechanism and introduces an overly broad causality disclaimer.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "major",
+                "candidate_quote": "However, the study did not establish causality, and the findings are based on observational and experimental associations.",
+                "reference_quote": "Supplementation with B. coccoides could exacerbate cognitive impairment and Tau phosphorylation in P301s mice.",
+                "explanation": "The blanket denial of causality potentially discounts experimental intervention evidence, whereas the abstract attributes worsening mouse outcomes to supplementation. Full-text adjudication should distinguish causal evidence within experimental models from unestablished human disease causation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper034",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and accessible, with useful distinctions between self-harm thoughts, suicidal intent, and subsequent behavior.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Well organized but statistically dense; calling ideation “common” is less precise than the reported percentages.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper035",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear thematic organization makes the conceptual distinctions and practical challenges easy to follow.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable and cohesive, though several sentences repeat the need for clearer definitions and clinical guidance.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper036",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and orderly, with the nonsignificant interaction distinguished from overall group differences.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Precise and readable, particularly in explaining what the nonsignificant interaction means.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper037",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Mostly clear, but inconsistent control-group terminology obscures the trial design.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "minor",
+                "candidate_quote": "the study's limitations include the absence of a control group",
+                "reference_quote": "Eligible participants (n = 211) were randomised to Guided Narrative Technique-Writing (GNT-W, n = 100) or Expressive Writing (EW, n = 111).",
+                "explanation": "The trial had an active comparison arm; it lacked an inactive control. The candidate correctly makes that distinction earlier but later describes no control group at all. This design inconsistency requires full-paper adjudication before a final error claim."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and well structured, but its participant-flow account materially differs from the supplied abstract.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "Although 1,526 users were randomized, only 211 completed the detailed pre-intervention assessment and entered the modified intention-to-treat analysis.",
+                "reference_quote": "Eligible participants (n = 211) were randomised to Guided Narrative Technique-Writing (GNT-W, n = 100) or Expressive Writing (EW, n = 111).",
+                "explanation": "The abstract identifies 1,526 as screened and 211 as randomized. The candidate instead randomizes all 1,526 and treats 211 as an analysis subset, changing allocation and exclusion interpretations. Full-paper adjudication is required to resolve this explicit participant-flow conflict."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper038",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but coherent, explaining the association and its clinical limits without implying proven predictive utility.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and appropriately qualified, with the central regression result presented accurately and accessibly.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper039",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and concrete, distinguishing training uptake and self-rated confidence from patient health outcomes.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable and organized, though broad success statements are less precise than the specific self-efficacy finding.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper040",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and sensitive, with concrete examples connecting enduring distress to social and institutional conditions.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "minor",
+                "candidate_quote": "interpreted using reflexive thematic analysis",
+                "reference_quote": "analysed using qualitative content analysis",
+                "explanation": "The candidate names a different qualitative analytic approach from the abstract. Although the substantive themes agree, full-paper adjudication is needed to determine the actual method and whether the terminology is compatible."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible and coherent, with some repetition of enduring consequences and the importance of social context.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper041",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear overall, though technical terminology assumes familiarity with tumor immunology and sequencing methods.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Technically dense but well organized, with clear qualifications of computational and therapeutic interpretations.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper042",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Mostly clear, but the blanket causality disclaimer blurs distinctions between experimental effects and mechanistic completeness.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "major",
+                "candidate_quote": "the study does not establish a direct causal relationship between PRX5 and CSC maintenance",
+                "reference_quote": "Efficient PRX5 knockdown (>95%) reduced OCT4, SOX2, NANOG, and CD133 expression, increased intracellular ROS, lowered p-STAT3 levels, and decreased sphere-forming frequency.",
+                "explanation": "The candidate broadly denies causal support despite targeted PRX5 manipulation changing stemness markers and sphere formation. Full-text adjudication should determine whether the intended limitation concerns an incomplete molecular pathway or instead improperly discounts experimental evidence for PRX5's contribution."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed and coherent, clearly distinguishing experimental phenotypes from a fully established signaling pathway or therapeutic efficacy.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper043",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and focused, with technical checkpoint terminology balanced by explicit uncertainty about causal interpretation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Dense with molecular detail, but its structure clearly separates computational observations from clinical hypotheses.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper044",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Technically detailed but logically organized, with a clear distinction between preclinical vulnerability and clinical validation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": false,
+            "readability_observation": "Generally readable, but one compound sentence reverses the proliferation result and obscures the tumor-suppressor interpretation.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "its loss was associated with increased DNA damage and reduced cell proliferation, apoptosis, and G1/S arrest in ESCC cells",
+                "reference_quote": "L3MBTL4 inhibited cell proliferation and colony formation, and induced G1/S arrest and apoptosis in ESCC cells.",
+                "explanation": "The candidate attributes reduced proliferation to L3MBTL4 loss, whereas the abstract attributes proliferation inhibition to L3MBTL4 itself. This reverses a central tumor-suppressor result and makes the grouped effects internally confusing. Full-paper adjudication is required before a final error claim."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

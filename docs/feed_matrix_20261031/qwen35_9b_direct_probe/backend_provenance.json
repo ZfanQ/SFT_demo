@@ -1,0 +1,15 @@
+{
+  "backend": "llama_cpp",
+  "binary": "/data/SFT_demo/.tools/ollama/lib/ollama/llama-server",
+  "binary_sha256": "234b05b2138264f8fb263c3205e85f4c290e8afe5067e280a4f6f90cdac5696b",
+  "binary_version": "0.00.001.158 I srv  llama_server: initializing ...\nversion: 0.4.1-dev (build 1, commit 161755f29)\nbuilt with GNU 13.3.1 for Linux x86_64\n",
+  "model_path": "/data/SFT_demo/.models/ollama/blobs/sha256-02d45dc1cf451ba2475ac33b301c2dd8f985abe4c182ce04a1f2f5bf0260278d",
+  "model_sha256": "02d45dc1cf451ba2475ac33b301c2dd8f985abe4c182ce04a1f2f5bf0260278d",
+  "tokenizer_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "tokenizer_snapshot": "/data/SFT_demo/.cache/huggingface/hub/models--Qwen--Qwen3.5-9B/snapshots/c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "thinking": false,
+  "text_only": true,
+  "driver_sha256": "fbae441d486576f501ae6492d61bcfcd6d3b86b9b0d9485153dbb9b2ec852f16",
+  "cuda_backend": "/data/SFT_demo/.tools/ollama/lib/ollama/cuda_v13/libggml-cuda.so",
+  "note": "Separate backend; original Ollama scheduler restriction remains unchanged."
+}

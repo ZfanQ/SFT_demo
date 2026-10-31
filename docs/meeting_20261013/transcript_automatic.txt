@@ -1,0 +1,386 @@
+[00:00:04 – 00:00:06] Yes, do you receive that?
+[00:00:06 – 00:00:07] Yeah.
+[00:00:07 – 00:00:19] Okay. So this is what is considered to be one of the easiest wins for automatic LLM
+[00:00:19 – 00:00:28] usage, which is you give the computer an instruction, codecs an instruction, maximize the VRAM,
+[00:00:30 – 00:00:39] VRAM usage and speed. We want to run these papers. Go. Okay. And what it will do, because it has a
+[00:00:39 – 00:00:46] very verifiable metric, which is it can just check the VRAM memory usage and try to keep increasing
+[00:00:46 – 00:00:51] it. So it will keep trying everything that it knows, all the tricks that it knows how to do.
+[00:00:52 – 00:00:59] And it should be able to tell you at the end, look, I tried all these things. And in fact,
+[00:01:00 – 00:01:06] none of these works or something like this so it will be able to search and find out if it is able
+[00:01:06 – 00:01:11] to map if it is able to parallelize the thing or have some other pre-processing being done in
+[00:01:11 – 00:01:17] parallel etc you don't have to do it one by hand manually because eventually there is an optimizer
+[00:01:17 – 00:01:23] there's an objective which is very clear you want maximum usage of the gpu so you let the codecs do
+[00:01:23 – 00:01:29] it by itself it can check the gpu it can check everything by itself right so you give it a job
+[00:01:30 – 00:01:35] it to use agents as well if it runs out of tokens you will know then you will know maybe you have to
+[00:01:35 – 00:01:39] adjust it and don't use too many agents don't use 10 agents at a time something like this right
+[00:01:39 – 00:01:47] or if needed we can increase we can add an extra account or something but you see what i'm saying
+[00:01:47 – 00:01:53] that this is a kind of an auto job actually because the the it is very clear for the agent
+[00:01:53 – 00:01:58] how to auto optimize you don't have to do anything you tell the agent here is the metric we are at 30
+[00:02:00 – 00:02:06] usage. This is not good. We want closer to 80% or 70% much higher. So go. Don't even
+[00:02:06 – 00:02:10] give the actual number because it will decide it will be because you know, maybe 80% is
+[00:02:10 – 00:02:14] too bad because then there's not enough space left over for data or some some something
+[00:02:14 – 00:02:18] like this, right? Just let it decide. But say, you know, this seems like low usage,
+[00:02:18 – 00:02:23] maximize it and see what the answer it gets. It may work for one hour, one and a half hours.
+[00:02:23 – 00:02:27] But in the end, it will give you the answer that if you do it like this, you can optimize
+[00:02:27 – 00:02:35] myself. Okay. So that is point one. Because there are many, many things you can do. You can,
+[00:02:35 – 00:02:41] because if it's only 30% usage, one way is to submit two or three jobs at the same time.
+[00:02:41 – 00:02:48] That way there are three jobs in parallel, splitting the GPU 30, 30, 30, right? So this
+[00:02:48 – 00:02:53] is one simple example of how it might do it. It might also be able to, because it's a MIG
+[00:02:53 – 00:02:57] instance that you're using, you have a piece, it might be able to use a small, even smaller piece
+[00:02:57 – 00:03:01] than that, if there is an appropriate command for that. These are all things to look into, but
+[00:03:01 – 00:03:06] basically you let Codex think they're smart now, they can do it. Okay, so you just let it do it.
+[00:03:06 – 00:03:12] That is one point. Second point is that these are all very good, nice numbers.
+[00:03:13 – 00:03:18] I would, of course, you know, we cannot report it like this because we are saying that
+[00:03:18 – 00:03:25] that GPT had a small score and immediately the question arises, how did you run GPT? Did you
+[00:03:25 – 00:03:31] ask it properly, right, for the abstract? What instructions did you give? What harness did you
+[00:03:31 – 00:03:36] give, etc.? So this is not publishable. Do you understand why, right? Because we have not, you
+[00:03:36 – 00:03:41] know, if you say something is bad, you have to prove that you gave it all the chance in the world
+[00:03:41 – 00:03:46] to be good. If you say something is good, that is easy because it is good. There's no problem. You
+[00:03:46 – 00:03:49] You got the answer. If you say so, it's like someone is failing you on an exam.
+[00:03:49 – 00:03:54] They have to justify that. Really, they failed you. You know, it's like so it's so that is important.
+[00:03:55 – 00:04:00] But we don't need to worry about that because we are not trying to write a paper saying GPT is bad and we are better.
+[00:04:00 – 00:04:04] We are trying to build a tool that works for us. So that's OK.
+[00:04:04 – 00:04:12] But what you can do is one other thing that I suggested last time, which is ask GPT to read all three abstracts.
+[00:04:13 – 00:04:14] GPT's own abstract.
+[00:04:15 – 00:04:17] Don't ask the same GPT process.
+[00:04:17 – 00:04:20] Start a new GPT subagent or start a new session.
+[00:04:21 – 00:04:24] Give it all three abstracts for all 200 papers, right?
+[00:04:24 – 00:04:28] And ask it to give you some feedback
+[00:04:28 – 00:04:29] on which ones are better.
+[00:04:29 – 00:04:32] And here it is not using the BERT or the root score.
+[00:04:32 – 00:04:34] It is, GPT is reading it
+[00:04:34 – 00:04:37] and trying to see which one matches the ground truth.
+[00:04:38 – 00:04:40] Yeah, we actually have this process,
+[00:04:40 – 00:04:42] but we didn't get a result yet.
+[00:04:42 – 00:04:44] So we're still running in the server.
+[00:04:45 – 00:04:46] Excellent. Very good.
+[00:04:46 – 00:04:50] Though, you know, we go back to ground the square one,
+[00:04:50 – 00:04:52] which is if you already have the abstract,
+[00:04:53 – 00:04:56] then what is the purpose of this exercise?
+[00:04:57 – 00:05:00] I love this exercise because you learned how to use the LLMs.
+[00:05:00 – 00:05:02] You learned how to set everything up.
+[00:05:02 – 00:05:03] I'm happy with that.
+[00:05:03 – 00:05:05] But here is a question for you.
+[00:05:05 – 00:05:07] If the abstract is already available,
+[00:05:07 – 00:05:11] What is the purpose of Quen's abstract? What are you doing with it?
+[00:05:16 – 00:05:20] That's not a Quen's abstract. That's a summary of the Quen文.
+[00:05:20 – 00:05:28] And we just compare the birth score between the summary of Quen文 and the abstract, whether it's close or not.
+[00:05:28 – 00:05:33] But in your use case, in your actual application, you have the original author abstract.
+[00:05:33 – 00:05:38] abstract. So what is the purpose of the Gwen summary?
+[00:05:41 – 00:05:49] It's like repyrographs. It's like repyrographs, like the original abstraction is made up by
+[00:05:49 – 00:05:55] several components, like the overall idea, the tasks and the tools that use the results
+[00:05:55 – 00:06:02] and our new abstraction. It's more like a composition, a mix up of everything. And it's
+[00:06:03 – 00:06:11] into those details like those techniques that Arthur used it's more like an overall item.
+[00:06:11 – 00:06:17] Is it smaller? Is it shorter? This is a management question that I'm asking you.
+[00:06:17 – 00:06:24] I am the user, you're the technical consultant and I am the client.
+[00:06:24 – 00:06:29] I'm asking you why should I use your summary? What is your answer to that?
+[00:06:31 – 00:06:37] It might be more clear, easier to read compared to the original one. If you are not very
+[00:06:38 – 00:06:42] interested in those technical details, you just want to get the main idea.
+[00:06:42 – 00:06:46] Okay, very good, very good. Okay, that's an answer. Have you read the abstracts yourself?
+[00:06:47 – 00:06:52] Does this, is this correct? Like have you read the summary yourself to say that this is actually
+[00:06:52 – 00:06:59] true? We picked several papers like those ones. We picked it up
+[00:06:59 – 00:07:05] And so that is actually excluded those within the parallels.
+[00:07:06 – 00:07:07] So it's...
+[00:07:07 – 00:07:08] Within the parallels?
+[00:07:08 – 00:07:09] I did not understand.
+[00:07:09 – 00:07:10] Oh, within the parentheses.
+[00:07:11 – 00:07:11] Sorry.
+[00:07:12 – 00:07:12] It's a typo.
+[00:07:13 – 00:07:18] Include those parentheses, and it's more like direct way of...
+[00:07:18 – 00:07:19] Can you show me an example?
+[00:07:21 – 00:07:23] Let me go back.
+[00:07:48 – 00:07:51] Sorry for that.
+[00:08:25 – 00:08:25] Thank you.
+[00:08:43 – 00:08:45] What happened here?
+[00:08:49 – 00:08:51] I think it's a good question.
+[00:08:52 – 00:08:58] I think we still need to wait for the GBT to answer whether the abstracts or our summary
+[00:08:58 – 00:09:01] or the GBT summary is better.
+[00:09:01 – 00:09:04] This is a full context paper.
+[00:09:04 – 00:09:06] That's like the full PDF.
+[00:09:07 – 00:09:07] Yes.
+[00:09:07 – 00:09:12] Because the author's abstract is guaranteed to be correct.
+[00:09:13 – 00:09:13] Yes.
+[00:09:13 – 00:09:16] Let me show you the example.
+[00:09:16 – 00:09:17] Yes.
+[00:09:19 – 00:09:21] Per 94.
+[00:09:21 – 00:09:22] I'll check this one.
+[00:09:23 – 00:09:24] I still remember that.
+[00:09:24 – 00:09:27] As you can see, it's made up by several graphs.
+[00:09:27 – 00:09:29] This is Quinn, right?
+[00:09:30 – 00:09:32] No, this is the original abstract.
+[00:09:32 – 00:09:34] Ah, this is the original. Okay.
+[00:09:36 – 00:09:38] You have a lot of parentheses, a lot of parentheses.
+[00:09:39 – 00:09:40] Summarizations.
+[00:09:40 – 00:09:42] OK, let's quit and move on.
+[00:09:43 – 00:09:43] SHYAM GOLLAKOTALEBARAJANI- Show me
+[00:09:43 – 00:09:45] that's the one I'm interested in.
+[00:09:45 – 00:09:45] Yeah.
+[00:09:54 – 00:09:55] Oops, sorry.
+[00:10:25 – 00:10:28] So you can say it's March abbreviated.
+[00:10:28 – 00:10:29] Good.
+[00:10:29 – 00:10:30] That's what I was asking.
+[00:10:30 – 00:10:31] Okay.
+[00:10:31 – 00:10:31] Okay.
+[00:10:34 – 00:10:38] Remove the numbers and just have an echo message.
+[00:10:38 – 00:10:39] Sure.
+[00:10:39 – 00:10:42] The issue is simply whether this is accurate.
+[00:10:43 – 00:10:44] And this is, as Zeefan said,
+[00:10:44 – 00:10:46] it would be useful to see what GPT says.
+[00:10:47 – 00:10:51] GPT is completely capable of reading the original abstract
+[00:10:51 – 00:10:53] and this one and finding mistakes.
+[00:10:53 – 00:10:54] Absolutely.
+[00:10:54 – 00:10:56] Depends upon what you asked it to do.
+[00:10:56 – 00:10:56] Okay.
+[00:10:56 – 00:10:59] If you said rate it or give me,
+[00:11:01 – 00:11:11] But if you said mark all the abstracts where there are mistakes, where the summary is wrong compared to the abstract, you don't have to make it read the paper.
+[00:11:11 – 00:11:17] It can just read the abstract, compare it to the summary. But you can also give the full paper because it's only 200 papers.
+[00:11:17 – 00:11:24] It will finish this job in one hour. It should finish it if it is GPT. Then it will definitely catch mistakes.
+[00:11:24 – 00:11:28] No problem. It will find where all the summaries where there are mistakes.
+[00:11:28 – 00:11:32] Now, if the summary has a mistake, this is a problem.
+[00:11:32 – 00:11:34] We don't want to supply the summaries with mistakes.
+[00:11:34 – 00:11:36] If even 10% is maybe too much,
+[00:11:37 – 00:11:39] because then the abstract, because we have the abstract,
+[00:11:39 – 00:11:41] why you're summarizing it,
+[00:11:41 – 00:11:42] but if the summary has mistakes,
+[00:11:42 – 00:11:44] people will quickly find out.
+[00:11:44 – 00:11:46] And they will say, don't read the summary, end of it.
+[00:11:46 – 00:11:48] That's it, no one will read the summary after that,
+[00:11:48 – 00:11:49] because you can't believe it, right?
+[00:11:50 – 00:11:52] 10% mistake is already too much,
+[00:11:52 – 00:11:55] because I cannot believe if this is 10%, in this 10%.
+[00:11:55 – 00:11:56] Yeah, we only have 200 words.
+[00:11:57 – 00:11:57] Yeah, 10% of power.
+[00:11:57 – 00:12:00] Yeah, so might as well read the actual abstract
+[00:12:00 – 00:12:01] because we are reading,
+[00:12:01 – 00:12:03] normally people will screen by the title.
+[00:12:03 – 00:12:05] So if I'm reading the abstract,
+[00:12:05 – 00:12:08] it is because I know the field, okay?
+[00:12:08 – 00:12:12] So I don't need some kind of layman summary
+[00:12:13 – 00:12:14] because, right, I don't,
+[00:12:14 – 00:12:16] I would like to see the numbers actually.
+[00:12:16 – 00:12:18] So it's not, I'm not criticizing.
+[00:12:19 – 00:12:20] I think that this is very good.
+[00:12:20 – 00:12:24] We are talking about how we can use this in some way, right?
+[00:12:24 – 00:12:28] For example, if a paper does not have an abstract, this would be one way to do it.
+[00:12:28 – 00:12:30] But it is unlikely.
+[00:12:31 – 00:12:35] It's not possible that you have full text of a paper but don't have access to the abstract.
+[00:12:36 – 00:12:38] It won't happen because the abstract will be part of the paper.
+[00:12:41 – 00:12:44] So the use case is still not clear to me.
+[00:12:44 – 00:12:50] If you had a two-sentence summary, that would work because it would be really useful because you can give a very short summary.
+[00:12:51 – 00:12:57] summary. Not one paragraph, but more like three sentences, something really short, then
+[00:12:57 – 00:13:02] that can show up next to each paper. So you click on it only if you want to see the abstract,
+[00:13:02 – 00:13:07] otherwise you get this three sentence summary, which hopefully gives a little more information
+[00:13:07 – 00:13:11] than the title. You know what I mean? Like something in between the title and the abstract.
+[00:13:12 – 00:13:18] That is one thing. Yeah, like a hover, you put your mouse over it, you get a very small
+[00:13:18 – 00:13:24] It's like just three sentences, you know, could be useful, could be useful.
+[00:13:24 – 00:13:30] Depends on the quality of the summary. So I would try to ask, see what GPT says.
+[00:13:30 – 00:13:40] If GPT says that the summaries are generally correct, try to go back to Gwen and try to get an even shorter summary along with the longer summary to try to get a short summary, long summary.
+[00:13:41 – 00:13:46] OK. And and then go back to GPT and ask if the short summary is good.
+[00:13:48 – 00:13:54] a test of 200, we can argue that we could put it next to the title in our kind of format
+[00:13:54 – 00:13:59] so that people get a quick summary and then before clicking to see the abstract.
+[00:13:59 – 00:14:00] This could be useful.
+[00:14:00 – 00:14:01] Okay.
+[00:14:01 – 00:14:04] But what are your next steps otherwise?
+[00:14:04 – 00:14:05] What are you thinking of?
+[00:14:05 – 00:14:07] What are you thinking you can do with this next?
+[00:14:09 – 00:14:15] Our current plan for next step is absolutely what you said, using the GPT to grade it as
+[00:14:15 – 00:14:19] as we said last time, but right now it runs out of tokens so quickly.
+[00:14:20 – 00:14:24] Like when you go over all those 200 papers one by one, it's not decoded.
+[00:14:24 – 00:14:25] So it runs.
+[00:14:26 – 00:14:30] Every 40 papers run out of one account's token usage,
+[00:14:30 – 00:14:32] and we need to reset it and switch.
+[00:14:32 – 00:14:35] So it takes such a long time to run over all those.
+[00:14:35 – 00:14:37] Right, right, right. But you have how many accounts right now?
+[00:14:38 – 00:14:43] We have four, like two of the business, two of our personal.
+[00:14:43 – 00:14:44] That's all.
+[00:14:45 – 00:14:46] what you're using.
+[00:14:47 – 00:14:49] Okay. But you have two of the
+[00:14:49 – 00:14:51] business and when you run the model,
+[00:14:51 – 00:14:53] which model are you using? Astra 6.1?
+[00:14:54 – 00:14:55] Sol 6.1?
+[00:14:55 – 00:14:56] Which one are you using?
+[00:14:56 – 00:14:58] Sol 6.1.
+[00:14:58 – 00:15:00] Sol 6.1. Are you using
+[00:15:00 – 00:15:01] medium, extra high?
+[00:15:02 – 00:15:03] High. Just high.
+[00:15:04 – 00:15:06] High. You're using
+[00:15:06 – 00:15:08] Sol 6.1 high for sure, right?
+[00:15:08 – 00:15:10] Yeah. And you're running
+[00:15:10 – 00:15:11] a lot of tokens after 40 papers.
+[00:15:12 – 00:15:13] I cannot easily
+[00:15:13 – 00:15:14] understand it.
+[00:15:15 – 00:15:19] But in any case, it is only 200 papers.
+[00:15:20 – 00:15:22] So this is only five switches needed, right?
+[00:15:23 – 00:15:25] And this token running out is for five hours, right?
+[00:15:26 – 00:15:26] It's a five-hour limit.
+[00:15:28 – 00:15:29] Yeah, five-hour limit.
+[00:15:29 – 00:15:37] So if you're doing one run of 200 papers, you can do it in 25 hours or maybe 50 hours if you're sleeping during that time, right?
+[00:15:38 – 00:15:39] So it's not terrible.
+[00:15:39 – 00:15:41] You can finish this in two days.
+[00:15:41 – 00:15:43] No, this is not some terrible thing.
+[00:15:44 – 00:15:45] Sure.
+[00:15:45 – 00:15:51] Yeah. Okay. So I'm not super concerned because we are talking about two, three days here,
+[00:15:51 – 00:15:57] not one month. Okay. So I think we are still in reasonably okay zone.
+[00:15:58 – 00:16:04] And if you want to speed up and minimize token use, you should not ask it to read the paper
+[00:16:04 – 00:16:09] for the shorter summary, just ask it to read the abstract of the summary and point out mistakes.
+[00:16:10 – 00:16:15] mistakes. Okay. Right. That's a good point. So if you find discrepancies and we don't really
+[00:16:15 – 00:16:22] want a rating, I know I said rating last time, but rating is okay. What we really want is to
+[00:16:22 – 00:16:28] catch mistakes. Please point out mistakes in the summary that are not correct according to the
+[00:16:28 – 00:16:33] abstract. Okay. And especially important are mistakes where the results changes dramatically.
+[00:16:34 – 00:16:39] Right. For example, if you say the drug helped the patient, but the paper actually says the
+[00:16:39 – 00:16:46] not help the patient that's not very nice yeah that's okay so so you can ask gpt to find such
+[00:16:46 – 00:16:54] conflicts and if it is just abstract and summary i cannot imagine running out of tokens for 200
+[00:16:54 – 00:16:59] papers that sounds a bit silly because a single paper has more text than that
+[00:17:00 – 00:17:07] yeah we need to okay so look into it a little bit one problem possible option is if you're doing
+[00:17:09 – 00:17:15] If you are calling GPT through a program, maybe the model and effort are not properly set.
+[00:17:15 – 00:17:17] This is one possibility you can check.
+[00:17:17 – 00:17:21] The easiest way to run out of tokens is if you go to Astra Pro.
+[00:17:22 – 00:17:24] You will run out of tokens almost instantly.
+[00:17:25 – 00:17:28] OK, so so the question is, are you guaranteeing that?
+[00:17:28 – 00:17:30] And they don't listen to you.
+[00:17:30 – 00:17:39] They will often change the token in between, especially if it's programmatic use, like you're calling it like Codex agent do this, then it can often not be correct.
+[00:17:39 – 00:17:41] If you're doing it through the Codex terminal,
+[00:17:42 – 00:17:44] like you're doing it by hand and saying,
+[00:17:44 – 00:17:46] go through all 200 papers, that's okay.
+[00:17:46 – 00:17:48] I think you can believe it.
+[00:17:48 – 00:17:50] Because you know what I'm saying?
+[00:17:50 – 00:17:52] If you're on the Codex terminal and you say,
+[00:17:52 – 00:17:54] here are 200 papers in this folder,
+[00:17:54 – 00:17:56] go through it and give me the answer
+[00:17:56 – 00:17:57] and write out the answer into this file.
+[00:17:58 – 00:18:00] If you use it like this, I think that's fine.
+[00:18:00 – 00:18:03] If you instead have written a harness or a Python harness,
+[00:18:04 – 00:18:06] and then say Codex agent run this,
+[00:18:06 – 00:18:08] then it may use up tokens.
+[00:18:09 – 00:18:18] using? I think both. I think like when the client runs too slowly, we switch to the Codex program.
+[00:18:18 – 00:18:23] I would always use the Codex program. I don't see the advantage of using the client because
+[00:18:23 – 00:18:31] you can go to a folder. You can have a folder with all 200 papers, abstracts, extracted abstracts,
+[00:18:31 – 00:18:37] right? You ask Codex to extract the abstracts first from the 200 papers. So you have the papers,
+[00:18:39 – 00:18:41] But you can also go to PubMed and get the abstract.
+[00:18:42 – 00:18:44] So you don't need to open the paper even to get the abstract.
+[00:18:44 – 00:18:46] PubMed gives you the abstract, right?
+[00:18:46 – 00:18:48] If you started with PubMed.
+[00:18:48 – 00:18:51] So that's just an option.
+[00:18:51 – 00:18:54] If you have the DOI, you can go to the DOI and get the abstract.
+[00:18:54 – 00:18:56] So all these methods are possible.
+[00:18:56 – 00:18:58] But you can also run Codex to get the abstract.
+[00:18:59 – 00:19:00] That will be one session.
+[00:19:00 – 00:19:00] It will be easy.
+[00:19:01 – 00:19:03] It will just open the paper, take the abstract and print it.
+[00:19:03 – 00:19:04] It doesn't need many tokens for that.
+[00:19:05 – 00:19:05] It's very short.
+[00:19:05 – 00:19:07] Yeah, we already print them out.
+[00:19:07 – 00:19:19] Okay, if you have the abstract, then in a folder, you clearly set aside paper one, original abstract, paper one, quen summary, paper one, full paper.
+[00:19:19 – 00:19:22] Okay, paper two, ABC, same thing.
+[00:19:22 – 00:19:25] Okay, and so you now have all your lists.
+[00:19:25 – 00:19:32] Then all you do is you open the CLI, the codex CLI in that folder and say, here are 200 papers.
+[00:19:33 – 00:19:34] Do this for me.
+[00:19:35 – 00:19:36] Set the model and the effort.
+[00:19:37 – 00:19:41] I would do it like this, and then I would be curious if you run out of tokens.
+[00:19:42 – 00:19:49] If you go through the agent and say codex agent this, it's not reliable, at least in my experience.
+[00:19:51 – 00:19:52] Okay.
+[00:19:52 – 00:19:53] You see what I'm saying?
+[00:19:53 – 00:19:57] If you're outside in a separate harness, I would recommend just using the codex harness.
+[00:19:58 – 00:20:00] Because in this use case, it's very easy.
+[00:20:00 – 00:20:01] You're in a folder.
+[00:20:01 – 00:20:03] Every subfolder is visible to codex.
+[00:20:04 – 00:20:06] You can even put each paper in its own folder.
+[00:20:07 – 00:20:13] subfolders, the main top folder is where your codex is running. And then you say codex in below,
+[00:20:13 – 00:20:19] there are 200 folders. Go ahead, find mistakes in my summary. I cannot imagine running out of
+[00:20:19 – 00:20:25] tokens for that. This is so small. I mean, if it has 2000 papers, I can believe it.
+[00:20:28 – 00:20:32] Even if it runs out of tokens, it will run a hundred and say, I finished out of tokens.
+[00:20:32 – 00:20:36] in which case you wait for five hours and do the other 100.
+[00:20:36 – 00:20:37] So this is not terrible.
+[00:20:39 – 00:20:39] Sure.
+[00:20:40 – 00:20:43] Yeah, we can do that, sure.
+[00:20:44 – 00:20:46] Okay, so this is all super good.
+[00:20:46 – 00:20:51] And I think, go ahead, see what GPT says,
+[00:20:51 – 00:20:54] set up another meeting to tell me what's going on.
+[00:20:55 – 00:20:59] And at this point, we now have good things,
+[00:20:59 – 00:21:01] lot of positives to check.
+[00:21:02 – 00:21:05] You set up the LLMs, you know how to use them,
+[00:21:05 – 00:21:06] even if not perfectly.
+[00:21:06 – 00:21:08] So remember what I told you in the beginning,
+[00:21:09 – 00:21:12] try to ask Codex to improve the usage of the GPU, right?
+[00:21:13 – 00:21:14] That's how to do for you
+[00:21:14 – 00:21:16] because that will increase the throughput,
+[00:21:16 – 00:21:19] number of papers we can do per minute, right?
+[00:21:19 – 00:21:22] Which is important because if you have 10,000 users
+[00:21:22 – 00:21:26] and 10,000 papers, we can't be taking five days
+[00:21:26 – 00:21:28] for their papers and it won't work.
+[00:21:28 – 00:21:29] It's not gonna have work, right?
+[00:21:29 – 00:21:34] Right. So that is the other thing.
+[00:21:34 – 00:21:38] So you have checked off some very important things, which is, you know, how to use the LLM.
+[00:21:38 – 00:21:41] You will can optimize, try to optimize it. You've got codex set up.
+[00:21:41 – 00:21:45] You've got some way of getting summary. So this is all very positive. Right.
+[00:21:46 – 00:21:56] The real use case that I can see for sure is using codex for ranking the for ranking the the feed.
+[00:21:56 – 00:21:59] So using Codex to produce the feed given the interest.
+[00:22:00 – 00:22:02] So if a user has given semantic interest,
+[00:22:02 – 00:22:05] currently, Zifan, you have set up the semantic score
+[00:22:05 – 00:22:08] using that, I forget, Skeptor or whatever you used, right?
+[00:22:08 – 00:22:10] To create the semantic score.
+[00:22:11 – 00:22:15] The next one would be to get the Skeptor scores
+[00:22:15 – 00:22:18] for a bunch of things, then ask Codex,
+[00:22:18 – 00:22:19] look, here are the Skeptor scores.
+[00:22:20 – 00:22:24] You read it and you tell me your scores, okay?
+[00:22:24 – 00:22:29] OK, and you see if whether it agrees with the Skeptics scores, ask it to critique the Skeptics scores.
+[00:22:29 – 00:22:32] Tell it, give me, you know, give me a criticism of these scores.
+[00:22:32 – 00:22:37] See whether this ranking is good, because right now the score ranking, it's OK.
+[00:22:37 – 00:22:40] I mean, the feed is not that great. It's not bad. It's not that great either.
+[00:22:41 – 00:22:45] Right. You can ask Codex to evaluate that score and even suggest other scores.
+[00:22:47 – 00:22:51] Right. Or simply ask Codex, ask Quinn to do the scoring.
+[00:22:51 – 00:22:58] scoring, okay, ask Quen to suggest a feed and ask Codex to evaluate Quen's feed versus
+[00:22:58 – 00:23:02] the SkeptoScore feed because we won't use Codex for the feed, right?
+[00:23:02 – 00:23:05] So that's kind of useless because we don't have tokens for that.
+[00:23:05 – 00:23:11] We can use Quen to produce the feed, right, the best matching abstracts and titles for
+[00:23:11 – 00:23:12] the user's semantic interest.
+[00:23:12 – 00:23:18] So what you do is you create 20 users with 20 different semantic keywords, cancer, machine
+[00:23:18 – 00:23:23] machine learning, back propagation, computer vision.
+[00:23:24 – 00:23:26] You just create some wildly different ones, right?
+[00:23:27 – 00:23:30] And so neuroscience, you create some users
+[00:23:30 – 00:23:31] with 20 different interests.
+[00:23:31 – 00:23:34] And then you see if the feeds are being different
+[00:23:34 – 00:23:36] because you have the PubMed feed for that day, right?
+[00:23:37 – 00:23:38] You can just do a simple call
+[00:23:38 – 00:23:39] and get the PubMed feed for yesterday.
+[00:23:40 – 00:23:41] You know that, right?
+[00:23:42 – 00:23:43] So you get the PubMed feed for yesterday
+[00:23:43 – 00:23:47] and you say, split up the PubMed feed for these 20 users.
+[00:23:48 – 00:23:54] codex to evaluate what the Skepta rankings are and Quen's own rankings are. This would be very
+[00:23:54 – 00:24:00] useful because this we can use immediately to create the feed. This is a different use case,
+[00:24:00 – 00:24:05] right? What Quen is doing is it's reading the PubMed feed and splitting the PubMed feed based
+[00:24:05 – 00:24:09] on interests. So if somebody is interested in cancer, which are the articles I'm interested in?
+[00:24:10 – 00:24:16] And Quen knows this because it has language. It can read the PubMed feed and decide which
+[00:24:21 – 00:24:23] Yeah, yeah. I think we can think about it.
+[00:24:24 – 00:24:28] And you can compare it to the Skepter score as well. So if the score is doing equally
+[00:24:28 – 00:24:33] well, it's faster. Sure. Right. But if the score is not so good and when can do a better
+[00:24:33 – 00:24:39] job, then when is the way to go. So this is something that immediately we can use immediately
+[00:24:39 – 00:24:47] because we will, we will use it to make the feed. This will be core right for us. And
+[00:24:48 – 00:24:50] You have everything set up right now.
+[00:24:50 – 00:24:51] You can do it.
+[00:24:51 – 00:24:51] You can do this.
+[00:24:53 – 00:24:54] It's only a few prompts.
+[00:24:55 – 00:24:55] That's it.
+[00:24:58 – 00:24:59] Yeah, yes.
+[00:25:00 – 00:25:02] Yeah, we can definitely try that.
+[00:25:02 – 00:25:04] So this would be my suggestion.
+[00:25:04 – 00:25:07] And otherwise, from my side, no other comments
+[00:25:07 – 00:25:09] except very good, good progress.
+[00:25:09 – 00:25:09] Keep going.
+[00:25:09 – 00:25:12] And if you have any questions, you can, of course,
+[00:25:12 – 00:25:13] ask me on Zulip or here.
+[00:25:14 – 00:25:15] Sure, yeah.
+[00:25:16 – 00:25:16] OK.
+[00:25:18 – 00:25:19] other questions for now, right?
+[00:25:20 – 00:25:24] Yeah, I think we will spend some time figuring out
+[00:25:24 – 00:25:28] your suggestion and think about it really in depth
+[00:25:28 – 00:25:30] and see whether it's feasible or not.
+[00:25:31 – 00:25:33] Sure, if you think it's not feasible, ask me.
+[00:25:33 – 00:25:37] I'm very convinced it's feasible, so ask me.
+[00:25:37 – 00:25:37] Oh, yeah.
+[00:25:37 – 00:25:38] Yeah, sure.
+[00:25:39 – 00:25:41] Good, and I'll send you the video on Zulip, OK?
+[00:25:42 – 00:25:43] Yeah, thank you so much.
+[00:25:43 – 00:25:44] Bye.
+[00:25:45 – 00:25:46] Bye, thank you.
+[00:25:48 – 00:25:53] zone first okay no problem yeah we will figure it out yeah thank you so much

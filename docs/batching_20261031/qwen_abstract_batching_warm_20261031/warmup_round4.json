@@ -1,0 +1,162 @@
+[
+  {
+    "paper_id": "paper171",
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T10:38:46.104348394Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"paper_id\": \"paper171\", \"relevance\": 3}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5054458905,
+      "load_duration": 3364410987,
+      "prompt_eval_count": 318,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1067839999,
+      "eval_count": 18,
+      "eval_duration": 604184000
+    }
+  },
+  {
+    "paper_id": "paper073",
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T10:38:46.018308042Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"paper_id\": \"paper073\", \"relevance\": 1}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4968604536,
+      "load_duration": 3363532893,
+      "prompt_eval_count": 337,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 720429000,
+      "eval_count": 18,
+      "eval_duration": 865632000
+    }
+  },
+  {
+    "paper_id": "paper097",
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T10:38:46.017813977Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"paper_id\": \"paper097\", \"relevance\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4965660895,
+      "load_duration": 3363128742,
+      "prompt_eval_count": 463,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 719832000,
+      "eval_count": 18,
+      "eval_duration": 865794000
+    }
+  },
+  {
+    "paper_id": "paper167",
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T10:38:46.103128612Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"paper_id\": \"paper167\", \"relevance\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5051124286,
+      "load_duration": 3364926737,
+      "prompt_eval_count": 465,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 344527000,
+      "eval_count": 18,
+      "eval_duration": 605039000
+    }
+  },
+  {
+    "paper_id": "paper176",
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T10:38:47.885893694Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"paper_id\": \"paper176\", \"relevance\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1865430063,
+      "load_duration": 4281389,
+      "prompt_eval_count": 521,
+      "prompt_eval_cached_count": 108,
+      "prompt_eval_duration": 430448000,
+      "eval_count": 18,
+      "eval_duration": 507337000
+    }
+  },
+  {
+    "paper_id": "paper134",
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T10:38:47.936724125Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"paper134\",\n  \"relevance\": 0\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1911818182,
+      "load_duration": 3998846,
+      "prompt_eval_count": 524,
+      "prompt_eval_cached_count": 107,
+      "prompt_eval_duration": 588896000,
+      "eval_count": 22,
+      "eval_duration": 990592000
+    }
+  },
+  {
+    "paper_id": "paper013",
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T10:38:47.850381739Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"paper_id\": \"paper013\", \"relevance\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1745681996,
+      "load_duration": 2763864,
+      "prompt_eval_count": 577,
+      "prompt_eval_cached_count": 107,
+      "prompt_eval_duration": 589688000,
+      "eval_count": 18,
+      "eval_duration": 903014000
+    }
+  },
+  {
+    "paper_id": "paper196",
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T10:38:47.885121646Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"paper_id\": \"paper196\", \"relevance\": 0}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1779557545,
+      "load_duration": 2527675,
+      "prompt_eval_count": 578,
+      "prompt_eval_cached_count": 107,
+      "prompt_eval_duration": 1018919000,
+      "eval_count": 18,
+      "eval_duration": 507869000
+    }
+  }
+]

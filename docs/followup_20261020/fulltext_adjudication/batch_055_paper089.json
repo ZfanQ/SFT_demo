@@ -1,0 +1,62 @@
+{
+  "fingerprint": "20d344e8360ddd880a47ab422009e676c7326273e1bbfdf0e79cf509acda0a60",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper089",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper092",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "major",
+                "candidate_quote": "However, the study did not establish causality or clinical benefit, and the findings were based on observational and experimental associations rather than direct clinical outcomes.",
+                "reference_quote": "Following a 1-week acclimatization period, mice were randomly allocated to the experimental groups.",
+                "explanation": "The blanket denial of causality mischaracterizes randomized supplementation experiments demonstrating effects on mouse outcomes, including glucose tolerance. Human treatment benefit and AMPK-dependent mediation remain unproven, but those limitations do not reduce the manipulated animal experiments to associations alone."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T13:58:27+00:00",
+    "request_sha256": "96139266426f8af829a12aec6ae753f99bbd020b9d1f4c33a171a0f50c3dea1f",
+    "usage": [
+      {
+        "input_tokens": 61142,
+        "cached_input_tokens": 9344,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 501,
+        "reasoning_output_tokens": 283
+      }
+    ],
+    "thread_ids": [
+      "01a1599a-f1e3-7e51-847b-622c35a2757c"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "paper_id": "paper005",
+    "long": "This study investigates the role of N6-methyladenosine (m6A) in temozolomide (TMZ) resistance in glioblastoma (GBM) cells, using multiple GBM cell lines including U87 MG, LN-229, T98G, and U251 MG. The objective was to explore m6A's contribution to TMZ resistance, assess METTL3 inhibition effects, and understand the molecular mechanisms of m6A regulation of TMZ resistance-associated genes. Methods included generating TMZ-resistant (TMZ-R) cell lines, RNA sequencing, m6A immunoprecipitation, RNA stability assays, colony formation assays, cell viability assays, qPCR, and bisulfite sequencing. METTL3 inhibition with STM2457 reduced expression of TMZ resistance-associated genes, including MGMT, and suppressed GBM cell growth. IC50 values for STM2457 were 93.6 \u03bcM in parental U87 MG cells and 81.7 \u03bcM in TMZ-R cells. MGMT mRNA was stabilized by m6A methylation, with its half-life reduced from ~20 h to ~8 h upon STM2457 treatment. The study concludes that m6A methylation stabilizes key genes and pathways promoting TMZ resistance, and METTL3 inhibition can reverse resistance by destabilizing m6A-methylated transcripts. However, the study is limited to in vitro models, and the exact mechanisms of m6A stabilization and the full range of m6A-regulated pathways in TMZ resistance remain to be elucidated. Long-term effects of METTL3 inhibition on GBM progression or patient outcomes were not explored.",
+    "short": "This study examined the role of N6-methyladenosine (m6A) in temozolomide (TMZ) resistance in glioblastoma (GBM) cells, finding that METTL3 inhibition reduced TMZ resistance by destabilizing m6A-methylated transcripts like MGMT. However, the results are based on in vitro models, and the full mechanisms of m6A regulation in TMZ resistance remain unclear.",
+    "long_words": 202,
+    "short_words": 50,
+    "short_sentences": 2,
+    "chunks": 2,
+    "elapsed_s": 50.43498660810292,
+    "pdf_sha256": "2969d65199d38c0ac41944fb212a261c9dc3c11b2c9a11c27f5c64b6b1d469e5",
+    "extracted_text_sha256": "90492ca99caa815ac01bedf5d54cb5033a0690e22c79377a610ef881b98f76ac"
+  },
+  {
+    "paper_id": "paper012",
+    "long": "Oncolytic virus OVV-03 enhances CAR-T cell therapy against glioblastoma (GBM) through immune modulation and specific HER2 upregulation. OVV-03, a novel HER2-armed oncolytic vesicular stomatitis virus (VSV), was engineered and evaluated for its efficacy against GBM. In vitro, OVV-03 demonstrated potent infectivity and cytoxicity in GBM cell lines and patient-derived cells, inducing caspase-dependent apoptosis and suppressing proliferation and clonogenicity. In murine GBM models, OVV-03 significantly suppressed tumor growth, improved survival, and enhanced CD8\u207a T cell infiltration. Single-cell RNA sequencing revealed that OVV-03 remodels the tumor immune microenvironment by boosting cytotoxic T cell activity and inhibiting immunosuppressive pathways, notably PD-L1/PD-1 signaling. Mechanistically, OVV-03 downregulated PD-L1 by inhibiting the JNK\u2013c-Fos/c-Jun axis, an effect reversible by TNF-\u03b1 stimulation. OVV-03 synergized with B7H3- or HER2-targeted CAR-T cells, inducing superior tumor regression and prolonged survival in orthotopic models. These findings demonstrate that OVV-03 exerts potent antitumor effects through direct oncolysis and immune activation, including PD-L1 modulation. Its synergistic combination with CAR-T cells highlights OVV-03 as a highly promising oncolytic immunovirotherapy platform for GBM. The study used patient-derived cells and murine models, with OVV-03 showing significant efficacy in vivo, including reduced tumor burden and prolonged survival. The results suggest that OVV-03 can enhance CAR-T cell therapy by modulating immune checkpoints and upregulating tumor antigens, thereby improving CAR-T cell accessibility and cytotoxicity in the immunosuppressive GBM microenvironment. Limitations include the exclusive use of female mice and the need for further validation in human trials.",
+    "short": "Oncolytic virus OVV-03 enhances CAR-T cell therapy against glioblastoma by modulating immune checkpoints and upregulating HER2, improving T cell infiltration and cytotoxicity. In vitro and in vivo studies showed significant tumor suppression and prolonged survival, though results are based on female murine models and require human validation. The study highlights OVV-03's potential as an immunovirotherapy platform but notes limitations in clinical translation.",
+    "long_words": 236,
+    "short_words": 62,
+    "short_sentences": 3,
+    "chunks": 1,
+    "elapsed_s": 24.848529572598636,
+    "pdf_sha256": "dc0101ddf8001ab89513c9e983bb6ed3d69dd3862523d18ca6d498c84ae8b1c2",
+    "extracted_text_sha256": "9d78c2d9db555025416ae97974e577e41a0011ecc8be8c0af202d5194a08bd40"
+  },
+  {
+    "paper_id": "paper049",
+    "long": "This study investigated the role of the long non-coding RNA (lncRNA) PGM5P4-AS1 in breast cancer (BRCA) progression. Using data from three GEO datasets and bioinformatics analysis, PGM5P4-AS1 was found to be significantly downregulated in BRCA tumor tissues compared to normal tissues. Clinicopathological analysis revealed that low PGM5P4-AS1 expression was associated with poor differentiation, advanced tumor node metastasis (TNM) staging, and lymph node metastasis. Kaplan-Meier survival analysis and multivariate Cox regression confirmed that low PGM5P4-AS1 expression independently predicted poor prognosis. Functional experiments using BRCA cell lines (SK-BR-3 and MDA-MB-231) showed that PGM5P4-AS1 overexpression suppressed cell proliferation, migration, and invasion while promoting apoptosis. Mechanistically, PGM5P4-AS1 acted as a molecular sponge for miR-3664-5p, which in turn targeted KLF9. miR-3664-5p overexpression reversed the suppressive effects of PGM5P4-AS1 on BRCA cell functions, and KLF9 silencing reversed the effects of miR-3664-5p downregulation. These findings suggest that PGM5P4-AS1 promotes BRCA progression through the miR-3664-5p/KLF9 axis. The study highlights PGM5P4-AS1 as a potential prognostic biomarker and therapeutic target for BRCA. However, the study is limited by its retrospective design, small sample size, and lack of in vivo validation. Additionally, potential off-target effects of PGM5P4-AS1 and the need for further exploration of signaling pathways remain areas for future research.",
+    "short": "This study examined the role of lncRNA PGM5P4-AS1 in breast cancer progression, finding it significantly downregulated in tumor tissues and associated with poor prognosis. Functional experiments showed PGM5P4-AS1 suppresses cancer cell growth by sponging miR-3664-5p and modulating KLF9. However, the study's retrospective design, small sample size, and lack of in vivo validation limit its conclusions.",
+    "long_words": 200,
+    "short_words": 55,
+    "short_sentences": 3,
+    "chunks": 1,
+    "elapsed_s": 23.15673168282956,
+    "pdf_sha256": "c190f03cf7981e607ecb12ddabcb1de6b980901640fce76ac34650df56f54fb6",
+    "extracted_text_sha256": "698969d7a73a05b72f2dc101104907bd4fc60420e5b88398cd9ab014ba64e0c3"
+  },
+  {
+    "paper_id": "paper100",
+    "long": "This study investigated the protective effects of hirsutine, an indole alkaloid, against high glucose (HG)-induced injury in MPC5 podocytes, an in vitro model of podocyte dysfunction in diabetic nephropathy (DN). MPC5 cells were exposed to 30 mM HG with or without hirsutine (5\u201320 \u03bcM), and cell viability, oxidative stress, apoptosis, and ferroptosis were assessed. Hirsutine significantly improved cell viability, reduced intracellular reactive oxygen species (ROS) levels, and suppressed apoptosis, indicating its cytoprotective role. It also modulated autophagy by altering LC3 and p62 expression and inhibited ferroptosis by upregulating NRF2 pathway markers and reducing lipid peroxidation. These findings suggest that hirsutine exerts protective effects through the coordinated regulation of apoptosis, autophagy, and ferroptosis. However, the study is limited to an in vitro model and lacks direct autophagic flux assessment and genetic validation of NRF2 dependency. The results highlight hirsutine's potential as a therapeutic candidate for DN, but further in vivo studies are needed to confirm its efficacy and mechanism of action.",
+    "short": "This study examined hirsutine's protective effects against high glucose-induced injury in MPC5 podocytes, showing improved viability and reduced oxidative stress and apoptosis. However, the findings are based on an in vitro model without direct autophagic flux analysis or genetic confirmation of NRF2 involvement. The results suggest hirsutine may target apoptosis, autophagy, and ferroptosis, but further in vivo research is required to validate its therapeutic potential for diabetic nephropathy.",
+    "long_words": 160,
+    "short_words": 68,
+    "short_sentences": 3,
+    "chunks": 1,
+    "elapsed_s": 16.754654400981963,
+    "pdf_sha256": "b5ee447bc240e4af673e4d2472abbd9da1ffc5db2f9eb584e0b6db930c25c580",
+    "extracted_text_sha256": "7ecef557500bf2af212bc7f59e6231d0bf2bda73db5b66123a9741c4376f20e2"
+  },
+  {
+    "paper_id": "paper128",
+    "long": "This phase 2, randomized, active-controlled, observer-blind study evaluated the safety, reactogenicity, and immunogenicity of two investigational mRNA vaccines against SARS-CoV-2, compared to a licensed bivalent mRNA vaccine. The study included 425 healthy adults aged \u226518 years who had completed a primary vaccination series with or without a booster at least three months prior. Participants were randomized to receive either a bivalent mRNA vaccine (CV0701) encoding ancestral D614G and Omicron BA.4\u20135 spike proteins at three dose levels, a monovalent mRNA vaccine (CV0601) encoding Omicron BA.4\u20135 spike protein, or a licensed comparator vaccine. The primary endpoints were reactogenicity, safety, and immunogenicity, with secondary and tertiary endpoints focusing on humoral and cell-mediated immune responses. Most solicited events were mild to moderate, and no vaccine-related serious adverse events or cases of myocarditis/pericarditis were reported. For the CV0701 vaccine, neutralizing titers against both ancestral D614G and Omicron BA.4\u20135 increased dose-dependently at Day 29 and remained above baseline at Day 181. The CV0601 vaccine showed similar immune responses. CD4+ and CD8+ T-cell responses were observed in all groups, with the lowest dose of CV0701 showing a lesser response. The investigational vaccines demonstrated an acceptable safety profile and robust immunogenicity, comparable to the licensed comparator vaccine. The study limitations include the small sample size and lack of formal hypothesis testing, which may limit the ability to detect rare events or draw definitive comparative conclusions. These findings support the potential of these vaccines in addressing the evolving SARS-CoV-2 variants.",
+    "short": "A phase 2 study evaluated the safety and immunogenicity of two investigational mRNA vaccines against SARS-CoV-2, compared to a licensed bivalent vaccine. Both investigational vaccines showed dose-dependent increases in neutralizing antibodies and T-cell responses, with an acceptable safety profile. However, the small sample size and lack of formal hypothesis testing limit the ability to draw definitive conclusions about their comparative efficacy.",
+    "long_words": 241,
+    "short_words": 61,
+    "short_sentences": 3,
+    "chunks": 1,
+    "elapsed_s": 21.258846207987517,
+    "pdf_sha256": "7016914b1a8f0c238486291af47c39c5d01ee9e96b21e5fa5bc33c0aa3b92352",
+    "extracted_text_sha256": "a561e76ce84cb64fce6b1cc9f0829b33cd6324f423c06af5309cbdd8d15b14a7"
+  }
+]

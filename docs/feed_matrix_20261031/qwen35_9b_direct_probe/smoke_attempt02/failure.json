@@ -1,0 +1,6 @@
+{
+  "phase": "startup",
+  "error": "Direct engine did not retain requested slots/context",
+  "saved_rows": 0,
+  "utc": "2026-10-31T11:36:16.896114+00:00"
+}

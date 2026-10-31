@@ -1,0 +1,818 @@
+[
+  {
+    "index": 0,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup00\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 222,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup00\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450646,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 222,
+          "total_tokens": 263,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-HNa4xEpyy4SD28M9TvNh5IptchxLbuX8",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 222,
+          "prompt_ms": 2825.489,
+          "prompt_per_token_ms": 12.727427927927929,
+          "prompt_per_second": 78.5704704566183,
+          "predicted_n": 41,
+          "predicted_ms": 3307.371,
+          "predicted_per_token_ms": 82.684275,
+          "predicted_per_second": 12.094198080590292
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 1,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup01\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 260,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup01\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450646,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 260,
+          "total_tokens": 301,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-ABTWZgF6gwSlqcZenuA433Z7NspgsUsP",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 260,
+          "prompt_ms": 2822.899,
+          "prompt_per_token_ms": 10.857303846153846,
+          "prompt_per_second": 92.10389744726963,
+          "predicted_n": 41,
+          "predicted_ms": 3309.243,
+          "predicted_per_token_ms": 82.731075,
+          "predicted_per_second": 12.087356534409835
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 2,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup02\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 298,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup02\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450646,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 298,
+          "total_tokens": 339,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-VjpstDkOH0jHa5xy1h9n2Bngo3To8weg",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 298,
+          "prompt_ms": 2695.807,
+          "prompt_per_token_ms": 9.0463322147651,
+          "prompt_per_second": 110.54203806133006,
+          "predicted_n": 41,
+          "predicted_ms": 3309.226,
+          "predicted_per_token_ms": 82.73065,
+          "predicted_per_second": 12.087418629008717
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 3,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup03\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 336,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup03\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450646,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 336,
+          "total_tokens": 377,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-GSYXxzhVKs1Onc4FYKQ8SxndWakHtNgB",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 336,
+          "prompt_ms": 3097.672,
+          "prompt_per_token_ms": 9.219261904761904,
+          "prompt_per_second": 108.4685531586301,
+          "predicted_n": 41,
+          "predicted_ms": 2945.946,
+          "predicted_per_token_ms": 73.64865,
+          "predicted_per_second": 13.577981402238875
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 4,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup04\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 222,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup04\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450646,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 222,
+          "total_tokens": 263,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-onfAVXahBovZuIMBcjYbyBxDKaS4w3Xd",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 222,
+          "prompt_ms": 3103.142,
+          "prompt_per_token_ms": 13.978117117117117,
+          "prompt_per_second": 71.54039357528596,
+          "predicted_n": 41,
+          "predicted_ms": 2942.165,
+          "predicted_per_token_ms": 73.554125,
+          "predicted_per_second": 13.59543057578348
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 5,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup05\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 260,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup05\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450646,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 260,
+          "total_tokens": 301,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-OErQTaPNRlgJ8ctKiKpuTCFXRoh20NoS",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 260,
+          "prompt_ms": 2693.086,
+          "prompt_per_token_ms": 10.358023076923075,
+          "prompt_per_second": 96.54351921921544,
+          "predicted_n": 41,
+          "predicted_ms": 3310.0,
+          "predicted_per_token_ms": 82.75,
+          "predicted_per_second": 12.084592145015105
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 6,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup06\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 298,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup06\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450646,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 298,
+          "total_tokens": 339,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-DVgrMii5oFkeDCZzAKG6xRDY4sRIZ1Iz",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 298,
+          "prompt_ms": 3100.406,
+          "prompt_per_token_ms": 10.404046979865772,
+          "prompt_per_second": 96.11644410441728,
+          "predicted_n": 41,
+          "predicted_ms": 2944.19,
+          "predicted_per_token_ms": 73.60475,
+          "predicted_per_second": 13.586079702736576
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 7,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup07\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 336,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup07\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450646,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 336,
+          "total_tokens": 377,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-E7OSYCpixZmXLNIgALtT1ipDkYayNPzs",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 336,
+          "prompt_ms": 2690.45,
+          "prompt_per_token_ms": 8.007291666666665,
+          "prompt_per_second": 124.88617145830624,
+          "predicted_n": 41,
+          "predicted_ms": 3311.87,
+          "predicted_per_token_ms": 82.79675,
+          "predicted_per_second": 12.077768753000571
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 8,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup08\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 222,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup08\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450654,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 222,
+          "total_tokens": 263,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-Y8PKpNSQxYGFkY3DyremPQk8m1pnZwdS",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 180,
+          "prompt_ms": 2409.438,
+          "prompt_per_token_ms": 13.385766666666667,
+          "prompt_per_second": 74.70621779850737,
+          "predicted_n": 41,
+          "predicted_ms": 3240.001,
+          "predicted_per_token_ms": 81.00002500000001,
+          "predicted_per_second": 12.345675201952098
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 9,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup09\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 260,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup09\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450654,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 260,
+          "total_tokens": 301,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-sHjiiFjSFsLw8sZ8M6BovyGTPTU7xnJZ",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 218,
+          "prompt_ms": 2389.412,
+          "prompt_per_token_ms": 10.960605504587155,
+          "prompt_per_second": 91.23583542729342,
+          "predicted_n": 41,
+          "predicted_ms": 3238.785,
+          "predicted_per_token_ms": 80.969625,
+          "predicted_per_second": 12.350310378737706
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 10,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup10\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 298,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup10\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450654,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 298,
+          "total_tokens": 339,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-7ipCBPMAJ0Xj1fdlxKF5uc7TAIVaGs60",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 256,
+          "prompt_ms": 2365.349,
+          "prompt_per_token_ms": 9.23964453125,
+          "prompt_per_second": 108.22927187489033,
+          "predicted_n": 41,
+          "predicted_ms": 3238.529,
+          "predicted_per_token_ms": 80.963225,
+          "predicted_per_second": 12.351286648969332
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 11,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup11\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 336,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup11\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450654,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 336,
+          "total_tokens": 377,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-KFyhEqHogkzheIQeHlFfiAJBdEuU7f85",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 294,
+          "prompt_ms": 2343.812,
+          "prompt_per_token_ms": 7.972149659863946,
+          "prompt_per_second": 125.43668178164461,
+          "predicted_n": 41,
+          "predicted_ms": 3238.101,
+          "predicted_per_token_ms": 80.95252500000001,
+          "predicted_per_second": 12.352919195540844
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 12,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup12\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 222,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup12\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450654,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 222,
+          "total_tokens": 263,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-FgGf4OZYzSLvonrVCC4i8t0R6NidRDfp",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 180,
+          "prompt_ms": 2713.728,
+          "prompt_per_token_ms": 15.076266666666667,
+          "prompt_per_second": 66.32941842365926,
+          "predicted_n": 41,
+          "predicted_ms": 2885.313,
+          "predicted_per_token_ms": 72.132825,
+          "predicted_per_second": 13.863313962817898
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 13,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup13\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 260,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup13\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450654,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 260,
+          "total_tokens": 301,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-44drEPUuhAriqcYRpkMX6siu3pyfYlZi",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 218,
+          "prompt_ms": 2676.261,
+          "prompt_per_token_ms": 12.276426605504588,
+          "prompt_per_second": 81.45692815461571,
+          "predicted_n": 41,
+          "predicted_ms": 2881.15,
+          "predicted_per_token_ms": 72.02875,
+          "predicted_per_second": 13.883345192024017
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 14,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup14\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 298,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup14\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450654,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 298,
+          "total_tokens": 339,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-qzGweascDMjDbSE4vPfyKHEPcnc0pWsV",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 256,
+          "prompt_ms": 2694.867,
+          "prompt_per_token_ms": 10.52682421875,
+          "prompt_per_second": 94.99541164740226,
+          "predicted_n": 41,
+          "predicted_ms": 2883.211,
+          "predicted_per_token_ms": 72.080275,
+          "predicted_per_second": 13.873420987919374
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 15,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup15\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 336,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup15\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793450654,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 336,
+          "total_tokens": 377,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-B14SI9aQ8FcmjvKTjVux9t0HZb20D5bF",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 294,
+          "prompt_ms": 2656.09,
+          "prompt_per_token_ms": 9.034319727891157,
+          "prompt_per_second": 110.68902032687144,
+          "predicted_n": 41,
+          "predicted_ms": 2878.946,
+          "predicted_per_token_ms": 71.97364999999999,
+          "predicted_per_second": 13.893973697318394
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  }
+]

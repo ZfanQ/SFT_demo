@@ -1,0 +1,413 @@
+{
+  "fingerprint": "22b12ef1f21769e811e15e9c99da54b13cdd7e31a01d350adc1fd36cd5aaa543",
+  "metadata": {
+    "request_sha256": "7113dced3cea168358fef7f875796d8325bdfdec52ea15b609c665902a5f9875",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "usage": [
+      {
+        "input_tokens": 36433,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3575,
+        "reasoning_output_tokens": 516
+      }
+    ],
+    "thread_ids": [
+      "01a15998-b951-7141-93f6-b8282b39da29"
+    ],
+    "completed_utc": "2026-10-20T13:57:03+00:00",
+    "scope": "author_abstract_only"
+  },
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper170",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and detailed, with a useful distinction between experimental protection and clinical efficacy.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable account of the proposed pathway and preclinical findings.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper171",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but coherent, separating experimental findings from clinical implications.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": false,
+            "readability_observation": "Generally fluent, but the polarization direction and observational characterization undermine interpretation.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "shifting macrophage polarization from an anti-tumor M1 to a pro-tumor M2 phenotype",
+                "reference_quote": "POU2F2 silencing reduced macrophage recruitment and shifted M2 polarization toward an anti-tumor M1 phenotype.",
+                "explanation": "The candidate reverses the reported effect of POU2F2 knockdown on macrophage polarization, changing the biological interpretation. Full-paper adjudication is required before a final error claim."
+              },
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "However, the findings are observational, and causal relationships or clinical implications were not established.",
+                "reference_quote": "POU2F2 knockdown inhibited KIRC cell proliferation, migration, and invasion in vitro.",
+                "explanation": "Characterizing the findings as observational disregards the reported experimental knockdown and co-culture interventions. Uncertain clinical benefit does not make these experiments observational. Full-paper adjudication is required."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper172",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly explains modeled access gains and distinguishes geographic coverage from actual treatment.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Generally clear, but a malformed percentage interrupts interpretation of the PD coverage result.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "minor",
+                "candidate_quote": "5,1.3%",
+                "reference_quote": "51.3%",
+                "explanation": "The reported PD coverage percentage is malformed rather than correctly transcribed. This appears typographical, but the supplied abstract gives 51.3%. Full-paper adjudication is required before a final error claim."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper173",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Readable explanation of the economic results, thresholds, and uncertainty.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes modeled economic value from clinical benefit.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper174",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Mechanistic detail is substantial but organized clearly around the protective pathway.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "The mechanism is clear, but the blanket causality disclaimer obscures the experimental evidence.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "the study did not establish causality or clinical relevance, as it relied on animal models and cell lines rather than human tissue samples.",
+                "reference_quote": "SIRT5 knockdown exacerbated LPS-induced ferroptosis, whereas SIRT5 overexpression suppressed it.",
+                "explanation": "The disclaimer may intend human clinical causality, but its unrestricted wording discounts experimentally manipulated mechanistic evidence. Full text is needed to resolve whether it misrepresents preclinical causality or only cautions against clinical extrapolation."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper175",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly presents the base-case result and the scenario that changes the economic conclusion.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but readable, particularly about treatment-duration and downstream-cost assumptions.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper176",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly separates monitoring, service utilization, mortality, and interpretation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible overview, although 'poorer outcomes in some areas' is vague.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper177",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes genomic potential and co-occurrence from demonstrated resistance or pathogenicity.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable, although the phrasing about associations is repetitive.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper178",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Dense molecular detail remains coherent, with clear qualification of computational treatment predictions.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear overview of the signature, subtypes, and regulatory mechanisms.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper179",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Fluent and accessible, but safety language is more definitive than the abstract.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "Safety was confirmed",
+                "reference_quote": "appears to be a feasible, tolerable and safe alternative intravaginal oxybutynin administration for 28 days",
+                "explanation": "The candidate upgrades a tentative, short-term safety conclusion to confirmed safety. This materially changes certainty despite its later call for further data. Full-paper adjudication is required before a final error claim."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly balances usability findings with technical uncertainty and limits on clinical interpretation.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper180",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed and coherent, with appropriate care around small histology subgroups.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly reports cohort outcomes and retrospective-design limitations.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper181",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Straightforward account of comparative benefits and perioperative findings.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Numerically detailed but readable, distinguishing nonsignificant complications from established equal safety.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper182",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Results are clearly presented, but the observational-only characterization contradicts the described animal interventions.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "the findings are based on observational data.",
+                "reference_quote": "Oral administration of A. muciniphila or/and E. hallii or butyrate suppressed tumor growth and enhanced CD8+ tumor-infiltrating lymphocytes (TILs)",
+                "explanation": "The study includes transplantation and supplementation experiments, so describing its findings collectively as observational changes the evidence design. Human clinical causality remains separate from these preclinical interventions. Full-paper adjudication is required."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly separates human prognostic associations from mouse intervention findings and clinical uncertainty.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper183",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Readable distinction between geographic associations, planning implications, and unavailable clinical indications.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear but lengthy enumeration of models and geographic clusters.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper184",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly explains why assessment chronology complicates interpretation of higher remote scores.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Concise, clear account of repeated measurements, workforce associations, and modality confounding.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper185",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly explains the negative genetic findings without treating them as exclusion of all viral contributions.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable account of transplant-group differences, with some repetition in the concluding interpretation.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper186",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly connects human observations, experimental mechanisms, and limits on therapeutic extrapolation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Generally clear; the final causality caveat could more precisely distinguish human observations from experimental findings.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper187",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear overview of adaptive microbial remodeling and the baseline association with later fat loss.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes microbial sampling duration, later body-composition outcomes, and the proposed energy-harvesting hypothesis.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper188",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly conveys evolving social belonging; association-versus-causation language adds little to the qualitative account.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable and nuanced account of adaptation as recurring adjustment rather than fixed stages.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper189",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly preserves both transformative possibilities and variability in psychosocial experiences.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but accessible, balancing recovery challenges, support, and variable empowerment.",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "fingerprint": "22b12ef1f21769e811e15e9c99da54b13cdd7e31a01d350adc1fd36cd5aaa543",
+  "metadata": {
+    "request_sha256": "bf89a481e5db19509bb80a7e348a4bc6182d2f586c712fb70e95d1aa5bb5c4cb",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "usage": [
+      {
+        "input_tokens": 35832,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3823,
+        "reasoning_output_tokens": 869
+      }
+    ],
+    "thread_ids": [
+      "01a1598c-1c69-72c1-88fc-686c5988d9fa"
+    ],
+    "completed_utc": "2026-10-20T13:43:24+00:00",
+    "scope": "author_abstract_only"
+  },
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper002",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear account of the intervention and results, with some repetitive concluding statements.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Well organized and precise; numerical detail increases density but remains readable.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper003",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly presents the purpose, themes, and implications in accessible language.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Coherent and informative, although the detailed lists make some sentences dense.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper004",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Readable progression from study design to associations and clinical implications.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes general associations from those surviving multiple-comparison correction.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper006",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Technical but coherent, with clear separation of experimental findings and translational uncertainty.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Generally clear, but combining enzyme and cellular results obscures which compounds produced each effect.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "Compounds 5c and 5e demonstrated high selectivity for BuChE over AChE, with over 150-fold selectivity, and showed protective effects against H2O2- and Aβ-induced toxicity by reducing ROS and upregulating antioxidant genes.",
+                "reference_quote": "Also, 5c, 5g and 5h significantly reversed both H2O2− and Aβ-induced toxicity in HT22 cells.",
+                "explanation": "The candidate attributes cellular protection to 5c and 5e, whereas the abstract identifies 5c, 5g and 5h. This changes the compound-specific efficacy result. Full-paper adjudication is needed to determine whether 5e also demonstrated these effects."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper007",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Readable overall, but follow-up duration and cause-of-death rankings lack necessary qualification.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "over an 18-year follow-up period",
+                "reference_quote": "We conducted a retrospective descriptive study using national hospital database records from 2004–2022.",
+                "explanation": "The candidate could imply 18 years of follow-up for all patients, while the abstract describes a database window with deaths followed through 2022. Full text is needed to distinguish maximum follow-up from a common patient-level duration."
+              },
+              {
+                "kind": "needs_fulltext",
+                "severity": "major",
+                "candidate_quote": "Age-related debility was the most common cause of death in long-term survivors, followed by COVID-19 (5.0%) and cardiovascular collapse (1.4%).",
+                "reference_quote": "long-term mortality was primarily due to complications (30.7%) and comorbidities (30.5%).",
+                "explanation": "The candidate presents debility, COVID-19 and cardiovascular collapse as the overall leading long-term causes. The abstract instead emphasizes complications and comorbidities. Full text must establish whether the candidate's ranking applies only within an 'other causes' category or to individual causes overall."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly communicates mortality patterns and appropriately explains unequal observation periods.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper008",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Organized and readable, with a clear distinction between prognostic associations and causal interpretation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly reports the principal associations, although the conclusion repeats earlier results.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper009",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and appropriately qualified; changing incidence denominators requires attentive reading.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible presentation of prescribing changes, hemorrhage rates, and observational uncertainty.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper010",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Dense but logically organized, distinguishing animal findings from clinical implications.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable technical overview, though the final sentences repeat the platform's proposed benefits.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper011",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly presents all three estimates, with repetitive statements about the causal conclusion.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Technical but clear, explaining cognitive-score direction and the assumptions underlying causal interpretation.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper013",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear account of model development, predictors, performance, and validation needs.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes concurrent impairment estimation from prediction of future decline.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper014",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Coherent and appropriately qualified, though the discussion of conflicting cognition reporting adds complexity.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly structured, although the long sequence of coefficients makes the results paragraph dense.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper015",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes the corrected axial association from nonsignificant and exploratory findings.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but readable, consistently distinguishing robust results from exploratory associations.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper016",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear presentation of group differences, adjusted findings, and limits on causal interpretation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible and coherent, with some repetition of the comparable vulnerabilities across exposure groups.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper017",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly summarizes tracer development and imaging findings using understandable technical language.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Numerically dense but organized, distinguishing imaging promise from unresolved specificity and translation questions.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper018",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed economic accounting remains coherent, with clear separation of modeled savings and unmeasured health benefits.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly explains both scenarios and the importance of vaccine procurement prices.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper019",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible overview of the workflow and diagnostic findings, with some repeated statements about its promise.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Technical but coherent, clearly separating expansion detection from sizing and interruption uncertainties.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "Expanded loci were found in 12 of 46 suspected spinocerebellar ataxia cases",
+                "reference_quote": "identified eight SCA27B, two SCA37, three SCA31, one SCA3, and nine CANVAS cases.",
+                "explanation": "The abstract's SCA subtype counts sum to 14, whereas the candidate reports 12 affected participants. Full text is needed to determine whether overlapping expansions in individual participants reconcile the counts or whether the candidate understates diagnostic yield."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper020",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly emphasizes feasibility and safety while keeping preliminary cognitive observations appropriately qualified.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Well organized, clearly distinguishing practical feasibility, adverse events, and unestablished efficacy.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper021",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly conveys employee concerns and organizational implications; some concluding ideas are repeated.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Coherent and nuanced, keeping participant perceptions distinct from demonstrated clinical effectiveness.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper022",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly presents psychometric findings and profiles, with repetition in the concluding interpretation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear despite substantial technical detail, with appropriately explicit qualification of measurement and profile interpretation.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper023",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes the survey outcome from psychiatric diagnosis and explains the interpretation of low prevalence.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible summary of prevalence, associated factors, and implications for integrated care.",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  }
+}

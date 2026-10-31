@@ -1,0 +1,6 @@
+{
+  "phase": "startup",
+  "error": "Model layers are not all GPU-offloaded",
+  "saved_rows": 0,
+  "utc": "2026-10-31T11:33:18.139282+00:00"
+}

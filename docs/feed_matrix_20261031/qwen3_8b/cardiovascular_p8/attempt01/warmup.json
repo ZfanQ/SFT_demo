@@ -1,0 +1,322 @@
+[
+  {
+    "index": 0,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:45.108805367Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup00\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 7621962238,
+      "load_duration": 3731431833,
+      "prompt_eval_count": 228,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1656150000,
+      "eval_count": 32,
+      "eval_duration": 2213454000
+    }
+  },
+  {
+    "index": 1,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:44.177608369Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup01\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 6688429737,
+      "load_duration": 3727935772,
+      "prompt_eval_count": 267,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 813510000,
+      "eval_count": 32,
+      "eval_duration": 2124721000
+    }
+  },
+  {
+    "index": 2,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:45.106881202Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup02\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 7617348617,
+      "load_duration": 3731780846,
+      "prompt_eval_count": 306,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 838094000,
+      "eval_count": 32,
+      "eval_duration": 2214372000
+    }
+  },
+  {
+    "index": 3,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:44.258460836Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup03\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 6764935269,
+      "load_duration": 3728890502,
+      "prompt_eval_count": 345,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 590754000,
+      "eval_count": 32,
+      "eval_duration": 1614513000
+    }
+  },
+  {
+    "index": 4,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:44.175805739Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup04\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 6682296503,
+      "load_duration": 3726526339,
+      "prompt_eval_count": 228,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 810170000,
+      "eval_count": 32,
+      "eval_duration": 2127208999
+    }
+  },
+  {
+    "index": 5,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:44.257449067Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup05\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 6755273795,
+      "load_duration": 3726140095,
+      "prompt_eval_count": 267,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 587544000,
+      "eval_count": 32,
+      "eval_duration": 1611745000
+    }
+  },
+  {
+    "index": 6,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:44.177804956Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup06\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 6681932211,
+      "load_duration": 3727595617,
+      "prompt_eval_count": 306,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 811776000,
+      "eval_count": 32,
+      "eval_duration": 2126202000
+    }
+  },
+  {
+    "index": 7,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:44.257678545Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup07\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 6758234680,
+      "load_duration": 3725340388,
+      "prompt_eval_count": 345,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 589205000,
+      "eval_count": 32,
+      "eval_duration": 1615181000
+    }
+  },
+  {
+    "index": 8,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:46.749067239Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup08\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2571109502,
+      "load_duration": 1974589,
+      "prompt_eval_count": 228,
+      "prompt_eval_cached_count": 114,
+      "prompt_eval_duration": 642041000,
+      "eval_count": 32,
+      "eval_duration": 1644555000
+    }
+  },
+  {
+    "index": 9,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:46.748394233Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup09\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2568568978,
+      "load_duration": 5883319,
+      "prompt_eval_count": 267,
+      "prompt_eval_cached_count": 114,
+      "prompt_eval_duration": 641535000,
+      "eval_count": 32,
+      "eval_duration": 1644520000
+    }
+  },
+  {
+    "index": 10,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:46.749738575Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup10\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2570625809,
+      "load_duration": 8332396,
+      "prompt_eval_count": 306,
+      "prompt_eval_cached_count": 113,
+      "prompt_eval_duration": 642557000,
+      "eval_count": 32,
+      "eval_duration": 1644581000
+    }
+  },
+  {
+    "index": 11,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:46.750884927Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup11\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2492846490,
+      "load_duration": 1107430,
+      "prompt_eval_count": 345,
+      "prompt_eval_cached_count": 113,
+      "prompt_eval_duration": 644050000,
+      "eval_count": 32,
+      "eval_duration": 1644140000
+    }
+  },
+  {
+    "index": 12,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:46.751464212Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup12\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2488144819,
+      "load_duration": 2646224,
+      "prompt_eval_count": 228,
+      "prompt_eval_cached_count": 113,
+      "prompt_eval_duration": 644567000,
+      "eval_count": 32,
+      "eval_duration": 1643990000
+    }
+  },
+  {
+    "index": 13,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:46.752121577Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup13\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2486145102,
+      "load_duration": 2041392,
+      "prompt_eval_count": 267,
+      "prompt_eval_cached_count": 113,
+      "prompt_eval_duration": 645072000,
+      "eval_count": 32,
+      "eval_duration": 1643998000
+    }
+  },
+  {
+    "index": 14,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:46.816439356Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup14\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1706403944,
+      "load_duration": 2925038,
+      "prompt_eval_count": 306,
+      "prompt_eval_cached_count": 113,
+      "prompt_eval_duration": 299659000,
+      "eval_count": 32,
+      "eval_duration": 1303307000
+    }
+  },
+  {
+    "index": 15,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:14:46.81698636Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup15\",\n  \"profile_id\": \"cardiovascular\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1706618170,
+      "load_duration": 4319795,
+      "prompt_eval_count": 345,
+      "prompt_eval_cached_count": 113,
+      "prompt_eval_duration": 302031000,
+      "eval_count": 32,
+      "eval_duration": 1301317000
+    }
+  }
+]

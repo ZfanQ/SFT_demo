@@ -1,0 +1,228 @@
+{
+  "fingerprint": "22b12ef1f21769e811e15e9c99da54b13cdd7e31a01d350adc1fd36cd5aaa543",
+  "metadata": {
+    "request_sha256": "a2d129deef0ce4d86a24bbddae8379912b3f352c2725e9dfe226bc3441be0495",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "usage": [
+      {
+        "input_tokens": 26733,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2078,
+        "reasoning_output_tokens": 336
+      }
+    ],
+    "thread_ids": [
+      "01a15999-f003-7392-8fed-42a676c038aa"
+    ],
+    "completed_utc": "2026-10-20T13:57:56+00:00",
+    "scope": "author_abstract_only"
+  },
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper190",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and logically organized, although densely packed with numerical results.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "minor",
+                "candidate_quote": "higher confidence in neuraxial anesthesia for cesarean delivery (mean 7.93) and airway management (7.82)",
+                "reference_quote": "Highest-rated competencies were neuraxial anesthesia for cesarean delivery (mean 7.93) and airway management during general anesthesia in obstetric patients (7.82)",
+                "explanation": "The candidate labels these competence scores as confidence scores, conflating constructs distinguished in the abstract. The numerical values agree; full-paper adjudication is needed to confirm the questionnaire constructs."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Coherent and accessible, with clear distinctions between self-assessment, associations, and clinical outcomes.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper191",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly organized, though numerous abbreviations and biomarker thresholds make portions dense.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable explanation of the cohorts and exploratory findings, with useful clarification of the progression endpoint.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper192",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and precise about readmissions, although the temporal interpretation requires clarification.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "Infection-related readmission rates declined over time despite decreasing prophylaxis compliance",
+                "reference_quote": "The monthly rate of women who received antibiotics increased slightly over time by an average of almost 1.0% per month",
+                "explanation": "The candidate describes decreasing compliance, whereas the abstract reports increasing antibiotic receipt. These may represent different measures, but the opposing trends require full-paper verification before accepting the candidate's interpretation."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Straightforward and well structured, with clear separation of results, limitations, and recommendations.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper193",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible and coherent, with some repetition of the cultural and community implications.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Engaging and concrete, clearly connecting participants' experiences to cultural and family relationships.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "20 people across all five health regions: 14 pregnant women without anticipated complications, one expectant father, and five older community members",
+                "reference_quote": "20 pregnant women and their families across the five health regions",
+                "explanation": "The candidate counts 20 total participants, including only 14 pregnant women; the abstract describes 20 pregnant women and their families. This materially changes the study population. Full-paper adjudication is required to resolve the participant counts."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper194",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and clinically focused, with an understandable distinction between intraoperative benefits and postoperative findings.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Easy to follow, although the generic causality caveat is imprecise for a randomized trial.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper195",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Technically clear, though the closing discussion of associations and causality feels formulaic for an engineering evaluation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Concrete and readable, clearly explaining the laboratory setting and limits of clinical interpretation.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper196",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Precise and well organized, though numerical detail and methodological qualifications increase reading demands.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and concise, with accessible presentation of the principal associations and uncertainty.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper197",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Well structured, with clear distinctions among observed associations, laboratory findings, and the proposed mechanism.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "Laboratory drug exposure produced little change at lower concentrations, although higher concentrations altered community composition.",
+                "reference_quote": "direct drug-mediated effects on fecal communities were not observed in in vitro experiments",
+                "explanation": "The candidate reports direct compositional effects at higher drug concentrations, whereas the abstract reports no direct drug-mediated effects in vitro. This changes evidence bearing on the proposed immune-mediated mechanism. Full-paper adjudication must establish whether concentration-specific findings reconcile these statements."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Understandable but repetitive, particularly in restating links between antibody targeting and dysbiosis.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper198",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear presentation of disease-specific improvement alongside unchanged generic scores, with some repetition in the concluding sentences.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but coherent, integrating questionnaire results, recovery experiences, and persistent symptoms effectively.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper199",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Concise and accessible, with clearly expressed psychosocial themes and appropriately bounded conclusions.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Rich in concrete examples while maintaining a clear progression from participant accounts to implications and limitations.",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  }
+}

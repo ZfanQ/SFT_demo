@@ -1,0 +1,86 @@
+{
+  "type": "object",
+  "properties": {
+    "papers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "paper_id": {
+            "type": "string"
+          },
+          "candidates": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                },
+                "verdict": {
+                  "type": "string",
+                  "enum": [
+                    "material_error_identified",
+                    "no_material_error_identified",
+                    "uncertain"
+                  ]
+                },
+                "findings": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "severity": {
+                        "type": "string",
+                        "enum": [
+                          "major",
+                          "minor",
+                          "uncertain"
+                        ]
+                      },
+                      "candidate_quote": {
+                        "type": "string"
+                      },
+                      "reference_quote": {
+                        "type": "string"
+                      },
+                      "explanation": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "severity",
+                      "candidate_quote",
+                      "reference_quote",
+                      "explanation"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "label",
+                "verdict",
+                "findings"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "paper_id",
+          "candidates"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "papers"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,63 @@
+{
+  "method": "embedded GGUF template/tokenizer; no independent HF parity claim",
+  "independent_hf_parity": false,
+  "checked": 8,
+  "checks": [
+    {
+      "paper_id": "paper067",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 501,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper188",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 401,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper102",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 504,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper194",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 563,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper112",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 451,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper122",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 508,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper014",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 664,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper003",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 409,
+      "within_context": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "backend": "llama_cpp",
+  "binary": "/data/SFT_demo/.tools/ollama/lib/ollama/llama-server",
+  "binary_sha256": "234b05b2138264f8fb263c3205e85f4c290e8afe5067e280a4f6f90cdac5696b",
+  "binary_version": "0.00.001.267 I srv  llama_server: initializing ...\nversion: 0.4.1-dev (build 1, commit 161755f29)\nbuilt with GNU 13.3.1 for Linux x86_64\n",
+  "model_path": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+  "model_sha256": "bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+  "thinking": false,
+  "text_only": true,
+  "driver_sha256": "34ff372b4ab6f73f707558e3c9186a09a52d013fbb3a9675c713472aff81c531",
+  "round_helper_sha256": "82c2896cc19aababfd074d14eb02156ac77dadeea07c2cec42bf9efbf05c45c3",
+  "cuda_backend": "/data/SFT_demo/.tools/ollama/lib/ollama/cuda_v13/libggml-cuda.so",
+  "template_arguments": [
+    "--no-warmup",
+    "--jinja",
+    "--reasoning",
+    "off",
+    "--reasoning-budget",
+    "0"
+  ],
+  "renderer": "embedded GGUF chat template and tokenizer; no independent HF parity check",
+  "note": "Empty engine warmup disabled; synthetic real-request warmup remains excluded from timing."
+}

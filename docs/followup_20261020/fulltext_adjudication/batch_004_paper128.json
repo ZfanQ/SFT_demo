@@ -1,0 +1,47 @@
+{
+  "fingerprint": "20d344e8360ddd880a47ab422009e676c7326273e1bbfdf0e79cf509acda0a60",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper128",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "major",
+                "candidate_quote": "The study found no serious adverse events or cases of myocarditis/pericarditis.",
+                "reference_quote": "SAEs were reported by 0.0% (0/84) of the participants in the CV0701-Med group to 3.6% (3/84) in the CV0701-High group and by 3.5% (3/85) in the comparator group (Table 2).",
+                "explanation": "Serious adverse events occurred, although none were considered vaccine-related. The summary incorrectly converts absence of vaccine-related serious adverse events into absence of any serious adverse events."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T13:44:55+00:00",
+    "request_sha256": "feede24e285feb3aba7114708ada468ca6227621416a4473f621b249ff877a33",
+    "usage": [
+      {
+        "input_tokens": 32575,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 295,
+        "reasoning_output_tokens": 103
+      }
+    ],
+    "thread_ids": [
+      "01a1598e-a383-7412-b651-0ee9e2d60f49"
+    ]
+  }
+}

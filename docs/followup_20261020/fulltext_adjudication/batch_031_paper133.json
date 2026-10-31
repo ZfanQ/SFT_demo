@@ -1,0 +1,69 @@
+{
+  "fingerprint": "20d344e8360ddd880a47ab422009e676c7326273e1bbfdf0e79cf509acda0a60",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper133",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "major",
+                "candidate_quote": "the OSA GWAS included 439,010 cases and 366,484 controls of European ancestry.",
+                "reference_quote": "The OSA GWAS included 43,901 clinically ascertained cases and 366,484 population-based controls of European ancestry",
+                "explanation": "The summary inflates the OSA case count tenfold: 439,010 instead of 43,901."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper137",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "major",
+                "candidate_quote": "with some withdrawing if they could not receive a publicly available vaccine.",
+                "reference_quote": "Nonetheless, many TPs indicated that they would have withdrawn if this meant they could not receive a PHAV.",
+                "explanation": "The summary presents withdrawal as observed behavior. The article reports hypothetical willingness to withdraw; the protocol adaptation permitted approved vaccination while participants remained enrolled."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T13:51:38+00:00",
+    "request_sha256": "fe1ded16a4cfdf5d4c536c28c93e41cd8211bab789f92e5b4c81c950cca75c59",
+    "usage": [
+      {
+        "input_tokens": 52600,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 408,
+        "reasoning_output_tokens": 139
+      }
+    ],
+    "thread_ids": [
+      "01a15994-bfd5-7270-893c-8459308fc6e1"
+    ]
+  }
+}

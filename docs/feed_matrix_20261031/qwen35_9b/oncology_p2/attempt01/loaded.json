@@ -1,0 +1,23 @@
+{
+  "models": [
+    {
+      "name": "study-qwen35-9b-q4:20261031",
+      "model": "study-qwen35-9b-q4:20261031",
+      "size": 5589560196,
+      "digest": "06b156770b19881c72b422487e29562bb0947b1e99701664ecdd6554e3b407b2",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen35",
+        "families": [
+          "qwen35"
+        ],
+        "parameter_size": "9.0B",
+        "quantization_level": "Q4_K_M"
+      },
+      "expires_at": "2026-10-31T11:35:34.156094517Z",
+      "size_vram": 5589560196,
+      "context_length": 4096
+    }
+  ]
+}

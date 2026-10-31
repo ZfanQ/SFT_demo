@@ -1,0 +1,322 @@
+[
+  {
+    "index": 0,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:47.87225747Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup00\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 6222710256,
+      "load_duration": 2780442570,
+      "prompt_eval_count": 229,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 488556000,
+      "eval_count": 32,
+      "eval_duration": 1909502000
+    }
+  },
+  {
+    "index": 1,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:47.164086533Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup01\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5514408392,
+      "load_duration": 2781890604,
+      "prompt_eval_count": 268,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 437883000,
+      "eval_count": 32,
+      "eval_duration": 2281880000
+    }
+  },
+  {
+    "index": 2,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:47.198049605Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup02\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5544674224,
+      "load_duration": 2785403164,
+      "prompt_eval_count": 307,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 589679000,
+      "eval_count": 32,
+      "eval_duration": 1723325000
+    }
+  },
+  {
+    "index": 3,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:47.871233283Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup03\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 6218722412,
+      "load_duration": 2782958274,
+      "prompt_eval_count": 346,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 487571000,
+      "eval_count": 32,
+      "eval_duration": 1909886000
+    }
+  },
+  {
+    "index": 4,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:47.162892871Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup04\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5508995061,
+      "load_duration": 2779524527,
+      "prompt_eval_count": 229,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 436991000,
+      "eval_count": 32,
+      "eval_duration": 2281776000
+    }
+  },
+  {
+    "index": 5,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:47.198294243Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup05\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5539810666,
+      "load_duration": 2787144446,
+      "prompt_eval_count": 268,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 587843000,
+      "eval_count": 32,
+      "eval_duration": 1724569000
+    }
+  },
+  {
+    "index": 6,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:47.870417425Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup06\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 6212336098,
+      "load_duration": 2784519043,
+      "prompt_eval_count": 307,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 1077194000,
+      "eval_count": 32,
+      "eval_duration": 1910168000
+    }
+  },
+  {
+    "index": 7,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:47.197923042Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup07\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5539145917,
+      "load_duration": 2788219860,
+      "prompt_eval_count": 346,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 588832000,
+      "eval_count": 32,
+      "eval_duration": 1724101000
+    }
+  },
+  {
+    "index": 8,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:49.627673539Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup08\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2460796536,
+      "load_duration": 8177695,
+      "prompt_eval_count": 229,
+      "prompt_eval_cached_count": 115,
+      "prompt_eval_duration": 536052000,
+      "eval_count": 32,
+      "eval_duration": 1758744000
+    }
+  },
+  {
+    "index": 9,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:49.6267693Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup09\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2460802007,
+      "load_duration": 6016894,
+      "prompt_eval_count": 268,
+      "prompt_eval_cached_count": 115,
+      "prompt_eval_duration": 534990000,
+      "eval_count": 32,
+      "eval_duration": 1759141000
+    }
+  },
+  {
+    "index": 10,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:49.63136684Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup10\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2429567431,
+      "load_duration": 8215416,
+      "prompt_eval_count": 307,
+      "prompt_eval_cached_count": 114,
+      "prompt_eval_duration": 545527000,
+      "eval_count": 32,
+      "eval_duration": 1752753000
+    }
+  },
+  {
+    "index": 11,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:49.62844741Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup11\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2426604685,
+      "load_duration": 6488074,
+      "prompt_eval_count": 346,
+      "prompt_eval_cached_count": 114,
+      "prompt_eval_duration": 536995000,
+      "eval_count": 32,
+      "eval_duration": 1758455000
+    }
+  },
+  {
+    "index": 12,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:49.630688038Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup12\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 2428604877,
+      "load_duration": 7586030,
+      "prompt_eval_count": 229,
+      "prompt_eval_cached_count": 114,
+      "prompt_eval_duration": 541626000,
+      "eval_count": 32,
+      "eval_duration": 1756022000
+    }
+  },
+  {
+    "index": 13,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:49.677997799Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup13\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1805238611,
+      "load_duration": 2986537,
+      "prompt_eval_count": 268,
+      "prompt_eval_cached_count": 114,
+      "prompt_eval_duration": 393068000,
+      "eval_count": 32,
+      "eval_duration": 1242419000
+    }
+  },
+  {
+    "index": 14,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:49.678641572Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup14\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1805831334,
+      "load_duration": 1717102,
+      "prompt_eval_count": 307,
+      "prompt_eval_cached_count": 114,
+      "prompt_eval_duration": 394308000,
+      "eval_count": 32,
+      "eval_duration": 1241831000
+    }
+  },
+  {
+    "index": 15,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:18:49.677339439Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup15\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1803694778,
+      "load_duration": 2517432,
+      "prompt_eval_count": 346,
+      "prompt_eval_cached_count": 114,
+      "prompt_eval_duration": 392418000,
+      "eval_count": 32,
+      "eval_duration": 1242353000
+    }
+  }
+]

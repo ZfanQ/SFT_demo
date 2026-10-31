@@ -1,0 +1,12 @@
+{
+  "matplotlib_version": "3.11.2",
+  "plot_script_sha256": "c193765674f6abca2cac7e798cfcb4197f1a24eacb1316ecc5fb25b77faeecd2",
+  "verified_timed_requests": 5400,
+  "formats": [
+    "png",
+    "pdf",
+    "svg"
+  ],
+  "png_dpi": 220,
+  "error_bars": "Not estimated; one pass per paper/profile/concurrency cell."
+}

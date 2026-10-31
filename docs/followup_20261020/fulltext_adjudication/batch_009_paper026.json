@@ -1,0 +1,62 @@
+{
+  "fingerprint": "20d344e8360ddd880a47ab422009e676c7326273e1bbfdf0e79cf509acda0a60",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper026",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper033",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "major",
+                "candidate_quote": "However, the study did not establish causality, and the findings are based on observational and experimental associations.",
+                "reference_quote": "P301S transgenic mice were randomly divided into PBS-treated group and B. coccoides -treated group (n = 6/group).",
+                "explanation": "This blanket disclaimer misclassifies controlled interventions as associations. Randomized bacterial supplementation and manipulated-cell rescue experiments provide causal evidence within experimental models. They do not establish human disease causation or treatment efficacy, but that limitation does not negate the experimental causal evidence."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T13:47:52+00:00",
+    "request_sha256": "d1d26bd2dfd648c342b02739580855e2e865b12020ec3366bb75d581e778473c",
+    "usage": [
+      {
+        "input_tokens": 47327,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 432,
+        "reasoning_output_tokens": 210
+      }
+    ],
+    "thread_ids": [
+      "01a15991-4ece-7393-9f29-c51ad984b6f4"
+    ]
+  }
+}

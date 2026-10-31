@@ -1,0 +1,135 @@
+[00:10:25 – 00:10:28] So you can say it's March abbreviated.
+[00:10:29 – 00:10:29] Good.
+[00:10:29 – 00:10:30] That's what I was asking.
+[00:10:31 – 00:10:31] Okay.
+[00:10:34 – 00:10:34] Sure.
+[00:10:35 – 00:10:38] Remove the numbers and the technical math.
+[00:10:38 – 00:10:39] Sure.
+[00:10:39 – 00:10:43] The issue is simply whether this is accurate.
+[00:10:43 – 00:10:47] And as Zifan said, it would be useful to see what GPT says.
+[00:10:47 – 00:10:53] GPT is completely capable of reading the original abstract and this one and finding mistakes.
+[00:10:53 – 00:10:54] Absolutely.
+[00:10:54 – 00:10:56] Depends upon what you asked it to do.
+[00:10:56 – 00:10:56] Okay.
+[00:10:57 – 00:11:01] If you said rate it or give me it, then it may not give you that answer.
+[00:11:01 – 00:11:08] But if you said mark all the abstracts where there are mistakes, where the summary is wrong
+[00:11:08 – 00:11:11] compared to the abstract, you don't have to make it read the paper.
+[00:11:11 – 00:11:14] It can just read the abstract, compare it to the summary, but you can also give the
+[00:11:14 – 00:11:19] full paper because it's only 200 papers. It will finish this job in one hour. It should finish it
+[00:11:19 – 00:11:27] if it is GPT. Then it will definitely catch mistakes. No problem. It will find where all
+[00:11:27 – 00:11:32] the summaries where there are mistakes. Now, if the summary has a mistake, this is a problem. We
+[00:11:32 – 00:11:38] don't want to supply the summaries with mistakes. If even 10% is maybe too much because we have
+[00:11:38 – 00:11:44] the abstract. You're summarizing it, but if the summary has mistakes, people will quickly find out.
+[00:11:44 – 00:11:46] They will say, don't read the summary.
+[00:11:46 – 00:11:46] End of it.
+[00:11:46 – 00:11:47] That's it.
+[00:11:47 – 00:11:48] No one will read the summary after that
+[00:11:48 – 00:11:49] because you can't believe it, right?
+[00:11:50 – 00:11:52] 10% mistake is already too much
+[00:11:52 – 00:11:54] because I cannot believe if this is 10%.
+[00:11:54 – 00:11:55] In this 10%,
+[00:11:55 – 00:11:57] Yeah, we only have 200 words.
+[00:11:57 – 00:11:57] Yeah, 10%.
+[00:11:58 – 00:12:00] Yeah, so might as well read the actual abstract
+[00:12:00 – 00:12:01] because we are reading,
+[00:12:01 – 00:12:03] normally people will screen by the title.
+[00:12:03 – 00:12:05] So if I'm reading the abstract,
+[00:12:06 – 00:12:08] it is because I know the field, okay?
+[00:12:08 – 00:12:12] So I don't need some kind of layman summary
+[00:12:13 – 00:12:16] because, right, I don't, I would like to see the numbers actually.
+[00:12:16 – 00:12:18] So it's not, I'm not criticizing.
+[00:12:18 – 00:12:20] I think that this is very good.
+[00:12:20 – 00:12:24] We are talking about how we can use this in some way, right?
+[00:12:25 – 00:12:27] For example, if a paper does not have an abstract,
+[00:12:27 – 00:12:28] this would be one way to do it.
+[00:12:29 – 00:12:30] But it is unlikely.
+[00:12:30 – 00:12:34] There cannot be, it's not possible that you have full text of a paper,
+[00:12:34 – 00:12:36] but don't have access to the abstract.
+[00:12:36 – 00:12:38] It won't happen because the abstract will be part of the paper.
+[00:12:39 – 00:12:39] Okay.
+[00:12:39 – 00:12:44] Okay, so the use case is still not clear to me.
+[00:12:44 – 00:12:49] If you had a two sentence summary, that would work because it would be really useful because
+[00:12:49 – 00:12:51] you can give a very short summary.
+[00:12:52 – 00:12:57] Not one paragraph, but more like three sentences, something really short, then that can show
+[00:12:57 – 00:12:59] up next to each paper.
+[00:12:59 – 00:13:02] So you click on it only if you want to see the abstract.
+[00:13:02 – 00:13:07] Otherwise, you get this three sentence summary, which hopefully gives a little more information
+[00:13:07 – 00:13:08] than the title.
+[00:13:08 – 00:13:09] You know what I mean?
+[00:13:09 – 00:13:12] something in between the title and the abstract.
+[00:13:12 – 00:13:13] That is one.
+[00:13:14 – 00:13:16] Yeah, like a hover.
+[00:13:16 – 00:13:17] You put your mouse over it,
+[00:13:18 – 00:13:19] you get a very small hover.
+[00:13:19 – 00:13:21] It's like just three sentences, you know.
+[00:13:22 – 00:13:23] Could be useful.
+[00:13:23 – 00:13:24] Could be useful.
+[00:13:24 – 00:13:25] Depends on the quality of the summary.
+[00:13:26 – 00:13:28] So I would try to ask,
+[00:13:28 – 00:13:30] see what GPT says.
+[00:13:30 – 00:13:33] If GPT says that the summaries are generally correct,
+[00:13:33 – 00:13:34] try to go back to Quen
+[00:13:34 – 00:13:36] and try to get an even shorter summary
+[00:13:36 – 00:13:38] along with the longer summary
+[00:13:39 – 00:13:46] summary, long summary. Okay. And then go back to GPT and ask if the short summary is good.
+[00:13:47 – 00:13:52] If the short summary is generally good in your test of 200, we can argue that we could put it
+[00:13:52 – 00:13:57] next to the title in a however kind of format so that people get a quick summary and then before
+[00:13:57 – 00:14:04] clicking to see the abstract. This could be useful. Okay. But what are your next steps
+[00:14:04 – 00:14:08] otherwise what are you thinking of what are you thinking you can do with this next
+[00:14:09 – 00:14:15] our current plan for next step is absolutely what you said using the gpt to grade it as
+[00:14:15 – 00:14:21] we said last time but right now it's run out of token so quickly like when you go over all
+[00:14:21 – 00:14:28] those 200 papers one by one it's not decoded so it's wrong every 40 paper it run out of one
+[00:14:28 – 00:14:32] account is token usage and we need to reset it and switch.
+[00:14:33 – 00:14:36] So it takes such a long time to run over all those.
+[00:14:36 – 00:14:37] But you have how many accounts right now?
+[00:14:38 – 00:14:43] We have four, like two of the business, two of our personal.
+[00:14:43 – 00:14:44] That's all.
+[00:14:44 – 00:14:45] And we use that.
+[00:14:45 – 00:14:46] That is what you're using.
+[00:14:47 – 00:14:47] Okay.
+[00:14:48 – 00:14:52] But you have two of the business and when you run the model, which model are you using?
+[00:14:52 – 00:14:56] Astra 6.1, Sol 6.1, which one are you using?
+[00:14:57 – 00:14:58] Sol 6.1.
+[00:14:58 – 00:15:08] 6.1. Are you using medium, extra high? High, just a high. High. You're using sole 6.1 high for sure,
+[00:15:08 – 00:15:14] right? And you're running out of tokens after 40 papers. I cannot easily understand it.
+[00:15:15 – 00:15:23] But in any case, it is only 200 papers. So this is only five switches needed, right? And this
+[00:15:23 – 00:15:26] token running out is for five hours, right?
+[00:15:26 – 00:15:27] It's a five hour limit.
+[00:15:28 – 00:15:29] Yeah, five hour limit.
+[00:15:29 – 00:15:32] So if you're doing one run of 200 papers,
+[00:15:32 – 00:15:35] you can do it in 25 hours or maybe 50 hours
+[00:15:35 – 00:15:37] if you're sleeping during that time, right?
+[00:15:38 – 00:15:39] So it's not terrible.
+[00:15:40 – 00:15:41] You can finish this in two days.
+[00:15:41 – 00:15:44] No, this is not some terrible thing.
+[00:15:45 – 00:15:45] Sure, yeah.
+[00:15:46 – 00:15:48] Okay, so I'm not super concerned
+[00:15:48 – 00:15:51] because we are talking about two, three days here,
+[00:15:51 – 00:15:52] not one month, okay?
+[00:15:53 – 00:15:57] So I think we are still in reasonably okay zone.
+[00:15:59 – 00:16:02] And if you want to speed up and minimize token use,
+[00:16:02 – 00:16:04] you should not ask it to read the paper.
+[00:16:04 – 00:16:05] For the shorter summary,
+[00:16:05 – 00:16:08] just ask it to read the abstract of the summary
+[00:16:08 – 00:16:09] and point out mistakes.
+[00:16:11 – 00:16:12] Okay.
+[00:16:12 – 00:16:13] That's a good point.
+[00:16:13 – 00:16:15] So if you find discrepancies
+[00:16:15 – 00:16:16] and we don't really want a rating.
+[00:16:17 – 00:16:19] I know I said rating last time,
+[00:16:19 – 00:16:20] but rating is okay.
+[00:16:21 – 00:16:23] What we really want is to catch mistakes.
+[00:16:23 – 00:16:29] Please point out mistakes in the summary that are not correct according to the abstract.
+[00:16:29 – 00:16:33] And especially important are mistakes where the results change dramatically.
+[00:16:34 – 00:16:41] For example, if you say the drug helped the patient, but the paper actually says the drug did not help the patient, that's not very nice.
+[00:16:42 – 00:16:43] Yeah, that's a converse.
+[00:16:43 – 00:16:47] Okay, so you can ask GPT to find such conflicts.
+[00:16:47 – 00:16:50] And if it is just abstract and summary,
+[00:16:51 – 00:16:54] I cannot imagine running out of tokens for 200 papers.
+[00:16:54 – 00:16:55] That sounds a bit silly
+[00:16:55 – 00:16:59] because a single paper has more text than that.
+[00:17:01 – 00:17:03] Yeah, we need to test it out.
+[00:17:03 – 00:17:05] Okay, so look into it a little bit.
+[00:17:05 – 00:17:08] One possible option is if you're doing this
+[00:17:08 – 00:17:09] through a program,
+[00:17:09 – 00:17:09] if

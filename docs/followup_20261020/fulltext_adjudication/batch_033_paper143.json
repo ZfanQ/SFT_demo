@@ -1,0 +1,75 @@
+{
+  "fingerprint": "20d344e8360ddd880a47ab422009e676c7326273e1bbfdf0e79cf509acda0a60",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper143",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "major",
+                "candidate_quote": "However, the study did not establish causality, and the results are based on preclinical models.",
+                "reference_quote": "We demonstrate through pharmacological inhibition of AhR that the beneficial effect of S. boulardii is mediated in part through this pathway.",
+                "explanation": "The blanket denial of causality obscures experimental evidence for partial AhR mediation in manipulated mice. Lack of demonstrated patient efficacy does not negate this preclinical causal evidence."
+              },
+              {
+                "severity": "uncertain",
+                "candidate_quote": "In vitro experiments confirmed that *S. boulardii* increased free tryptophan levels and AhR activity in both mice and CeD patients, with the latter requiring *L. reuteri* for full effect.",
+                "reference_quote": "S. boulardii increased AhR activation of CeD microbiota enriched with L. reuteri",
+                "explanation": "The human-derived culture results establish increased AhR activity, but do not report increased free tryptophan. The candidate extends the mouse tryptophan finding to patient cultures; that extension cannot be verified from the supplied text."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper149",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "major",
+                "candidate_quote": "Elevated expression of HTRA1, HTRA2, and HTRA3 in STAD patients correlates with increased ECM receptor interactions and signaling, which are linked to EMT and tumor progression.",
+                "reference_quote": "While HTRA2 showed downregulation of genes associated with ECM–receptor interactions, HTRA4 was found to be associated with upregulated ECM-receptor interactions.",
+                "explanation": "For HTRA2, the candidate reverses the detailed ECM association. The results also report no significant tumor–control difference in HTRA2 expression. Although the abstract repeats the candidate’s wording, the detailed analyses contradict that characterization."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T13:52:11+00:00",
+    "request_sha256": "882c0cc94a3a80d8bdbd0f7126c71fc47d22e3e616bc21d119a8fae946e512ab",
+    "usage": [
+      {
+        "input_tokens": 56995,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1051,
+        "reasoning_output_tokens": 588
+      }
+    ],
+    "thread_ids": [
+      "01a15994-fb10-7f80-86cd-ac0131d0f346"
+    ]
+  }
+}

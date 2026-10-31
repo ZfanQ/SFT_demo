@@ -1,0 +1,122 @@
+[
+  {
+    "profile_id": "user_01",
+    "name": "oncology",
+    "interest": "Cancer immunotherapy, immune checkpoint inhibitors and CAR-T treatment",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_02",
+    "name": "neurodegeneration",
+    "interest": "Alzheimer disease, dementia and neurodegenerative mechanisms",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_03",
+    "name": "diabetes",
+    "interest": "Type 2 diabetes, glucose regulation and metabolic complications",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_04",
+    "name": "cardiology",
+    "interest": "Heart failure, cardiovascular outcomes and coronary artery disease",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_05",
+    "name": "infectious_disease",
+    "interest": "HIV, tuberculosis and emerging infectious diseases",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_06",
+    "name": "vaccines",
+    "interest": "Vaccine safety, immunogenicity and vaccine clinical trials",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_07",
+    "name": "maternal_health",
+    "interest": "Pregnancy, childbirth and maternal health outcomes",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_08",
+    "name": "pediatrics",
+    "interest": "Child health, neonatal care and pediatric clinical outcomes",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_09",
+    "name": "mental_health",
+    "interest": "Depression, anxiety and psychiatric treatment outcomes",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_10",
+    "name": "rheumatology",
+    "interest": "Systemic lupus erythematosus, rheumatoid arthritis and autoimmune treatment",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_11",
+    "name": "kidney",
+    "interest": "Chronic kidney disease, renal injury and dialysis",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_12",
+    "name": "respiratory",
+    "interest": "Asthma, COPD and pulmonary disease",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_13",
+    "name": "microbiome",
+    "interest": "Gut microbiome, microbial ecology and host interactions",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_14",
+    "name": "genomics",
+    "interest": "Human genetics, genome editing and gene regulation",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_15",
+    "name": "public_health",
+    "interest": "Epidemiology, health inequalities and population prevention",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_16",
+    "name": "machine_learning",
+    "interest": "Machine learning methodology, model evaluation and backpropagation",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_17",
+    "name": "computer_vision",
+    "interest": "Computer vision, image recognition and imaging algorithms",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_18",
+    "name": "protein_science",
+    "interest": "Protein structure, protein design and molecular biophysics",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_19",
+    "name": "neuroscience",
+    "interest": "Neural circuits, cognition and systems neuroscience",
+    "synthetic": true
+  },
+  {
+    "profile_id": "user_20",
+    "name": "rehabilitation",
+    "interest": "Disability, cerebral palsy and rehabilitation outcomes",
+    "synthetic": true
+  }
+]

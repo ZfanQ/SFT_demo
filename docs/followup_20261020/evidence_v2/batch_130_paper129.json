@@ -1,0 +1,414 @@
+{
+  "fingerprint": "22b12ef1f21769e811e15e9c99da54b13cdd7e31a01d350adc1fd36cd5aaa543",
+  "metadata": {
+    "request_sha256": "21ca758e8b8a1d585c9cfb323aa1e73ddf6bcae11395bd1a047439ca85e5a6a2",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "usage": [
+      {
+        "input_tokens": 37026,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3889,
+        "reasoning_output_tokens": 835
+      }
+    ],
+    "thread_ids": [
+      "01a15995-a2ff-75a1-8e95-3d71a0b08056"
+    ],
+    "completed_utc": "2026-10-20T13:53:50+00:00",
+    "scope": "author_abstract_only"
+  },
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper129",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and coherent, though dense with numerical results and limitations.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "overnight home sleep testing",
+                "reference_quote": "complete human body composition and polysomnography data",
+                "explanation": "The testing descriptions may denote different diagnostic modalities. Full text is needed to determine whether home testing included polysomnography or whether the summary substitutes a different sleep assessment."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly organized, with understandable explanations of the principal associations and diagnostic findings.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper130",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear distinction between the null primary outcome and exploratory infection-related findings.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable and appropriately cautious, with some repetition in the concluding discussion.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper131",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but coherent; numerical associations and methodological qualifications increase reading effort.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible structure, although the conclusion repeats earlier findings.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper132",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Well organized, with clear vaccination categories; the limitations sentence is dense.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear presentation of coverage and barriers, followed by a somewhat repetitive policy discussion.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper133",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Coherent but technically dense, particularly when distinguishing analytical methods.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "a complementary tissue-heritability method found no corrected significant enrichment",
+                "reference_quote": "Tissue-specific SNP heritability enrichment was observed in the cerebellum, cerebellar hemisphere, and cortex.",
+                "explanation": "The candidate reports no corrected tissue-heritability enrichment, whereas the abstract reports enrichment. Full text must clarify whether different methods or significance thresholds reconcile these statements."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable despite technical terminology; the main genetic findings are easy to locate.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper134",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear overall, though the long pollutant-and-effect list requires careful reading.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Well structured and precise, with useful separation of symptoms, lung function, and interpretation.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper135",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear numerical reporting and an understandable distinction between association and causation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Concise and coherent, with clear explanations of follow-up and the uncontrolled comparison.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper136",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear integration of survey findings, interview themes, and interpretive cautions.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible and orderly, although the final interpretation repeats earlier themes.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper137",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear account of changing participation decisions, with some repetition.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Fluent explanation of motivations, changing circumstances, and flexible trial participation.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper138",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Orderly but terminology-heavy, especially in the plasmid findings.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Technically dense but coherent, with clear boundaries around interpretation.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "61.3% met a genotypic definition of combined carbapenem resistance and hypervirulence",
+                "reference_quote": "61.3% of isolates exhibiting the CR-hvKP phenotype",
+                "explanation": "The candidate characterizes classification as genotypic, while the abstract calls it a phenotype. Full text is needed to establish whether hypervirulence was inferred from genomic markers or demonstrated phenotypically."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper139",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Understandable but repetitive, with a dense sequence of methods, counts, and signals.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear distinction between individuals, event entries, reporting signals, and causal interpretation.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper140",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear explanation of support types and their contrasting implications for parental autonomy.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible explanations, though the aims and concluding implications are repetitive.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper141",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear comparative findings and an especially helpful distinction between nonsignificance and equivalence.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Well organized, though abbreviations and numerical intervals make portions dense.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper142",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed experimental narrative clearly distinguishes viral entry from replication after RNA transfection.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Generally clear, but the replication discussion would benefit from explicitly identifying RNA transfection.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper143",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Readable account of the proposed pathway, though references to patient experiments could be more explicit.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear separation of mouse experiments, patient-derived cultures, and clinical implications.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper144",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": false,
+            "readability_observation": "Clear and analytical, but its biomarker interpretation conflicts with the abstract.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "CD8 infiltration also predicted overall survival in controls, complicating claims of treatment-specific prediction.",
+                "reference_quote": "High baseline CD8+ T-cell infiltration was associated with improved outcomes in patients receiving chemoimmunotherapy but not in those treated with chemotherapy alone.",
+                "explanation": "The candidate reports a control-group survival association that the abstract explicitly excludes. This changes the treatment-specific biomarker interpretation. Full-paper adjudication is required to determine whether endpoint-specific analyses explain the conflict."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear reporting of treatment outcomes and biomarker findings, with understandable qualifications.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper145",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear overall, but nested serological categories require careful interpretation.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "106 with past or resolved infection, including 82 also positive for surface antibody",
+                "reference_quote": "50.93% had evidence of past infection",
+                "explanation": "Among 161 tested participants, 50.93% corresponds to 82, whereas the candidate classifies 106 as past or resolved infection. Full text must clarify whether the additional 24 constitute a justified broader category or an incompatible classification."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear numerical reporting, although the recommendations and causal caveats are somewhat repetitive.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper146",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly structured, though detailed marker combinations interrupt the flow for nonspecialists.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Coherent technical explanation that separates predictive performance from clinical readiness.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper147",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear explanation of group-level consistency versus unreliable individual timing.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Generally clear, but the simulation sentence ambiguously links probabilities across two thresholds.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "an 80% probability of exceeding +5 mmol·L⁻¹ from 120–240 minutes and +6 mmol·L⁻¹ peaking at 150 minutes",
+                "reference_quote": "+6 mmol·L−1 peaked at 69.7% (150 min)",
+                "explanation": "The shared probability phrasing could imply an 80% probability for the +6 threshold, whereas its reported maximum is 69.7%. Full-text adjudication should resolve this potential numerical misrepresentation; the sentence may instead intend only the peak timing."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper148",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Technically dense but well organized, with clear distinctions between experimental and observational evidence.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable explanation of the cytokine mechanism and its tentative relevance to human disease.",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "model": "qwen3:8b",
+  "long_task": "Write one self-contained English paragraph of 180-220 words, strictly at most 250 words, summarizing this complete article. Cover objective, actual design and population, methods, principal results, conclusion and material limitations supported by this article. Preserve outcome definitions, direction, numerical denominators and qualifiers such as vaccine-related, adjusted and per-protocol. Keep molecular modification, recognition, binding and stabilization roles distinct. Distinguish experimentally manipulated cells/animals from patient observational data: do not append a blanket statement that experimental work is observational or establishes no causality. Separate demonstrated in-model intervention effects from unvalidated pathway mediation and unproven clinical efficacy. Do not invent generic limitations. No headings, lists, citations or commentary.\n\nCOMPLETE ARTICLE:\n",
+  "short_task": "Using only the following source-grounded longer summary, write a shorter preview in exactly two or three English sentences, about 50-80 words and at most 90 words. State what was studied, the main result and the most important evidence limitation. Preserve safety qualifiers, experimental setting, direction and uncertainty. Do not invent details or expand clinical claims. One paragraph, no headings, bullets, abbreviations with periods or commentary.\n\n",
+  "source_ids": [
+    5,
+    12,
+    49,
+    100,
+    128
+  ],
+  "context": 32768,
+  "chunk_tokens": 27000,
+  "temperature": 0,
+  "seed": 42,
+  "short_source": "revised longer summary",
+  "scope": "Error-enriched development cases; not a held-out test or a 200-paper rollout."
+}

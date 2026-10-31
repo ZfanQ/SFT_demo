@@ -1,0 +1,14 @@
+{
+  "state": "completed",
+  "model": "gpt-6.1-sol",
+  "evaluation_mode": "scores_only",
+  "total": 200,
+  "evaluated": 200,
+  "candidate_model": "google/gemma-4-12B-it",
+  "failed": [],
+  "current_paper": null,
+  "started_utc": "2026-10-23T13:06:13+00:00",
+  "execution_location": "local Mac, existing user Codex login",
+  "concurrent_requests": 4,
+  "finished_utc": "2026-10-23T13:16:49+00:00"
+}

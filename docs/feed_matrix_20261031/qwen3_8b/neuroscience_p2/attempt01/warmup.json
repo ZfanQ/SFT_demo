@@ -1,0 +1,82 @@
+[
+  {
+    "index": 0,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:20:34.09383643Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup00\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4530415749,
+      "load_duration": 3471536025,
+      "prompt_eval_count": 229,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 487677000,
+      "eval_count": 32,
+      "eval_duration": 558117000
+    }
+  },
+  {
+    "index": 1,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:20:34.09365991Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup01\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4529993371,
+      "load_duration": 3470538750,
+      "prompt_eval_count": 268,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 489556000,
+      "eval_count": 32,
+      "eval_duration": 556220000
+    }
+  },
+  {
+    "index": 2,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:20:34.994281369Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup02\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 897287908,
+      "load_duration": 7554301,
+      "prompt_eval_count": 307,
+      "prompt_eval_cached_count": 115,
+      "prompt_eval_duration": 244444000,
+      "eval_count": 32,
+      "eval_duration": 544578000
+    }
+  },
+  {
+    "index": 3,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:20:34.994578998Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup03\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 896837569,
+      "load_duration": 10096265,
+      "prompt_eval_count": 346,
+      "prompt_eval_cached_count": 115,
+      "prompt_eval_duration": 245216000,
+      "eval_count": 32,
+      "eval_duration": 544544000
+    }
+  }
+]

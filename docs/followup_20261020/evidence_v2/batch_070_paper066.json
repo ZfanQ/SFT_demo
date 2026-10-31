@@ -1,0 +1,446 @@
+{
+  "fingerprint": "22b12ef1f21769e811e15e9c99da54b13cdd7e31a01d350adc1fd36cd5aaa543",
+  "metadata": {
+    "request_sha256": "073358a326e80d88a80a8fed391b494628c19ddde18ed7f0b2156d8516aa5f12",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "usage": [
+      {
+        "input_tokens": 36860,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4771,
+        "reasoning_output_tokens": 1034
+      }
+    ],
+    "thread_ids": [
+      "01a15990-8a49-7341-b15d-05cf4f9303f7"
+    ],
+    "completed_utc": "2026-10-20T13:48:36+00:00",
+    "scope": "author_abstract_only"
+  },
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper066",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear but dense; extensive methodological caveats compete with the principal findings.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "major",
+                "candidate_quote": "its results specify 12,932 tested individuals, of whom 5,738 were RT-PCR positive",
+                "reference_quote": "We conducted a thorough analysis of 12,932 COVID-19 participants in the Sétif community",
+                "explanation": "The candidate explicitly reinterprets the abstract's population as tested individuals rather than confirmed cases. This materially affects population and outcome denominators. Full text is needed to resolve whether the candidate accurately identifies an inconsistency."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable and logically organized, although the two fatality percentages have unclear denominators.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "major",
+                "candidate_quote": "12,932 patients tested for SARS-CoV-2",
+                "reference_quote": "12,932 COVID-19 participants",
+                "explanation": "The candidate describes a tested population, whereas the abstract describes COVID-19 participants. Whether these represent all tested individuals or confirmed cases requires full-text adjudication because the distinction changes the study population and denominators."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper067",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Precise and coherent, with substantial technical detail and a clearly separated interpretation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear overall, though the comparison with conventional models is insufficiently specific.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "HIGS demonstrated good discrimination for PPI (AUC 0.84) and mortality (AUC 0.87), outperforming conventional models.",
+                "reference_quote": "HIGS showed good discrimination for PPI (AUC 0.84) and mortality (AUC 0.87), and improved conventional clinical models.",
+                "explanation": "The abstract reports improvement when HIGS augments conventional models. The candidate may instead claim that HIGS alone outperformed them. Full-text model comparisons are needed to distinguish standalone superiority from incremental predictive value."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper068",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes mortality associations, vitamin D subgroup findings, and limits on causal interpretation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible and orderly, with some repetition of the vitamin D interpretation.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper069",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Mostly clear, but occasionally blurs hospital admission frequency with stroke occurrence.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "weekday admissions were associated with higher stroke rates compared to weekends",
+                "reference_quote": "a clear day-of-the-week variation in hospital admissions for ischemic stroke among patients with AF",
+                "explanation": "“Stroke rates” could imply variation in stroke occurrence rather than admission timing. The abstract establishes admission variation only. Full-text adjudication is needed to determine whether occurrence timing was measured or this wording overstates the outcome."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and appropriately distinguishes admission patterns from stroke occurrence and explanatory mechanisms.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper070",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Technically dense but logically connects experimental findings to the proposed pathway and translational limitations.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Coherent pathway description, followed by understandable cautions about therapeutic translation.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper071",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear presentation of adjusted associations, subgroup results, and observational limitations.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable but somewhat repetitive; the final mechanistic interpretation is more speculative than the main results.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper072",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly presents the overall associations and the distinction between female and male findings.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Well structured, though the distinction between screened and analyzed populations needs verification.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "major",
+                "candidate_quote": "Of 3,471 screened patients from eight hospitals, 2,695 were analyzed.",
+                "reference_quote": "In this multicenter cohort study, a total of 3,471 patients were enrolled",
+                "explanation": "The candidate reclassifies the abstract's enrolled population as screened and gives a smaller analytical cohort. Enrollment and analysis counts can differ, but this specific reinterpretation of the main study denominator requires full-text resolution."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper073",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Readable despite technical marker lists; the final causality statement is broad.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly separates animal experiments, cellular findings, mechanistic interpretation, and clinical limitations.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper074",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear overall, but the methionine odds ratio is presented without its essential concentration restriction.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "Adjusted odds ratios per micromole/liter were 1.235 for homocysteine, 1.017 for cysteine, and 0.924 for methionine.",
+                "reference_quote": "Met exerted a dual nonlinear effect and played a protective role at levels <32.88 μmol/L (OR = 0.924, 95%CI 0.860–0.992).",
+                "explanation": "The candidate presents 0.924 as an unrestricted methionine estimate; the abstract restricts it to concentrations below 32.88 μmol/L. The subsequent turning-point discussion does not explicitly restore that restriction. This changes the numerical interpretation of a central nonlinear finding; full-paper adjudication remains required."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Well organized and preserves the concentration-dependent methionine finding.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper075",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly explains diagnostic performance and why image quality and prevalence affect interpretation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible and systematic, though the methods and concluding cautions are somewhat repetitive.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper076",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes the null flow association from the exploratory historical-failure finding.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Numerically detailed and readable, but the maturation inference extends beyond the stated flow outcome.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "CCBs may not negatively impact AVF flow rates or maturation",
+                "reference_quote": "CCBs use was not associated with differences in AVF flow rate, however, its use may confer protection against AVF failure.",
+                "explanation": "The candidate extends findings about flow and previous failure to fistula maturation. These are distinct outcomes. Full text is needed to establish whether maturation was assessed and whether the cross-sectional findings support this inference."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper077",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes observed treatment associations from unsupported subgroup effect modification.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and appropriately qualified, although the matched sample size remains implicit.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper078",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Readable, though repeated references to stroke incidence obscure that participants already had ischemic stroke.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly identifies the existing-stroke population and separates cross-sectional associations from future risk prediction.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper079",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but coherent, with clear separation of practitioners' perspectives and untested proposed improvements.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly summarizes themes, but introduces a quantitative adherence result without clarifying its provenance.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "The study found that adherence to secondary preventive medications was around 64% on average, with variations between PCCs.",
+                "reference_quote": "Low target achievement and up to fourfold practice variation in dispensation of secondary preventive drugs between different primary care units in Region Stockholm has been described.",
+                "explanation": "The candidate attributes a numerical adherence finding to this qualitative study. The abstract instead describes previously reported dispensing and target-achievement variation. Full text is needed to determine whether 64% measures patient adherence, dispensing targets, or background evidence."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper080",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Technically detailed but clearly distinguishes albuminuria findings from less consistent filtration findings.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear overall, with appropriately qualified observational conclusions and a speculative explanation for endpoint differences.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper081",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly supplies the recommendation-concordant subgroup denominators and distinguishes feasibility from demonstrated clinical superiority.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Concise and readable, although percentages are easier to interpret with their subgroup denominators.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper082",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly reports adverse metabolic findings, but participant totals and treatment-group counts do not reconcile.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "minor",
+                "candidate_quote": "The 12-week randomized, placebo-controlled trial involved 44 participants, with 19 receiving the fiber mixture and 23 receiving maltodextrin as a placebo.",
+                "reference_quote": "daily potato fiber/sugar beet pectin supplementation (fiber, n = 19) versus maltodextrin (placebo, n = 21)",
+                "explanation": "The candidate reports 23 placebo recipients versus 21 in the abstract; its group counts also total 42 rather than 44. Recruitment and completion populations might explain some differences, but the stated allocation requires full-paper adjudication."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes randomized participants, completers, primary-outcome uncertainty, and secondary metabolic findings.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper083",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Accurate in structure but repetitive, especially when restating pathology and prognosis in the conclusion.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and appropriately distinguishes limited observational treatment evidence from conclusions about treatment inefficacy.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper084",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear presentation of protective findings, but the blanket associational framing obscures the experimental evidence.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "However, the study did not establish causality, and the observed associations should be interpreted with caution.",
+                "reference_quote": "The beneficial effects of RSV were abolished by selective inhibition of Nrf2 with ML385.",
+                "explanation": "The blanket associational characterization may understate experimental evidence from treatment and Nrf2 inhibition. Definitive pathway attribution and human efficacy remain uncertain, but full text is needed to assess whether the candidate improperly discounts causal evidence within the experimental models."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but coherent, with a clear distinction between experimental protection and unestablished human efficacy.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper085",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Readable and well organized, with some repetition of recommendations for improving vaccine uptake.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly explains vaccine-specific operational definitions and distinguishes receipt from complete schedule adherence.",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  }
+}

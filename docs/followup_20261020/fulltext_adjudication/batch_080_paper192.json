@@ -1,0 +1,62 @@
+{
+  "fingerprint": "20d344e8360ddd880a47ab422009e676c7326273e1bbfdf0e79cf509acda0a60",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper192",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper193",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "major",
+                "candidate_quote": "20 pregnant women and their families",
+                "reference_quote": "Of the 20 participants, 14 were pregnant women—4 primiparous and 10 multiparous.",
+                "explanation": "The summary describes 20 pregnant women plus family perspectives. The detailed methods specify 20 participants total, including only 14 pregnant women, one expectant father, and five elderly community members. Although the abstract repeats the summary’s wording, the participant breakdown establishes a different sample composition."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T14:52:40+00:00",
+    "request_sha256": "e93902c20460e73966f3da53df186fbc79d88beca1aba1c5b66fc20fd25e9770",
+    "usage": [
+      {
+        "input_tokens": 42094,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 444,
+        "reasoning_output_tokens": 236
+      }
+    ],
+    "thread_ids": [
+      "01a159cc-967e-7fe3-a6cc-88fe6c56136f"
+    ]
+  }
+}

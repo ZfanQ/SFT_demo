@@ -1,0 +1,31 @@
+{
+  "evidence_v2": {
+    "papers": 200,
+    "unique": true,
+    "all_quoted_evidence_found": true,
+    "scope": "author_abstract_only",
+    "findings": 80
+  },
+  "fulltext_adjudication": {
+    "papers": 83,
+    "unique": true,
+    "all_quoted_evidence_found": true,
+    "scope": "full_article_text",
+    "findings": 67
+  },
+  "pilot_review": {
+    "papers": 5,
+    "unique": true,
+    "all_quoted_evidence_found": true,
+    "scope": "full_article_text",
+    "findings": 2
+  },
+  "original_server_texts_unchanged": 800,
+  "corrected_pilot": {
+    "papers": 5,
+    "no_material_errors_identified": 10,
+    "all_evidence_validated": true,
+    "editorial_not_raw_model": true
+  },
+  "sensitivity_pairs": 16
+}

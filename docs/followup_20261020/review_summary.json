@@ -1,0 +1,137 @@
+{
+  "evidence_v2": {
+    "papers": 200,
+    "candidate_verdict_counts": [
+      {
+        "source": "gpt_reference",
+        "verdict": "screened",
+        "count": 200
+      },
+      {
+        "source": "qwen8b",
+        "verdict": "screened",
+        "count": 200
+      }
+    ],
+    "finding_counts": {
+      "qwen8b:major": 31,
+      "qwen8b:uncertain": 15,
+      "qwen8b:minor": 10,
+      "gpt_reference:uncertain": 13,
+      "gpt_reference:major": 9,
+      "gpt_reference:minor": 2
+    }
+  },
+  "fulltext_adjudication": {
+    "papers": 83,
+    "candidate_verdict_counts": [
+      {
+        "source": "gpt_reference",
+        "verdict": "no_material_error_identified",
+        "count": 83
+      },
+      {
+        "source": "qwen8b",
+        "verdict": "material_error_identified",
+        "count": 51
+      },
+      {
+        "source": "qwen8b",
+        "verdict": "no_material_error_identified",
+        "count": 28
+      },
+      {
+        "source": "qwen8b",
+        "verdict": "uncertain",
+        "count": 4
+      }
+    ],
+    "finding_counts": {
+      "qwen8b:major": 55,
+      "qwen8b:uncertain": 7,
+      "qwen8b:minor": 5
+    },
+    "affected_paper_ids": [
+      "paper005",
+      "paper006",
+      "paper007",
+      "paper012",
+      "paper024",
+      "paper033",
+      "paper042",
+      "paper044",
+      "paper048",
+      "paper049",
+      "paper051",
+      "paper055",
+      "paper058",
+      "paper059",
+      "paper066",
+      "paper069",
+      "paper072",
+      "paper079",
+      "paper082",
+      "paper084",
+      "paper087",
+      "paper092",
+      "paper095",
+      "paper097",
+      "paper100",
+      "paper109",
+      "paper114",
+      "paper118",
+      "paper119",
+      "paper122",
+      "paper125",
+      "paper126",
+      "paper128",
+      "paper133",
+      "paper137",
+      "paper143",
+      "paper149",
+      "paper153",
+      "paper156",
+      "paper157",
+      "paper159",
+      "paper162",
+      "paper168",
+      "paper171",
+      "paper174",
+      "paper179",
+      "paper182",
+      "paper186",
+      "paper193",
+      "paper195",
+      "paper197"
+    ]
+  },
+  "pilot_review": {
+    "papers": 5,
+    "candidate_verdict_counts": [
+      {
+        "source": "revised_long",
+        "verdict": "material_error_identified",
+        "count": 1
+      },
+      {
+        "source": "revised_long",
+        "verdict": "no_material_error_identified",
+        "count": 4
+      },
+      {
+        "source": "short_preview",
+        "verdict": "material_error_identified",
+        "count": 1
+      },
+      {
+        "source": "short_preview",
+        "verdict": "no_material_error_identified",
+        "count": 4
+      }
+    ],
+    "finding_counts": {
+      "revised_long:major": 1,
+      "short_preview:major": 1
+    }
+  }
+}

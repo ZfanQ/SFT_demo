@@ -1,0 +1,49 @@
+{
+  "model": {
+    "name": "qwen3:8b",
+    "model": "qwen3:8b",
+    "modified_at": "2026-09-24T16:37:44.792629634Z",
+    "size": 5225388164,
+    "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen3",
+      "families": [
+        "qwen3"
+      ],
+      "parameter_size": "8.2B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 40960,
+      "embedding_length": 4096
+    },
+    "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+    ]
+  },
+  "sequence": [
+    1,
+    2,
+    2,
+    1
+  ],
+  "papers": [
+    "paper001",
+    "paper002",
+    "paper003",
+    "paper004",
+    "paper007",
+    "paper008"
+  ],
+  "context": 32768,
+  "temperature": 0,
+  "seed": 42,
+  "num_predict": 850,
+  "private_port": 11435,
+  "existing_service_modified": false,
+  "note": "Single-chunk full-paper pilot; warm-start timings, validity not factual certification.",
+  "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "source_runner_sha256": "ee7458fde9cadd625688a65efe100a727b9a2705d956ab78be23900452206556"
+}

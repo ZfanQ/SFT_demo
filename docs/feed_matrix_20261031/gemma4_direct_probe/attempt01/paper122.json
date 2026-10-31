@@ -1,0 +1,36 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"paper122\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 0\n}"
+      }
+    }
+  ],
+  "created": 1793449000,
+  "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+  "system_fingerprint": "b1-161755f29",
+  "object": "chat.completion",
+  "usage": {
+    "completion_tokens": 41,
+    "prompt_tokens": 509,
+    "total_tokens": 550,
+    "prompt_tokens_details": {
+      "cached_tokens": 47
+    }
+  },
+  "id": "chatcmpl-cAWRY8ZDeQgOzhh95L9p5c3aKiQ1eW3g",
+  "timings": {
+    "cache_n": 47,
+    "prompt_n": 462,
+    "prompt_ms": 961.071,
+    "prompt_per_token_ms": 2.08024025974026,
+    "prompt_per_second": 480.71370377422693,
+    "predicted_n": 41,
+    "predicted_ms": 1261.269,
+    "predicted_per_token_ms": 31.531725,
+    "predicted_per_second": 31.714091125683733
+  }
+}

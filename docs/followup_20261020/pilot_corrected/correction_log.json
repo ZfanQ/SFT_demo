@@ -1,0 +1,16 @@
+[
+  {
+    "paper_id": "paper049",
+    "field": "long",
+    "old": "These findings suggest that PGM5P4-AS1 promotes BRCA progression through the miR-3664-5p/KLF9 axis.",
+    "new": "These findings suggest that PGM5P4-AS1 suppresses malignant breast cancer cell behavior through the miR-3664-5p/KLF9 axis.",
+    "basis": "Full-text discussion and independent pilot-review quoted evidence"
+  },
+  {
+    "paper_id": "paper128",
+    "field": "short",
+    "old": "A phase 2 study evaluated the safety and immunogenicity of two investigational mRNA vaccines against SARS-CoV-2, compared to a licensed bivalent vaccine. Both investigational vaccines showed dose-dependent increases in neutralizing antibodies and T-cell responses, with an acceptable safety profile. However, the small sample size and lack of formal hypothesis testing limit the ability to draw definitive conclusions about their comparative efficacy.",
+    "new": "This phase 2 randomized trial compared investigational COVID-19 mRNA boosters with a licensed vaccine in previously vaccinated adults. The bivalent CV0701 vaccine produced dose-dependent neutralizing-antibody responses, and no vaccine-related serious adverse events were reported. The small study assessed safety and immune responses, so it could not establish clinical protection or reliably detect rare harms.",
+    "basis": "Full-text design, safety and limitations; CV0601 had only one dose level"
+  }
+]

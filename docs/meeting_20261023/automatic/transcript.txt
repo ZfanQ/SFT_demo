@@ -1,0 +1,77 @@
+[00:00:01 – 00:00:21] Okay, so it's recording, right? Yes. So we just talked about, so just to summarize the meeting, we just talked about your results with summarizing the abstract. Interesting learnings, but actually somewhat disappointing probably, right? To see how we can fix it. So the idea was you would try Gemma next.
+[00:00:21 – 00:00:24] context. Then we were talking about.
+[00:00:25 – 00:00:28] If we can use it for ranking, the issue was that if you gave
+[00:00:28 – 00:00:31] all the abstract so that it maintains everything in context,
+[00:00:32 – 00:00:36] then it might go out of the context window. Now here they
+[00:00:36 – 00:00:40] think is that this is fine. Let us say that I am rating a bunch
+[00:00:40 – 00:00:43] of applications. Let's say I have 100. I will do 20 per
+[00:00:43 – 00:00:47] session, so I will keep 20 and try to do 20 in one session, 20
+[00:00:47 – 00:00:50] in the next session and hope that I don't drift too much. I
+[00:00:51 – 00:00:58] And so if I were a human, I would also consider normalizing between sessions to keep everything the same.
+[00:00:58 – 00:01:01] But normally I can keep a similar criterion.
+[00:01:01 – 00:01:03] So I would do exactly the same thing with the model.
+[00:01:03 – 00:01:08] Try to batch it so that you put as many abstracts as possible that fit into the context.
+[00:01:08 – 00:01:12] Let it run that much and then essentially batch it.
+[00:01:12 – 00:01:20] Now that brought the next question, which was we were very curious about since you're running the GPU serially, you're hardly using the GPU.
+[00:01:21 – 00:01:24] was is there a possibility of batching this
+[00:01:24 – 00:01:26] so that the LLM can use more of the GPU
+[00:01:26 – 00:01:29] and whether there is a technical solution to this
+[00:01:29 – 00:01:30] that people have written about in the literature.
+[00:01:31 – 00:01:33] So that is the next open question, right?
+[00:01:33 – 00:01:36] So, which is kind of actually an important open question.
+[00:01:36 – 00:01:37] So if you solve that one,
+[00:01:37 – 00:01:40] that's a major technical solution for us.
+[00:01:40 – 00:01:42] So did you have the chance to look at that at all?
+[00:01:44 – 00:01:45] Not yet, yeah.
+[00:01:45 – 00:01:46] Not yet, okay.
+[00:01:46 – 00:01:48] I would consider looking at that first
+[00:01:48 – 00:01:51] before you think of serial versus parallel versus batching
+[00:01:51 – 00:01:58] answer to your question depends on whether batching is possible. So the question of,
+[00:01:58 – 00:02:03] right now you're sending it one by one, right? So the only thing is that the context has to be
+[00:02:03 – 00:02:08] compacted or changed after a certain number. That's all you're talking about, but the speed
+[00:02:08 – 00:02:14] is the same. It's still one by one. So rather the interesting thing there would be we have to batch
+[00:02:14 – 00:02:19] it. So even for these abstracts, how did you do it? You did it one by one. So you must have had
+[00:02:19 – 00:02:24] this context issue are because you only took 200 abstracts so here it's a test so that's why you
+[00:02:24 – 00:02:30] did not run into this problem but when you actually try to implement it in a real in a real situation
+[00:02:30 – 00:02:34] it will not work because there will be 10 000 abstracts per day right that's the number of
+[00:02:35 – 00:02:42] updates every day for pubman so yeah i think that if you can look into the batching problem it's a
+[00:02:42 – 00:02:47] it's an exploratory thing to see if there is a solution how can one use uh quen in a batched
+[00:02:49 – 00:02:55] for GBGPU. There has to be a solution. It must be there because it is impossible that the whole
+[00:02:55 – 00:03:00] world is running it serially. It's not possible, right? So they must be running it best, which
+[00:03:00 – 00:03:06] means there must be a package that allows you to do it. It has to exist. These are open-weight
+[00:03:06 – 00:03:10] models, so people must have written things. I haven't looked into it myself, but it could be
+[00:03:10 – 00:03:14] something you could look into first because that seems like an important technical thing to do.
+[00:03:16 – 00:03:17] Yeah, that's right.
+[00:03:17 – 00:03:20] Cool. Anything else for me?
+[00:03:23 – 00:03:32] Actually, Q1 just released the 3.5, 9 billion model. So shall we update our 8 billion to the 9 billion?
+[00:03:32 – 00:03:34] If it fits, you can update. No problem.
+[00:03:35 – 00:03:38] But it will change the baseline, right?
+[00:03:38 – 00:03:42] That's okay. That's okay. This will keep on changing. This is something we will keep
+[00:03:44 – 00:03:50] So what you should think about is not the answer. You should set up a pipeline for producing this kind of number.
+[00:03:50 – 00:03:59] You see what I mean? So what you do is you produce the pipeline that that can be run literally every two months or so to repeat this test to see how it is going.
+[00:04:00 – 00:04:04] Because one year from now, right, what you just found that the abstract is not good.
+[00:04:04 – 00:04:11] One year from now, it may be very good. So so so you should not worry too much about these numbers.
+[00:04:11 – 00:04:16] It is more about setting up a pipeline for testing so that it can be repeated again and
+[00:04:16 – 00:04:18] again every two months or so.
+[00:04:20 – 00:04:22] So try not to make it manual.
+[00:04:22 – 00:04:27] Try to make it as automated as possible so that everything you're doing, you try to automate
+[00:04:27 – 00:04:30] it so that there is basically a script that can do everything.
+[00:04:30 – 00:04:33] This is always you should try to do it like that, not by hand.
+[00:04:33 – 00:04:42] not by hand. Because the other aspect of this is that right now you have a 24 GB GPU,
+[00:04:43 – 00:04:48] but we might have better resources later as well. So the more automated it is, the more the model
+[00:04:48 – 00:04:52] can do things in the background while it is sitting around. So that's what you should look
+[00:04:52 – 00:04:57] for. Of course, in GPT, there's the problem. You can always set it in YOLO mode and try to get it
+[00:04:57 – 00:05:02] to run automatically as much as possible, right? So you should look, that's what I would, try to
+[00:05:03 – 00:05:05] That's my general principle for you.
+[00:05:06 – 00:05:08] Yeah, that's a good point.
+[00:05:17 – 00:05:22] Yeah, I think that's for our major findings this week.
+[00:05:22 – 00:05:23] Thank you for the update.
+[00:05:23 – 00:05:25] Very interesting and useful.
+[00:05:25 – 00:05:26] Keep going, OK?
+[00:05:26 – 00:05:29] Yeah, well, it's hard enough to fix those.
+[00:05:29 – 00:05:32] And let me know when you have any other updates for me.
+[00:05:35 – 00:05:37] If there's anything else you will write to me, right?
+[00:05:38 – 00:05:40] Yeah, we will update in the Zulip as well.
+[00:05:40 – 00:05:41] Okay, bye.
+[00:05:42 – 00:05:43] Bye, have a good day.
+[00:05:44 – 00:05:44] You too.

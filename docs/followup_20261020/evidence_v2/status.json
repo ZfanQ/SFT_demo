@@ -1,0 +1,19 @@
+{
+  "state": "completed",
+  "reviewed": 200,
+  "expected": 200,
+  "scope": "author_abstract_only",
+  "updated_utc": "2026-10-20T13:57:56+00:00",
+  "last_batch": [
+    "paper190",
+    "paper191",
+    "paper192",
+    "paper193",
+    "paper194",
+    "paper195",
+    "paper196",
+    "paper197",
+    "paper198",
+    "paper199"
+  ]
+}

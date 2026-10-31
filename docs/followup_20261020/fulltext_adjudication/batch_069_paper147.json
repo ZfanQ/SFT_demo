@@ -1,0 +1,62 @@
+{
+  "fingerprint": "20d344e8360ddd880a47ab422009e676c7326273e1bbfdf0e79cf509acda0a60",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper147",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "uncertain",
+            "findings": [
+              {
+                "severity": "uncertain",
+                "candidate_quote": "Monte Carlo simulations showed an 80% probability of exceeding +5 mmol·L⁻¹ from 120–240 minutes and +6 mmol·L⁻¹ peaking at 150 minutes.",
+                "reference_quote": "whereas +6 mmol·L−1 peaked at 69.7% (150 min).",
+                "explanation": "The coordination ambiguously extends the stated 80% probability to the +6 threshold, whose maximum was only 69.7%. Alternatively, it can be read as reporting only that threshold’s peak timing correctly while omitting its probability. The potential numerical misrepresentation is therefore uncertain."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper155",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T14:00:59+00:00",
+    "request_sha256": "10bbee2af87668abc26adcdfe387b9f6160faf4c71f617016b1932b6022b6ab0",
+    "usage": [
+      {
+        "input_tokens": 44592,
+        "cached_input_tokens": 15232,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 730,
+        "reasoning_output_tokens": 491
+      }
+    ],
+    "thread_ids": [
+      "01a1599d-2174-70e0-a81c-d8d9f47d7916"
+    ]
+  }
+}

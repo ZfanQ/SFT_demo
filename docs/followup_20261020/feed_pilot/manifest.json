@@ -1,0 +1,18 @@
+{
+  "state": "prepared_not_ranked",
+  "artifact_version": "2026-10-20T02:11:08+00:00",
+  "source_url": "https://feed.scicommons.org/api/articles/items?source=pubmed&limit=100&sort=recent&time_window=all",
+  "available_date": "2026-10-20",
+  "date_definition": "Site available_date, not publication date",
+  "page_items": 100,
+  "available_dates": {
+    "2026-10-20": 100
+  },
+  "pool_items": 50,
+  "profile_count": 20,
+  "selection": "Deterministic SHA-256 order by artifact version + article ID among eligible first-page records",
+  "daily_feed_complete": false,
+  "raw_sha256": "8434d96cb211452305b2fdb3499f362508e71695d9df744fd61eddffb19cfff5",
+  "pool_sha256": "aed278c53d9db3d9438741b0984fa087c04b226c9a079aa927eafe9dfffc8e06",
+  "pending": "Teammate existing semantic ranker implementation/configuration and larger daily pool if needed; no substitute baseline claimed."
+}

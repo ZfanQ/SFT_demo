@@ -1,0 +1,206 @@
+[
+  {
+    "index": 0,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup00\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 217,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup00\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 1\n}"
+            }
+          }
+        ],
+        "created": 1793449543,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 217,
+          "total_tokens": 258,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-c7HmQ5LkvmMpqsC95JfibvjJMI670eNq",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 217,
+          "prompt_ms": 806.854,
+          "prompt_per_token_ms": 3.7182211981566824,
+          "prompt_per_second": 268.9458068002389,
+          "predicted_n": 41,
+          "predicted_ms": 1264.244,
+          "predicted_per_token_ms": 31.606099999999998,
+          "predicted_per_second": 31.63946200258811
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 1,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup01\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 255,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup01\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 1\n}"
+            }
+          }
+        ],
+        "created": 1793449543,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 255,
+          "total_tokens": 296,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-NH9otZuAHoC0EkNmeQRLwv5CEck7pYvU",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 255,
+          "prompt_ms": 809.223,
+          "prompt_per_token_ms": 3.1734235294117648,
+          "prompt_per_second": 315.11709380479795,
+          "predicted_n": 41,
+          "predicted_ms": 1262.887,
+          "predicted_per_token_ms": 31.572174999999998,
+          "predicted_per_second": 31.673459303959895
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 2,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup02\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 293,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup02\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 1\n}"
+            }
+          }
+        ],
+        "created": 1793449546,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 293,
+          "total_tokens": 334,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-31zLyxGPViyBYTJ7zyK708tyAxmfGPQV",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 251,
+          "prompt_ms": 799.224,
+          "prompt_per_token_ms": 3.184159362549801,
+          "prompt_per_second": 314.0546329940042,
+          "predicted_n": 41,
+          "predicted_ms": 1162.363,
+          "predicted_per_token_ms": 29.059075,
+          "predicted_per_second": 34.412657663741875
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 3,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup03\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 331,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup03\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 1\n}"
+            }
+          }
+        ],
+        "created": 1793449546,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 331,
+          "total_tokens": 372,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-fuTprFcXqBm0fvqw7FnvXhsvkCxdqeHY",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 289,
+          "prompt_ms": 826.122,
+          "prompt_per_token_ms": 2.858553633217993,
+          "prompt_per_second": 349.8272652223279,
+          "predicted_n": 41,
+          "predicted_ms": 1163.462,
+          "predicted_per_token_ms": 29.08655,
+          "predicted_per_second": 34.38015165084893
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  }
+]

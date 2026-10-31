@@ -1,0 +1,10 @@
+{
+  "phase": "all_models_verified",
+  "updated_utc": "2026-10-31T13:07:00.145269+00:00",
+  "labels": [
+    "qwen3_8b",
+    "qwen35_9b_llamacpp",
+    "gemma4_12b_llamacpp"
+  ],
+  "timed_inferences": 5400
+}

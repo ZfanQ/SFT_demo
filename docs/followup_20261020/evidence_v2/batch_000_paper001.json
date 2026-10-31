@@ -1,0 +1,243 @@
+{
+  "fingerprint": "22b12ef1f21769e811e15e9c99da54b13cdd7e31a01d350adc1fd36cd5aaa543",
+  "metadata": {
+    "request_sha256": "2ff7b0a689b60509b2cc2c1f6f6c06f4fd09684e5504d219b11ffe07f324801e",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "usage": [
+      {
+        "input_tokens": 26360,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2532,
+        "reasoning_output_tokens": 516
+      }
+    ],
+    "thread_ids": [
+      "01a1598a-7487-7c13-843e-3c0d297f7be8"
+    ],
+    "completed_utc": "2026-10-20T13:41:11+00:00",
+    "scope": "author_abstract_only"
+  },
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper001",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and well organized, with accessible explanations of responses and coping strategies.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable and faithful to the study's qualitative focus, with some repetition in the closing sentences.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper005",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Logically structured, although the molecular details require technical familiarity.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Generally clear, but the final characterization of evidence conflicts with the earlier experimental account.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "The study observes associations between m6A methylation and TMZ resistance but does not establish causality or clinical implications.",
+                "reference_quote": "We show that m6A stabilizes key genes and pathways promoting TMZ resistance, and that METTL3 inhibition can reverse this and restore TMZ sensitivity.",
+                "explanation": "The blanket association-only characterization weakens the abstract's experimentally supported stabilization and resistance-reversal claims. Clinical efficacy remains unestablished, but that differs from denying experimental causal evidence. Full-paper adjudication is required."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper012",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Mostly clear, though dense with pathway terminology and an inconsistent closing description of the evidence.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "The study did not establish causality but observed associations between OVV-03 treatment and improved outcomes.",
+                "reference_quote": "Mechanistically, OVV-03 downregulated PD-L1 by inhibiting the JNK–c-Fos/c-Jun axis, reversible by TNF-α stimulation.",
+                "explanation": "The association-only conclusion conflicts with the abstract's intervention and mechanistic reversal evidence. Limits on clinical translation do not make these experiments purely associative. Full-paper adjudication is required."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but coherent, progressing clearly from cell experiments to animal models and translational limitations.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper025",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear chronological structure; statistical mediation and its interpretive limits are explained precisely.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible and orderly, with some repetition of the study aim and conclusion.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper049",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Well organized, clearly separating clinical prognostic associations from functional cell experiments.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable overall, but the observational-only characterization contradicts its own description of functional experiments.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "However, the study did not establish causality, and the findings were based on observational data.",
+                "reference_quote": "KLF9 silencing reverses the cellular function inhibition caused by miR-3664-5p downregulation.",
+                "explanation": "The abstract includes experimental manipulation and rescue evidence, alongside clinical associations. Calling the findings observational misrepresents the design and mechanistic evidence, although patient-level causality remains unproven. Full-paper adjudication is required."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper094",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear distinction between baseline correlations, longitudinal findings, and limits on causal interpretation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Straightforward and readable, with appropriately cautious wording about metabolic implications.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper100",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible structure, but causal wording about the pathway is inconsistent with the stated validation limits.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "enhanced NRF2/GPX4 pathway activation, which inhibited ferroptosis.",
+                "reference_quote": "However, these results are limited to an in vitro model and lack direct autophagic flux assessment and genetic validation of NRF2 dependency, which warrant further investigation.",
+                "explanation": "The candidate presents pathway activation as causing ferroptosis inhibition. The abstract reports pathway markers and compatible biochemical signatures while explicitly leaving NRF2 dependency unvalidated. This strengthens mechanistic certainty beyond the abstract; full-paper adjudication is required."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Technically dense but coherent, with clear distinctions between measured markers and unproven pathway dependencies.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper128",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Well structured and precise about descriptive comparisons, immune outcomes, and clinical uncertainty.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Generally clear, but compressed safety and cellular-response statements lose important qualifications.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "The study found no serious adverse events or cases of myocarditis/pericarditis.",
+                "reference_quote": "No vaccine-related serious adverse events or myocarditis/pericarditis cases were reported.",
+                "explanation": "The candidate expands absence of vaccine-related serious adverse events to absence of all serious adverse events. Unrelated events could have occurred; the full paper must resolve whether this broader safety claim is accurate."
+              },
+              {
+                "kind": "abstract_conflict",
+                "severity": "minor",
+                "candidate_quote": "CD4+ and CD8+ T-cell responses were observed in all groups, with the lowest dose of CV0701 showing a less pronounced response.",
+                "reference_quote": "At Day 8, CD4+ T cells (Th1 profile) increased in all study groups and CD8+ T cells increased in all study groups, except the lowest CV0701 dose group.",
+                "explanation": "The candidate blurs the explicit exception for CD8 increases, suggesting a weaker response rather than no reported increase at the lowest dose. Baseline responses could explain the wording, so full-paper adjudication is required."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper155",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear explanation of reference bins, diagnostic discrimination, and the distinct perfusion treatment finding.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable and logically organized, though describing low-category improvement as perfusion defects slightly blurs the bin distinctions.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper200",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and accessible, with some repetition of the central themes and rehabilitation implications.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Fluent and concrete, connecting participants' experiences to meaningful rehabilitation goals.",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  }
+}

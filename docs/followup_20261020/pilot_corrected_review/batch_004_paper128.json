@@ -1,0 +1,40 @@
+{
+  "fingerprint": "d8b37fd8080cb828714297d386a1807baab48b3f02602e09fa5a3eff709ce7b7",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper128",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T14:53:47+00:00",
+    "request_sha256": "80d96c84d49b3c0011e811df94f7d983c10f198f1055bb630df52e12bdc31279",
+    "usage": [
+      {
+        "input_tokens": 33143,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 101,
+        "reasoning_output_tokens": 39
+      }
+    ],
+    "thread_ids": [
+      "01a159cd-bf08-7fe1-b68b-e7e3f19f54a3"
+    ]
+  }
+}

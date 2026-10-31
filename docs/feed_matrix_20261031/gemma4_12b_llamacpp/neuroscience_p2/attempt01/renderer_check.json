@@ -1,0 +1,1407 @@
+{
+  "method": "embedded GGUF template/tokenizer; no independent HF parity claim",
+  "independent_hf_parity": false,
+  "checked": 200,
+  "checks": [
+    {
+      "paper_id": "paper067",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 509,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper188",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 409,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper102",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 512,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper194",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 571,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper112",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 459,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper122",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 516,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper014",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 672,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper003",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 417,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper065",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 609,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper045",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 335,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper137",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 502,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper171",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 313,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper129",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 548,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper077",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 515,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper159",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 479,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper168",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 567,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper046",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 490,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper131",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 500,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper031",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 418,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper004",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 420,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper160",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 398,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper016",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 612,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper043",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 485,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper127",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 557,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper187",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 550,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper163",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 503,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper048",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 462,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper111",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 399,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper006",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 373,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper195",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 479,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper038",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 500,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper123",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 549,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper013",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 571,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper037",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 598,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper154",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 800,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper070",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 433,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper062",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 588,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper196",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 578,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper033",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 415,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper173",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 696,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper172",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 490,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper061",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 833,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper011",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 490,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper145",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 638,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper161",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 474,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper053",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 366,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper126",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 578,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper107",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 580,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper074",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 582,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper114",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 460,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper106",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 395,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper096",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 594,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper104",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 533,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper146",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 469,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper044",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 448,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper001",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 408,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper162",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 497,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper193",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 397,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper017",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 437,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper081",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 616,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper103",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 476,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper039",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 586,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper157",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 456,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper177",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 390,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper136",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 505,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper079",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 454,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper116",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 343,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper020",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 517,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper015",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 436,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper178",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 507,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper147",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 683,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper180",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 634,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper066",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 427,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper085",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 547,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper166",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 478,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper047",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 466,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper105",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 477,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper080",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 503,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper055",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 493,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper197",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 460,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper086",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 442,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper119",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 599,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper110",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 599,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper134",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 539,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper143",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 390,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper034",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 640,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper019",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 522,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper141",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 765,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper124",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 531,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper176",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 531,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper064",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 689,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper084",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 540,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper149",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 581,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper101",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 656,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper156",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 422,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper073",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 331,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper028",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 684,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper185",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 525,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper113",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 403,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper052",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 457,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper175",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 496,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper005",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 391,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper030",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 550,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper184",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 529,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper100",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 488,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper099",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 534,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper132",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 508,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper125",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 434,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper199",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 588,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper135",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 537,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper179",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 519,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper121",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 516,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper035",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 408,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper049",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 616,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper170",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 507,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper139",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 553,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper150",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 617,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper133",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 642,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper128",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 620,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper022",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 544,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper082",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 557,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper078",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 519,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper010",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 439,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper083",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 654,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper165",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 543,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper120",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 453,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper090",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 623,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper069",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 523,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper054",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 644,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper091",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 434,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper095",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 756,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper042",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 514,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper094",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 592,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper117",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 577,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper200",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 408,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper158",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 511,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper026",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 548,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper181",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 471,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper148",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 427,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper075",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 462,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper059",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 521,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper153",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 640,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper018",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 453,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper050",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 554,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper093",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 545,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper076",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 591,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper142",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 422,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper021",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 474,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper097",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 437,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper032",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 380,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper138",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 563,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper118",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 442,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper012",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 443,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper068",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 433,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper089",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 518,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper092",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 466,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper025",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 570,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper098",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 497,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper183",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 528,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper191",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 537,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper087",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 598,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper182",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 537,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper040",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 527,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper169",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 672,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper088",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 540,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper186",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 407,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper041",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 490,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper002",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 503,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper072",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 601,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper151",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 656,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper115",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 509,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper057",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 350,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper108",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 396,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper192",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 693,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper167",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 459,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper051",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 487,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper144",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 547,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper198",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 416,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper155",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 523,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper130",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 704,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper060",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 531,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper056",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 509,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper024",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 491,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper008",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 565,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper009",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 621,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper109",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 408,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper152",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 595,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper023",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 465,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper140",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 480,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper174",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 510,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper027",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 511,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper189",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 416,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper036",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 570,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper058",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 589,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper063",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 541,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper071",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 635,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper190",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 704,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper007",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 544,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper029",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 569,
+      "within_context": true
+    },
+    {
+      "paper_id": "paper164",
+      "prompt_preserved": true,
+      "system_preserved": true,
+      "tokens": 599,
+      "within_context": true
+    }
+  ]
+}

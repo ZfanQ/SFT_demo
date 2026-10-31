@@ -1,0 +1,42 @@
+[
+  {
+    "paper_id": "paper171",
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T10:37:24.881125104Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"paper_id\": \"paper171\", \"relevance\": 3}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 4124665839,
+      "load_duration": 3394127391,
+      "prompt_eval_count": 318,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 356516000,
+      "eval_count": 18,
+      "eval_duration": 357446000
+    }
+  },
+  {
+    "paper_id": "paper073",
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T10:37:25.383530887Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\"paper_id\": \"paper073\", \"relevance\": 1}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 500872032,
+      "load_duration": 7353126,
+      "prompt_eval_count": 337,
+      "prompt_eval_cached_count": 106,
+      "prompt_eval_duration": 141290000,
+      "eval_count": 18,
+      "eval_duration": 289900000
+    }
+  }
+]

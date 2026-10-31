@@ -1,0 +1,438 @@
+{
+  "fingerprint": "22b12ef1f21769e811e15e9c99da54b13cdd7e31a01d350adc1fd36cd5aaa543",
+  "metadata": {
+    "request_sha256": "e0ac8caa3e4d53f245069ed80dd18449d897bc9185108b6746bbfafb7ff459b6",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "usage": [
+      {
+        "input_tokens": 36044,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4505,
+        "reasoning_output_tokens": 1034
+      }
+    ],
+    "thread_ids": [
+      "01a15994-1885-77e2-a19b-b0d8a367e877"
+    ],
+    "completed_utc": "2026-10-20T13:52:21+00:00",
+    "scope": "author_abstract_only"
+  },
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper108",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and organized, with some repetition about potential functional effects.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but coherent; technical terminology increases reading demands.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper109",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly separates experimental findings, preclinical implications, and limitations.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Generally clear, though repeated release percentages and unexplained NIR+ notation impede precision.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "minor",
+                "candidate_quote": "Pluronic F125",
+                "reference_quote": "Pluronic F127",
+                "explanation": "The polymer designation differs from the abstract, changing the stated formulation. Full-paper adjudication is needed to resolve whether this is a transcription error."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper110",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Readable overall, but the comparator for “longer half-lives” is unclear.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes variant-specific half-lives, antibody levels, and clinical protection.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper111",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible thematic account with a clear explanation of caregiver burdens.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed yet organized, balancing adverse experiences with adaptation and support.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper112",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Mechanistic sequence is clear, although the final manuscript-consistency criticism requires careful interpretation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly explains the proposed pathway and distinguishes mouse findings from clinical implications.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper113",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Well structured, though psychometric terminology and numerous fit statistics require specialist familiarity.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible overview, with some repetition of validation aims and conclusions.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper114",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear presentation of outbreak counts and transmission intervals.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "minor",
+                "candidate_quote": "between February 1 and May 31, 2024",
+                "reference_quote": "between February 1 and May 1, 2024",
+                "explanation": "The stated surveillance period ends 30 days later than in the abstract. The full paper must adjudicate the correct study end date."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly explains how onset intervals were constructed and why their interpretation requires caution.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper115",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Logical progression from local antibody responses to assay development and systemic profiling.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Generally accessible, although local and systemic responses are occasionally described broadly.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper116",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes human associations, microbiome findings, and experimental mouse evidence.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Concise and coherent, with appropriately qualified interpretation of the feeding association.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper117",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly separates surveillance-related ascertainment changes from vaccination-associated incidence changes.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable numerical overview, but the concluding attribution conflates two differently directed changes.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "improved surveillance and the two-dose vaccination strategy are associated with reduced varicella incidence",
+                "reference_quote": "following the incorporation of varicella into the surveillance system in 2014, there was an upward long-term trend in the reported varicella incidence",
+                "explanation": "This sentence groups improved surveillance with reduced incidence, whereas the abstract associates surveillance inclusion with increased reported incidence and vaccination with decline. The candidate earlier reports those directions correctly. Full-paper adjudication is needed to resolve the concluding attribution."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper118",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Explains the signaling pathway clearly, but its causal-evidence limitation is overly broad.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "the study's limitations include the lack of direct causal evidence",
+                "reference_quote": "Mechanistically, IAld directly targets DUSP1 in macrophages, inhibits its phosphatase activity, thereby promoting ERK phosphorylation",
+                "explanation": "The unqualified denial of direct causal evidence conflicts with the abstract’s experimentally supported mechanistic claim. Lack of demonstrated human therapeutic causality would be narrower and compatible. Full-paper adjudication is needed to assess the strength and scope of the causal evidence."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly separates clinical correlations, experimental mechanism, and unresolved therapeutic applicability.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper119",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear burden estimates, although the closing description of the study's inferential purpose is imprecise.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "identifies associations between HPV and cancer mortality",
+                "reference_quote": "we estimated HPV-attributable cancer deaths, years of life lost (YLL), average YLL, and years of potential productive life lost (YPPLL) by sex, age, and cancer type, applying attributable fractions",
+                "explanation": "The study estimates attributable burden using supplied fractions; it does not identify an HPV–mortality association from individual exposure and outcome data. This changes the stated inferential design. Full-paper adjudication is needed to determine whether any separate association analysis supports the candidate’s wording."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes absolute burden, standardized risk, and the limits of comparing two years.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper120",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but precise, distinguishing adjusted associations from hypothetical biological mechanisms.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear explanation of the central resistome finding, with some repetitive interpretation.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper121",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly conveys participant experiences while distinguishing perceived benefits from demonstrated effectiveness.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": false,
+            "readability_observation": "Themes are clearly presented, but the final sentence overstates what the qualitative findings demonstrate.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "a treatable traits approach can be effective in improving health outcomes and quality of life",
+                "reference_quote": "described a highly valued and acceptable clinic experience, with perceived improvements in respiratory health and overall well-being",
+                "explanation": "The conclusion shifts from qualitative acceptability and perceived improvement to treatment effectiveness. Interviews do not establish that the approach improves outcomes. Full-paper adjudication is required before treating this as a confirmed error, including checking for any separately reported effectiveness evidence."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper122",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly describes experimental timing, inflammatory effects, and limits on human translation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable overall, but association-only wording obscures the intervention-based evidence.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "the study did not establish causality for these effects",
+                "reference_quote": "To address the functional relevance of the CCR2 pathway of inflammatory cell recruitment to the lungs mediating disease, mice were administered with anti-CCR2 antibody daily at the point of infection",
+                "explanation": "The candidate broadly denies causal evidence despite an antibody intervention explicitly testing CCR2’s functional contribution. Unproven clinical efficacy would be a compatible limitation. Full-paper adjudication is needed to assess experimental controls and the justified scope of causal inference."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper123",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly explains why a total score is defensible while distinguishing screening from diagnosis.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accurate numerical structure is easy to follow, though technical terminology is dense.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper124",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly separates the phenotype cohort from follow-up modeling and explains screening trade-offs.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear summary of phenotypes and model performance, with concise qualification of broader applicability.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper125",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly links entry mechanisms, inflammatory consequences, treatment timing, and translational limitations.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Mechanisms are clearly described, but the closing association-only characterization conflicts with the experimental account.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "observed associations between AXL activity and viral entry and inflammation, without establishing direct causality",
+                "reference_quote": "AXL knockout mice or early administration of an AXL inhibitor during infection markedly reduced pulmonary viral loads, attenuated virus-induced cytokine production and lung pathology, and improved survival",
+                "explanation": "The candidate recasts genetic and pharmacological interventions as association-only findings, weakening the abstract’s experimental mechanistic conclusion. Unestablished human efficacy is a separate issue. Full-paper adjudication is needed to determine the precise causal conclusions supported by these interventions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper126",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Numerical results are clear, but describing modeled projections as observed associations creates an internal inconsistency.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "major",
+                "candidate_quote": "The study found observed associations between vaccination and reduced RSV burden",
+                "reference_quote": "A deterministic cohort model simulated weekly birth cohorts for five years",
+                "explanation": "The health benefits are modeled projections under vaccination assumptions, not observed associations in vaccinated populations. Although the candidate otherwise identifies the model correctly, this sentence changes the evidence type. Full-paper adjudication is needed to check whether any separate observational analysis supports it."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes projected clinical gains, medical savings, and additional public expenditure.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper127",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and faithful presentation, though the conclusion repeats several preceding results.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly explains weak correlations, diagnostic performance, and the need for prospective validation.",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  }
+}

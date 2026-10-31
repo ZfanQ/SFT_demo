@@ -1,0 +1,12 @@
+{
+  "state": "completed",
+  "started_utc": "2026-10-31T11:06:29.605992+00:00",
+  "model": "qwen3:8b",
+  "expected_rounds": 9,
+  "expected_inferences": 1800,
+  "completed_rounds": 9,
+  "current_profile": "neuroscience",
+  "parallel": 4,
+  "inferences": 1800,
+  "finished_utc": "2026-10-31T11:24:25.422656+00:00"
+}

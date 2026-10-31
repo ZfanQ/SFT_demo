@@ -1,0 +1,128 @@
+{
+  "state": "completed",
+  "requests": 8,
+  "valid": 8,
+  "rows": [
+    {
+      "paper_id": "paper067",
+      "profile_id": "oncology",
+      "relevance": 0,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 502,
+        "total_tokens": 543,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      }
+    },
+    {
+      "paper_id": "paper188",
+      "profile_id": "oncology",
+      "relevance": 1,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 402,
+        "total_tokens": 443,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      }
+    },
+    {
+      "paper_id": "paper102",
+      "profile_id": "oncology",
+      "relevance": 2,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 505,
+        "total_tokens": 546,
+        "prompt_tokens_details": {
+          "cached_tokens": 42
+        }
+      }
+    },
+    {
+      "paper_id": "paper194",
+      "profile_id": "oncology",
+      "relevance": 1,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 564,
+        "total_tokens": 605,
+        "prompt_tokens_details": {
+          "cached_tokens": 42
+        }
+      }
+    },
+    {
+      "paper_id": "paper112",
+      "profile_id": "oncology",
+      "relevance": 0,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 452,
+        "total_tokens": 493,
+        "prompt_tokens_details": {
+          "cached_tokens": 42
+        }
+      }
+    },
+    {
+      "paper_id": "paper122",
+      "profile_id": "oncology",
+      "relevance": 0,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 509,
+        "total_tokens": 550,
+        "prompt_tokens_details": {
+          "cached_tokens": 47
+        }
+      }
+    },
+    {
+      "paper_id": "paper014",
+      "profile_id": "oncology",
+      "relevance": 0,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 665,
+        "total_tokens": 706,
+        "prompt_tokens_details": {
+          "cached_tokens": 42
+        }
+      }
+    },
+    {
+      "paper_id": "paper003",
+      "profile_id": "oncology",
+      "relevance": 0,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 410,
+        "total_tokens": 451,
+        "prompt_tokens_details": {
+          "cached_tokens": 46
+        }
+      }
+    }
+  ],
+  "offloaded_layers": [
+    "49",
+    "49"
+  ],
+  "effective_sequences": 2,
+  "context_per_sequence": 4096,
+  "backend": "llama_cpp",
+  "empty_input_warmup": false,
+  "flash_attention": "auto"
+}

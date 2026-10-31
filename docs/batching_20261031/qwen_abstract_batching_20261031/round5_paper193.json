@@ -1,0 +1,17 @@
+{
+  "model": "qwen3:8b",
+  "created_at": "2026-10-31T10:36:11.557793964Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\"paper_id\": \"paper193\", \"relevance\": 0}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 931948598,
+  "load_duration": 7727930,
+  "prompt_eval_count": 397,
+  "prompt_eval_cached_count": 107,
+  "prompt_eval_duration": 195779000,
+  "eval_count": 18,
+  "eval_duration": 665016000
+}

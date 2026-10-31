@@ -1,0 +1,62 @@
+{
+  "fingerprint": "20d344e8360ddd880a47ab422009e676c7326273e1bbfdf0e79cf509acda0a60",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper037",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "uncertain",
+            "findings": [
+              {
+                "severity": "uncertain",
+                "candidate_quote": "of whom 211 were randomly assigned to either GNT-W or EW",
+                "reference_quote": "A total of 1,526 participants completed baseline-0 and were randomly assigned to the GNT-W (n = 765) or EW (n = 761) groups.",
+                "explanation": "Detailed results and participant flow identify 1,526 randomized users and 211 baseline-1 completers included in analysis. However, the article’s abstract itself describes 211 as randomized, matching this candidate. The internally inconsistent source makes this randomization discrepancy uncertain."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper040",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T13:48:13+00:00",
+    "request_sha256": "ae351fa6e47da951fb3302b607946e94972543ec5bc81a8e45820c7a77fa0f39",
+    "usage": [
+      {
+        "input_tokens": 43633,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 603,
+        "reasoning_output_tokens": 379
+      }
+    ],
+    "thread_ids": [
+      "01a15991-87e0-7ba2-ace2-1abd03a59347"
+    ]
+  }
+}

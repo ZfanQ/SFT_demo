@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-31T13:10:56.757967+00:00",
+  "original_abstracts_checked": 200,
+  "changed_abstracts": [],
+  "private_ports_closed": {
+    "11437": true,
+    "11438": true
+  },
+  "shared_ollama_version": {
+    "version": "0.34.4"
+  },
+  "shared_ollama_ps": {
+    "models": []
+  },
+  "original_qwen8b_tag_unchanged": true,
+  "original_qwen8b_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+  "model_blob_rechecks": [
+    {
+      "label": "qwen35_9b_llamacpp",
+      "model_sha256": "02d45dc1cf451ba2475ac33b301c2dd8f985abe4c182ce04a1f2f5bf0260278d",
+      "unchanged": true
+    },
+    {
+      "label": "gemma4_12b_llamacpp",
+      "model_sha256": "bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+      "unchanged": true
+    }
+  ],
+  "gpu_snapshot": "Sat Oct 31 13:10:56 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.105.08             Driver Version: 580.105.08     CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA H100L-1-24C             On  |   00000000:00:06.0 Off |                   On |\n| N/A   N/A    P0            N/A  /  N/A  |       1MiB /  24576MiB |     N/A      Default |\n|                                         |                        |              Enabled |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| MIG devices:                                                                            |\n+------------------+----------------------------------+-----------+-----------------------+\n| GPU  GI  CI  MIG |              Shared Memory-Usage |        Vol|        Shared         |\n|      ID  ID  Dev |                Shared BAR1-Usage | SM     Unc| CE ENC  DEC  OFA  JPG |\n|                  |                                  |        ECC|                       |\n|==================+==================================+===========+=======================|\n|  0    0   0   0  |               1MiB / 21547MiB    | 26      0 |  1   0    1    0    1 |\n|                  |               0MiB /  4096MiB    |           |                       |\n+------------------+----------------------------------+-----------+-----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+\n",
+  "permissions": {
+    "group": "sft",
+    "directory_mode": "2775",
+    "file_mode": "0664",
+    "verified": true,
+    "checked_paths": 445
+  },
+  "scope": "Only this newly created experiment result tree receives permission changes.",
+  "state": "verified_complete"
+}

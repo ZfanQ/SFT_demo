@@ -1,0 +1,818 @@
+[
+  {
+    "index": 0,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup00\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 225,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup00\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451211,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 225,
+          "total_tokens": 266,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-LuYT7x1axdNFejq3PfxxPW16FvZT0ctb",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 225,
+          "prompt_ms": 2855.105,
+          "prompt_per_token_ms": 12.689355555555556,
+          "prompt_per_second": 78.80620852823276,
+          "predicted_n": 41,
+          "predicted_ms": 3334.271,
+          "predicted_per_token_ms": 83.356775,
+          "predicted_per_second": 11.996625349289245
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 1,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup01\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 263,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup01\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451211,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 263,
+          "total_tokens": 304,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-pasLvd54i2TiQiOkjgeY2dhxSqvFwB7t",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 263,
+          "prompt_ms": 2716.228,
+          "prompt_per_token_ms": 10.327863117870722,
+          "prompt_per_second": 96.82545058809495,
+          "predicted_n": 41,
+          "predicted_ms": 3333.934,
+          "predicted_per_token_ms": 83.34835000000001,
+          "predicted_per_second": 11.997837989594275
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 2,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup02\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 301,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup02\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451211,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 301,
+          "total_tokens": 342,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-qot4XK7r8rsCXkIQJOaJIJ8MtnD9HiSn",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 301,
+          "prompt_ms": 2710.145,
+          "prompt_per_token_ms": 9.003803986710963,
+          "prompt_per_second": 111.06416815336448,
+          "predicted_n": 41,
+          "predicted_ms": 3338.415,
+          "predicted_per_token_ms": 83.460375,
+          "predicted_per_second": 11.981733846750629
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 3,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup03\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 339,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup03\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451211,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 339,
+          "total_tokens": 380,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-B718CgjZyo3CMXeFXpAlJvSzEeGbIZZC",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 339,
+          "prompt_ms": 3162.138,
+          "prompt_per_token_ms": 9.3278407079646,
+          "prompt_per_second": 107.20594736852092,
+          "predicted_n": 41,
+          "predicted_ms": 2927.052,
+          "predicted_per_token_ms": 73.1763,
+          "predicted_per_second": 13.665626712473847
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 4,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup04\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 225,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup04\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451211,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 225,
+          "total_tokens": 266,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-2FMnZ2fUPSBToAHufwyt6SGAbQKe6tFF",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 225,
+          "prompt_ms": 3165.284,
+          "prompt_per_token_ms": 14.06792888888889,
+          "prompt_per_second": 71.08366895355994,
+          "predicted_n": 41,
+          "predicted_ms": 2924.704,
+          "predicted_per_token_ms": 73.11760000000001,
+          "predicted_per_second": 13.67659770014333
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 5,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup05\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 263,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup05\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451211,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 263,
+          "total_tokens": 304,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-xmmh7zTTQqIlI4slDbGe3VV59e2oOug8",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 263,
+          "prompt_ms": 2713.147,
+          "prompt_per_token_ms": 10.316148288973384,
+          "prompt_per_second": 96.93540379492892,
+          "predicted_n": 41,
+          "predicted_ms": 3336.208,
+          "predicted_per_token_ms": 83.40520000000001,
+          "predicted_per_second": 11.989660117115
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 6,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup06\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 301,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup06\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451211,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 301,
+          "total_tokens": 342,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-c8dlQqnfmYD8BPjJYtXHnFlMjJPV6xEk",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 301,
+          "prompt_ms": 3159.173,
+          "prompt_per_token_ms": 10.495591362126245,
+          "prompt_per_second": 95.27809967988459,
+          "predicted_n": 41,
+          "predicted_ms": 2929.224,
+          "predicted_per_token_ms": 73.23060000000001,
+          "predicted_per_second": 13.655493741687216
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 7,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup07\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 339,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup07\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451211,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 339,
+          "total_tokens": 380,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-as7a5sDTA5E6lp0g9gkOcjmJGlGg0nXa",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 339,
+          "prompt_ms": 2706.922,
+          "prompt_per_token_ms": 7.985020648967551,
+          "prompt_per_second": 125.23449142605513,
+          "predicted_n": 41,
+          "predicted_ms": 3340.767,
+          "predicted_per_token_ms": 83.51917499999999,
+          "predicted_per_second": 11.973298347355563
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 8,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup08\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 225,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup08\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451217,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 225,
+          "total_tokens": 266,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-ebMeYva8lgzF48YoBGMQiUTXXjyowy93",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 183,
+          "prompt_ms": 2327.737,
+          "prompt_per_token_ms": 12.719874316939892,
+          "prompt_per_second": 78.61712899696143,
+          "predicted_n": 41,
+          "predicted_ms": 3117.226,
+          "predicted_per_token_ms": 77.93065,
+          "predicted_per_second": 12.831921715012001
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 9,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup09\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 263,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup09\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451217,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 263,
+          "total_tokens": 304,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-61oaQ8BjfojB6RJ9ldFNHysROZK2tMcg",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 221,
+          "prompt_ms": 2283.942,
+          "prompt_per_token_ms": 10.334579185520361,
+          "prompt_per_second": 96.76252724456225,
+          "predicted_n": 41,
+          "predicted_ms": 3117.062,
+          "predicted_per_token_ms": 77.92654999999999,
+          "predicted_per_second": 12.832596849212496
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 10,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup10\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 301,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup10\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451217,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 301,
+          "total_tokens": 342,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-l6f1zA6hL6mLnsbRe70yGq0kyDT3tO3L",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 259,
+          "prompt_ms": 2314.82,
+          "prompt_per_token_ms": 8.937528957528958,
+          "prompt_per_second": 111.8877493714414,
+          "predicted_n": 41,
+          "predicted_ms": 3117.218,
+          "predicted_per_token_ms": 77.93045,
+          "predicted_per_second": 12.831954646739497
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 11,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup11\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 339,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup11\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451217,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 339,
+          "total_tokens": 380,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-f7oI8Da11PAVut1EAfachLI73JvhQEz3",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 297,
+          "prompt_ms": 2299.04,
+          "prompt_per_token_ms": 7.740875420875421,
+          "prompt_per_second": 129.18435520913076,
+          "predicted_n": 41,
+          "predicted_ms": 3117.168,
+          "predicted_per_token_ms": 77.92920000000001,
+          "predicted_per_second": 12.832160473866022
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 12,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup12\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 225,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup12\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451217,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 225,
+          "total_tokens": 266,
+          "prompt_tokens_details": {
+            "cached_tokens": 88
+          }
+        },
+        "id": "chatcmpl-iPukUlhvPiJbIjdhbuG83MejIE76MJ3z",
+        "timings": {
+          "cache_n": 88,
+          "prompt_n": 137,
+          "prompt_ms": 1307.606,
+          "prompt_per_token_ms": 9.544569343065694,
+          "prompt_per_second": 104.77162080932636,
+          "predicted_n": 41,
+          "predicted_ms": 4000.077,
+          "predicted_per_token_ms": 100.001925,
+          "predicted_per_second": 9.999807503705554
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 13,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup13\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 263,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup13\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451217,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 263,
+          "total_tokens": 304,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-2RTHETIQ7rfkyH09aMk6t3vzLDGlUse9",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 221,
+          "prompt_ms": 2513.071,
+          "prompt_per_token_ms": 11.371361990950225,
+          "prompt_per_second": 87.94021338832052,
+          "predicted_n": 41,
+          "predicted_ms": 2883.331,
+          "predicted_per_token_ms": 72.083275,
+          "predicted_per_second": 13.87284359652083
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 14,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup14\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 301,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup14\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451217,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 301,
+          "total_tokens": 342,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-hyuff0BbJE1LrlZkgHsefDwYIbDFpdwe",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 259,
+          "prompt_ms": 2498.036,
+          "prompt_per_token_ms": 9.644926640926641,
+          "prompt_per_second": 103.68145214880809,
+          "predicted_n": 41,
+          "predicted_ms": 2882.375,
+          "predicted_per_token_ms": 72.059375,
+          "predicted_per_second": 13.877444815473352
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  },
+  {
+    "index": 15,
+    "response": {
+      "message": {
+        "content": "{\n  \"paper_id\": \"warmup15\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "prompt_eval_count": 339,
+      "eval_count": 41,
+      "prompt_eval_duration": null,
+      "eval_duration": null,
+      "native_llamacpp_response": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"paper_id\": \"warmup15\",\n  \"profile_id\": \"neuroscience\",\n  \"relevance\": 2\n}"
+            }
+          }
+        ],
+        "created": 1793451217,
+        "model": "/data/SFT_demo/.models/ollama/blobs/sha256-bb722270d54346adc198f213851dbe0207e87c3ecf2a0aff4d92262726215391",
+        "system_fingerprint": "b1-161755f29",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 41,
+          "prompt_tokens": 339,
+          "total_tokens": 380,
+          "prompt_tokens_details": {
+            "cached_tokens": 42
+          }
+        },
+        "id": "chatcmpl-psnsvMoAGi4h5LjsgawCKV3As6mIhoV7",
+        "timings": {
+          "cache_n": 42,
+          "prompt_n": 297,
+          "prompt_ms": 2484.502,
+          "prompt_per_token_ms": 8.365326599326599,
+          "prompt_per_second": 119.54105893253457,
+          "predicted_n": 41,
+          "predicted_ms": 2881.386,
+          "predicted_per_token_ms": 72.03465,
+          "predicted_per_second": 13.882208076252194
+        }
+      },
+      "input_token_count_method": "embedded GGUF tokenizer, chat API usage"
+    }
+  }
+]

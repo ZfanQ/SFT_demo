@@ -1,0 +1,86 @@
+{
+  "audio_path": "/private/tmp/sft-meeting-20261013/audio1912249511.m4a",
+  "audio_sha256": "4e316c87bf3b6019eb3fcca2df778e7b95a6e3e8321d456892ed399c5eea0e45",
+  "model_path": "/Users/fredericzhang/.local/share/sft-transcription/models/whisper-large-v3",
+  "offset_seconds": 0,
+  "duration_seconds": 1553.4933125,
+  "runtime_seconds": 766.3198881149292,
+  "mlx_whisper_version": "0.4.3",
+  "language": "en",
+  "temperature_fallback": [
+    0.0,
+    0.2,
+    0.4,
+    0.6
+  ],
+  "condition_on_previous_text": false,
+  "hallucination_silence_threshold": 2.0,
+  "word_timestamps": true,
+  "initial_prompt_is_vocabulary_only": false,
+  "speaker_diarization": false,
+  "status": "automatic transcription; not a verbatim human-certified transcript",
+  "recording_title": "2026-10-13 08.40.51 Suresh Krishna's Personal Meeting Room",
+  "archive_path": "/Users/fredericzhang/Downloads/2026-10-13 08.40.51 Suresh Krishna's Personal Meeting Room.zip",
+  "archive_sha256": "7c1d97eba6c03abc449d2daad888c5f60974158f0372f5b2ff5e017e0330aa3c",
+  "review_method": "Full local large-v3 automatic transcription, with independent local turbo transcription of selected original-audio intervals; no claim of a complete manual listening review or certified speaker attribution.",
+  "independent_rechecks": [
+    {
+      "offset_seconds": 620.0,
+      "duration_seconds": 410.0,
+      "model_path": "/Users/fredericzhang/.local/share/sft-transcription/models/whisper-turbo",
+      "audio_sha256": "4e316c87bf3b6019eb3fcca2df778e7b95a6e3e8321d456892ed399c5eea0e45",
+      "transcript_file": "key_recheck_10m20_17m10.txt"
+    },
+    {
+      "offset_seconds": 1290.0,
+      "duration_seconds": 240.0,
+      "model_path": "/Users/fredericzhang/.local/share/sft-transcription/models/whisper-turbo",
+      "audio_sha256": "4e316c87bf3b6019eb3fcca2df778e7b95a6e3e8321d456892ed399c5eea0e45",
+      "transcript_file": "ranking_recheck_21m30_25m30.txt"
+    }
+  ],
+  "readable_transcript_uncertain_spans": [
+    {
+      "start": 269.86,
+      "end": 272.46,
+      "raw_text": " And here it is not using the BERT or the root score."
+    },
+    {
+      "start": 316.14,
+      "end": 320.38,
+      "raw_text": " That's not a Quen's abstract. That's a summary of the Quen\u6587."
+    },
+    {
+      "start": 320.64,
+      "end": 328.26,
+      "raw_text": " And we just compare the birth score between the summary of Quen\u6587 and the abstract, whether it's close or not."
+    },
+    {
+      "start": 341.72,
+      "end": 349.56,
+      "raw_text": " It's like repyrographs. It's like repyrographs, like the original abstraction is made up by"
+    },
+    {
+      "start": 583.02,
+      "end": 583.56,
+      "raw_text": " SHYAM GOLLAKOTALEBARAJANI- Show me"
+    },
+    {
+      "start": 625.3199999999999,
+      "end": 628.38,
+      "raw_text": " So you can say it's March abbreviated."
+    },
+    {
+      "start": 634.2,
+      "end": 638.38,
+      "raw_text": " Remove the numbers and just have an echo message."
+    },
+    {
+      "start": 1239.0,
+      "end": 1239.02,
+      "raw_text": " Sure."
+    }
+  ],
+  "video_frames_reviewed": false,
+  "raw_transcription_preserved": true
+}

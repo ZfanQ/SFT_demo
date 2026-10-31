@@ -1,0 +1,62 @@
+{
+  "fingerprint": "20d344e8360ddd880a47ab422009e676c7326273e1bbfdf0e79cf509acda0a60",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper119",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "major",
+                "candidate_quote": "identifies associations between HPV and cancer mortality",
+                "reference_quote": "Because national mortality databases report deaths at HPV-associated cancer sites, site-specific attributable fractions (AFs) were applied to these deaths to estimate HPV-attributable deaths for each cancer site.",
+                "explanation": "The study estimated attributable mortality using published fractions that assume established HPV causation; it did not analyze an association between HPV infection and mortality. The concluding description misrepresents what the analysis measured."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper121",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T13:59:43+00:00",
+    "request_sha256": "520982521c7c6643a54fc57457169a0ca8fb3cb25f662846991622cfece2cfcc",
+    "usage": [
+      {
+        "input_tokens": 48016,
+        "cached_input_tokens": 9344,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 634,
+        "reasoning_output_tokens": 429
+      }
+    ],
+    "thread_ids": [
+      "01a1599c-02f9-7c51-997b-43fc10256794"
+    ]
+  }
+}

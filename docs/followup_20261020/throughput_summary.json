@@ -1,0 +1,38 @@
+[
+  {
+    "experiment": "qwen_throughput_20261020",
+    "parallel": 1,
+    "papers_per_minute": 3.3002649403648077,
+    "median_latency_s": 17.73900981619954,
+    "peak_memory_mib": 9795.0,
+    "inferences": 12,
+    "valid": 12
+  },
+  {
+    "experiment": "qwen_throughput_20261020",
+    "parallel": 2,
+    "papers_per_minute": 3.8096424433559593,
+    "median_latency_s": 28.850411624414846,
+    "peak_memory_mib": 14412.0,
+    "inferences": 12,
+    "valid": 12
+  },
+  {
+    "experiment": "qwen_throughput_parallel3_20261020",
+    "parallel": 1,
+    "papers_per_minute": 3.2597948815497952,
+    "median_latency_s": 17.746472208527848,
+    "peak_memory_mib": 9795.0,
+    "inferences": 12,
+    "valid": 12
+  },
+  {
+    "experiment": "qwen_throughput_parallel3_20261020",
+    "parallel": 3,
+    "papers_per_minute": 3.7293783983804807,
+    "median_latency_s": 46.008826687932014,
+    "peak_memory_mib": 18887.0,
+    "inferences": 12,
+    "valid": 12
+  }
+]

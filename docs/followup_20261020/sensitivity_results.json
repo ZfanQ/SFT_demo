@@ -1,0 +1,289 @@
+{
+  "cases": [
+    {
+      "case": "unproven_binding_asserted",
+      "paper_id": "paper005",
+      "synthetic": true,
+      "original_sha256": "0a77553ccb675545e875102f11dd2d279b4eed19262cc0524e19ed9934631152",
+      "edit": {
+        "old": "without proving direct binding",
+        "new": "proving direct binding"
+      },
+      "variants": {
+        "original": "This laboratory study investigated how N6-methyladenosine RNA modification sustains acquired temozolomide resistance in glioblastoma cells. Researchers generated resistant derivatives of three established cell lines by prolonged drug exposure and combined transcriptomics, methylation mapping, RNA stability measurements and pharmacological perturbation. Resistant cells strongly increased MGMT, a DNA repair enzyme, without consistent changes in bulk RNA methylation or METTL3 abundance. METTL3 inhibition with STM2457 reduced growth and colony formation in sensitive and resistant cells and increased resistant-cell responsiveness to temozolomide. MGMT transcripts carried methylated sites near the stop codon; inhibitor treatment reduced MGMT RNA and protein and shortened its measured RNA half-life from approximately 20 to eight hours. IGF2BP2 depletion also reduced MGMT expression, suggesting participation of this RNA-binding protein without proving direct binding. Integrated analyses implicated additional resistance-related pathways, including PI3K\u2013Akt and hypoxia signaling, whose transcripts were reduced after methylation inhibition even though most responsive transcripts increased. These results support a selective RNA-stabilization mechanism sustaining resistance and motivate METTL3-targeted treatment research. Evidence remains restricted to cell culture, and clinical efficacy, toxicity, tumor heterogeneity and the precise mechanisms determining transcript-specific stabilization require further investigation.",
+        "intentionally_false": "This laboratory study investigated how N6-methyladenosine RNA modification sustains acquired temozolomide resistance in glioblastoma cells. Researchers generated resistant derivatives of three established cell lines by prolonged drug exposure and combined transcriptomics, methylation mapping, RNA stability measurements and pharmacological perturbation. Resistant cells strongly increased MGMT, a DNA repair enzyme, without consistent changes in bulk RNA methylation or METTL3 abundance. METTL3 inhibition with STM2457 reduced growth and colony formation in sensitive and resistant cells and increased resistant-cell responsiveness to temozolomide. MGMT transcripts carried methylated sites near the stop codon; inhibitor treatment reduced MGMT RNA and protein and shortened its measured RNA half-life from approximately 20 to eight hours. IGF2BP2 depletion also reduced MGMT expression, suggesting participation of this RNA-binding protein proving direct binding. Integrated analyses implicated additional resistance-related pathways, including PI3K\u2013Akt and hypoxia signaling, whose transcripts were reduced after methylation inhibition even though most responsive transcripts increased. These results support a selective RNA-stabilization mechanism sustaining resistance and motivate METTL3-targeted treatment research. Evidence remains restricted to cell culture, and clinical efficacy, toxicity, tumor heterogeneity and the precise mechanisms determining transcript-specific stabilization require further investigation."
+      },
+      "references": {
+        "author_abstract": "N 6-methyladenosine (m6A) regulates nearly every aspect of messenger RNA (mRNA) processing and function, impacting downstream gene expression programs. Changes in m6A have been implicated in many different types of cancer, and inhibition of m6A installation is emerging as a cancer therapeutic strategy. However, chemoresistance remains a significant clinical challenge in the treatment of glioblastoma (GBM). We established GBM cell culture models of acquired temozolomide (TMZ) resistance, analyzed the role of m6A in controlling resistance-associated pathways, and assessed the effects of METTL3 inhibition. We show that m6A stabilizes key genes and pathways promoting TMZ resistance, and that METTL3 inhibition can reverse this and restore TMZ sensitivity. These findings highlight that TMZ resistance can occur independent of a glioma stem cell population and that changes in m6A need not be driven by changes in METTL3 expression. Collectively, our results suggest that genes associated with TMZ resistance are stabilized by m6A methylation even as the majority of the transcriptome remains subject to m6A-mediated mRNA decay. Moreover, these data highlight METTL3 inhibition as a promising therapeutic approach to overcoming TMZ resistance in GBM.\n",
+        "gpt_reference": "This laboratory study investigated how N6-methyladenosine RNA modification sustains acquired temozolomide resistance in glioblastoma cells. Researchers generated resistant derivatives of three established cell lines by prolonged drug exposure and combined transcriptomics, methylation mapping, RNA stability measurements and pharmacological perturbation. Resistant cells strongly increased MGMT, a DNA repair enzyme, without consistent changes in bulk RNA methylation or METTL3 abundance. METTL3 inhibition with STM2457 reduced growth and colony formation in sensitive and resistant cells and increased resistant-cell responsiveness to temozolomide. MGMT transcripts carried methylated sites near the stop codon; inhibitor treatment reduced MGMT RNA and protein and shortened its measured RNA half-life from approximately 20 to eight hours. IGF2BP2 depletion also reduced MGMT expression, suggesting participation of this RNA-binding protein without proving direct binding. Integrated analyses implicated additional resistance-related pathways, including PI3K\u2013Akt and hypoxia signaling, whose transcripts were reduced after methylation inhibition even though most responsive transcripts increased. These results support a selective RNA-stabilization mechanism sustaining resistance and motivate METTL3-targeted treatment research. Evidence remains restricted to cell culture, and clinical efficacy, toxicity, tumor heterogeneity and the precise mechanisms determining transcript-specific stabilization require further investigation."
+      }
+    },
+    {
+      "case": "last_sentence_causal_and_clinical_overclaim",
+      "paper_id": "paper100",
+      "synthetic": true,
+      "original_sha256": "9b95bfc7daf77cb1a64e78ae97ddd1658bed9c9547a5c8712e79319b0ebc9cd8",
+      "edit": {
+        "old": "cannot establish whole-kidney efficacy, clinical benefit, or the proposed causal relationships between the pathways",
+        "new": "establish whole-kidney efficacy, clinical benefit, and the proposed causal relationships between the pathways"
+      },
+      "variants": {
+        "original": "This laboratory study examined whether hirsutine, an alkaloid from Uncaria rhynchophylla, protects podocytes from hyperglycaemic injury and how its effects relate to apoptosis, autophagy, and ferroptosis. Differentiated mouse MPC5 podocytes were exposed to 30 mM glucose for 24 hours, with hirsutine at 5\u201320 \u03bcM. Investigators measured viability, inflammatory cytokines, oxidative stress, apoptosis, mitochondrial structure, and pathway-associated proteins across at least three independent experiments. Pharmacological inhibitors of ferroptosis and apoptosis, and an autophagy activator, provided additional comparisons. Hirsutine improved viability and morphology, reduced inflammatory cytokines and apoptosis, and preserved mitochondrial membrane potential. It lowered reactive oxygen species and malondialdehyde while partly restoring antioxidant defences; reported malondialdehyde fell from approximately 32.6 to 14.9 \u03bcmol/L. Treatment increased LC3-II and reduced p62 alongside decreased PI3K/Akt/mTOR phosphorylation, consistent with altered autophagy-associated signalling. It also reduced intracellular iron and lipid peroxidation, restored NRF2, GPX4, and related antioxidant proteins, and lowered ACSL4, producing biochemical changes compatible with reduced ferroptotic injury. These convergent observations support further investigation of hirsutine for diabetic podocyte injury. However, static LC3/p62 measurements do not establish increased autophagic flux, and no NRF2 loss-of-function experiment demonstrated that this pathway is required. The findings come solely from an acute cultured-cell model and cannot establish whole-kidney efficacy, clinical benefit, or the proposed causal relationships between the pathways.",
+        "intentionally_false": "This laboratory study examined whether hirsutine, an alkaloid from Uncaria rhynchophylla, protects podocytes from hyperglycaemic injury and how its effects relate to apoptosis, autophagy, and ferroptosis. Differentiated mouse MPC5 podocytes were exposed to 30 mM glucose for 24 hours, with hirsutine at 5\u201320 \u03bcM. Investigators measured viability, inflammatory cytokines, oxidative stress, apoptosis, mitochondrial structure, and pathway-associated proteins across at least three independent experiments. Pharmacological inhibitors of ferroptosis and apoptosis, and an autophagy activator, provided additional comparisons. Hirsutine improved viability and morphology, reduced inflammatory cytokines and apoptosis, and preserved mitochondrial membrane potential. It lowered reactive oxygen species and malondialdehyde while partly restoring antioxidant defences; reported malondialdehyde fell from approximately 32.6 to 14.9 \u03bcmol/L. Treatment increased LC3-II and reduced p62 alongside decreased PI3K/Akt/mTOR phosphorylation, consistent with altered autophagy-associated signalling. It also reduced intracellular iron and lipid peroxidation, restored NRF2, GPX4, and related antioxidant proteins, and lowered ACSL4, producing biochemical changes compatible with reduced ferroptotic injury. These convergent observations support further investigation of hirsutine for diabetic podocyte injury. However, static LC3/p62 measurements do not establish increased autophagic flux, and no NRF2 loss-of-function experiment demonstrated that this pathway is required. The findings come solely from an acute cultured-cell model and establish whole-kidney efficacy, clinical benefit, and the proposed causal relationships between the pathways."
+      },
+      "references": {
+        "author_abstract": "Hirsutine, a potent indole alkaloid extracted from Uncaria rhynchophylla (Miq.) Miq. ex Havil., family Rubiaceae., exhibits antioxidant and cytoprotective activities. However, its potential role in diabetic nephropathy (DN) remains unclear. DN is the leading cause of end-stage renal disease, and podocyte injury is a key event in the progression of DN. MPC5 cells were exposed to 30 mM HG with or without hirsutine (5\u201320 \u03bcM). Hirsutine significantly improved cell viability. Hirsutine significantly improved cell viability, accompanied by a marked reduction in intracellular ROS levels and apoptosis, collectively indicating that hirsutine exerts a pronounced protective effect and effectively enhances podocyte viability under hyperglycemic stress. Autophagy-related proteins LC3 and p62 were examined by Western blotting and immunofluorescence, showing that hirsutine significantly modulated autophagy-related protein expression under hyperglycemic conditions. Apoptosis and ROS formation were evaluated using the Western blotting, and immunofluorescence, indicating that hirsutine attenuated high glucose -induced apoptosis and oxidative stress. LC3 and p62 expression patterns were altered in a manner consistent with autophagy-associated changes. Hirsutine increased the markers of NRF2 pathway activation and also reduced the biochemical signatures consistent with ferroptosis.This study provides new evidence that hirsutine protects against HG-induced cell injury by simultaneously modulating apoptosis, autophagy and ferroptosis, highlighting its potential as a candidate for future DN therapy. However, these results are limited to an in vitro model and lack direct autophagic flux assessment and genetic validation of NRF2 dependency, which warrant further investigation.\n",
+        "gpt_reference": "This laboratory study examined whether hirsutine, an alkaloid from Uncaria rhynchophylla, protects podocytes from hyperglycaemic injury and how its effects relate to apoptosis, autophagy, and ferroptosis. Differentiated mouse MPC5 podocytes were exposed to 30 mM glucose for 24 hours, with hirsutine at 5\u201320 \u03bcM. Investigators measured viability, inflammatory cytokines, oxidative stress, apoptosis, mitochondrial structure, and pathway-associated proteins across at least three independent experiments. Pharmacological inhibitors of ferroptosis and apoptosis, and an autophagy activator, provided additional comparisons. Hirsutine improved viability and morphology, reduced inflammatory cytokines and apoptosis, and preserved mitochondrial membrane potential. It lowered reactive oxygen species and malondialdehyde while partly restoring antioxidant defences; reported malondialdehyde fell from approximately 32.6 to 14.9 \u03bcmol/L. Treatment increased LC3-II and reduced p62 alongside decreased PI3K/Akt/mTOR phosphorylation, consistent with altered autophagy-associated signalling. It also reduced intracellular iron and lipid peroxidation, restored NRF2, GPX4, and related antioxidant proteins, and lowered ACSL4, producing biochemical changes compatible with reduced ferroptotic injury. These convergent observations support further investigation of hirsutine for diabetic podocyte injury. However, static LC3/p62 measurements do not establish increased autophagic flux, and no NRF2 loss-of-function experiment demonstrated that this pathway is required. The findings come solely from an acute cultured-cell model and cannot establish whole-kidney efficacy, clinical benefit, or the proposed causal relationships between the pathways."
+      }
+    },
+    {
+      "case": "last_sentence_rare_event_power_overclaim",
+      "paper_id": "paper128",
+      "synthetic": true,
+      "original_sha256": "cbc9d0822bc4689807e55287115021ebea8d212a6de86d5792a5db0be5203e6d",
+      "edit": {
+        "old": "cannot reliably detect rare adverse events or establish broad generalizability",
+        "new": "can reliably detect rare adverse events and establish broad generalizability"
+      },
+      "variants": {
+        "original": "This phase 2 randomized, observer-blind, active-controlled trial assessed safety and immune responses to investigational COVID-19 mRNA boosters in previously vaccinated adults. At 13 Australian centers, 425 participants received one of three bivalent CV0701 dose levels, monovalent CV0601, or a licensed bivalent comparator; 381 entered the Day 29 per-protocol immunogenicity analysis. Mean age was 53.6 years, 30.6% were at least 65, and 80.9% reported previous infection. Most local and systemic reactions were mild or moderate and resolved within days. No deaths, vaccine-related serious adverse events, or myocarditis/pericarditis were reported through six months. CV0701 showed a dose-dependent Day 29 neutralizing-antibody response. Against Omicron BA.4\u20135, adjusted antibody-titer ratios relative to the comparator ranged from 0.73 to 1.23 for CV0701 and were 1.29 for CV0601; confidence intervals for the higher-dose comparisons included 1. Antibody levels declined thereafter but remained above baseline at Day 181. BA.4\u20135 seroresponse rates were approximately 50% except at the lowest CV0701 dose (38.5%). Th1-skewed CD4 responses increased across groups; antigen-specific CD8 responses increased except in the lowest-dose group. The results support continued development, with broadly similar descriptive safety and immunogenicity to the comparator at higher doses. No formal hypothesis testing or multiplicity adjustment was performed, so comparative superiority or equivalence was not established. Immune markers cannot prove clinical protection, and this small, predominantly White, previously immunized population cannot reliably detect rare adverse events or establish broad generalizability.",
+        "intentionally_false": "This phase 2 randomized, observer-blind, active-controlled trial assessed safety and immune responses to investigational COVID-19 mRNA boosters in previously vaccinated adults. At 13 Australian centers, 425 participants received one of three bivalent CV0701 dose levels, monovalent CV0601, or a licensed bivalent comparator; 381 entered the Day 29 per-protocol immunogenicity analysis. Mean age was 53.6 years, 30.6% were at least 65, and 80.9% reported previous infection. Most local and systemic reactions were mild or moderate and resolved within days. No deaths, vaccine-related serious adverse events, or myocarditis/pericarditis were reported through six months. CV0701 showed a dose-dependent Day 29 neutralizing-antibody response. Against Omicron BA.4\u20135, adjusted antibody-titer ratios relative to the comparator ranged from 0.73 to 1.23 for CV0701 and were 1.29 for CV0601; confidence intervals for the higher-dose comparisons included 1. Antibody levels declined thereafter but remained above baseline at Day 181. BA.4\u20135 seroresponse rates were approximately 50% except at the lowest CV0701 dose (38.5%). Th1-skewed CD4 responses increased across groups; antigen-specific CD8 responses increased except in the lowest-dose group. The results support continued development, with broadly similar descriptive safety and immunogenicity to the comparator at higher doses. No formal hypothesis testing or multiplicity adjustment was performed, so comparative superiority or equivalence was not established. Immune markers cannot prove clinical protection, and this small, predominantly White, previously immunized population can reliably detect rare adverse events and establish broad generalizability."
+      },
+      "references": {
+        "author_abstract": "We conducted a phase 2, randomized, active-controlled, observer-blind study (NCT05960097) among healthy adults \u226518 y of age who completed a primary COVID-19 mRNA vaccination series, with or without a booster, \u22653 months earlier. Participants were randomized (1:1:1:1:1) to either receive an investigational bivalent mRNA COVID-19 vaccine encoding ancestral D614G and Omicron BA.4\u20135 spike proteins (CV0701 mRNA vaccine) at one of three dose levels, an investigational monovalent mRNA COVID-19 vaccine encoding the Omicron BA.4\u20135 spike protein (CV0601 mRNA vaccine), or a licensed Original Wuhan/Omicron BA.4\u20135 bivalent mRNA COVID-19 vaccine. The primary objectives were to evaluate reactogenicity, safety and immunogenicity post-vaccination. Secondary and tertiary objectives were to further evaluate humoral and cell-mediated immunity post-vaccination. In total, 425 participants were vaccinated and 381 were included in the Day 29 per-protocol immunogenicity analysis. Most solicited events were mild to moderate. No vaccine-related serious adverse events or myocarditis/pericarditis cases were reported. For the CV0701 mRNA vaccine, a dose-dependent increase in Day 29 neutralizing titers against ancestral D614G and Omicron BA.4\u20135 was observed. Neutralizing titers against ancestral D614G and Omicron BA.4\u20135 declined by Days 91 and 181, but remained above baseline. Similar immune responses were observed for the CV0601 mRNA vaccine. At Day 8, CD4+ T cells (Th1 profile) increased in all study groups and CD8+ T cells increased in all study groups, except the lowest CV0701 dose group. The CV0701 and CV0601 mRNA vaccines elicited robust humoral and cellular immunity with an acceptable safety profile, comparable to a licensed, bivalent mRNA vaccine. Clinical Trial Registration EU CT number: 2023-504596-25-00 ClinicalTrials.gov: NCT05960097\n",
+        "gpt_reference": "This phase 2 randomized, observer-blind, active-controlled trial assessed safety and immune responses to investigational COVID-19 mRNA boosters in previously vaccinated adults. At 13 Australian centers, 425 participants received one of three bivalent CV0701 dose levels, monovalent CV0601, or a licensed bivalent comparator; 381 entered the Day 29 per-protocol immunogenicity analysis. Mean age was 53.6 years, 30.6% were at least 65, and 80.9% reported previous infection. Most local and systemic reactions were mild or moderate and resolved within days. No deaths, vaccine-related serious adverse events, or myocarditis/pericarditis were reported through six months. CV0701 showed a dose-dependent Day 29 neutralizing-antibody response. Against Omicron BA.4\u20135, adjusted antibody-titer ratios relative to the comparator ranged from 0.73 to 1.23 for CV0701 and were 1.29 for CV0601; confidence intervals for the higher-dose comparisons included 1. Antibody levels declined thereafter but remained above baseline at Day 181. BA.4\u20135 seroresponse rates were approximately 50% except at the lowest CV0701 dose (38.5%). Th1-skewed CD4 responses increased across groups; antigen-specific CD8 responses increased except in the lowest-dose group. The results support continued development, with broadly similar descriptive safety and immunogenicity to the comparator at higher doses. No formal hypothesis testing or multiplicity adjustment was performed, so comparative superiority or equivalence was not established. Immune markers cannot prove clinical protection, and this small, predominantly White, previously immunized population cannot reliably detect rare adverse events or establish broad generalizability."
+      }
+    },
+    {
+      "case": "actual_qwen128_safety_error_minimal_correction",
+      "paper_id": "paper128",
+      "synthetic": false,
+      "edit": {
+        "old": "The study found no serious adverse events or cases of myocarditis/pericarditis.",
+        "new": "The study found no vaccine-related serious adverse events or cases of myocarditis/pericarditis."
+      },
+      "variants": {
+        "saved_qwen": "This paper presents a phase 2, randomized, active-controlled, observer-blind study evaluating the safety, reactogenicity, and immunogenicity of two investigational mRNA vaccines against SARS-CoV-2, compared to a licensed bivalent mRNA vaccine. The study included 425 healthy adults aged \u226518 years who had completed a primary vaccination series with or without a booster at least three months prior. Participants were randomized to receive either a bivalent mRNA vaccine (CV0701) at three dose levels, a monovalent mRNA vaccine (CV0601), or a licensed comparator vaccine. The primary outcomes were reactogenicity, safety, and immunogenicity, with secondary and tertiary endpoints focusing on humoral and cellular immune responses. The results showed that both investigational vaccines had a safety profile comparable to the licensed comparator, with most adverse events being mild to moderate. Neutralizing titers against both ancestral D614G and Omicron BA.4\u20135 variants increased with higher doses of CV0701 and remained above baseline up to Day 181. The CV0601 vaccine also elicited robust immune responses. CD4+ and CD8+ T-cell responses were observed in all groups, with the lowest dose of CV0701 showing a less pronounced response. The study found no serious adverse events or cases of myocarditis/pericarditis. Limitations include the lack of formal hypothesis testing, limited sample size, and potential generalizability issues due to the Australian population focus. The findings suggest that the investigational vaccines are safe and immunogenic, supporting further development for addressing evolving SARS-CoV-2 variants.",
+        "minimal_safety_correction": "This paper presents a phase 2, randomized, active-controlled, observer-blind study evaluating the safety, reactogenicity, and immunogenicity of two investigational mRNA vaccines against SARS-CoV-2, compared to a licensed bivalent mRNA vaccine. The study included 425 healthy adults aged \u226518 years who had completed a primary vaccination series with or without a booster at least three months prior. Participants were randomized to receive either a bivalent mRNA vaccine (CV0701) at three dose levels, a monovalent mRNA vaccine (CV0601), or a licensed comparator vaccine. The primary outcomes were reactogenicity, safety, and immunogenicity, with secondary and tertiary endpoints focusing on humoral and cellular immune responses. The results showed that both investigational vaccines had a safety profile comparable to the licensed comparator, with most adverse events being mild to moderate. Neutralizing titers against both ancestral D614G and Omicron BA.4\u20135 variants increased with higher doses of CV0701 and remained above baseline up to Day 181. The CV0601 vaccine also elicited robust immune responses. CD4+ and CD8+ T-cell responses were observed in all groups, with the lowest dose of CV0701 showing a less pronounced response. The study found no vaccine-related serious adverse events or cases of myocarditis/pericarditis. Limitations include the lack of formal hypothesis testing, limited sample size, and potential generalizability issues due to the Australian population focus. The findings suggest that the investigational vaccines are safe and immunogenic, supporting further development for addressing evolving SARS-CoV-2 variants."
+      },
+      "references": {
+        "author_abstract": "We conducted a phase 2, randomized, active-controlled, observer-blind study (NCT05960097) among healthy adults \u226518 y of age who completed a primary COVID-19 mRNA vaccination series, with or without a booster, \u22653 months earlier. Participants were randomized (1:1:1:1:1) to either receive an investigational bivalent mRNA COVID-19 vaccine encoding ancestral D614G and Omicron BA.4\u20135 spike proteins (CV0701 mRNA vaccine) at one of three dose levels, an investigational monovalent mRNA COVID-19 vaccine encoding the Omicron BA.4\u20135 spike protein (CV0601 mRNA vaccine), or a licensed Original Wuhan/Omicron BA.4\u20135 bivalent mRNA COVID-19 vaccine. The primary objectives were to evaluate reactogenicity, safety and immunogenicity post-vaccination. Secondary and tertiary objectives were to further evaluate humoral and cell-mediated immunity post-vaccination. In total, 425 participants were vaccinated and 381 were included in the Day 29 per-protocol immunogenicity analysis. Most solicited events were mild to moderate. No vaccine-related serious adverse events or myocarditis/pericarditis cases were reported. For the CV0701 mRNA vaccine, a dose-dependent increase in Day 29 neutralizing titers against ancestral D614G and Omicron BA.4\u20135 was observed. Neutralizing titers against ancestral D614G and Omicron BA.4\u20135 declined by Days 91 and 181, but remained above baseline. Similar immune responses were observed for the CV0601 mRNA vaccine. At Day 8, CD4+ T cells (Th1 profile) increased in all study groups and CD8+ T cells increased in all study groups, except the lowest CV0701 dose group. The CV0701 and CV0601 mRNA vaccines elicited robust humoral and cellular immunity with an acceptable safety profile, comparable to a licensed, bivalent mRNA vaccine. Clinical Trial Registration EU CT number: 2023-504596-25-00 ClinicalTrials.gov: NCT05960097\n",
+        "gpt_reference": "This phase 2 randomized, observer-blind, active-controlled trial assessed safety and immune responses to investigational COVID-19 mRNA boosters in previously vaccinated adults. At 13 Australian centers, 425 participants received one of three bivalent CV0701 dose levels, monovalent CV0601, or a licensed bivalent comparator; 381 entered the Day 29 per-protocol immunogenicity analysis. Mean age was 53.6 years, 30.6% were at least 65, and 80.9% reported previous infection. Most local and systemic reactions were mild or moderate and resolved within days. No deaths, vaccine-related serious adverse events, or myocarditis/pericarditis were reported through six months. CV0701 showed a dose-dependent Day 29 neutralizing-antibody response. Against Omicron BA.4\u20135, adjusted antibody-titer ratios relative to the comparator ranged from 0.73 to 1.23 for CV0701 and were 1.29 for CV0601; confidence intervals for the higher-dose comparisons included 1. Antibody levels declined thereafter but remained above baseline at Day 181. BA.4\u20135 seroresponse rates were approximately 50% except at the lowest CV0701 dose (38.5%). Th1-skewed CD4 responses increased across groups; antigen-specific CD8 responses increased except in the lowest-dose group. The results support continued development, with broadly similar descriptive safety and immunogenicity to the comparator at higher doses. No formal hypothesis testing or multiplicity adjustment was performed, so comparative superiority or equivalence was not established. Immune markers cannot prove clinical protection, and this small, predominantly White, previously immunized population cannot reliably detect rare adverse events or establish broad generalizability.\n"
+      }
+    }
+  ],
+  "rows": [
+    {
+      "case": "unproven_binding_asserted",
+      "paper_id": "paper005",
+      "variant": "original",
+      "reference": "author_abstract",
+      "synthetic": true,
+      "candidate_tokens": 273,
+      "reference_tokens": 259,
+      "rouge1_f1": 0.3048128342245989,
+      "rouge2_f1": 0.03225806451612903,
+      "rougeL_f1": 0.13903743315508024,
+      "bertscore_f1": 0.852491021156311
+    },
+    {
+      "case": "unproven_binding_asserted",
+      "paper_id": "paper005",
+      "variant": "original",
+      "reference": "gpt_reference",
+      "synthetic": true,
+      "candidate_tokens": 273,
+      "reference_tokens": 273,
+      "rouge1_f1": 1.0,
+      "rouge2_f1": 1.0,
+      "rougeL_f1": 1.0,
+      "bertscore_f1": 0.9999998807907104
+    },
+    {
+      "case": "unproven_binding_asserted",
+      "paper_id": "paper005",
+      "variant": "intentionally_false",
+      "reference": "author_abstract",
+      "synthetic": true,
+      "candidate_tokens": 272,
+      "reference_tokens": 259,
+      "rouge1_f1": 0.3056300268096515,
+      "rouge2_f1": 0.03234501347708896,
+      "rougeL_f1": 0.1394101876675603,
+      "bertscore_f1": 0.8523477911949158
+    },
+    {
+      "case": "unproven_binding_asserted",
+      "paper_id": "paper005",
+      "variant": "intentionally_false",
+      "reference": "gpt_reference",
+      "synthetic": true,
+      "candidate_tokens": 272,
+      "reference_tokens": 273,
+      "rouge1_f1": 0.9973753280839895,
+      "rouge2_f1": 0.992084432717678,
+      "rougeL_f1": 0.9973753280839895,
+      "bertscore_f1": 0.9970940351486206
+    },
+    {
+      "case": "last_sentence_causal_and_clinical_overclaim",
+      "paper_id": "paper100",
+      "variant": "original",
+      "reference": "author_abstract",
+      "synthetic": true,
+      "candidate_tokens": 364,
+      "reference_tokens": 381,
+      "rouge1_f1": 0.44731182795698926,
+      "rouge2_f1": 0.09503239740820733,
+      "rougeL_f1": 0.20645161290322578,
+      "bertscore_f1": 0.8668699264526367
+    },
+    {
+      "case": "last_sentence_causal_and_clinical_overclaim",
+      "paper_id": "paper100",
+      "variant": "original",
+      "reference": "gpt_reference",
+      "synthetic": true,
+      "candidate_tokens": 364,
+      "reference_tokens": 364,
+      "rouge1_f1": 1.0,
+      "rouge2_f1": 1.0,
+      "rougeL_f1": 1.0,
+      "bertscore_f1": 1.0000001192092896
+    },
+    {
+      "case": "last_sentence_causal_and_clinical_overclaim",
+      "paper_id": "paper100",
+      "variant": "intentionally_false",
+      "reference": "author_abstract",
+      "synthetic": true,
+      "candidate_tokens": 363,
+      "reference_tokens": 381,
+      "rouge1_f1": 0.4439655172413793,
+      "rouge2_f1": 0.09523809523809523,
+      "rougeL_f1": 0.2068965517241379,
+      "bertscore_f1": 0.8663623929023743
+    },
+    {
+      "case": "last_sentence_causal_and_clinical_overclaim",
+      "paper_id": "paper100",
+      "variant": "intentionally_false",
+      "reference": "gpt_reference",
+      "synthetic": true,
+      "candidate_tokens": 363,
+      "reference_tokens": 364,
+      "rouge1_f1": 0.9932885906040269,
+      "rouge2_f1": 0.9842696629213483,
+      "rougeL_f1": 0.9932885906040269,
+      "bertscore_f1": 0.9980652332305908
+    },
+    {
+      "case": "last_sentence_rare_event_power_overclaim",
+      "paper_id": "paper128",
+      "variant": "original",
+      "reference": "author_abstract",
+      "synthetic": true,
+      "candidate_tokens": 366,
+      "reference_tokens": 448,
+      "rouge1_f1": 0.5120593692022263,
+      "rouge2_f1": 0.19366852886405958,
+      "rougeL_f1": 0.3042671614100185,
+      "bertscore_f1": 0.8491557240486145
+    },
+    {
+      "case": "last_sentence_rare_event_power_overclaim",
+      "paper_id": "paper128",
+      "variant": "original",
+      "reference": "gpt_reference",
+      "synthetic": true,
+      "candidate_tokens": 366,
+      "reference_tokens": 366,
+      "rouge1_f1": 1.0,
+      "rouge2_f1": 1.0,
+      "rougeL_f1": 1.0,
+      "bertscore_f1": 1.0
+    },
+    {
+      "case": "last_sentence_rare_event_power_overclaim",
+      "paper_id": "paper128",
+      "variant": "intentionally_false",
+      "reference": "author_abstract",
+      "synthetic": true,
+      "candidate_tokens": 366,
+      "reference_tokens": 448,
+      "rouge1_f1": 0.5157699443413729,
+      "rouge2_f1": 0.19366852886405958,
+      "rougeL_f1": 0.3042671614100185,
+      "bertscore_f1": 0.8492183089256287
+    },
+    {
+      "case": "last_sentence_rare_event_power_overclaim",
+      "paper_id": "paper128",
+      "variant": "intentionally_false",
+      "reference": "gpt_reference",
+      "synthetic": true,
+      "candidate_tokens": 366,
+      "reference_tokens": 366,
+      "rouge1_f1": 0.99203187250996,
+      "rouge2_f1": 0.984,
+      "rougeL_f1": 0.99203187250996,
+      "bertscore_f1": 0.9988231062889099
+    },
+    {
+      "case": "actual_qwen128_safety_error_minimal_correction",
+      "paper_id": "paper128",
+      "variant": "saved_qwen",
+      "reference": "author_abstract",
+      "synthetic": false,
+      "candidate_tokens": 336,
+      "reference_tokens": 448,
+      "rouge1_f1": 0.5768500948766604,
+      "rouge2_f1": 0.2780952380952381,
+      "rougeL_f1": 0.36812144212523723,
+      "bertscore_f1": 0.8812226057052612
+    },
+    {
+      "case": "actual_qwen128_safety_error_minimal_correction",
+      "paper_id": "paper128",
+      "variant": "saved_qwen",
+      "reference": "gpt_reference",
+      "synthetic": false,
+      "candidate_tokens": 336,
+      "reference_tokens": 366,
+      "rouge1_f1": 0.4938775510204082,
+      "rouge2_f1": 0.14344262295081966,
+      "rougeL_f1": 0.24897959183673468,
+      "bertscore_f1": 0.8693404197692871
+    },
+    {
+      "case": "actual_qwen128_safety_error_minimal_correction",
+      "paper_id": "paper128",
+      "variant": "minimal_safety_correction",
+      "reference": "author_abstract",
+      "synthetic": false,
+      "candidate_tokens": 339,
+      "reference_tokens": 448,
+      "rouge1_f1": 0.5822306238185254,
+      "rouge2_f1": 0.28842504743833014,
+      "rougeL_f1": 0.37051039697542537,
+      "bertscore_f1": 0.8817178010940552
+    },
+    {
+      "case": "actual_qwen128_safety_error_minimal_correction",
+      "paper_id": "paper128",
+      "variant": "minimal_safety_correction",
+      "reference": "gpt_reference",
+      "synthetic": false,
+      "candidate_tokens": 339,
+      "reference_tokens": 366,
+      "rouge1_f1": 0.4959349593495935,
+      "rouge2_f1": 0.15102040816326529,
+      "rougeL_f1": 0.24796747967479674,
+      "bertscore_f1": 0.8705276846885681
+    }
+  ],
+  "encoder_revision": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+  "bertscore_hash": "roberta-large_L17_no-idf_version=0.3.12(hug_trans=5.17.0)",
+  "scope": "Targeted illustrative controls, not an error-rate estimate or a general benchmark.",
+  "warning": "Synthetic counterfactuals are intentionally false, isolated experimental data; never production summaries."
+}

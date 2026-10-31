@@ -1,0 +1,162 @@
+[
+  {
+    "index": 0,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:08:47.781345818Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup00\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 0\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5045394623,
+      "load_duration": 3375087898,
+      "prompt_eval_count": 222,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 469001000,
+      "eval_count": 32,
+      "eval_duration": 1175820000
+    }
+  },
+  {
+    "index": 1,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:08:47.781347611Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup01\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5041425208,
+      "load_duration": 3371821910,
+      "prompt_eval_count": 261,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 467460000,
+      "eval_count": 32,
+      "eval_duration": 1176768000
+    }
+  },
+  {
+    "index": 2,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:08:47.803780854Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup02\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5062362477,
+      "load_duration": 3371058487,
+      "prompt_eval_count": 300,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 376490000,
+      "eval_count": 32,
+      "eval_duration": 820705000
+    }
+  },
+  {
+    "index": 3,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:08:47.803948382Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup03\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 5061390089,
+      "load_duration": 3374681107,
+      "prompt_eval_count": 339,
+      "prompt_eval_cached_count": 0,
+      "prompt_eval_duration": 374918000,
+      "eval_count": 32,
+      "eval_duration": 821997000
+    }
+  },
+  {
+    "index": 4,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:08:49.211432336Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup04\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 0\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1423496516,
+      "load_duration": 8085749,
+      "prompt_eval_count": 222,
+      "prompt_eval_cached_count": 108,
+      "prompt_eval_duration": 422052000,
+      "eval_count": 32,
+      "eval_duration": 800118000
+    }
+  },
+  {
+    "index": 5,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:08:49.21473156Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup05\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1426699347,
+      "load_duration": 6924837,
+      "prompt_eval_count": 261,
+      "prompt_eval_cached_count": 108,
+      "prompt_eval_duration": 422737000,
+      "eval_count": 32,
+      "eval_duration": 799874000
+    }
+  },
+  {
+    "index": 6,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:08:49.215256888Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup06\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1407916304,
+      "load_duration": 9808447,
+      "prompt_eval_count": 300,
+      "prompt_eval_cached_count": 108,
+      "prompt_eval_duration": 425252000,
+      "eval_count": 32,
+      "eval_duration": 800433000
+    }
+  },
+  {
+    "index": 7,
+    "response": {
+      "model": "qwen3:8b",
+      "created_at": "2026-10-31T11:08:49.215058318Z",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"paper_id\": \"warmup07\",\n  \"profile_id\": \"oncology\",\n  \"relevance\": 1\n}"
+      },
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 1407559893,
+      "load_duration": 10262957,
+      "prompt_eval_count": 339,
+      "prompt_eval_cached_count": 108,
+      "prompt_eval_duration": 423560000,
+      "eval_count": 32,
+      "eval_duration": 799432000
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "backend": "llama_cpp",
+  "gpu_residency_verified": true,
+  "offloaded_layers": 33,
+  "total_layers": 33,
+  "n_ctx_per_seq": 4096,
+  "effective_sequences": 4,
+  "models": []
+}

@@ -1,0 +1,15 @@
+{
+  "state": "completed",
+  "profile_id": "oncology",
+  "parallel": 4,
+  "effective_sequences": 4,
+  "requests": 200,
+  "valid": 200,
+  "elapsed_s": 244.25312910741195,
+  "documents_per_minute": 49.129360364193815,
+  "median_latency_s": 4.831842248793691,
+  "shared_service_activity": false,
+  "finished_utc": "2026-10-31T12:34:54.659358+00:00",
+  "backend": "llama_cpp",
+  "attempt": "oncology_p4/attempt01"
+}

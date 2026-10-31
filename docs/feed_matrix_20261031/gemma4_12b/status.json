@@ -1,0 +1,12 @@
+{
+  "state": "blocked",
+  "started_utc": "2026-10-31T12:06:55.879221+00:00",
+  "model": "study-gemma4-12b-q4:20261031",
+  "expected_rounds": 9,
+  "expected_inferences": 1800,
+  "completed_rounds": 0,
+  "current_profile": "oncology",
+  "parallel": 2,
+  "error": "timed out",
+  "finished_utc": "2026-10-31T12:10:36.814930+00:00"
+}

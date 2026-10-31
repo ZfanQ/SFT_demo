@@ -1,0 +1,12 @@
+{
+  "state": "completed",
+  "started_utc": "2026-10-31T12:25:33.913555+00:00",
+  "model": "study-gemma4-12b-q4:20261031",
+  "expected_rounds": 9,
+  "expected_inferences": 1800,
+  "completed_rounds": 9,
+  "current_profile": "neuroscience",
+  "parallel": 4,
+  "inferences": 1800,
+  "finished_utc": "2026-10-31T13:06:59.704643+00:00"
+}

@@ -1,0 +1,62 @@
+{
+  "fingerprint": "20d344e8360ddd880a47ab422009e676c7326273e1bbfdf0e79cf509acda0a60",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper067",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper069",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "minor",
+                "candidate_quote": "No significant differences were observed in comorbidities or patient characteristics across days of the week.",
+                "reference_quote": "No clinically meaningful differences were observed in patient demographics or the prevalence of comorbidities according to the day of the week of stroke admission, although differences in some variables, such as sex, reached statistical significance (Table 1).",
+                "explanation": "The summary conflates clinical importance with statistical significance. The article explicitly reports statistically significant differences in some characteristics despite judging them clinically unimportant."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T13:57:30+00:00",
+    "request_sha256": "79b53e06122a53a1e98443cede3190e35c3a6e50644f9b19330a5515b73c6a4d",
+    "usage": [
+      {
+        "input_tokens": 45140,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 425,
+        "reasoning_output_tokens": 211
+      }
+    ],
+    "thread_ids": [
+      "01a1599a-1aac-77d0-8cd9-6d49953dbcda"
+    ]
+  }
+}

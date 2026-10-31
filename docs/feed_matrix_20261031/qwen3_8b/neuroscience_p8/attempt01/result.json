@@ -1,0 +1,13 @@
+{
+  "state": "completed",
+  "profile_id": "neuroscience",
+  "parallel": 8,
+  "effective_sequences": 8,
+  "requests": 200,
+  "valid": 200,
+  "elapsed_s": 95.27416838007048,
+  "documents_per_minute": 125.95229330293655,
+  "median_latency_s": 3.7953472207300365,
+  "shared_service_activity": false,
+  "finished_utc": "2026-10-31T11:20:24.958111+00:00"
+}

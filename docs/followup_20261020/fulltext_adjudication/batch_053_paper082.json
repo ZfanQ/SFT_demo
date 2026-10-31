@@ -1,0 +1,69 @@
+{
+  "fingerprint": "20d344e8360ddd880a47ab422009e676c7326273e1bbfdf0e79cf509acda0a60",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper082",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "major",
+                "candidate_quote": "The 12-week randomized, placebo-controlled trial involved 44 participants, with 19 receiving the fiber mixture and 23 receiving maltodextrin as a placebo.",
+                "reference_quote": "44 participants to be randomized to one of the intervention arms (fiber n = 21; placebo n = 23). After two dropouts in each group, 19 and 21 participants completed the fiber and placebo intervention, respectively",
+                "explanation": "The summary mixes the fiber completer count with the placebo randomized count. Allocation was 21 versus 23; completion was 19 versus 21."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper087",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "major",
+                "candidate_quote": "patients with OBS <20 had a 42% higher risk of DKD (OR = 1.42, 95% CI: 1.06–1.91), and those with MMA ≥151 had a 113% higher risk",
+                "reference_quote": "The weighted univariate and weighted multivariate logistic association analyses were applied to evaluate the associations of OBS and MMA with the risk of DKD.",
+                "explanation": "The reported odds ratios indicate 42% and 113% higher odds, not equivalent percentage increases in risk. The summary converts the logistic association estimates into risk increases; its causality caveat does not correct this effect-measure error."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T13:58:09+00:00",
+    "request_sha256": "2e0651215b72facc67b988e5c53c3354d4d9028d78e37704699af966667a7e6e",
+    "usage": [
+      {
+        "input_tokens": 46695,
+        "cached_input_tokens": 15232,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 611,
+        "reasoning_output_tokens": 240
+      }
+    ],
+    "thread_ids": [
+      "01a1599a-970b-7c41-b11b-cd9597b864bc"
+    ]
+  }
+}

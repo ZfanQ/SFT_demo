@@ -1,0 +1,17 @@
+{
+  "state": "verified_complete",
+  "models": [
+    "qwen3_8b",
+    "qwen35_9b_llamacpp",
+    "gemma4_12b_llamacpp"
+  ],
+  "model_matrices": 3,
+  "accepted_rounds": 27,
+  "valid_timed_requests": 5400,
+  "unique_paper_profile_inputs": 600,
+  "frozen_abstracts": 200,
+  "dataset_sha256": "d7167d37541c88eb8f98a36f117821f467174680107990cfccd4b0c63410949a",
+  "measured_round_intervals_do_not_overlap": true,
+  "independent_relevance_gold_labels": false,
+  "note": "Runtime service shutdown and server-side permissions are recorded separately in server_final_checks.json."
+}

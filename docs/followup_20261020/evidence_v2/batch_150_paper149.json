@@ -1,0 +1,438 @@
+{
+  "fingerprint": "22b12ef1f21769e811e15e9c99da54b13cdd7e31a01d350adc1fd36cd5aaa543",
+  "metadata": {
+    "request_sha256": "61a78a70a552f2416cdf12d4692a6d4dc6fff9c7005bba0b4dba89d2d88af6ad",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "usage": [
+      {
+        "input_tokens": 37764,
+        "cached_input_tokens": 15232,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 4531,
+        "reasoning_output_tokens": 1034
+      }
+    ],
+    "thread_ids": [
+      "01a15997-001e-7f81-b4a2-3add4f2e6a15"
+    ],
+    "completed_utc": "2026-10-20T13:55:43+00:00",
+    "scope": "author_abstract_only"
+  },
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper149",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly organized, though the blanket causality disclaimer blurs the distinction between signaling mechanisms and clinical causation.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "uncertain",
+                "candidate_quote": "the study does not establish causality",
+                "reference_quote": "the protein variants can be causative or protective factors",
+                "explanation": "The blanket disclaimer potentially weakens the abstract’s mechanistic conclusion about variant effects. Full text is needed to distinguish demonstrated signaling effects from unestablished causation of cancer in patients."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Dense but coherent; clearly distinguishes computational associations from validated clinical effects.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper150",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Readable and logically ordered, with some repetition of the principal findings.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear presentation of etiologies, diagnostic practice, and limits on interpretation.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper151",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Generally clear, but the transition from matching to survival estimates leaves their analysis population ambiguous.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "minor",
+                "candidate_quote": "After propensity score matching, 168 patients were analyzed.",
+                "reference_quote": "In the overall cohort, RFH was associated with longer median PFS (10.17 vs. 7.06 months; HR = 0.70; p = .011)",
+                "explanation": "The subsequent survival estimates are the abstract’s overall-cohort estimates, but placement after the matched sample description could attribute them to 168 matched patients. Full text should resolve cohort attribution; the numbers themselves agree."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but readable; separates survival associations, response outcomes, and limitations effectively.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper152",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear overall, although technical inequality terminology and repeated conclusions add density.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Accessible explanation of the age-boundary question and its population-level policy implications.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper153",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear account of inflammatory and structural findings, with some repetition near the end.",
+            "findings": [
+              {
+                "kind": "abstract_conflict",
+                "severity": "minor",
+                "candidate_quote": "cytokine levels and permeability measured after 24, 48, and 72 hours of exposure",
+                "reference_quote": "barrier permeability was evaluated after a period of 72 h",
+                "explanation": "The candidate assigns all three measurement times to permeability, whereas the abstract assigns them to cytokines and specifies permeability at 72 hours. Full-paper adjudication is needed before concluding the timing description is erroneous."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes active-UC inflammatory responses from structural injury shared across filtrate origins.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper154",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Well structured, with clear separation of symptom counts, bloating severity, and practical limits.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable and concise; communicates the bloating exception and need to test individual tolerance.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper156",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but coherent, distinguishing experimental observations from causal and clinical implications.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear overall, but the categorical hormone-independence statement exceeds the abstract’s mechanistic specificity.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "major",
+                "candidate_quote": "exhibited enhanced antitumor activity independent of sex hormones",
+                "reference_quote": "both the intrinsic cytotoxic capacity of NK cells and the tumor microenvironment differ between sexes and jointly modulate anti-tumor immunity",
+                "explanation": "Intrinsic sex differences do not themselves establish independence from hormonal influences. Full text is needed to determine whether hormone experiments support this broad mechanistic exclusion or only a narrower conclusion."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper157",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly describes the proposed pathway, but the blanket causality disclaimer conflicts with its preceding experimental language.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "major",
+                "candidate_quote": "the study did not establish causality",
+                "reference_quote": "colitis-elevated circulating endogenous corticosterone (CORT) mediates the downregulation of hepatic LXRα–SCD1 signaling",
+                "explanation": "The abstract reports a causal preclinical mechanism, while the candidate broadly denies causal establishment. Full text must determine whether the disclaimer concerns human clinical translation or also denies the experimentally investigated mechanism."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Dense experimental detail, but clearly separates preclinical mechanisms from unproven human treatment benefits.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper158",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear progression from study purpose to methylation findings and interpretive limitations.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Technical but coherent, distinguishing methylation associations from functional or clinical validation.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper159",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear synthesis of microbial function, spatial organization, and limits on clinical translation.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Generally readable; a typographical error interrupts the biofilm-results sentence.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "major",
+                "candidate_quote": "Fecal samples from CD patients showed significantly higher thrombin levels compared to healthy controls and ulcerative colitis patients.",
+                "reference_quote": "Thrombin levels were significantly elevated in fecal samples from a subset of Crohn's disease patients compared with healthy controls.",
+                "explanation": "The candidate presents elevation as a general CD-group finding, whereas the abstract restricts it to a subset. Full text must resolve whether an overall group comparison supports that broader wording. The additional ulcerative-colitis comparison is not independently contradicted."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper160",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but well organized; clearly separates infection-associated signatures from causation of human Crohn’s disease.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable, though several sentences repeat the model’s resemblance to Crohn’s-associated inflammatory signatures.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper161",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear definitions and effect estimates, with appropriately qualified procedural implications.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly explains residual edge disease and distinguishes a procedural marker from a proven preventive intervention.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper162",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Coherent but dense; detailed methodological criticisms require careful reading.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear mechanistic account, followed by a broad causality disclaimer that creates interpretive tension.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "major",
+                "candidate_quote": "the study does not establish causality for these associations",
+                "reference_quote": "The anti-tumor efficacy of ENPP3 blockade was abrogated by IFNAR1 inhibition.",
+                "explanation": "The abstract describes experimental pathway intervention supporting mechanistic causation. The candidate’s broad disclaimer may conflate unproven human efficacy with preclinical causal evidence. Full text is needed to adjudicate the intended scope and strength of the mechanistic findings."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper163",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly connects patient priorities, communication gaps, and reported management experiences.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable and logically organized, with clear emphasis on patient preferences and under-recognition.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper164",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear overall, but the odds-ratio sentence leaves the exposure direction unspecified.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "major",
+                "candidate_quote": "lower BDNF levels were associated with a higher risk of cognitive impairment (adjusted OR, 0.52; 95% CI, 0.34–0.80; p = 0.003)",
+                "reference_quote": "Each 1-SD higher BDNF level was associated with lower odds of the outcome",
+                "explanation": "The stated qualitative direction agrees, but attaching OR 0.52 to lower BDNF may imply the opposite exposure contrast. That estimate represents a one-SD increase. Full text should confirm the contrast before adjudicating this numerical ambiguity."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly distinguishes a screening-defined outcome, biomarker association, and uncertain incremental predictive value.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper165",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear account of recovery outcomes and observational treatment associations, with appropriately bounded implications.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable presentation of the principal estimates and the need for further confirmation.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper166",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clear and orderly, with precise quartile estimates and appropriately qualified biomarker implications.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Detailed but readable; clearly distinguishes cross-sectional association from prediction and intervention benefit.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper167",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly explains model parsimony and distinguishes concurrent classification from future prediction.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Clear description of predictor selection, model simplicity, and possible intervention targets.",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper168",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly separates human dietary findings from mouse-only probiotic evidence and mechanistic uncertainty.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Generally readable, though mixed percentage and fold-change notation complicates interpretation.",
+            "findings": [
+              {
+                "kind": "needs_fulltext",
+                "severity": "minor",
+                "candidate_quote": "FGF21 levels rising by +291%",
+                "reference_quote": "+2.9-fold in human",
+                "explanation": "A 2.9-fold final level corresponds to approximately a 190% increase, whereas a 291% increase implies approximately 3.91-fold. The abstract’s plus notation is ambiguous; full text must resolve whether these describe the same change."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "paper_id": "paper169",
+        "candidates": [
+          {
+            "label": "A",
+            "main_message_preserved": true,
+            "readability_observation": "Clearly presents diagnostic discrimination, mortality prediction, and limits on clinical generalization.",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "main_message_preserved": true,
+            "readability_observation": "Readable and logically structured, with clear diagnostic and prognostic thresholds.",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "fingerprint": "380baa405f0782bdf17890fcfdb43aca97eba510c25433c1ebcb2f1ce17d3e01",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper128",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "major",
+                "candidate_quote": "Both investigational vaccines showed dose-dependent increases in neutralizing antibodies and T-cell responses",
+                "reference_quote": "one bivalent at three dose levels and one monovalent at one dose level",
+                "explanation": "The monovalent CV0601 vaccine was tested at only one dose, so the study could not establish dose-dependent antibody or T-cell responses for both vaccines. The reported dose-dependent neutralizing-antibody increase applied to CV0701."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T14:52:41+00:00",
+    "request_sha256": "3e4ece3471d68f4370408be5bfc8c7fe3d3ae122def2e2154c2723896caa0449",
+    "usage": [
+      {
+        "input_tokens": 33148,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 291,
+        "reasoning_output_tokens": 134
+      }
+    ],
+    "thread_ids": [
+      "01a159cc-a84a-7743-bba8-943427a5ea45"
+    ]
+  }
+}

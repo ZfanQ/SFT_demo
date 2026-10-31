@@ -1,0 +1,62 @@
+{
+  "fingerprint": "20d344e8360ddd880a47ab422009e676c7326273e1bbfdf0e79cf509acda0a60",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper179",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "major",
+                "candidate_quote": "The study involved 13 female patients aged 18–80 years",
+                "reference_quote": "Min, Max31, 5253, 6431, 64",
+                "explanation": "The summary presents the eligibility limits as participants’ actual ages. The demographic table reports an enrolled age range of 31–64 years; 18–80 years was the permitted eligibility range."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper190",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T14:52:22+00:00",
+    "request_sha256": "40ae45051bd0a8ac552b5b9d19602a322f47754e7fe080659549224a4d733385",
+    "usage": [
+      {
+        "input_tokens": 36888,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 373,
+        "reasoning_output_tokens": 184
+      }
+    ],
+    "thread_ids": [
+      "01a159cc-55b0-7dd1-baf0-47a5202211dd"
+    ]
+  }
+}

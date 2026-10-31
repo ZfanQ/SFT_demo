@@ -1,0 +1,68 @@
+{
+  "fingerprint": "20d344e8360ddd880a47ab422009e676c7326273e1bbfdf0e79cf509acda0a60",
+  "result": {
+    "papers": [
+      {
+        "paper_id": "paper019",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      },
+      {
+        "paper_id": "paper024",
+        "candidates": [
+          {
+            "label": "A",
+            "verdict": "material_error_identified",
+            "findings": [
+              {
+                "severity": "major",
+                "candidate_quote": "These effects remained significant after controlling for autoregressive pathways, worry, rumination, avoidance, and childhood adversity.",
+                "reference_quote": "Comparison affective impact had a significant positive relationship with PTSD (however, the directionality was contrary to single associations and may represent a statistical artifact, and was only significant at p < .05). Affective impact showed no significant relationships with the other outcomes.",
+                "explanation": "The candidate incorrectly generalizes adjusted significance across the preceding comparison measures and outcomes. Adjusted longitudinal findings were selective; affective impact was unrelated to most outcomes, and its PTSD association had the opposite direction from the proposed negative-affect relationship."
+              },
+              {
+                "severity": "major",
+                "candidate_quote": "Mediation analyses suggested that frequent comparisons amplified perceived discrepancies, leading to negative affective impact, which in turn contributed to depression, anxiety, and somatic symptoms.",
+                "reference_quote": "Our longitudinal mediation models did not yield significant effects. However, cross-sectional models at Time 2 showed nearly significant indirect effects for depression, anxiety, and somatic symptoms.",
+                "explanation": "Within its longitudinal-results account, the candidate presents the proposed mediation chain without identifying that longitudinal mediation was unsupported. The suggestive findings were concurrent only and did not meet the preregistered significance threshold, materially weakening evidence for the described sequence."
+              }
+            ]
+          },
+          {
+            "label": "B",
+            "verdict": "no_material_error_identified",
+            "findings": []
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "completed_utc": "2026-10-20T13:47:37+00:00",
+    "request_sha256": "94403806739ec334c96f1a90fd393b4d1f128c158045220da2283104bcc8a88e",
+    "usage": [
+      {
+        "input_tokens": 54146,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 817,
+        "reasoning_output_tokens": 448
+      }
+    ],
+    "thread_ids": [
+      "01a15990-ddcb-7ab2-8989-cdc36b5257b2"
+    ]
+  }
+}

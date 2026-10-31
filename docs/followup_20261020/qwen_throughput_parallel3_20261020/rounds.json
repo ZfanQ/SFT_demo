@@ -1,0 +1,330 @@
+[
+  {
+    "round": 1,
+    "parallel": 1,
+    "elapsed_s": 110.30086225783452,
+    "papers_per_minute": 3.2638004148914046,
+    "valid_papers_per_minute": 3.2638004148914046,
+    "median_latency_s": 17.703280130866915,
+    "results": [
+      {
+        "paper_id": "paper001",
+        "latency_s": 17.291905075777322,
+        "valid": true,
+        "words": 188,
+        "output_sha256": "ae809260a4f7aef81d94172ca8b006303bf2b0d80aaeed851f4b7ae64ff451fd",
+        "load_duration": 3094366,
+        "prompt_eval_count": 20027,
+        "prompt_eval_duration": 12149592000,
+        "eval_count": 240,
+        "eval_duration": 4908233000
+      },
+      {
+        "paper_id": "paper002",
+        "latency_s": 18.114655185956508,
+        "valid": true,
+        "words": 209,
+        "output_sha256": "d12540924e8f29a69de5e8fed89e09fb36ba8250389c827b010067406f872f36",
+        "load_duration": 6626806,
+        "prompt_eval_count": 18012,
+        "prompt_eval_duration": 10619846000,
+        "eval_count": 290,
+        "eval_duration": 5832772000
+      },
+      {
+        "paper_id": "paper003",
+        "latency_s": 16.034298326820135,
+        "valid": true,
+        "words": 181,
+        "output_sha256": "1f0b775056674d0413ac97d43c260a494c0c20ff564b79c62e75a6eea28f0c36",
+        "load_duration": 4099204,
+        "prompt_eval_count": 17295,
+        "prompt_eval_duration": 10097569000,
+        "eval_count": 220,
+        "eval_duration": 4404012000
+      },
+      {
+        "paper_id": "paper004",
+        "latency_s": 15.505239580757916,
+        "valid": true,
+        "words": 168,
+        "output_sha256": "41d1e229d32594878da0275488b74f04892d7e74a89f3106d81ea941bcbacae5",
+        "load_duration": 8706826,
+        "prompt_eval_count": 15129,
+        "prompt_eval_duration": 8650230000,
+        "eval_count": 240,
+        "eval_duration": 4630680000
+      },
+      {
+        "paper_id": "paper007",
+        "latency_s": 19.850209369324148,
+        "valid": true,
+        "words": 196,
+        "output_sha256": "899b19b5ab09d92c99839c202e2d5a8dfb1a260959ec747a0690bd14dbc4e75b",
+        "load_duration": 2065311,
+        "prompt_eval_count": 19189,
+        "prompt_eval_duration": 11437168000,
+        "eval_count": 334,
+        "eval_duration": 7036653000
+      },
+      {
+        "paper_id": "paper008",
+        "latency_s": 23.496466137003154,
+        "valid": true,
+        "words": 204,
+        "output_sha256": "2c2d30fd32ac41bb7bc65d53748d3c1322468ae9631a6ab3c9b9113d4e2a226d",
+        "load_duration": 7071264,
+        "prompt_eval_count": 23253,
+        "prompt_eval_duration": 14476277000,
+        "eval_count": 323,
+        "eval_duration": 6956984000
+      }
+    ]
+  },
+  {
+    "round": 2,
+    "parallel": 3,
+    "elapsed_s": 99.21635909285396,
+    "papers_per_minute": 3.6284338922685677,
+    "valid_papers_per_minute": 3.6284338922685677,
+    "median_latency_s": 46.008826687932014,
+    "results": [
+      {
+        "paper_id": "paper001",
+        "latency_s": 43.14497003285214,
+        "valid": true,
+        "words": 153,
+        "output_sha256": "8beacb5cd74d602b7b294b2cf7dba633a29e1ee3d82200d51fb66a139b07f354",
+        "load_duration": 7192055,
+        "prompt_eval_count": 20027,
+        "prompt_eval_duration": 26475088000,
+        "eval_count": 201,
+        "eval_duration": 16437728000
+      },
+      {
+        "paper_id": "paper002",
+        "latency_s": 55.78261055611074,
+        "valid": true,
+        "words": 209,
+        "output_sha256": "4bb119fc5ed644d156fd4651bdedfc0ace4165e2674a2231ba2fe7a93af981b1",
+        "load_duration": 7016192,
+        "prompt_eval_count": 18012,
+        "prompt_eval_duration": 11315563000,
+        "eval_count": 291,
+        "eval_duration": 44178927000
+      },
+      {
+        "paper_id": "paper003",
+        "latency_s": 55.83359121903777,
+        "valid": true,
+        "words": 183,
+        "output_sha256": "17eef4298628bb4e55eb20d1ec6a64cdadfe70122ddc64797b768db4787a90dd",
+        "load_duration": 9261745,
+        "prompt_eval_count": 17295,
+        "prompt_eval_duration": 13852707000,
+        "eval_count": 221,
+        "eval_duration": 17851326000
+      },
+      {
+        "paper_id": "paper004",
+        "latency_s": 48.64329413184896,
+        "valid": true,
+        "words": 169,
+        "output_sha256": "d096b3b6ff57df9199fc4d9f003808f65495b4d2b72b0273b73c395d393bb750",
+        "load_duration": 4927637,
+        "prompt_eval_count": 15129,
+        "prompt_eval_duration": 10129176000,
+        "eval_count": 240,
+        "eval_duration": 36525928000
+      },
+      {
+        "paper_id": "paper007",
+        "latency_s": 42.87344916909933,
+        "valid": true,
+        "words": 195,
+        "output_sha256": "964d6f743ff4484ccad4990cf469c1de5ab3d58f67ea122ccf47bd7bc377d45e",
+        "load_duration": 2304100,
+        "prompt_eval_count": 19189,
+        "prompt_eval_duration": 12607725000,
+        "eval_count": 333,
+        "eval_duration": 26993222000
+      },
+      {
+        "paper_id": "paper008",
+        "latency_s": 43.37435924401507,
+        "valid": true,
+        "words": 198,
+        "output_sha256": "fefe8c2e7a9665b28b4f5871b8e299dbb813397fa1a605074c79df169502f462",
+        "load_duration": 2545421,
+        "prompt_eval_count": 23253,
+        "prompt_eval_duration": 16242159000,
+        "eval_count": 313,
+        "eval_duration": 11666206000
+      }
+    ]
+  },
+  {
+    "round": 3,
+    "parallel": 3,
+    "elapsed_s": 93.84530510101467,
+    "papers_per_minute": 3.8361002674827214,
+    "valid_papers_per_minute": 3.8361002674827214,
+    "median_latency_s": 46.00403899513185,
+    "results": [
+      {
+        "paper_id": "paper001",
+        "latency_s": 51.649185998830944,
+        "valid": true,
+        "words": 150,
+        "output_sha256": "9882be3b586af48478df1aaeb3da67165cb7f7c15ed61cd8ecbb8780dbac7ccd",
+        "load_duration": 7536531,
+        "prompt_eval_count": 20027,
+        "prompt_eval_duration": 13555674000,
+        "eval_count": 200,
+        "eval_duration": 15933396000
+      },
+      {
+        "paper_id": "paper002",
+        "latency_s": 66.37798311701044,
+        "valid": true,
+        "words": 210,
+        "output_sha256": "03853387895c44360cb4920ab9b05d5eb13917d99eb5954e10c327c3540ff70e",
+        "load_duration": 7746075,
+        "prompt_eval_count": 18012,
+        "prompt_eval_duration": 22252622000,
+        "eval_count": 292,
+        "eval_duration": 43891365000
+      },
+      {
+        "paper_id": "paper003",
+        "latency_s": 40.187293583061546,
+        "valid": true,
+        "words": 184,
+        "output_sha256": "4050b5801f84b5925cd8db728958e3e76544dda6997a5319ef64e5975a79bb59",
+        "load_duration": 10023002,
+        "prompt_eval_count": 17295,
+        "prompt_eval_duration": 10582945000,
+        "eval_count": 222,
+        "eval_duration": 29298407000
+      },
+      {
+        "paper_id": "paper004",
+        "latency_s": 51.07318980200216,
+        "valid": true,
+        "words": 235,
+        "output_sha256": "27b550e63de03ee714c9714e863b0f3b2ffc50c465a30da1456fa2d42549104b",
+        "load_duration": 2063405,
+        "prompt_eval_count": 15129,
+        "prompt_eval_duration": 9522068000,
+        "eval_count": 323,
+        "eval_duration": 40081584000
+      },
+      {
+        "paper_id": "paper007",
+        "latency_s": 40.93488818826154,
+        "valid": true,
+        "words": 180,
+        "output_sha256": "ffc93e646a1519790fe3efdbb6e073a4cc4725b5a042186e9b82f1fb3870d94e",
+        "load_duration": 2430844,
+        "prompt_eval_count": 19189,
+        "prompt_eval_duration": 12849448000,
+        "eval_count": 316,
+        "eval_duration": 26418781000
+      },
+      {
+        "paper_id": "paper008",
+        "latency_s": 27.462774685118347,
+        "valid": true,
+        "words": 198,
+        "output_sha256": "fefe8c2e7a9665b28b4f5871b8e299dbb813397fa1a605074c79df169502f462",
+        "load_duration": 6487027,
+        "prompt_eval_count": 23253,
+        "prompt_eval_duration": 16674357000,
+        "eval_count": 313,
+        "eval_duration": 9134803000
+      }
+    ]
+  },
+  {
+    "round": 4,
+    "parallel": 1,
+    "elapsed_s": 110.57193071302027,
+    "papers_per_minute": 3.2557991678226945,
+    "valid_papers_per_minute": 3.2557991678226945,
+    "median_latency_s": 17.92174836806953,
+    "results": [
+      {
+        "paper_id": "paper001",
+        "latency_s": 17.37828923109919,
+        "valid": true,
+        "words": 188,
+        "output_sha256": "ae809260a4f7aef81d94172ca8b006303bf2b0d80aaeed851f4b7ae64ff451fd",
+        "load_duration": 6218870,
+        "prompt_eval_count": 20027,
+        "prompt_eval_duration": 12179702000,
+        "eval_count": 240,
+        "eval_duration": 4943120000
+      },
+      {
+        "paper_id": "paper002",
+        "latency_s": 18.46520750503987,
+        "valid": true,
+        "words": 209,
+        "output_sha256": "d12540924e8f29a69de5e8fed89e09fb36ba8250389c827b010067406f872f36",
+        "load_duration": 7362088,
+        "prompt_eval_count": 18012,
+        "prompt_eval_duration": 10613087000,
+        "eval_count": 290,
+        "eval_duration": 5892195000
+      },
+      {
+        "paper_id": "paper003",
+        "latency_s": 16.376786455977708,
+        "valid": true,
+        "words": 181,
+        "output_sha256": "1f0b775056674d0413ac97d43c260a494c0c20ff564b79c62e75a6eea28f0c36",
+        "load_duration": 7220420,
+        "prompt_eval_count": 17295,
+        "prompt_eval_duration": 10106064000,
+        "eval_count": 220,
+        "eval_duration": 4469957000
+      },
+      {
+        "paper_id": "paper004",
+        "latency_s": 14.957446830812842,
+        "valid": true,
+        "words": 168,
+        "output_sha256": "41d1e229d32594878da0275488b74f04892d7e74a89f3106d81ea941bcbacae5",
+        "load_duration": 3541469,
+        "prompt_eval_count": 15129,
+        "prompt_eval_duration": 8654087000,
+        "eval_count": 240,
+        "eval_duration": 4688969000
+      },
+      {
+        "paper_id": "paper007",
+        "latency_s": 19.96839811699465,
+        "valid": true,
+        "words": 196,
+        "output_sha256": "899b19b5ab09d92c99839c202e2d5a8dfb1a260959ec747a0690bd14dbc4e75b",
+        "load_duration": 4363094,
+        "prompt_eval_count": 19189,
+        "prompt_eval_duration": 11430190000,
+        "eval_count": 334,
+        "eval_duration": 6849416000
+      },
+      {
+        "paper_id": "paper008",
+        "latency_s": 23.42157148104161,
+        "valid": true,
+        "words": 204,
+        "output_sha256": "2c2d30fd32ac41bb7bc65d53748d3c1322468ae9631a6ab3c9b9113d4e2a226d",
+        "load_duration": 2390371,
+        "prompt_eval_count": 23253,
+        "prompt_eval_duration": 14456176000,
+        "eval_count": 323,
+        "eval_duration": 6949790000
+      }
+    ]
+  }
+]
