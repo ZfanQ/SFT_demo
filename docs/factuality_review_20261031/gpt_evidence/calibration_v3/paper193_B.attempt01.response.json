@@ -1,0 +1,18 @@
+{
+  "paper_id": "paper193",
+  "candidate_id": "B",
+  "verdict": "concerns_identified",
+  "coverage": "sufficient_text_for_review",
+  "coverage_note": "All 14 numbered pages were supplied. Figure pixels and underlying interview data were unavailable, but the text sufficiently supports this review.",
+  "findings": [
+    {
+      "status": "contradicted",
+      "severity": "major",
+      "claim_type": "design_population",
+      "candidate_quote": "20 pregnant women and their families",
+      "reference_quote": "Of the 20 participants, 14 were pregnant women—4 primiparous and 10 multiparous.",
+      "pdf_page": 4,
+      "explanation": "The summary overstates the number of pregnant participants. The methods specify 20 participants total: 14 pregnant women, one expecting father, and five elderly community members. Although the abstract uses similar shorthand, the detailed participant breakdown establishes the actual sample."
+    }
+  ]
+}

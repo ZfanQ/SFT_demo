@@ -1,0 +1,52 @@
+{
+  "seed": 42,
+  "calibration_flagged": [
+    "paper019",
+    "paper047",
+    "paper082",
+    "paper083",
+    "paper157"
+  ],
+  "calibration_unflagged": [
+    "paper024",
+    "paper028",
+    "paper039",
+    "paper156",
+    "paper193"
+  ],
+  "calibration_ids": [
+    "paper019",
+    "paper024",
+    "paper028",
+    "paper039",
+    "paper047",
+    "paper082",
+    "paper083",
+    "paper156",
+    "paper157",
+    "paper193"
+  ],
+  "independent_unflagged_controls": [
+    "paper002",
+    "paper007",
+    "paper008",
+    "paper009",
+    "paper026",
+    "paper059",
+    "paper064",
+    "paper065",
+    "paper069",
+    "paper084",
+    "paper122",
+    "paper123",
+    "paper131",
+    "paper149",
+    "paper161",
+    "paper165",
+    "paper172",
+    "paper173",
+    "paper176",
+    "paper189"
+  ],
+  "scope": "Enriched calibration, not representative error-rate estimation; labels hidden in human-first packet."
+}

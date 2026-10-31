@@ -1,0 +1,99 @@
+{
+  "type": "object",
+  "properties": {
+    "paper_id": {
+      "type": "string"
+    },
+    "candidate_id": {
+      "type": "string"
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "concerns_identified",
+        "no_issue_identified"
+      ]
+    },
+    "coverage": {
+      "type": "string",
+      "enum": [
+        "sufficient_text_for_review",
+        "limited_text"
+      ]
+    },
+    "coverage_note": {
+      "type": "string"
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "contradicted",
+              "unsupported_in_reviewed_material",
+              "uncertain"
+            ]
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "major",
+              "minor",
+              "uncertain"
+            ]
+          },
+          "claim_type": {
+            "type": "string",
+            "enum": [
+              "design_population",
+              "numbers",
+              "outcome_direction",
+              "statistical_claim",
+              "attribution",
+              "causal_scope",
+              "clinical_generalization",
+              "safety",
+              "limitation",
+              "other"
+            ]
+          },
+          "candidate_quote": {
+            "type": "string"
+          },
+          "reference_quote": {
+            "type": "string"
+          },
+          "pdf_page": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "explanation": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "status",
+          "severity",
+          "claim_type",
+          "candidate_quote",
+          "reference_quote",
+          "pdf_page",
+          "explanation"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "paper_id",
+    "candidate_id",
+    "verdict",
+    "coverage",
+    "coverage_note",
+    "findings"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a19235-a278-7e61-9af4-2413540c4280"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\n  \"paper_id\": \"paper019\",\n  \"candidate_id\": \"A\",\n  \"verdict\": \"no_issue_identified\",\n  \"coverage\": \"sufficient_text_for_review\",\n  \"coverage_note\": \"The supplied text includes the abstract, methods, results, discussion, tables, and figure captions. Figure pixels and supplementary materials were unavailable; no claims required them to assess.\",\n  \"findings\": []\n}"}}
+{"type":"turn.completed","usage":{"input_tokens":38110,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":182,"reasoning_output_tokens":83}}

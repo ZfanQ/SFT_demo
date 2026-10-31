@@ -1,0 +1,18 @@
+{
+  "paper_id": "paper082",
+  "candidate_id": "B",
+  "verdict": "concerns_identified",
+  "coverage": "sufficient_text_for_review",
+  "coverage_note": "The supplied text covers the full article. Supplements and figure pixels were unavailable; the finding relies on explicit main-text participant counts.",
+  "findings": [
+    {
+      "status": "contradicted",
+      "severity": "major",
+      "claim_type": "numbers",
+      "candidate_quote": "The 12-week randomized, placebo-controlled trial involved 44 participants, with 19 receiving the fiber mixture and 23 receiving maltodextrin as a placebo.",
+      "reference_quote": "leaving a total of 44 participants to be randomized to one of the intervention arms (fiber n = 21; placebo\nn = 23). After two dropouts in each group, 19 and 21 participants completed the fiber and placebo intervention,\nrespectively",
+      "pdf_page": 5,
+      "explanation": "The summary mixes the fiber group's completer count with the placebo group's randomized count. Of 44 randomized participants, 21 were assigned fiber and 23 placebo; 19 and 21, respectively, completed the intervention. The stated 19/23 allocation is incorrect and does not total 44."
+    }
+  ]
+}

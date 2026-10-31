@@ -1,0 +1,38 @@
+{
+  "fingerprint": "c88a61ae3e6121b196dda715cd321f5b10b280c3384b72595893bdcaa2d547b0",
+  "result": {
+    "paper_id": "paper047",
+    "candidate_id": "A",
+    "verdict": "no_issue_identified",
+    "coverage": "sufficient_text_for_review",
+    "coverage_note": "Reviewed all supplied PDF text (pages 1–10). Figure pixels were unavailable, but the text and tables provided sufficient evidence to assess the summary's claims.",
+    "findings": []
+  },
+  "metadata": {
+    "judge_model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "utc": "2026-10-31T13:50:48.445849+00:00",
+    "candidate_sha256": "d8ca554b9989c5b0223c86a24659afdedd660f7a59e9b6551ff945039b9970fb",
+    "pdf_sha256": "5b8822c9b0979812ae663af394f56f41bcd251e186c0cbc3993ab168e9894014",
+    "pages_text_sha256": "34bcd668f25263e71ee565cc1901ad31ff841716f66938fb32e2028d50dcca57",
+    "request_sha256": "3de7665ecdc2d96f6dc985b34b8cfe07d5087471a7685dde563c433bf9869790",
+    "elapsed_seconds": 9.609975582978223,
+    "tool_use_detected": false,
+    "usage": [
+      {
+        "input_tokens": 27777,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 139,
+        "reasoning_output_tokens": 60
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 1,
+        "valid": true
+      }
+    ],
+    "actual_model_identity_note": "Requested model recorded; backend resolved snapshot not independently exposed."
+  }
+}

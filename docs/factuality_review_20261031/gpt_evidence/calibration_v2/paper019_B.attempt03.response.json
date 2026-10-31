@@ -1,0 +1,18 @@
+{
+  "paper_id": "paper019",
+  "candidate_id": "B",
+  "verdict": "concerns_identified",
+  "coverage": "sufficient_text_for_review",
+  "coverage_note": "Reviewed all 13 supplied pages, including tables and figure captions. Supplementary materials and figure pixels were unavailable; the finding does not depend on them.",
+  "findings": [
+    {
+      "status": "contradicted",
+      "severity": "major",
+      "claim_type": "numbers",
+      "candidate_quote": "the pipeline correctly identified expansions in 82% of DM1 subjects",
+      "reference_quote": "A total of 28 out of 34 subjects (82%) with DM1 agreed",
+      "pdf_page": 5,
+      "explanation": "The 82% measures agreement with Southern blot genomic classification among 34 subjects, not expansion detection. The article reports that expansions were detected in all DM1 patients. Although the preceding candidate sentence correctly describes all cases as characterized, this sentence incorrectly presents classification agreement as the expansion detection rate."
+    }
+  ]
+}

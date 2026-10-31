@@ -1,0 +1,48 @@
+{
+  "fingerprint": "c88a61ae3e6121b196dda715cd321f5b10b280c3384b72595893bdcaa2d547b0",
+  "result": {
+    "paper_id": "paper193",
+    "candidate_id": "B",
+    "verdict": "concerns_identified",
+    "coverage": "sufficient_text_for_review",
+    "coverage_note": "All 14 numbered pages were supplied. Figure pixels and underlying interview data were unavailable, but the text sufficiently supports this review.",
+    "findings": [
+      {
+        "status": "contradicted",
+        "severity": "major",
+        "claim_type": "design_population",
+        "candidate_quote": "20 pregnant women and their families",
+        "reference_quote": "Of the 20 participants, 14 were pregnant women—4 primiparous and 10 multiparous.",
+        "pdf_page": 4,
+        "explanation": "The summary overstates the number of pregnant participants. The methods specify 20 participants total: 14 pregnant women, one expecting father, and five elderly community members. Although the abstract uses similar shorthand, the detailed participant breakdown establishes the actual sample."
+      }
+    ]
+  },
+  "metadata": {
+    "judge_model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "utc": "2026-10-31T13:54:07.342096+00:00",
+    "candidate_sha256": "91ef793186a2f2fd4050f3d6864122aabe23a5e33d631fa3b7d67336ef8a9cff",
+    "pdf_sha256": "ce48eeba305f2630801dc35caeea51402df26407c8fa20f3e7df2521621dfb36",
+    "pages_text_sha256": "4cf3c6d8992b20c4cf964520e286d656d25185b23fb81cbac7022549b3dee987",
+    "request_sha256": "05e2f70b8f62fcb77c2ca8319980313f15449902dae10a58fb365f4b41a0e673",
+    "elapsed_seconds": 15.84854137498769,
+    "tool_use_detected": false,
+    "usage": [
+      {
+        "input_tokens": 30102,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 339,
+        "reasoning_output_tokens": 112
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 1,
+        "valid": true
+      }
+    ],
+    "actual_model_identity_note": "Requested model recorded; backend resolved snapshot not independently exposed."
+  }
+}

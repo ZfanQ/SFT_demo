@@ -1,0 +1,38 @@
+{
+  "fingerprint": "c88a61ae3e6121b196dda715cd321f5b10b280c3384b72595893bdcaa2d547b0",
+  "result": {
+    "paper_id": "paper039",
+    "candidate_id": "B",
+    "verdict": "no_issue_identified",
+    "coverage": "sufficient_text_for_review",
+    "coverage_note": "Supplied text covers the methods, results, discussion, tables, limitations, and survey appendix. Figure pixels were unavailable; no assessment required them. The CPT self-efficacy result applies to the 39 responding clinicians in cohort 1.",
+    "findings": []
+  },
+  "metadata": {
+    "judge_model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "utc": "2026-10-31T13:50:38.833464+00:00",
+    "candidate_sha256": "423f5555820105a48beb22d67e8ac93a0f39e1867c93bdf22c684021691f1ff8",
+    "pdf_sha256": "038b3ed5990c62be5463f28648e1f2bb44bcbb12e008c4f4513e13acdd92fb3d",
+    "pages_text_sha256": "b8c18a1a9fce976d8bb857581fd8b70f701ce7e5a3e5f470ff7903b5fb336f38",
+    "request_sha256": "ca9cccd98e98dd3f8614928f80abdaf519c3420f415f2f9bfa592d563dfef637",
+    "elapsed_seconds": 12.667071792006027,
+    "tool_use_detected": false,
+    "usage": [
+      {
+        "input_tokens": 37620,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 166,
+        "reasoning_output_tokens": 71
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 1,
+        "valid": true
+      }
+    ],
+    "actual_model_identity_note": "Requested model recorded; backend resolved snapshot not independently exposed."
+  }
+}

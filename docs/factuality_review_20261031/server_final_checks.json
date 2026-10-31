@@ -1,0 +1,17 @@
+{
+  "state": "verified_complete",
+  "utc": "2026-10-31T13:58:02.823209+00:00",
+  "original_pdfs_checked": 200,
+  "original_text_files_checked": 800,
+  "changed": [],
+  "permissions_scope": "Only the new factuality_review_20261031 result tree",
+  "group": "sft",
+  "directory_mode": "2775",
+  "file_mode": "0664",
+  "report_sha256": "b58b41079b1c451373e05c40adef03252f124518e4459809fe18f3757c022540",
+  "human_packet_sha256": "7bb89d254a18dafe4ec465afbf0983120851301167a40b02f00e0ac7b60f7164",
+  "human_review_is_pending": true,
+  "no_original_summary_rewrites": true,
+  "group_access_verified": true,
+  "result_paths_checked": 223
+}

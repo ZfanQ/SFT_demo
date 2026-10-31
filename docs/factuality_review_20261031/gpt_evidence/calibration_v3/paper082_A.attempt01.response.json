@@ -1,0 +1,18 @@
+{
+  "paper_id": "paper082",
+  "candidate_id": "A",
+  "verdict": "concerns_identified",
+  "coverage": "sufficient_text_for_review",
+  "coverage_note": "The supplied text covers all 18 PDF pages. Supplementary materials and figure pixels were unavailable; the identified concern is directly resolved by the main text.",
+  "findings": [
+    {
+      "status": "contradicted",
+      "severity": "major",
+      "claim_type": "outcome_direction",
+      "candidate_quote": "Furthermore, fiber supplementation significantly reduced insulin-mediated carbohydrate oxidation (p=0.027) and fat oxidation (p=0.006) compared to the placebo.",
+      "reference_quote": "Accordingly,\ninsulin-mediated suppression of fat oxidation was less pronounced in the fiber group compared to placebo\n(p = 0.006).",
+      "pdf_page": 8,
+      "explanation": "The fat-oxidation direction is reversed. Fiber reduced insulin-mediated suppression of fat oxidation, meaning fat oxidation decreased less than with placebo; it did not reduce fat oxidation compared with placebo. The carbohydrate-oxidation comparison is supported. This reversal misstates a central substrate-metabolism result."
+    }
+  ]
+}

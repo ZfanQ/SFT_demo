@@ -1,0 +1,48 @@
+{
+  "fingerprint": "c88a61ae3e6121b196dda715cd321f5b10b280c3384b72595893bdcaa2d547b0",
+  "result": {
+    "paper_id": "paper083",
+    "candidate_id": "B",
+    "verdict": "concerns_identified",
+    "coverage": "sufficient_text_for_review",
+    "coverage_note": "Reviewed supplied text from all 15 PDF pages. Supplementary tables and figure pixels were unavailable; the finding is supported directly by the main text.",
+    "findings": [
+      {
+        "status": "contradicted",
+        "severity": "major",
+        "claim_type": "outcome_direction",
+        "candidate_quote": "showing lower rates of microscopic hematuria than both other groups",
+        "reference_quote": "There was no difference in\n24h-uPro, but the IgAN + DKD group exhibited a higher incidence of MH (57.50% vs. 31.25%, p = 0.001),\nuRBC count, and proportion of dysmorphic uRBC.",
+        "pdf_page": 6,
+        "explanation": "The summary reverses the comparison with DKD. Microscopic hematuria was less frequent than in primary IgAN but significantly more frequent than in DKD (57.50% versus 31.25%), rather than less frequent than in both groups."
+      }
+    ]
+  },
+  "metadata": {
+    "judge_model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "utc": "2026-10-31T13:52:12.637058+00:00",
+    "candidate_sha256": "3eed6a19ecf93e7884603f4d3fc6ea68db91e912ea56e77155c8691658cccc2a",
+    "pdf_sha256": "f440e6e9de3a0efb0bdd1cc25f129b2722bb6805d8b64f747f07b457d9ed1722",
+    "pages_text_sha256": "ddcc9ddbe285b9d9ea867dc18763fbe717644ea8b3b1bcb86ccb54275a9c0ca9",
+    "request_sha256": "ddf8a8e5c9f149860f87e085f97c69ddef9dc472952d3c6b8263419a6290cde3",
+    "elapsed_seconds": 15.856117041985271,
+    "tool_use_detected": false,
+    "usage": [
+      {
+        "input_tokens": 36767,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 493,
+        "reasoning_output_tokens": 216
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 1,
+        "valid": true
+      }
+    ],
+    "actual_model_identity_note": "Requested model recorded; backend resolved snapshot not independently exposed."
+  }
+}

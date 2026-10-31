@@ -1,0 +1,38 @@
+{
+  "fingerprint": "c88a61ae3e6121b196dda715cd321f5b10b280c3384b72595893bdcaa2d547b0",
+  "result": {
+    "paper_id": "paper193",
+    "candidate_id": "A",
+    "verdict": "no_issue_identified",
+    "coverage": "sufficient_text_for_review",
+    "coverage_note": "Supplied text covers all 14 PDF pages, including methods, results, discussion and limitations. Figure pixels were unavailable; no candidate claim required their inspection.",
+    "findings": []
+  },
+  "metadata": {
+    "judge_model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "utc": "2026-10-31T13:53:51.490464+00:00",
+    "candidate_sha256": "0e81408a45c37a05fec542f9aa6c02beb0859750e8dce25ae498d09d16a5afb0",
+    "pdf_sha256": "ce48eeba305f2630801dc35caeea51402df26407c8fa20f3e7df2521621dfb36",
+    "pages_text_sha256": "4cf3c6d8992b20c4cf964520e286d656d25185b23fb81cbac7022549b3dee987",
+    "request_sha256": "0a25df350770a2ed4a81eba0e3bba152a907b4185d7427b7614d9c44ef4c250b",
+    "elapsed_seconds": 11.768951750011183,
+    "tool_use_detected": false,
+    "usage": [
+      {
+        "input_tokens": 30114,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 148,
+        "reasoning_output_tokens": 52
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 1,
+        "valid": true
+      }
+    ],
+    "actual_model_identity_note": "Requested model recorded; backend resolved snapshot not independently exposed."
+  }
+}

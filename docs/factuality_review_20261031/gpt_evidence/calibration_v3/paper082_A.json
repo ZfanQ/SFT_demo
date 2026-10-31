@@ -1,0 +1,48 @@
+{
+  "fingerprint": "c88a61ae3e6121b196dda715cd321f5b10b280c3384b72595893bdcaa2d547b0",
+  "result": {
+    "paper_id": "paper082",
+    "candidate_id": "A",
+    "verdict": "concerns_identified",
+    "coverage": "sufficient_text_for_review",
+    "coverage_note": "The supplied text covers all 18 PDF pages. Supplementary materials and figure pixels were unavailable; the identified concern is directly resolved by the main text.",
+    "findings": [
+      {
+        "status": "contradicted",
+        "severity": "major",
+        "claim_type": "outcome_direction",
+        "candidate_quote": "Furthermore, fiber supplementation significantly reduced insulin-mediated carbohydrate oxidation (p=0.027) and fat oxidation (p=0.006) compared to the placebo.",
+        "reference_quote": "Accordingly,\ninsulin-mediated suppression of fat oxidation was less pronounced in the fiber group compared to placebo\n(p = 0.006).",
+        "pdf_page": 8,
+        "explanation": "The fat-oxidation direction is reversed. Fiber reduced insulin-mediated suppression of fat oxidation, meaning fat oxidation decreased less than with placebo; it did not reduce fat oxidation compared with placebo. The carbohydrate-oxidation comparison is supported. This reversal misstates a central substrate-metabolism result."
+      }
+    ]
+  },
+  "metadata": {
+    "judge_model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "utc": "2026-10-31T13:51:24.389036+00:00",
+    "candidate_sha256": "006edc28d7155c089fb226f7fd831fc7d817752d31b5b0f7e7b8a1a67cfa29f2",
+    "pdf_sha256": "58136b8822463059c85873413b388914e8cdbbbac22100444f346d7a7563bad3",
+    "pages_text_sha256": "73ee49f2c259d7eaec40ce27b0d0e28bcd1f0a50f78554125f816fde114170a9",
+    "request_sha256": "ade966b59fda65e1998e43c3f7175eb78ab6072651ffbe06f9b08dc8c55078ab",
+    "elapsed_seconds": 16.20638874999713,
+    "tool_use_detected": false,
+    "usage": [
+      {
+        "input_tokens": 39313,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 391,
+        "reasoning_output_tokens": 119
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 1,
+        "valid": true
+      }
+    ],
+    "actual_model_identity_note": "Requested model recorded; backend resolved snapshot not independently exposed."
+  }
+}

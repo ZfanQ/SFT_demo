@@ -1,0 +1,48 @@
+{
+  "fingerprint": "c88a61ae3e6121b196dda715cd321f5b10b280c3384b72595893bdcaa2d547b0",
+  "result": {
+    "paper_id": "paper082",
+    "candidate_id": "B",
+    "verdict": "concerns_identified",
+    "coverage": "sufficient_text_for_review",
+    "coverage_note": "The supplied text covers the full article. Supplements and figure pixels were unavailable; the finding relies on explicit main-text participant counts.",
+    "findings": [
+      {
+        "status": "contradicted",
+        "severity": "major",
+        "claim_type": "numbers",
+        "candidate_quote": "The 12-week randomized, placebo-controlled trial involved 44 participants, with 19 receiving the fiber mixture and 23 receiving maltodextrin as a placebo.",
+        "reference_quote": "leaving a total of 44 participants to be randomized to one of the intervention arms (fiber n = 21; placebo\nn = 23). After two dropouts in each group, 19 and 21 participants completed the fiber and placebo intervention,\nrespectively",
+        "pdf_page": 5,
+        "explanation": "The summary mixes the fiber group's completer count with the placebo group's randomized count. Of 44 randomized participants, 21 were assigned fiber and 23 placebo; 19 and 21, respectively, completed the intervention. The stated 19/23 allocation is incorrect and does not total 44."
+      }
+    ]
+  },
+  "metadata": {
+    "judge_model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "utc": "2026-10-31T13:51:41.775638+00:00",
+    "candidate_sha256": "e2ca8f958519591f1e75ca038cb0865d5f6e96761d0694646c6bb702b4d89eac",
+    "pdf_sha256": "58136b8822463059c85873413b388914e8cdbbbac22100444f346d7a7563bad3",
+    "pages_text_sha256": "73ee49f2c259d7eaec40ce27b0d0e28bcd1f0a50f78554125f816fde114170a9",
+    "request_sha256": "7192f37a4fc0f66cfab36e01d021efb4ea9453deb9c8cc7dacebce48b166af39",
+    "elapsed_seconds": 17.383856083004503,
+    "tool_use_detected": false,
+    "usage": [
+      {
+        "input_tokens": 39355,
+        "cached_input_tokens": 9344,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 413,
+        "reasoning_output_tokens": 118
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 1,
+        "valid": true
+      }
+    ],
+    "actual_model_identity_note": "Requested model recorded; backend resolved snapshot not independently exposed."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "fingerprint": "c88a61ae3e6121b196dda715cd321f5b10b280c3384b72595893bdcaa2d547b0",
+  "result": {
+    "paper_id": "paper047",
+    "candidate_id": "B",
+    "verdict": "concerns_identified",
+    "coverage": "sufficient_text_for_review",
+    "coverage_note": "All ten PDF text pages were supplied. The finding is supported by explicit results text and does not depend on figure images or supplements.",
+    "findings": [
+      {
+        "status": "contradicted",
+        "severity": "major",
+        "claim_type": "numbers",
+        "candidate_quote": "46% were asymptomatic or in remission by 2003",
+        "reference_quote": "Of the 12 patients not receiving pharmacological treatment\n(46%), 7 (27%) were asymptomatic and fulfilled criteria for complete remission. The remaining 5 patients\nhad mild persistent symptoms, primarily ocular, but did not require ongoing pharmacological therapy at\nthe time of evaluation.",
+        "pdf_page": 6,
+        "explanation": "The summary conflates absence of medication with absence of symptoms or remission. Only 27% were asymptomatic and in complete remission; the 46% also included five patients with persistent symptoms. This materially overstates the cohort's favorable clinical outcome."
+      }
+    ]
+  },
+  "metadata": {
+    "judge_model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "utc": "2026-10-31T13:51:08.180017+00:00",
+    "candidate_sha256": "94a9f85d92bb2c39ad03246247497b234911221519931b6fb698ddd72e9ead2f",
+    "pdf_sha256": "5b8822c9b0979812ae663af394f56f41bcd251e186c0cbc3993ab168e9894014",
+    "pages_text_sha256": "34bcd668f25263e71ee565cc1901ad31ff841716f66938fb32e2028d50dcca57",
+    "request_sha256": "b6733520cfc40ee555399264034d0730ef12fc9090642bda475062af7678a335",
+    "elapsed_seconds": 19.73221620800905,
+    "tool_use_detected": false,
+    "usage": [
+      {
+        "input_tokens": 27789,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 445,
+        "reasoning_output_tokens": 177
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 1,
+        "valid": true
+      }
+    ],
+    "actual_model_identity_note": "Requested model recorded; backend resolved snapshot not independently exposed."
+  }
+}

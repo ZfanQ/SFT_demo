@@ -1,0 +1,18 @@
+{
+  "paper_id": "paper047",
+  "candidate_id": "B",
+  "verdict": "concerns_identified",
+  "coverage": "sufficient_text_for_review",
+  "coverage_note": "All ten PDF text pages were supplied. The finding is supported by explicit results text and does not depend on figure images or supplements.",
+  "findings": [
+    {
+      "status": "contradicted",
+      "severity": "major",
+      "claim_type": "numbers",
+      "candidate_quote": "46% were asymptomatic or in remission by 2003",
+      "reference_quote": "Of the 12 patients not receiving pharmacological treatment\n(46%), 7 (27%) were asymptomatic and fulfilled criteria for complete remission. The remaining 5 patients\nhad mild persistent symptoms, primarily ocular, but did not require ongoing pharmacological therapy at\nthe time of evaluation.",
+      "pdf_page": 6,
+      "explanation": "The summary conflates absence of medication with absence of symptoms or remission. Only 27% were asymptomatic and in complete remission; the 46% also included five patients with persistent symptoms. This materially overstates the cohort's favorable clinical outcome."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "fingerprint": "c88a61ae3e6121b196dda715cd321f5b10b280c3384b72595893bdcaa2d547b0",
+  "result": {
+    "paper_id": "paper028",
+    "candidate_id": "B",
+    "verdict": "no_issue_identified",
+    "coverage": "sufficient_text_for_review",
+    "coverage_note": "The supplied text covers pages 1–10, including methods, results tables, discussion, and limitations. Figure pixels and supplementary materials were unavailable, but the main-text evidence was sufficient to assess the summary's claims.",
+    "findings": []
+  },
+  "metadata": {
+    "judge_model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "utc": "2026-10-31T13:50:04.004691+00:00",
+    "candidate_sha256": "34c05a65b9dee1fa66a595d838d7e82e06ca6a5a59c8bc8c0f4ca310291e0513",
+    "pdf_sha256": "50a126e4e78ea13754402a2bf5defbd439101c3cf722a150812d08cd7899381a",
+    "pages_text_sha256": "ccf69b69aec1174fee5142c3b35ba7339dda15109d5545464a37085b5ecd8f56",
+    "request_sha256": "3dbe092c19f145bd2e92278170c3a947001058def74be71084924fb8aed6a3fc",
+    "elapsed_seconds": 10.940125166991493,
+    "tool_use_detected": false,
+    "usage": [
+      {
+        "input_tokens": 29719,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 154,
+        "reasoning_output_tokens": 46
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 1,
+        "valid": true
+      }
+    ],
+    "actual_model_identity_note": "Requested model recorded; backend resolved snapshot not independently exposed."
+  }
+}

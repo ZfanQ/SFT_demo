@@ -1,0 +1,8 @@
+{
+  "paper_id": "paper193",
+  "candidate_id": "A",
+  "verdict": "no_issue_identified",
+  "coverage": "sufficient_text_for_review",
+  "coverage_note": "Supplied text covers all 14 PDF pages, including methods, results, discussion and limitations. Figure pixels were unavailable; no candidate claim required their inspection.",
+  "findings": []
+}

@@ -1,0 +1,18 @@
+{
+  "paper_id": "paper024",
+  "candidate_id": "B",
+  "verdict": "concerns_identified",
+  "coverage": "sufficient_text_for_review",
+  "coverage_note": "The supplied text covers methods, results, and limitations. Figure pixels and supplementary materials were not supplied; no finding depends on them.",
+  "findings": [
+    {
+      "status": "contradicted",
+      "severity": "major",
+      "claim_type": "statistical_claim",
+      "candidate_quote": "Specifically, the indirect effects for depression (0.13, $p = .036$), anxiety (0.16, $p = .030$), and somatic symptoms (0.54, $p = .036$) were significant.",
+      "reference_quote": "However, the serial mediation effects were significant at\nthe α = .05 level and did not meet our preregistered\nthreshold of α = .01, indicating that these pathways\nrequire further empirical validation, particularly\ngiven that post-hoc power analysis suggested the\nstudy was underpowered to detect these mediation\neffects.",
+      "pdf_page": 12,
+      "explanation": "The estimates and p-values are accurate, but the unqualified significance claim overstates the mediation evidence: these effects met only the exploratory .05 level, not the preregistered .01 threshold. The summary's acknowledgment of inadequate power does not convey this distinction in the central mediation result."
+    }
+  ]
+}

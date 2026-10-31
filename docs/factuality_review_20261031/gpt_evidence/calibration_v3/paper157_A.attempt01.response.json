@@ -1,0 +1,27 @@
+{
+  "paper_id": "paper157",
+  "candidate_id": "A",
+  "verdict": "concerns_identified",
+  "coverage": "sufficient_text_for_review",
+  "coverage_note": "The supplied text covers all 24 PDF pages. Figure pixels and supplementary materials were unavailable; findings rely on explicit main-text results and captions.",
+  "findings": [
+    {
+      "status": "contradicted",
+      "severity": "major",
+      "claim_type": "outcome_direction",
+      "candidate_quote": "an effect mitigated by the LXRα antagonist SR9243",
+      "reference_quote": "In line with our hypothesis, in the presence of SR9243, CORT neither downregulated the\nexpression of LXRα-mediated target genes and proteins nor further aggravated the comorbidity",
+      "pdf_page": 17,
+      "explanation": "SR9243 fully suppressed LXRα activity, after which CORT produced no additional suppression or disease aggravation. This demonstrates pathway dependence, rather than mitigation of CORT-induced injury. The summary incorrectly presents this experiment as a protective rescue."
+    },
+    {
+      "status": "unsupported_in_reviewed_material",
+      "severity": "uncertain",
+      "claim_type": "statistical_claim",
+      "candidate_quote": "Human data corroborated these findings, showing that elevated ratios of specific lysophospholipids and ceramides correlated with higher clinical activity scores.",
+      "reference_quote": "In addition, the levels of ceramide including Cer16:0, Cer24:0 and Cer24:1 significantly\nelevated",
+      "pdf_page": 17,
+      "explanation": "Human lysophospholipid ratios were positively associated with clinical activity scores, but human ceramides were reported as elevated species levels. The reviewed text does not establish ceramide ratios correlated with clinical activity. Ceramide ratio results elsewhere concern mice and cannot support this human claim."
+    }
+  ]
+}

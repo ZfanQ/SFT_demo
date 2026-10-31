@@ -1,0 +1,48 @@
+{
+  "fingerprint": "c88a61ae3e6121b196dda715cd321f5b10b280c3384b72595893bdcaa2d547b0",
+  "result": {
+    "paper_id": "paper156",
+    "candidate_id": "B",
+    "verdict": "concerns_identified",
+    "coverage": "sufficient_text_for_review",
+    "coverage_note": "The supplied text covers the full article. Figure pixels and supplementary materials were unavailable; this finding relies on explicit main-text methods.",
+    "findings": [
+      {
+        "status": "contradicted",
+        "severity": "minor",
+        "claim_type": "limitation",
+        "candidate_quote": "Limitations include the use of a single cell line",
+        "reference_quote": "Killing assays were conducted by co-culturing primary negatively isolated NK cells with Panc02 and\nKPC3595 cells, as well as NK-92 cells with SU.86.86 cells.",
+        "pdf_page": 4,
+        "explanation": "The study used multiple PDAC target cell lines, including KPC3595 to validate sex-dependent immune responses. Although the allograft experiments used Panc02 alone, the summary presents single-cell-line use as a limitation of the entire study."
+      }
+    ]
+  },
+  "metadata": {
+    "judge_model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "utc": "2026-10-31T13:52:49.296183+00:00",
+    "candidate_sha256": "cabc046be58f5389d334a61b6c978479795db5641ea20da1e87680287a3cccab",
+    "pdf_sha256": "0f85617e8953b15d85067ad78957b635e975417bed9fef99cd0bd22ff8962511",
+    "pages_text_sha256": "4ec09bd15697f3da81683c33d97228ce6890c9eb406e688a4a95f6cb6ae8b4c5",
+    "request_sha256": "b5818bc7c469cc9215b80c57b7436132015856a84bbbce1ef2fa689396a25bb0",
+    "elapsed_seconds": 25.833916791016236,
+    "tool_use_detected": false,
+    "usage": [
+      {
+        "input_tokens": 41504,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 763,
+        "reasoning_output_tokens": 516
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 1,
+        "valid": true
+      }
+    ],
+    "actual_model_identity_note": "Requested model recorded; backend resolved snapshot not independently exposed."
+  }
+}

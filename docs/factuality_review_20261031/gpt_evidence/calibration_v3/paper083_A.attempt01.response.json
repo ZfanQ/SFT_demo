@@ -1,0 +1,8 @@
+{
+  "paper_id": "paper083",
+  "candidate_id": "A",
+  "verdict": "no_issue_identified",
+  "coverage": "sufficient_text_for_review",
+  "coverage_note": "Reviewed the supplied text from PDF pages 1–15, including methods, results, discussion, limitations and figure captions. Supplementary tables and figure pixels were unavailable. The summary closely reflects the article's reported results and explicitly attributed conclusions.",
+  "findings": []
+}

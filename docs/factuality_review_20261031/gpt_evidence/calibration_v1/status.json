@@ -1,0 +1,7 @@
+{
+  "state": "needs_attention",
+  "expected": 20,
+  "completed": 1,
+  "updated_utc": "2026-10-31T13:44:38.236853+00:00",
+  "error": "Reference quote not present on claimed PDF page"
+}

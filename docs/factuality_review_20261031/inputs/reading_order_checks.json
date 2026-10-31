@@ -1,0 +1,110 @@
+{
+  "method": "Poppler pdftotext default reading order, UTF-8; PDF page breaks retained",
+  "poppler_version": "pdftotext version 26.08.0\nCopyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC",
+  "driver_sha256": "6702de21d6ba13f73deb0672bc14e6143103cea9a99fe97a6869bf5ad5d31ad8",
+  "motivation": "Historical PyMuPDF sort=True interleaved two-column lines in paper019; verified against sort=False and Poppler output.",
+  "regression_passage_present": true,
+  "checks": [
+    {
+      "paper_id": "paper019",
+      "pdf_sha256": "8000f0878415cddf58f69799890a358137fc3c938c47bbf6c540e5b898f7820a",
+      "pages": 13,
+      "old_pages_text_sha256": "12e8f7ff7ba5ee259ca08c7418c445a92a335aca5abdc2b195d81f44308cb9ef",
+      "new_pages_text_sha256": "02b7e7583de085bb60a65c6724067ff352238092e3897b5ac0920b57565472cd",
+      "old_chars": 86749,
+      "new_chars": 72288,
+      "sparse_pages": []
+    },
+    {
+      "paper_id": "paper024",
+      "pdf_sha256": "2c12d06d580aecf127f71b6838db96ce816dd1abc60987abf477542ce11539cf",
+      "pages": 16,
+      "old_pages_text_sha256": "79a07130d6c74a7cb4bd1a70a79767fe8225189010f03a398f54da6d4a87b5e2",
+      "new_pages_text_sha256": "70cce02318f5be62b992ee1d31254942e464a6502c04b38388bd2a01ec7154ee",
+      "old_chars": 112412,
+      "new_chars": 80592,
+      "sparse_pages": []
+    },
+    {
+      "paper_id": "paper028",
+      "pdf_sha256": "50a126e4e78ea13754402a2bf5defbd439101c3cf722a150812d08cd7899381a",
+      "pages": 10,
+      "old_pages_text_sha256": "53ec3e928b4a41d881d1afeb1e6b0819f94950fa6e6c19c035504fbeb299b4f1",
+      "new_pages_text_sha256": "ccf69b69aec1174fee5142c3b35ba7339dda15109d5545464a37085b5ecd8f56",
+      "old_chars": 61136,
+      "new_chars": 46835,
+      "sparse_pages": []
+    },
+    {
+      "paper_id": "paper039",
+      "pdf_sha256": "038b3ed5990c62be5463f28648e1f2bb44bcbb12e008c4f4513e13acdd92fb3d",
+      "pages": 15,
+      "old_pages_text_sha256": "c320c67dc285bf972d16f690e1b1f0f700b9b0e7ea0d1b7cee2c87942eb1f2cd",
+      "new_pages_text_sha256": "b8c18a1a9fce976d8bb857581fd8b70f701ce7e5a3e5f470ff7903b5fb336f38",
+      "old_chars": 99105,
+      "new_chars": 78429,
+      "sparse_pages": []
+    },
+    {
+      "paper_id": "paper047",
+      "pdf_sha256": "5b8822c9b0979812ae663af394f56f41bcd251e186c0cbc3993ab168e9894014",
+      "pages": 10,
+      "old_pages_text_sha256": "c7a87c19cdfc42dde7b5460047e42ab2a4c960edf060a14436109a075c5aa679",
+      "new_pages_text_sha256": "34bcd668f25263e71ee565cc1901ad31ff841716f66938fb32e2028d50dcca57",
+      "old_chars": 42416,
+      "new_chars": 37774,
+      "sparse_pages": []
+    },
+    {
+      "paper_id": "paper082",
+      "pdf_sha256": "58136b8822463059c85873413b388914e8cdbbbac22100444f346d7a7563bad3",
+      "pages": 18,
+      "old_pages_text_sha256": "1e32a32f359d856c186e591d84cf35c612fc3334fba950a757dfc1ff3b30edc9",
+      "new_pages_text_sha256": "73ee49f2c259d7eaec40ce27b0d0e28bcd1f0a50f78554125f816fde114170a9",
+      "old_chars": 93926,
+      "new_chars": 72633,
+      "sparse_pages": []
+    },
+    {
+      "paper_id": "paper083",
+      "pdf_sha256": "f440e6e9de3a0efb0bdd1cc25f129b2722bb6805d8b64f747f07b457d9ed1722",
+      "pages": 15,
+      "old_pages_text_sha256": "778991c84402a5a6244ecc56c6e2affd709c4e7b907945eb885aa3eedbc10b5f",
+      "new_pages_text_sha256": "ddcc9ddbe285b9d9ea867dc18763fbe717644ea8b3b1bcb86ccb54275a9c0ca9",
+      "old_chars": 68861,
+      "new_chars": 62995,
+      "sparse_pages": []
+    },
+    {
+      "paper_id": "paper156",
+      "pdf_sha256": "0f85617e8953b15d85067ad78957b635e975417bed9fef99cd0bd22ff8962511",
+      "pages": 25,
+      "old_pages_text_sha256": "e22c6b794ccd0e4027b2c4086712eb140d91602ac6d69084cf1787209b0668c9",
+      "new_pages_text_sha256": "4ec09bd15697f3da81683c33d97228ce6890c9eb406e688a4a95f6cb6ae8b4c5",
+      "old_chars": 94893,
+      "new_chars": 91434,
+      "sparse_pages": []
+    },
+    {
+      "paper_id": "paper157",
+      "pdf_sha256": "043509937e2b8f5ea0713eb83efc45dcc3c2e74b5ef6a01162c20d6293545bf1",
+      "pages": 24,
+      "old_pages_text_sha256": "62b945623fe3a9dc05a87c1e20999ebf24945663e1682a2cacfdde57d18f4f95",
+      "new_pages_text_sha256": "44d124117b225722923ec702b758da1a4d7bbd98b81df35a931c822a5729b6c9",
+      "old_chars": 81755,
+      "new_chars": 78833,
+      "sparse_pages": []
+    },
+    {
+      "paper_id": "paper193",
+      "pdf_sha256": "ce48eeba305f2630801dc35caeea51402df26407c8fa20f3e7df2521621dfb36",
+      "pages": 14,
+      "old_pages_text_sha256": "b5df0f474a4d9d0a7c1ff68ab6ec268e05ef09b2930b14902ed4a332082c5ced",
+      "new_pages_text_sha256": "4cf3c6d8992b20c4cf964520e286d656d25185b23fb81cbac7022549b3dee987",
+      "old_chars": 58186,
+      "new_chars": 54832,
+      "sparse_pages": []
+    }
+  ],
+  "limitation": "Count/length checks do not certify perfect table, figure, equation or reading-order extraction for every page."
+}

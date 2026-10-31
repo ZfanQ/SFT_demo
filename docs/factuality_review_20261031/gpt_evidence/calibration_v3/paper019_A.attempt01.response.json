@@ -1,0 +1,8 @@
+{
+  "paper_id": "paper019",
+  "candidate_id": "A",
+  "verdict": "no_issue_identified",
+  "coverage": "sufficient_text_for_review",
+  "coverage_note": "Reviewed supplied text from PDF pages 1–13. Main-text results and limitations sufficiently support review of the summary; supplementary materials and figure pixels were not supplied.",
+  "findings": []
+}

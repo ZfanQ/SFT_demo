@@ -1,0 +1,38 @@
+{
+  "fingerprint": "c88a61ae3e6121b196dda715cd321f5b10b280c3384b72595893bdcaa2d547b0",
+  "result": {
+    "paper_id": "paper083",
+    "candidate_id": "A",
+    "verdict": "no_issue_identified",
+    "coverage": "sufficient_text_for_review",
+    "coverage_note": "Reviewed the supplied text from PDF pages 1–15, including methods, results, discussion, limitations and figure captions. Supplementary tables and figure pixels were unavailable. The summary closely reflects the article's reported results and explicitly attributed conclusions.",
+    "findings": []
+  },
+  "metadata": {
+    "judge_model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "utc": "2026-10-31T13:51:56.778768+00:00",
+    "candidate_sha256": "90caf351f145a668c66c811ccfd99a446e6662acb1fdb6c0e8a57a0641d88457",
+    "pdf_sha256": "f440e6e9de3a0efb0bdd1cc25f129b2722bb6805d8b64f747f07b457d9ed1722",
+    "pages_text_sha256": "ddcc9ddbe285b9d9ea867dc18763fbe717644ea8b3b1bcb86ccb54275a9c0ca9",
+    "request_sha256": "8bc029707c326f44376130608f3039a7afc895e773496739185ae17ab6c3e8bb",
+    "elapsed_seconds": 15.000695875001838,
+    "tool_use_detected": false,
+    "usage": [
+      {
+        "input_tokens": 36905,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 206,
+        "reasoning_output_tokens": 94
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 1,
+        "valid": true
+      }
+    ],
+    "actual_model_identity_note": "Requested model recorded; backend resolved snapshot not independently exposed."
+  }
+}

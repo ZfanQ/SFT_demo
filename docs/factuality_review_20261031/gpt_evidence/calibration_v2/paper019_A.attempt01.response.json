@@ -1,0 +1,8 @@
+{
+  "paper_id": "paper019",
+  "candidate_id": "A",
+  "verdict": "no_issue_identified",
+  "coverage": "sufficient_text_for_review",
+  "coverage_note": "The supplied text includes the abstract, methods, results, discussion, tables, and figure captions. Figure pixels and supplementary materials were unavailable; no claims required them to assess.",
+  "findings": []
+}

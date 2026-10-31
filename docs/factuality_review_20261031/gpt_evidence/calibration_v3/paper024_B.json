@@ -1,0 +1,48 @@
+{
+  "fingerprint": "c88a61ae3e6121b196dda715cd321f5b10b280c3384b72595893bdcaa2d547b0",
+  "result": {
+    "paper_id": "paper024",
+    "candidate_id": "B",
+    "verdict": "concerns_identified",
+    "coverage": "sufficient_text_for_review",
+    "coverage_note": "The supplied text covers methods, results, and limitations. Figure pixels and supplementary materials were not supplied; no finding depends on them.",
+    "findings": [
+      {
+        "status": "contradicted",
+        "severity": "major",
+        "claim_type": "statistical_claim",
+        "candidate_quote": "Specifically, the indirect effects for depression (0.13, $p = .036$), anxiety (0.16, $p = .030$), and somatic symptoms (0.54, $p = .036$) were significant.",
+        "reference_quote": "However, the serial mediation effects were significant at\nthe α = .05 level and did not meet our preregistered\nthreshold of α = .01, indicating that these pathways\nrequire further empirical validation, particularly\ngiven that post-hoc power analysis suggested the\nstudy was underpowered to detect these mediation\neffects.",
+        "pdf_page": 12,
+        "explanation": "The estimates and p-values are accurate, but the unqualified significance claim overstates the mediation evidence: these effects met only the exploratory .05 level, not the preregistered .01 threshold. The summary's acknowledgment of inadequate power does not convey this distinction in the central mediation result."
+      }
+    ]
+  },
+  "metadata": {
+    "judge_model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "utc": "2026-10-31T13:49:41.836429+00:00",
+    "candidate_sha256": "7a7e072df594d37b64c42a555ae980775f6ff59ba716fc1058c24d53a5680bd0",
+    "pdf_sha256": "2c12d06d580aecf127f71b6838db96ce816dd1abc60987abf477542ce11539cf",
+    "pages_text_sha256": "70cce02318f5be62b992ee1d31254942e464a6502c04b38388bd2a01ec7154ee",
+    "request_sha256": "f0ea8186d099f8a51a588d2727d2a84d3e894ba226ddc30d5c84106b7ef9e39b",
+    "elapsed_seconds": 22.045409250014927,
+    "tool_use_detected": false,
+    "usage": [
+      {
+        "input_tokens": 40623,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 672,
+        "reasoning_output_tokens": 344
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 1,
+        "valid": true
+      }
+    ],
+    "actual_model_identity_note": "Requested model recorded; backend resolved snapshot not independently exposed."
+  }
+}

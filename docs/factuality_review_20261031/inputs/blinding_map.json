@@ -1,0 +1,42 @@
+{
+  "paper019": {
+    "A": "qwen8b",
+    "B": "gemma"
+  },
+  "paper024": {
+    "A": "qwen8b",
+    "B": "gemma"
+  },
+  "paper028": {
+    "A": "gemma",
+    "B": "qwen8b"
+  },
+  "paper039": {
+    "A": "gemma",
+    "B": "qwen8b"
+  },
+  "paper047": {
+    "A": "qwen8b",
+    "B": "gemma"
+  },
+  "paper082": {
+    "A": "gemma",
+    "B": "qwen8b"
+  },
+  "paper083": {
+    "A": "qwen8b",
+    "B": "gemma"
+  },
+  "paper156": {
+    "A": "gemma",
+    "B": "qwen8b"
+  },
+  "paper157": {
+    "A": "gemma",
+    "B": "qwen8b"
+  },
+  "paper193": {
+    "A": "gemma",
+    "B": "qwen8b"
+  }
+}

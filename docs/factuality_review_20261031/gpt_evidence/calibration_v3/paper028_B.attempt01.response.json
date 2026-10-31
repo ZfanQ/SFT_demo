@@ -1,0 +1,8 @@
+{
+  "paper_id": "paper028",
+  "candidate_id": "B",
+  "verdict": "no_issue_identified",
+  "coverage": "sufficient_text_for_review",
+  "coverage_note": "The supplied text covers pages 1–10, including methods, results tables, discussion, and limitations. Figure pixels and supplementary materials were unavailable, but the main-text evidence was sufficient to assess the summary's claims.",
+  "findings": []
+}

@@ -1,0 +1,18 @@
+{
+  "paper_id": "paper156",
+  "candidate_id": "B",
+  "verdict": "concerns_identified",
+  "coverage": "sufficient_text_for_review",
+  "coverage_note": "The supplied text covers the full article. Figure pixels and supplementary materials were unavailable; this finding relies on explicit main-text methods.",
+  "findings": [
+    {
+      "status": "contradicted",
+      "severity": "minor",
+      "claim_type": "limitation",
+      "candidate_quote": "Limitations include the use of a single cell line",
+      "reference_quote": "Killing assays were conducted by co-culturing primary negatively isolated NK cells with Panc02 and\nKPC3595 cells, as well as NK-92 cells with SU.86.86 cells.",
+      "pdf_page": 4,
+      "explanation": "The study used multiple PDAC target cell lines, including KPC3595 to validate sex-dependent immune responses. Although the allograft experiments used Panc02 alone, the summary presents single-cell-line use as a limitation of the entire study."
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+2026-10-31T13:48:17.451100Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-31T13:48:17.460009Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-10-31T13:48:21.122603Z  WARN codex_core_plugins::manager: failed to refresh remote installed plugins cache error=remote plugin catalog request to https://chatgpt.com/backend-api/ps/plugins/installed?limit=200 failed with status 500 Internal Server Error: {"detail":{"retryable":true,"message":"Internal server error"}} materialized_remote_plugin_count=0

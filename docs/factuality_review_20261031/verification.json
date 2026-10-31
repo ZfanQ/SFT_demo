@@ -1,0 +1,15 @@
+{
+  "state": "verified_calibration_complete",
+  "snapshot_papers": 200,
+  "source_text_hashes_checked": 800,
+  "original_pdf_hashes_checked": 10,
+  "accepted_candidate_reviews": 20,
+  "accepted_review_attempts": 20,
+  "rejected_attempts_in_active_protocol": 0,
+  "automated_findings": 13,
+  "independent_human_reviews_recorded": 0,
+  "human_calibration_complete": false,
+  "factual_correctness_certified": false,
+  "ready_for_200_paper_expansion": false,
+  "note": "Complete independent human calibration and resolve systematic issues before expansion."
+}

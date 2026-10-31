@@ -1,0 +1,18 @@
+{
+  "paper_id": "paper083",
+  "candidate_id": "B",
+  "verdict": "concerns_identified",
+  "coverage": "sufficient_text_for_review",
+  "coverage_note": "Reviewed supplied text from all 15 PDF pages. Supplementary tables and figure pixels were unavailable; the finding is supported directly by the main text.",
+  "findings": [
+    {
+      "status": "contradicted",
+      "severity": "major",
+      "claim_type": "outcome_direction",
+      "candidate_quote": "showing lower rates of microscopic hematuria than both other groups",
+      "reference_quote": "There was no difference in\n24h-uPro, but the IgAN + DKD group exhibited a higher incidence of MH (57.50% vs. 31.25%, p = 0.001),\nuRBC count, and proportion of dysmorphic uRBC.",
+      "pdf_page": 6,
+      "explanation": "The summary reverses the comparison with DKD. Microscopic hematuria was less frequent than in primary IgAN but significantly more frequent than in DKD (57.50% versus 31.25%), rather than less frequent than in both groups."
+    }
+  ]
+}

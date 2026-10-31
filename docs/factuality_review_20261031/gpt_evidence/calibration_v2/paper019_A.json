@@ -1,0 +1,38 @@
+{
+  "fingerprint": "c12d17a904a76a8ebd190dc227358c4c7cdd1a5df46ab85812d53c305aaabda4",
+  "result": {
+    "paper_id": "paper019",
+    "candidate_id": "A",
+    "verdict": "no_issue_identified",
+    "coverage": "sufficient_text_for_review",
+    "coverage_note": "The supplied text includes the abstract, methods, results, discussion, tables, and figure captions. Figure pixels and supplementary materials were unavailable; no claims required them to assess.",
+    "findings": []
+  },
+  "metadata": {
+    "judge_model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "utc": "2026-10-31T13:46:02.211157+00:00",
+    "candidate_sha256": "5a7d980e3bbde7590232ffb315dda7e6782c9a9284910bf326c206a5bfc396b2",
+    "pdf_sha256": "8000f0878415cddf58f69799890a358137fc3c938c47bbf6c540e5b898f7820a",
+    "pages_text_sha256": "12e8f7ff7ba5ee259ca08c7418c445a92a335aca5abdc2b195d81f44308cb9ef",
+    "request_sha256": "ec493dc6b392661cca01334000558eedbde23311ec11a94d9d7c8d0c1dc21b68",
+    "elapsed_seconds": 11.279743958002655,
+    "tool_use_detected": false,
+    "usage": [
+      {
+        "input_tokens": 38110,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 182,
+        "reasoning_output_tokens": 83
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 1,
+        "valid": true
+      }
+    ],
+    "actual_model_identity_note": "Requested model recorded; backend resolved snapshot not independently exposed."
+  }
+}

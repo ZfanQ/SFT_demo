@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1923c-c9d5-7573-bc67-894e8db94f40"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\n  \"paper_id\": \"paper193\",\n  \"candidate_id\": \"A\",\n  \"verdict\": \"no_issue_identified\",\n  \"coverage\": \"sufficient_text_for_review\",\n  \"coverage_note\": \"Supplied text covers all 14 PDF pages, including methods, results, discussion and limitations. Figure pixels were unavailable; no candidate claim required their inspection.\",\n  \"findings\": []\n}"}}
+{"type":"turn.completed","usage":{"input_tokens":30114,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":148,"reasoning_output_tokens":52}}

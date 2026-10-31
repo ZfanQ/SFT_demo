@@ -1,0 +1,48 @@
+{
+  "fingerprint": "c88a61ae3e6121b196dda715cd321f5b10b280c3384b72595893bdcaa2d547b0",
+  "result": {
+    "paper_id": "paper024",
+    "candidate_id": "A",
+    "verdict": "concerns_identified",
+    "coverage": "sufficient_text_for_review",
+    "coverage_note": "All 16 numbered pages were supplied. Figure pixels were unavailable, but the methods and results text were sufficient to assess the summary.",
+    "findings": [
+      {
+        "status": "contradicted",
+        "severity": "major",
+        "claim_type": "statistical_claim",
+        "candidate_quote": "These effects remained significant after controlling for autoregressive pathways, worry, rumination, avoidance, and childhood adversity.",
+        "reference_quote": "Comparison affective impact had a significant\npositive relationship with PTSD (however, the directionality was contrary to single associations and may\nrepresent a statistical artifact, and was only significant\nat p < .05). Affective impact showed no significant\nrelationships with the other outcomes.",
+        "pdf_page": 9,
+        "explanation": "“These effects” refers to the preceding claim about all three comparison components predicting elevated psychopathology. Adjusted longitudinal results were substantially narrower: affective impact was unrelated to most outcomes, and its PTSD association had the opposite direction and missed the preregistered significance threshold. Comparison discrepancy was excluded from the regression models. The blanket claim materially overstates persistence after adjustment."
+      }
+    ]
+  },
+  "metadata": {
+    "judge_model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "utc": "2026-10-31T13:49:19.787777+00:00",
+    "candidate_sha256": "d7f349c2b460b8d1ccc534cae1562c4bae9a167b62113bb15abe2a6b2be36f23",
+    "pdf_sha256": "2c12d06d580aecf127f71b6838db96ce816dd1abc60987abf477542ce11539cf",
+    "pages_text_sha256": "70cce02318f5be62b992ee1d31254942e464a6502c04b38388bd2a01ec7154ee",
+    "request_sha256": "973d660d20f25322f3d1abebed2484f8596215af08c0f524b861d25f696cb0d8",
+    "elapsed_seconds": 25.72599158299272,
+    "tool_use_detected": false,
+    "usage": [
+      {
+        "input_tokens": 40686,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 550,
+        "reasoning_output_tokens": 251
+      }
+    ],
+    "attempts": [
+      {
+        "attempt": 1,
+        "valid": true
+      }
+    ],
+    "actual_model_identity_note": "Requested model recorded; backend resolved snapshot not independently exposed."
+  }
+}

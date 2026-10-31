@@ -1,0 +1,13 @@
+{"accepted": "paper019_A", "findings": 0, "completed": 1}
+Traceback (most recent call last):
+  File "/Users/fredericzhang/Documents/GitHub/SFT_demo/tools/review_summary_factuality.py", line 158, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/fredericzhang/Documents/GitHub/SFT_demo/tools/review_summary_factuality.py", line 155, in main
+    a=p.parse_args();run(a.root.resolve(),a.limit)
+                     ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fredericzhang/Documents/GitHub/SFT_demo/tools/review_summary_factuality.py", line 136, in run
+    result=validate_review(json.loads(response.read_text()),item)
+  File "/Users/fredericzhang/Documents/GitHub/SFT_demo/tools/review_summary_factuality.py", line 76, in validate_review
+    raise ValueError('Reference quote not present on claimed PDF page')
+ValueError: Reference quote not present on claimed PDF page

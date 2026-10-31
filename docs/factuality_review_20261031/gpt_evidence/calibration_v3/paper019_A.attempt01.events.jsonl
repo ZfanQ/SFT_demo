@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a19237-de9a-7000-8bb8-a5d59f41fdc7"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\n  \"paper_id\": \"paper019\",\n  \"candidate_id\": \"A\",\n  \"verdict\": \"no_issue_identified\",\n  \"coverage\": \"sufficient_text_for_review\",\n  \"coverage_note\": \"Reviewed supplied text from PDF pages 1–13. Main-text results and limitations sufficiently support review of the summary; supplementary materials and figure pixels were not supplied.\",\n  \"findings\": []\n}"}}
+{"type":"turn.completed","usage":{"input_tokens":37124,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":162,"reasoning_output_tokens":65}}

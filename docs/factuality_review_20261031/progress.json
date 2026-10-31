@@ -1,0 +1,15 @@
+{
+  "inventory_papers": 200,
+  "prior_fulltext_papers": 83,
+  "gemma_scores_only_flags": 20,
+  "calibration_papers": 10,
+  "expected_candidate_reviews": 20,
+  "completed_candidate_reviews": 20,
+  "new_findings": 13,
+  "new_contradicted_findings": 12,
+  "human_confirmed_findings": 0,
+  "human_reviewed_findings": 0,
+  "queue_rows": 100,
+  "unflagged_controls_reserved": 20,
+  "state": "awaiting_independent_human_calibration"
+}

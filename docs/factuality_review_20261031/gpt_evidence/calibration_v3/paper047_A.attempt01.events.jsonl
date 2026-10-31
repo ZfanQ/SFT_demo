@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1923a-072f-7511-aa08-eaeaff9c15f0"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper047\",\"candidate_id\":\"A\",\"verdict\":\"no_issue_identified\",\"coverage\":\"sufficient_text_for_review\",\"coverage_note\":\"Reviewed all supplied PDF text (pages 1–10). Figure pixels were unavailable, but the text and tables provided sufficient evidence to assess the summary's claims.\",\"findings\":[]}"}}
+{"type":"turn.completed","usage":{"input_tokens":27777,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":139,"reasoning_output_tokens":60}}
