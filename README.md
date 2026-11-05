@@ -1,5 +1,17 @@
 # SciCommons Small-Model Scientific Summarization
 
+## Experimental Workspace and Publication
+
+This repository, **[ZfanQ/SFT_demo](https://github.com/ZfanQ/SFT_demo)**, is the destination for test code, prompts, pilot outputs and validation work. The supervisor-facing repository receives curated English reports after credibility review and user confirmation. See the [publication policy](docs/PUBLISHING.md).
+
+| Experiment | Current recorded scope | Validation status |
+| --- | --- | --- |
+| [Relevance concurrency](docs/feed_matrix_20261031/report_en.md) | 200 abstracts, three profiles, three models; 5,400 scoring calls | Technical audit complete; relevance accuracy has no independent gold labels |
+| [Summary factuality calibration](docs/factuality_review_20261031/report_en.md) | Ten papers, twenty blinded candidate reviews; thirteen automated concerns | Evidence locations checked; independent human calibration pending in the October 31 snapshot |
+| GPT review of relevance scores | Proposed independent re-scoring and evidence review of a selected sample | Not yet run; summary factuality review does not evaluate the relevance scores |
+
+Reports describe their recorded snapshots. Completion of format, hash or performance checks alone does not establish content accuracy. Existing experimental reports already published in the supervisor repository remain labeled with their limitations; this policy governs subsequent updates.
+
 ## Project Overview
 
 This project investigates whether a locally deployable small language model can generate useful and factually grounded summaries for papers displayed in the [SciCommons feed](https://feed.scicommons.org/scicommons/default).
