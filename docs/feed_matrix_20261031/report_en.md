@@ -2,11 +2,13 @@
 
 Date: October 31, 2026.
 
-## Scope and completion
+## Findings
 
-This report contains 5,400 independently verified timed requests across 3 model configurations. Each complete model run covers 200 frozen author abstracts, three profiles and requested concurrency 2/4/8: 600 distinct paper/profile inputs and 1,800 timed requests. All three model matrices are complete.
+Qwen3-8B achieved the highest measured throughput: **120.69 paper/profile scores/minute** at concurrency 8. At concurrency 4, it processed **113.75 scores/minute** with p95 latency **2.403 s**, compared with **4.668 s** at the throughput maximum.
 
-This is independent-abstract relevance scoring, not full-paper summarization. The protocol permits model-upgrade stages only after the Qwen3-8B matrix is complete and independently verified. The experiment measures throughput, latency, GPU-layer offload and output/score stability. There are no independently established relevance gold labels.
+The benchmark evaluated 5,400 independently verified timed requests across 3 model configurations. Each complete matrix scores 200 frozen abstracts for three research-interest profiles at concurrency 2, 4 and 8: 600 distinct paper/profile inputs and 1,800 timed requests per model. All three matrices are complete.
+
+The experiment measures the throughput, latency, GPU-layer offload and score stability of independent-abstract relevance scoring. The Qwen3-8B matrix was completed and verified before the upgraded-model stages.
 
 ## Combined throughput and latency
 
@@ -22,19 +24,19 @@ This is independent-abstract relevance scoring, not full-paper summarization. Th
 | Gemma-4-12B | llama_cpp | 4 | 3 | 600 | 48.38 | 4.891 | 5.595 | 9515 | 33.06 |
 | Gemma-4-12B | llama_cpp | 8 | 3 | 600 | 49.58 | 9.647 | 11.165 | 11693 | 33.88 |
 
-Throughput is total completed requests divided by summed timed durations, not a mean of per-round rates. One request scores one paper for one profile; the unit is paper/profile scores per minute, not unique papers already evaluated for all profiles. Each profile contributes the same 200 articles. For example, scoring every candidate for 20 profiles requires 20 requests per candidate in this pointwise design. Latency runs from worker request-path start to receipt of the decoded response, including request preparation, service queuing and inference; it excludes output validation, ledger writing and time an item waits in the upstream dataset before a worker is free. This is a saturated closed-loop load test, not a real-user arrival simulation. Output-token rates depend on each model's tokenizer and do not represent equal amounts of semantic content across models.
+Throughput is total completed requests divided by summed timed durations, expressed as paper/profile scores per minute. Each request scores one paper for one profile; each profile contributes the same 200 articles. Latency runs from worker request-path start to receipt of the decoded response, including request preparation, service queuing and inference; output validation, ledger writing and waiting for a free client worker fall outside that latency measurement.
 
-## Throughput candidates
+## Throughput and latency tradeoff
 
 ![Throughput and active-request latency](throughput_latency.png)
 
-Each point aggregates 600 requests. The curve labels are concurrency settings; higher throughput and lower latency are preferable, subject to relevance quality. Both upgraded models use a direct llama.cpp backend; the 8B configuration uses Ollama.
+Each point aggregates 600 requests; labels give concurrency. Qwen3-8B uses Ollama and both upgraded models use direct llama.cpp.
 
-- Qwen3-8B: highest observed throughput at **8 requests**, **120.69 paper/profile scores/minute**, **+19.4%** against its 2-request baseline; p95 latency **4.668 s**. Rates count paper/profile scores. This is a candidate, not an established optimum.
-- Qwen3.5-9B: highest observed throughput at **8 requests**, **79.29 paper/profile scores/minute**, **+20.1%** against its 2-request baseline; p95 latency **8.102 s**. Rates count paper/profile scores. This is a candidate, not an established optimum.
-- Gemma-4-12B: highest observed throughput at **8 requests**, **49.58 paper/profile scores/minute**, **+18.9%** against its 2-request baseline; p95 latency **11.165 s**. Rates count paper/profile scores. This is a candidate, not an established optimum.
+- Qwen3-8B: highest observed throughput at **8 requests**, **120.69 paper/profile scores/minute**, **+19.4%** against its 2-request baseline; p95 latency **4.668 s**.
+- Qwen3.5-9B: highest observed throughput at **8 requests**, **79.29 paper/profile scores/minute**, **+20.1%** against its 2-request baseline; p95 latency **8.102 s**.
+- Gemma-4-12B: highest observed throughput at **8 requests**, **49.58 paper/profile scores/minute**, **+18.9%** against its 2-request baseline; p95 latency **11.165 s**.
 
-For a latency-aware next validation, concurrency 4 is a reasonable candidate in these configurations:
+Concurrency 4 offers a practical throughput/latency balance for the next relevance-quality evaluation. Moving to 8 produces a modest throughput gain while nearly doubling p95 latency:
 
 | Model | Throughput gain: 4 to 8 | p95 latency at 4 (s) | p95 latency at 8 (s) |
 | --- | ---: | ---: | ---: |
@@ -42,11 +44,11 @@ For a latency-aware next validation, concurrency 4 is a reasonable candidate in 
 | Qwen3.5-9B | +6.7% | 4.308 | 8.102 |
 | Gemma-4-12B | +2.5% | 5.595 | 11.165 |
 
-This is a throughput/latency tradeoff, not a production choice or evidence of improved relevance. No deployment latency target was supplied.
+Use concurrency 8 when batch completion rate has priority; evaluate concurrency 4 when individual response time also matters. Final selection depends on the application's latency target and independently assessed relevance quality.
 
 ### Illustrative workload arithmetic
 
-The meeting mentioned 10,000 incoming abstracts/day and earlier discussion considered about 20 profiles. These are illustrative workload assumptions, not a verified PubMed arrival rate or a measured deployment requirement. Pointwise scoring would require 200,000 requests. At each configuration's highest observed throughput, the arithmetic is:
+The meeting's illustrative scenario of 10,000 abstracts/day and about 20 profiles requires 200,000 pointwise scoring requests. Applying each configuration's highest observed throughput gives:
 
 | Model | Selected concurrency | Hours for 200,000 scores |
 | --- | ---: | ---: |
@@ -54,9 +56,7 @@ The meeting mentioned 10,000 incoming abstracts/day and earlier discussion consi
 | Qwen3.5-9B | 8 | 42.0 |
 | Gemma-4-12B | 8 | 67.2 |
 
-This is an extrapolation, not a capacity forecast: it assumes unchanged input lengths, profile mix, model behavior, continuous availability and observed service rate. It excludes feed retrieval, summarization and other pipeline work. It motivates testing semantic prefiltering or multiple abstracts per prompt as separate experimental axes.
-
-Selecting an operating point requires a latency target, memory reserve and acceptable relevance quality. A larger configured request count is not a quality improvement or evidence of full GPU utilization. Within-profile concurrency comparisons are controlled for the input workload; comparisons across models include architecture, quantization and template differences.
+This extrapolation assumes the measured input-length/profile mix, service rate and continuous availability; feed retrieval, summarization and other pipeline work require additional time. The arrival volume is a scenario from the discussion. The estimates motivate testing semantic prefiltering and multiple abstracts per prompt.
 
 ## Per-profile rounds
 
@@ -100,7 +100,7 @@ Observed input-token ranges, including instructions/profile and source-specific 
 
 ## Ordinal-score and ranking stability
 
-Each request returns only the article ID, profile ID and an integer relevance score: 0 unrelated, 1 peripheral, 2 relevant, 3 directly relevant. The table compares each model with its own 2-request outputs. Correlation uses average ranks for ties; no arbitrary article-ID tie-breaking is used to manufacture a top-k ranking. Threshold flips cross the boundary between scores below 2 and scores at least 2.
+Each request returns only the article ID, profile ID and an integer relevance score: 0 unrelated, 1 peripheral, 2 relevant, 3 directly relevant. The table compares each model with its own 2-request outputs. Spearman correlation uses average ranks for ties. Threshold flips cross the boundary between scores below 2 and scores at least 2.
 
 | Model | Profile | Parallel vs 2 | Exact score agreement | Mean absolute score change | Relevant/not-relevant flips | Spearman (tied ranks) |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
@@ -137,19 +137,19 @@ Each request returns only the article ID, profile ID and an integer relevance sc
 | Gemma-4-12B | cardiovascular | 140 | 41 | 8 | 11 |
 | Gemma-4-12B | neuroscience | 131 | 36 | 16 | 17 |
 
-Class imbalance can inflate exact agreement; the distributions above are model outputs, not validated class frequencies. A changed score is not necessarily a worse score, and stable scores can still be wrong. There is one measured pass per paper/profile/concurrency cell; this expanded experiment does not separately estimate repeated-run variability at the same concurrency. The three profile orders balance configuration position, but profile-specific workloads are not interchangeable timing repetitions. Claims of improved ranking quality require independently judged relevance and comparison with the actual semantic-ranking baseline.
+These distributions show how each model uses the relevance scale. Class imbalance can raise exact agreement; interpret it together with threshold flips and tied-rank correlation.
 
 ## Reproducible protocol
 
-- Frozen inputs: all 200 existing abstracts; three synthetic researcher-interest profiles (oncology, cardiovascular medicine, neuroscience), not real-user preference histories; seed-42 article order reused for all configurations and models. This historical collection is not a fresh one-day PubMed feed or a demonstrated daily production workload.
+- Frozen inputs: all 200 existing abstracts and three synthetic researcher-interest profiles (oncology, cardiovascular medicine, neuroscience). The seed-42 article order is reused across configurations and models.
 - Profile-specific concurrency order: oncology 2–4–8, cardiovascular 4–8–2, neuroscience 8–2–4.
 - Common request options: 4,096-token context, 96-token output cap, temperature 0, seed 42, thinking disabled. The upgraded-model aliases explicitly match the old Qwen effective presence/repetition penalties and top-k/top-p/min-p settings; source-specific templates and stop tokens remain intact.
 - Warmup: 2 × concurrency synthetic held-out abstract requests at the target concurrency, excluded from timing. Every timed round starts a fresh private service on loopback port 11437.
-- Timings exclude input preparation, standalone preflight tokenization, server startup, model load and warmup. Request-path template rendering/tokenization remains included. They include HTTP handling, queuing, inference, validation and serialized raw-ledger writes. Prefix caching remains enabled.
+- Timed-round throughput includes request-path template rendering/tokenization, HTTP handling, queuing, inference, validation and serialized raw-ledger writes. Input preparation, standalone preflight tokenization, server startup, model load and warmup are excluded. Prefix caching remains enabled.
 - Each accepted round must contain exactly 200 unique article/profile records, valid structured scores and normal completion. Failed or interrupted attempts remain stored and are excluded from accepted-round aggregates.
 - Independent validation re-parses raw responses, checks input hashes and token budget, recomputes all timing aggregates, verifies full GPU-layer offload and inspects measured overlapping execution slots in backend logs.
-- The GPU is the existing H100 MIG/vGPU allocation, not an unrestricted full H100. Compute-utilization telemetry is unavailable; approximately one-second memory samples must not be relabeled as compute utilization. Full transformer-layer offload does not mean every tensor or buffer is GPU-resident; host buffers are preserved in backend memory logs. Other GPU work and changes outside shared-service checks cannot be entirely ruled out.
-- Original abstracts are hash-checked after each complete model. Existing summary files are not inputs or outputs of this experiment. Shared Ollama service settings are preserved.
+- Hardware: the existing H100 MIG/vGPU allocation. Memory is sampled approximately once per second; backend logs record full transformer-layer offload and host buffers. Monitoring checks the shared Ollama service for competing activity.
+- Original abstracts are hash-checked after each complete model. Saved summaries and shared Ollama service settings remain unchanged.
 
 ## Model provenance
 
@@ -162,16 +162,26 @@ Class imbalance can inflate exact agreement; the distributions above are model o
 Qwen3.5-9B source checkpoint: `qwen3.5:9b-q4_K_M`, digest `56671c2ab9385f9cfcb404638e32cd62d88e3501d44822208363c010179a3c90`.
 Gemma-4-12B source checkpoint: `gemma4:12b-it-q4_K_M`, digest `6114515d63c17436a7c0417d82820ac65ad643e2806c5a3c89cb62846436ed0b`.
 
-Qwen3.5-9B native Ollama 0.34.4 preflight requested two slots but the scheduler forced one for the `qwen35` architecture. That attempt was stopped before timed requests and remains preserved. The successful comparison uses a separately labeled direct llama.cpp backend reading the same checkpoint, with the official pinned HF chat template and tokenizer. Each round checks a representative rendered prompt for exact token-ID parity with the GGUF server; full GPU-layer offload and per-slot context are also checked. No Ollama blocklist or installed binary was patched. Consequently, 8B-versus-9B speed differences combine model and frontend/renderer differences; they do not isolate a model-upgrade effect. The initial failed CPU-discovery probe and corrected context-log parser probe are excluded, as is the eight-request successful smoke test. [Compatibility evidence](compatibility_notes_en.md) records the sequence.
+Qwen3.5-9B uses direct llama.cpp with the same Q4_K_M checkpoint after the Ollama 0.34.4 scheduler forced `qwen35` to one slot. The driver applies the pinned official HF template/tokenizer and checks representative token-ID parity, full GPU-layer offload and per-slot context each round. The original scheduler and binary remain unchanged. Startup diagnostics and the eight-request smoke test are preserved outside measured aggregates.
 
-Gemma-4-12B uses the separately labeled direct llama.cpp text-only backend after the original Ollama engine stalled during empty-input initialization, before timed requests. The direct configuration disables that default empty-input warmup and uses the embedded GGUF template/tokenizer with thinking off; common synthetic request warmups are still performed and excluded. All 200 prompts per round are checked for preserved system/user text and context budget. Independent official-HF tokenizer parity was not established for Gemma. The successful workaround changes frontend and text-only initialization together; the precise kernel cause of the original stall was not isolated. This Q4_K_M Gemma run is a new configuration, separate from the teammate historical HF bitsandbytes NF4 full-paper-summary run. These abstract-relevance outputs must not be combined with the historical summary ROUGE/BERTScore or GPT accuracy tables.
+Gemma-4-12B uses direct llama.cpp text-only inference after Ollama stalled during empty-input initialization. The configuration skips that startup warmup, retains synthetic real-request warmup, and uses the embedded GGUF template/tokenizer with thinking off. Each round checks all 200 prompts for preserved system/user text and context budget. [Compatibility evidence](compatibility_notes_en.md) records both backend adjustments.
 
-## Audit files and remaining work
+## Interpretation
+
+The measurements compare complete inference configurations. Cross-model rates reflect architecture, Q4_K_M weights, frontend and template differences; within-model concurrency comparisons use the same workload and configuration. The Gemma run uses Q4_K_M weights, whereas the historical full-paper summary evaluation used HF bitsandbytes NF4.
+
+Agreement and correlation measure score stability relative to each model's 2-request outputs. Independent relevance labels are needed to assess correctness and ranking quality. Each paper/profile/concurrency cell has one measured pass. Profile orders balance configuration position; repeated runs at the same setting are needed to estimate timing and score variability.
+
+This saturated closed-loop workload uses a historical abstract collection and synthetic profiles. Transfer to a live feed depends on its input lengths, profile mix and arrival pattern. Full-paper summarization requires its own long-context, long-output benchmark. Output-token rates use each model's tokenizer.
+
+GPU compute-utilization telemetry is unavailable, so resource reporting covers sampled memory and layer placement. Shared-service monitoring covers Ollama activity; other GPU work may affect timing. Gemma's embedded tokenizer was checked for input integrity and context budget; independent official-HF token-ID parity remains unverified. Its successful startup adjustment changes the frontend and warmup configuration together, leaving the original stall's kernel cause unresolved.
+
+## Reproducibility and next steps
 
 Dataset SHA-256: `d7167d37541c88eb8f98a36f117821f467174680107990cfccd4b0c63410949a`.
 
 Per-model `analysis.json` contains verified per-profile and combined measurements, engine evidence and the complete score-variation list. Each round retains its model-residency snapshot, server log, warmup responses, timed JSONL responses, GPU samples and status. Source checkpoints, alias settings, inherited model metadata and exact script hashes are preserved.
 
-Next, assess relevance on a preselected independently reviewed sample, inspect concurrency-dependent score changes, and compare final ranking with the identified existing semantic baseline. At a fixed GPU concurrency, test several abstracts per prompt separately, with stable article IDs and cross-batch anchor checks. Only then choose a production configuration. Full-paper summarization needs a separate long-context/long-output benchmark.
+Next, assess relevance on a preselected independently reviewed sample, examine concurrency-dependent score changes, and compare rankings with the existing semantic baseline on matched inputs. Then test multiple abstracts per prompt at fixed GPU concurrency, using stable article IDs and cross-batch anchors. Together, these checks will support a configuration choice based on relevance quality, throughput and latency.
 
 Server experiment root: `/data/SFT_demo/Oct/results/feed_matrix_20261031/`.

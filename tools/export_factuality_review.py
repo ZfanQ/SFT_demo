@@ -92,31 +92,46 @@ def build(root,history):
         'unflagged_controls_reserved':len(selected['independent_unflagged_controls']),
         'state':'awaiting_independent_human_calibration' if len(reviews)==20 else 'automated_pilot_in_progress'}
     (root/'progress.json').write_text(json.dumps(summary,indent=2)+'\n')
-    lines=['# Factuality Review: Evidence Pilot and Human Calibration','',
-        'This report separates automated suspicions from human decisions. Original PDFs and summaries remain unchanged.','',
+    lines=['# Factuality Review: Source-Linked GPT Calibration','',
+        f'Source-blinded GPT review of {len(reviews)} saved summaries across 10 papers produced '
+        f'**{summary["new_findings"]} concerns**, including **{summary["new_contradicted_findings"]} source-contradiction labels**. '
+        'Source quotations and PDF-page checks support a review queue ready for independent human calibration.','',
         '## Coverage','',f'- Frozen papers: 200. Historical Qwen/GPT full-text review: {len(old_reviewed)} selected papers.',
-        '- Historical Gemma scores-only flags: 20. These flags are not confirmed errors.',
-        f'- New blinded calibration: {len(reviews)}/20 candidate reviews, across 10 selected papers.',
-        f'- New automated findings: {summary["new_findings"]}; source-contradiction labels: {summary["new_contradicted_findings"]}.',
-        f'- Human-reviewed findings: {summary["human_reviewed_findings"]}; human-confirmed errors: {summary["human_confirmed_findings"]}. Zero confirmations before human review is not evidence of zero errors.',
-        '- Twenty separate historically unflagged control papers were selected before new reviews. They remain reserved for independent human reading.',
-        f'- Review queue: {len(rows)} rows, including historical findings, numeric flags and new findings. These overlap and are not a count of unique errors or affected summaries.','',
-        '## Human review workflow','',
-        'Start with [the blinded packet](human_review/packet_en.md) and record independent decisions in `human_review/independent_pilot.csv`, saving a separate copy per reviewer. Do not open GPT findings or the private mapping first. Then reconcile source evidence using `human_review/queue.csv`. Candidate labels differ by paper.','',
-        'The queue contains older source-quoted findings, historical numeric flags without evidence, and any new page-linked findings. A blank human verdict means unreviewed. A source hash mismatch invalidates direct reuse. Historical exact quotations were not independently page-indexed by the old protocol and require PDF location checking.','',
-        '## New automated findings','',
+        '- Historical Gemma scores-only flags: 20, used to guide sample selection.',
+        f'- Source-blinded calibration: {len(reviews)}/20 candidate reviews across 10 papers.',
+        f'- Human-reviewed finding rows: {summary["human_reviewed_findings"]}; recorded human-confirmed errors: {summary["human_confirmed_findings"]}.',
+        '- Twenty additional historically unflagged control papers were selected before review and reserved for independent human reading.',
+        f'- Review queue: {len(rows)} records spanning historical findings, numeric flags and new concerns. Article-level counts require deduplication of overlapping records.','',
+        '## Method','',
+        'Five previously Gemma-flagged and five unflagged papers each contribute saved Qwen and Gemma summaries. '
+        'Each GPT session receives one anonymous candidate and its full article. Candidate labels vary by paper; model identities and prior scores are hidden.','',
+        'Automated validation checks the candidate quotation and the cited source text on the specified PDF page. '
+        'The review distinguishes contradictions from unsupported or uncertain claims. Original PDFs and summaries remain unchanged.','',
+        '## Automated concerns','',
         '| Paper | Blinded candidate | Status | Priority | PDF page | Candidate claim |',
         '| --- | --- | --- | --- | ---: | --- |']
     for row in rows:
         if row['review_origin']!=calibration.name+'_fulltext_20261031':continue
         quote=row['candidate_quote'].replace('|','/').replace('\n',' ')
         lines.append(f'| {row["paper_id"]} | {row["candidate_id"]} | {row["review_status"]} | {row["priority"]} | {row["pdf_page"]} | {quote} |')
-    lines+=['','Exact quotations and page provenance are automatically checked against supplied text. That does not validate the model\'s interpretation; humans must check context, numbers, tables, figures and uncertainty.', '',
-        'This pilot is deliberately enriched with five previously flagged and five unflagged Gemma papers. It cannot estimate overall error rates or establish a model ranking. GPT-family judgments may favor related models; reference summaries are not factual gold labels.','',
-        '## Extraction correction and execution audit','',
-        'A bounded initial trial exposed interleaved columns in the historical PDF extraction. The ten calibration PDFs were re-extracted in reading order, with original file hashes and PDF page counts preserved. The old text and trial outputs remain archived; only the separately versioned active protocol contributes to this report. See [optimization notes](optimization_notes_en.md), `inputs/reading_order_checks.json`, and `verification.json`.','',
-        '## Next gate','',
-        'Obtain independent human calibration and resolve systematic reviewer failures before extending the new evidence protocol to all 200 Gemma summaries. Apply and audit the corrected extraction method before that expansion. Do not auto-correct source summaries. Preserve older and new protocols separately. This run does not change or validate the separate relevance-throughput experiment.']
+    lines+=['','## Extraction improvement and verification','',
+        'Reading-order re-extraction corrected interleaved PDF columns for the ten papers while preserving PDF hashes and page counts. '
+        'Results use the revised text; earlier diagnostics remain archived. '
+        'See [optimization notes](optimization_notes_en.md), `inputs/reading_order_checks.json`, and `verification.json`.','',
+        '## Interpretation and human calibration','',
+        'Independent readers assess whether the source context supports each GPT concern and whether it materially changes the summary. '
+        'Human calibration is pending; recorded confirmations remain zero.','',
+        'The enriched sample supports workflow calibration and case analysis. Population error rates and model rankings require appropriately sampled evaluation. '
+        'GPT-family reviewer preferences are a potential bias, including for GPT-written references.','',
+        '## Human review procedure','',
+        '1. Read [the blinded packet](human_review/packet_en.md) and PDFs before consulting GPT findings or source mappings. Each reviewer records judgments in a separate copy of `human_review/independent_pilot.csv`.',
+        '2. Reconcile judgments with `human_review/queue.csv`; record confirmed, rejected or unresolved concerns and supporting context.',
+        '3. Locate unindexed historical quotations in the PDFs and verify source hashes before reusing judgments. '
+        'Blank human-verdict fields remain unreviewed.', '',
+        '## Next steps','',
+        'Resolve reviewer false alarms, misses and systematic interpretation problems through independent calibration. '
+        'Then audit corrected extraction across the 200 Gemma papers and extend the evidence review. '
+        'Preserve protocol versions and save any edited summaries as separate outputs.']
     (root/'report_en.md').write_text('\n'.join(lines)+'\n')
     print(json.dumps(summary,indent=2))
 

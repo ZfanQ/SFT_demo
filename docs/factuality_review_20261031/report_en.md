@@ -1,24 +1,23 @@
-# Factuality Review: Evidence Pilot and Human Calibration
+# Factuality Review: Source-Linked GPT Calibration
 
-This report separates automated suspicions from human decisions. Original PDFs and summaries remain unchanged.
+Source-blinded GPT review of 20 saved summaries across 10 papers produced **13 concerns**, including **12 source-contradiction labels**. Source quotations and PDF-page checks support a review queue ready for independent human calibration.
 
 ## Coverage
 
 - Frozen papers: 200. Historical Qwen/GPT full-text review: 83 selected papers.
-- Historical Gemma scores-only flags: 20. These flags are not confirmed errors.
-- New blinded calibration: 20/20 candidate reviews, across 10 selected papers.
-- New automated findings: 13; source-contradiction labels: 12.
-- Human-reviewed findings: 0; human-confirmed errors: 0. Zero confirmations before human review is not evidence of zero errors.
-- Twenty separate historically unflagged control papers were selected before new reviews. They remain reserved for independent human reading.
-- Review queue: 100 rows, including historical findings, numeric flags and new findings. These overlap and are not a count of unique errors or affected summaries.
+- Historical Gemma scores-only flags: 20, used to guide sample selection.
+- Source-blinded calibration: 20/20 candidate reviews across 10 papers.
+- Human-reviewed finding rows: 0; recorded human-confirmed errors: 0.
+- Twenty additional historically unflagged control papers were selected before review and reserved for independent human reading.
+- Review queue: 100 records spanning historical findings, numeric flags and new concerns. Article-level counts require deduplication of overlapping records.
 
-## Human review workflow
+## Method
 
-Start with [the blinded packet](human_review/packet_en.md) and record independent decisions in `human_review/independent_pilot.csv`, saving a separate copy per reviewer. Do not open GPT findings or the private mapping first. Then reconcile source evidence using `human_review/queue.csv`. Candidate labels differ by paper.
+Five previously Gemma-flagged and five unflagged papers each contribute saved Qwen and Gemma summaries. Each GPT session receives one anonymous candidate and its full article. Candidate labels vary by paper; model identities and prior scores are hidden.
 
-The queue contains older source-quoted findings, historical numeric flags without evidence, and any new page-linked findings. A blank human verdict means unreviewed. A source hash mismatch invalidates direct reuse. Historical exact quotations were not independently page-indexed by the old protocol and require PDF location checking.
+Automated validation checks the candidate quotation and the cited source text on the specified PDF page. The review distinguishes contradictions from unsupported or uncertain claims. Original PDFs and summaries remain unchanged.
 
-## New automated findings
+## Automated concerns
 
 | Paper | Blinded candidate | Status | Priority | PDF page | Candidate claim |
 | --- | --- | --- | --- | ---: | --- |
@@ -36,14 +35,22 @@ The queue contains older source-quoted findings, historical numeric flags withou
 | paper157 | B | contradicted | high | 15 | However, the study did not establish causality |
 | paper193 | B | contradicted | high | 4 | 20 pregnant women and their families |
 
-Exact quotations and page provenance are automatically checked against supplied text. That does not validate the model's interpretation; humans must check context, numbers, tables, figures and uncertainty.
+## Extraction improvement and verification
 
-This pilot is deliberately enriched with five previously flagged and five unflagged Gemma papers. It cannot estimate overall error rates or establish a model ranking. GPT-family judgments may favor related models; reference summaries are not factual gold labels.
+Reading-order re-extraction corrected interleaved PDF columns for the ten papers while preserving PDF hashes and page counts. Results use the revised text; earlier diagnostics remain archived. See [optimization notes](optimization_notes_en.md), `inputs/reading_order_checks.json`, and `verification.json`.
 
-## Extraction correction and execution audit
+## Interpretation and human calibration
 
-A bounded initial trial exposed interleaved columns in the historical PDF extraction. The ten calibration PDFs were re-extracted in reading order, with original file hashes and PDF page counts preserved. The old text and trial outputs remain archived; only the separately versioned active protocol contributes to this report. See [optimization notes](optimization_notes_en.md), `inputs/reading_order_checks.json`, and `verification.json`.
+Independent readers assess whether the source context supports each GPT concern and whether it materially changes the summary. Human calibration is pending; recorded confirmations remain zero.
 
-## Next gate
+The enriched sample supports workflow calibration and case analysis. Population error rates and model rankings require appropriately sampled evaluation. GPT-family reviewer preferences are a potential bias, including for GPT-written references.
 
-Obtain independent human calibration and resolve systematic reviewer failures before extending the new evidence protocol to all 200 Gemma summaries. Apply and audit the corrected extraction method before that expansion. Do not auto-correct source summaries. Preserve older and new protocols separately. This run does not change or validate the separate relevance-throughput experiment.
+## Human review procedure
+
+1. Read [the blinded packet](human_review/packet_en.md) and PDFs before consulting GPT findings or source mappings. Each reviewer records judgments in a separate copy of `human_review/independent_pilot.csv`.
+2. Reconcile judgments with `human_review/queue.csv`; record confirmed, rejected or unresolved concerns and supporting context.
+3. Locate unindexed historical quotations in the PDFs and verify source hashes before reusing judgments. Blank human-verdict fields remain unreviewed.
+
+## Next steps
+
+Resolve reviewer false alarms, misses and systematic interpretation problems through independent calibration. Then audit corrected extraction across the 200 Gemma papers and extend the evidence review. Preserve protocol versions and save any edited summaries as separate outputs.
