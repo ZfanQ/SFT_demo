@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper026",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "The current study aimed to investigate the ICD-11 PTSD and complex PTSD symptom trajectories and trauma disorders diagnostic changes in a longitudinal study of a trauma-exposed community sample of adolescents.",
+    "rationale": "The study has peripheral relevance through trauma-related psychiatric symptoms and their longitudinal course. It does not investigate brain or neural mechanisms, cognition, neurological injury, or treatments or biomarkers for neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "ff111cdae7043ea299b1dc7bb8513107ab1b75ac62b4215f8fb424f029e3919c",
+    "abstract_sha256": "889d9161a6d6c7b96c23739e0515c75b43d23177c91d52b15828cdce4777f361",
+    "original_prompt_sha256": "bbc4a6f2f912f0e013fd7dbdcbbf0da97cabc185d393ad2bbac4860472ffdcba",
+    "elapsed_seconds": 14.49784391599951,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18016,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 186,
+        "reasoning_output_tokens": 63
+      }
+    ],
+    "completed_utc": "2026-11-05T15:52:39.088512+00:00"
+  }
+}

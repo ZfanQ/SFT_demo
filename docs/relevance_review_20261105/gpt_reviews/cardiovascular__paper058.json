@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper058",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "High-avidity, KLRB1 + HPV-specific CD8+ T cells represent a persistent effector subset with prognostic and therapeutic relevance to HPV + OPSCC.",
+    "rationale": "The study focuses on tumor-specific T-cell persistence, cancer recurrence biomarkers, and immunotherapeutic targets in HPV-positive oropharyngeal carcinoma. It does not address cardiovascular disease, cardiovascular risk, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "fa507e5d7ce09b509918b08bf37d2875b238f120f33682fb9bafcf2d4de4a6fb",
+    "abstract_sha256": "ff69538db65fe5138c0e9550f211c25942e347f7e47f5f9bde29b235e40980fd",
+    "original_prompt_sha256": "6373a9e5aeab08edadb00c8935b07bfd2e6c809e7dc562b3e4bbfc49fe636b7c",
+    "elapsed_seconds": 10.917621250000593,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18052,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 128,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:54:11.525240+00:00"
+  }
+}

@@ -1,0 +1,10 @@
+model_label,parallel,pairs,exact_agreement,within_one,mean_absolute_difference,two_or_more_difference,threshold_disagreements,saved_score_higher,saved_score_lower
+qwen3_8b,2,60,0.6,1.0,0.4,0,5,15,9
+qwen3_8b,4,60,0.6,1.0,0.4,0,5,15,9
+qwen3_8b,8,60,0.6,1.0,0.4,0,5,14,10
+qwen35_9b_llamacpp,2,60,0.7,1.0,0.3,0,3,7,11
+qwen35_9b_llamacpp,4,60,0.6833333333333333,1.0,0.31666666666666665,0,4,8,11
+qwen35_9b_llamacpp,8,60,0.7,1.0,0.3,0,4,8,10
+gemma4_12b_llamacpp,2,60,0.8,0.9833333333333333,0.21666666666666667,1,3,8,4
+gemma4_12b_llamacpp,4,60,0.75,0.9833333333333333,0.26666666666666666,1,4,10,5
+gemma4_12b_llamacpp,8,60,0.7666666666666667,0.9833333333333333,0.25,1,3,9,5

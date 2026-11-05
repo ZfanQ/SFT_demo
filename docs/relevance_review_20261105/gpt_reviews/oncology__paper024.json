@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper024",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Our work suggests that well-being comparison plays a significant role in mental health outcomes following loss.",
+    "rationale": "The study examines well-being comparisons and bereavement-related mental health outcomes. The abstract does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "88acfdb4ca7767067ff05edcc128bc2b37965baaf8447bd3177d05f7106dc123",
+    "abstract_sha256": "b1b5f20bf62ecae23b7777c091e5a9e7f1279f2843650d06158331fd1b9202f3",
+    "original_prompt_sha256": "a60baba08bb6eaab9e11d385a3dee0a00ffc049e4caa88611c3442a66d80b60a",
+    "elapsed_seconds": 20.913469416000225,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17100,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 99,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:58:10.572292+00:00"
+  }
+}

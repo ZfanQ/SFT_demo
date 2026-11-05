@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper006",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "In Aβ transgenic C. elegans, three lead compounds alleviated Aβ-induced paralysis and cognitive deficits.",
+    "rationale": "The study directly addresses Alzheimer’s disease therapeutics, testing compounds that reduce Aβ-induced toxicity and improve paralysis and cognitive deficits through cholinesterase inhibition and oxidative stress mitigation.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "ccf0cb810302f055dc8c16c0ff27de22621d3ea72293dcae042b14307c96c15b",
+    "abstract_sha256": "60845a064cab0b6f2aec414d7b7b89ea8fd11af42faf958faa541ce4ca57a5db",
+    "original_prompt_sha256": "189aa012406c69ad47b34419aaf7b25e21f689ef56c25316d9b7bcd67d1fa364",
+    "elapsed_seconds": 15.30203362499924,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17845,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 108,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:56:28.757215+00:00"
+  }
+}

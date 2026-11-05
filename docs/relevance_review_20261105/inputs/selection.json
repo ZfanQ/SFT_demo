@@ -1,0 +1,310 @@
+{
+  "seed": 42,
+  "sampling_baseline": "qwen3_8b / concurrency 2",
+  "pairs_per_profile": 20,
+  "pairs_per_score_stratum": 5,
+  "method": "Random sample within profile and saved baseline score, without replacement.",
+  "interpretation": "Balanced diagnostic sample; agreement describes these 60 pairs.",
+  "selected": [
+    {
+      "paper_id": "paper038",
+      "profile_id": "oncology",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper140",
+      "profile_id": "oncology",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper172",
+      "profile_id": "cardiovascular",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper009",
+      "profile_id": "cardiovascular",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper026",
+      "profile_id": "neuroscience",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper042",
+      "profile_id": "oncology",
+      "sampling_score": 3
+    },
+    {
+      "paper_id": "paper078",
+      "profile_id": "neuroscience",
+      "sampling_score": 3
+    },
+    {
+      "paper_id": "paper195",
+      "profile_id": "neuroscience",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper179",
+      "profile_id": "oncology",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper053",
+      "profile_id": "oncology",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper175",
+      "profile_id": "neuroscience",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper058",
+      "profile_id": "cardiovascular",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper076",
+      "profile_id": "cardiovascular",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper180",
+      "profile_id": "oncology",
+      "sampling_score": 3
+    },
+    {
+      "paper_id": "paper066",
+      "profile_id": "cardiovascular",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper100",
+      "profile_id": "neuroscience",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper062",
+      "profile_id": "cardiovascular",
+      "sampling_score": 3
+    },
+    {
+      "paper_id": "paper072",
+      "profile_id": "cardiovascular",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper080",
+      "profile_id": "cardiovascular",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper019",
+      "profile_id": "neuroscience",
+      "sampling_score": 3
+    },
+    {
+      "paper_id": "paper006",
+      "profile_id": "neuroscience",
+      "sampling_score": 3
+    },
+    {
+      "paper_id": "paper006",
+      "profile_id": "oncology",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper185",
+      "profile_id": "oncology",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper151",
+      "profile_id": "oncology",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper064",
+      "profile_id": "cardiovascular",
+      "sampling_score": 3
+    },
+    {
+      "paper_id": "paper003",
+      "profile_id": "cardiovascular",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper061",
+      "profile_id": "oncology",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper024",
+      "profile_id": "oncology",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper069",
+      "profile_id": "cardiovascular",
+      "sampling_score": 3
+    },
+    {
+      "paper_id": "paper013",
+      "profile_id": "neuroscience",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper093",
+      "profile_id": "cardiovascular",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper011",
+      "profile_id": "cardiovascular",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper007",
+      "profile_id": "neuroscience",
+      "sampling_score": 3
+    },
+    {
+      "paper_id": "paper046",
+      "profile_id": "neuroscience",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper014",
+      "profile_id": "neuroscience",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper069",
+      "profile_id": "neuroscience",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper070",
+      "profile_id": "cardiovascular",
+      "sampling_score": 3
+    },
+    {
+      "paper_id": "paper010",
+      "profile_id": "oncology",
+      "sampling_score": 3
+    },
+    {
+      "paper_id": "paper061",
+      "profile_id": "cardiovascular",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper024",
+      "profile_id": "neuroscience",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper067",
+      "profile_id": "cardiovascular",
+      "sampling_score": 3
+    },
+    {
+      "paper_id": "paper067",
+      "profile_id": "oncology",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper144",
+      "profile_id": "neuroscience",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper047",
+      "profile_id": "neuroscience",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper119",
+      "profile_id": "neuroscience",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper054",
+      "profile_id": "oncology",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper160",
+      "profile_id": "cardiovascular",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper196",
+      "profile_id": "neuroscience",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper175",
+      "profile_id": "oncology",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper090",
+      "profile_id": "cardiovascular",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper147",
+      "profile_id": "neuroscience",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper196",
+      "profile_id": "cardiovascular",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper051",
+      "profile_id": "oncology",
+      "sampling_score": 3
+    },
+    {
+      "paper_id": "paper177",
+      "profile_id": "cardiovascular",
+      "sampling_score": 0
+    },
+    {
+      "paper_id": "paper086",
+      "profile_id": "oncology",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper011",
+      "profile_id": "neuroscience",
+      "sampling_score": 3
+    },
+    {
+      "paper_id": "paper152",
+      "profile_id": "oncology",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper079",
+      "profile_id": "neuroscience",
+      "sampling_score": 2
+    },
+    {
+      "paper_id": "paper088",
+      "profile_id": "oncology",
+      "sampling_score": 1
+    },
+    {
+      "paper_id": "paper052",
+      "profile_id": "oncology",
+      "sampling_score": 3
+    }
+  ]
+}

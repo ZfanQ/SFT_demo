@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1ac6f-e6ea-77c3-bd64-9fdaf4fd84ca"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper014\",\"profile_id\":\"neuroscience\",\"relevance\":3,\"evidence_quote\":\"QoL among MS patients was strongly influenced by disease severity, treatment adherence (among patients receiving DMT), fatigue, psychological distress, cognitive function, physical activity and social support.\",\"rationale\":\"The study directly addresses neurological disease by examining multiple sclerosis outcomes, including associations with cognitive function, disease severity and treatment adherence. Its findings inform interventions to improve outcomes in MS care.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18107,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":156,"reasoning_output_tokens":35}}

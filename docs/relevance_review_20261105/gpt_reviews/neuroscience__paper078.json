@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper078",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "Conclusion: IJVR might be an independent risk factor for ischemic stroke with CMBs.",
+    "rationale": "The study directly addresses stroke, an explicitly named interest, by evaluating internal jugular vein reflux as a risk factor for ischemic stroke with cerebral microbleeds.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "5b9a297d24285db8ff9ac5c0613ec95e022b77f0b6aad4c791dae3fe572f251e",
+    "abstract_sha256": "96590f5aac4d73db27de704683f8485a9c251476ab31a80b454c1f16fc1b59a8",
+    "original_prompt_sha256": "0b06e5330402b75a416b26821d698ebd92c267f7520059fa863e2c176c37d97d",
+    "elapsed_seconds": 11.428430916999787,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17992,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 100,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:53:00.826995+00:00"
+  }
+}

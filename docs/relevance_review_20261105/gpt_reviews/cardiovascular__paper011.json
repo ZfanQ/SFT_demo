@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper011",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Conclusions: Migraine, a polygenic disorder, is causally associated with cognitive impairment.",
+    "rationale": "The study investigates the causal relationship between migraine and cognitive impairment. The abstract does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "5a214a2cd567fcf8004b6028c2cf18edbb8f05f15a44f1f8eaa8d68dc1adae28",
+    "abstract_sha256": "e79a94aacc6a7b25c352465a9daca447390e5e64683c0be6f245abf80b0eefac",
+    "original_prompt_sha256": "8d0d80c2b79487348bbb3cd939c6bf15e1a08d4bd05514a38b4172481c16c98a",
+    "elapsed_seconds": 18.41885558299964,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17956,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 100,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:59:13.042934+00:00"
+  }
+}

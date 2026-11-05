@@ -15,7 +15,7 @@ This changes the destination of subsequent work. Earlier supervisor-facing repor
 
 - The 200-abstract concurrency matrix has 5,400 technically validated scoring responses. The tests establish recorded throughput, latency and score stability, with documented backend differences. They do not establish relevance accuracy.
 - The factuality pilot has twenty source-blinded summary reviews and thirteen automated concerns. Exact source quotations and PDF pages were checked after correcting a two-column extraction issue. The archived snapshot has no recorded independent human calibration.
-- Independent GPT checking of the 0–3 relevance scores is proposed, not completed. It needs its own rubric, sample, evidence and human calibration; the summary-factuality pilot cannot stand in for it.
+- [Independent GPT relevance review](relevance_review_20261105/report_en.md) is complete for 60 stratified paper/profile pairs and 540 comparisons with saved scores. It retains the original 0–3 scale and records abstract evidence, rationale and scope ambiguity. Independent human relevance calibration is the next step.
 
 ## Evidence required before promotion
 
@@ -29,6 +29,6 @@ If inputs, extraction, scoring rules or reviewer configuration change, preserve 
 
 ## Follow-up work
 
-Continue independent human calibration of the existing factuality packet. Develop and test relevance-score review in this experimental repository: hide the candidate model and score from the GPT reviewer, obtain an independent score and supporting abstract evidence, compare with the saved scores, and prioritize threshold crossings/large disagreements plus randomly sampled agreements for human checking. Freeze a new rubric version if the original coarse 0–3 definitions are refined.
+Continue independent human calibration of the existing factuality packet and the new relevance review. The relevance queue prioritizes score-2 boundary disagreements and differences of at least two points, alongside scope ambiguities and six randomly selected agreement controls. Freeze a new rubric version if the original coarse 0–3 definitions are refined.
 
-The follow-up remains experimental until the above evidence has been reviewed. This document does not claim that a new GPT relevance experiment or a complete 200-paper factuality review has already run.
+The follow-up remains experimental until the above evidence has been reviewed. The complete 200-paper factuality extension remains pending.

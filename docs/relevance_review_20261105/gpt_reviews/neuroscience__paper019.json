@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper019",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "We correctly characterized all DM1, DM2, ALS, FRDA, Huntington’s disease, and Kennedy disease cases, and identified eight SCA27B, two SCA37, three SCA31, one SCA3, and nine CANVAS cases.",
+    "rationale": "The study evaluates a genetic sequencing pipeline for characterizing and diagnosing multiple neurological disorders, including ALS, Huntington’s disease, and ataxias. Its direct focus on neurological disease diagnosis closely matches the profile’s interest in neurological disorders and biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "b1ea7671fe7c3e987ba91e2d2b37c139864139ca6dcf90cf78006e8e6a9b57ea",
+    "abstract_sha256": "e99dadfb21d85b856de720ca52bc10d6352fa55d25c3560f60c66ebebd1404ce",
+    "original_prompt_sha256": "b1bb2d804948d1d02f1596e249321b88b24acd2aa6bacc53482e363bd7df24f1",
+    "elapsed_seconds": 13.599357625000266,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17990,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 149,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:56:13.453886+00:00"
+  }
+}

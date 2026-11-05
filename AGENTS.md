@@ -14,3 +14,10 @@
 - Keep summary factuality, abstract relevance, ranking-reference agreement and performance claims distinct.
 - Describe GPT findings as automated judgments until independently assessed. Structural validity, quote presence and score agreement alone do not certify correctness.
 - Keep secrets, model weights and local runtime caches out of publication changes. Commit only the intended files.
+
+## Writing and project pace
+
+- Apply the `anti-defensive-writing` skill to subsequent project explanations, plans, reports and revisions. Lead with findings and actions; state necessary methodological qualifications once in the relevant section. Preserve evidence, uncertainty and operational prerequisites.
+- Plan around the supervisor's core question and the available project time. Start with the smallest experiment that supports the next decision, then expand when its results justify the work.
+- Prioritize checks that affect the central conclusion, data integrity or implementation validity. Record secondary questions for later; add experiments when a failure or unresolved decision makes them useful.
+- Keep updates focused on the result, the next action and any decision that needs user input. Consolidate supporting detail in the report or artifacts.

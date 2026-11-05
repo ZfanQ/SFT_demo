@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper175",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to assess the cost-effectiveness of DV+Torip vs. chemotherapy as a first-line treatment for HER2-expressing advanced urothelial cancer from the Chinese healthcare system perspective.",
+    "rationale": "The study evaluates the economic value of treatments for urothelial cancer, with no focus on brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "bec4b109e7ad054f92b61a65deb2ebc03152e8e10c232923c6beab9f989427bf",
+    "abstract_sha256": "f9c360543f77889802a239b084bcfccdad6b2efc4030002c032ad5d8a2a492d5",
+    "original_prompt_sha256": "c8a48156b84c99b32723935d8014d28a19356ae15dedadafcc668690dcbabfb5",
+    "elapsed_seconds": 13.243287999999666,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17092,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 126,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:54:00.606796+00:00"
+  }
+}

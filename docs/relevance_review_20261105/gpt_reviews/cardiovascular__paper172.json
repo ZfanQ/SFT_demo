@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper172",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Objective: To assess the geographic accessibility of dialysis services and estimate potential coverage gains from integrating PD into existing hemodialysis (HD) facilities.",
+    "rationale": "The study examines geographic access to kidney failure dialysis services and potential coverage expansion. It does not address cardiovascular conditions, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3578f31fde8ca261a7f218d71b31978b0a6de87e7c3177f2d01713e151ca0997",
+    "abstract_sha256": "f287f9929ad34fb9012700af83adbbba8efc280c2bb4dc02f40089d264ee8221",
+    "original_prompt_sha256": "4688dc5501d74531ea8fe4e8a6d807c16397eea6ff56a19883e68f180ba6fdd7",
+    "elapsed_seconds": 10.421821082999486,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17096,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 112,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:50:21.601998+00:00"
+  }
+}

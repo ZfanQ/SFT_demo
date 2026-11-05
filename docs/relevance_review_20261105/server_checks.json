@@ -1,0 +1,13 @@
+{
+  "state": "verified_complete",
+  "gpt_pairs": 60,
+  "comparison_rows": 540,
+  "original_source_hash_checks_passed": true,
+  "report_sha256": "b574dcf9ce1d9efc0b38503d56acbf13b98e51a3fdcabb5b22c3c500653ffa0c",
+  "group": "sft",
+  "directory_mode": "2775",
+  "file_mode": "0664",
+  "root": "/data/SFT_demo/Oct/results/relevance_review_20261105",
+  "group_access_verified": true,
+  "checked_paths": 329
+}

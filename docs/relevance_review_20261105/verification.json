@@ -1,0 +1,21 @@
+{
+  "state": "verified_complete",
+  "completed_gpt_pairs": 60,
+  "comparison_rows": 540,
+  "source_score_rows_preserved": 5400,
+  "source_files_hash_checked": 55,
+  "actual_reviewer_inputs_checked": 60,
+  "saved_response_identity_checked": 60,
+  "abstract_quote_validation_passed": 60,
+  "review_attempts": 60,
+  "rejected_validation_attempts": 0,
+  "independent_human_scores_recorded": 0,
+  "resume_without_new_model_calls_verified": true,
+  "sampling": "20 per profile, five per original 8B/p2 score stratum, seed 42",
+  "code_sha256": {
+    "compare_relevance_reviews.py": "e68889ae31cbee73fd34be4aef99c944ba00e5dfe6f2a3787781e5d874ebd90c",
+    "test_relevance_review.py": "062ef89aa29812c5e0bf1ea382a387a8074c03f7491180818d4811672095d4dc",
+    "review_relevance_scores.py": "354e77997bf70b5a46f2a67212bbf889b646054655cfee5ac01d9ac4a4342ac6"
+  },
+  "reference": "Independent GPT judgments; human calibration pending"
+}

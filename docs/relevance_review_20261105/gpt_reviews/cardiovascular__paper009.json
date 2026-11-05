@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper009",
+    "profile_id": "cardiovascular",
+    "relevance": 2,
+    "evidence_quote": "In the GAM, the rate of ICH among patients on DOACs was 53% lower than among patients on VKA (p < 0.001).",
+    "rationale": "The study evaluates anticoagulant safety through intracerebral hemorrhage incidence, relevant to vascular disease and treatment outcomes. Its focus on bleeding safety, without specified cardiac conditions or cardiovascular treatment indications, limits direct relevance.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The profile does not specify whether vascular disease includes intracerebral hemorrhage or whether anticoagulant safety without an explicit cardiovascular indication falls within scope."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "5a35780e7f5f75b7ef871540a3935e331410373008ff41c45a45190ca659f6e7",
+    "abstract_sha256": "3520a9d7d32ca2d36dd87a205c27c655824a6b5c46eb227a20de1e15ad56d19d",
+    "original_prompt_sha256": "d8cb04ac1dbc9cad32dff4208dc3d44159260b1e9f1e80c35374df6a56567782",
+    "elapsed_seconds": 21.788849125000525,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18043,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 244,
+        "reasoning_output_tokens": 88
+      }
+    ],
+    "completed_utc": "2026-11-05T15:52:24.589570+00:00"
+  }
+}

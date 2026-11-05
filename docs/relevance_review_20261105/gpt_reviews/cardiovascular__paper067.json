@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper067",
+    "profile_id": "cardiovascular",
+    "relevance": 3,
+    "evidence_quote": "Higher HIGS values were independently associated with PPI and in-hospital mortality after TAVI. HIGS may be a simple, readily available risk-stratification marker, although prospective multicenter validation is required.",
+    "rationale": "The study directly addresses cardiovascular risk prediction by evaluating a hematological score for pacemaker implantation and in-hospital mortality following transcatheter aortic valve implantation.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d6dbf0357d7078a96b1be6a37f1f80c27dc0792f520d77e86153bbe6aebc21e2",
+    "abstract_sha256": "c5ed6019002051e5c7c04c3030ce354926195e88f4e85a66748a22e659fed1d4",
+    "original_prompt_sha256": "7c431d522442adcd3f7274cc3c8ac5c89f7d35cf8a501415c1df13222a1f1f73",
+    "elapsed_seconds": 12.313631791999796,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17977,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 124,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T16:01:31.490092+00:00"
+  }
+}

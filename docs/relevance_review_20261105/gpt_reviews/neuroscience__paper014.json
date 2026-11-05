@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper014",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "QoL among MS patients was strongly influenced by disease severity, treatment adherence (among patients receiving DMT), fatigue, psychological distress, cognitive function, physical activity and social support.",
+    "rationale": "The study directly addresses neurological disease by examining multiple sclerosis outcomes, including associations with cognitive function, disease severity and treatment adherence. Its findings inform interventions to improve outcomes in MS care.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "2a6924d81787349eded19721d4bee979fb1bd1020766a699788c6987f0702e4e",
+    "abstract_sha256": "0b4615ebc7845a596ddbf1e049708e83c34d6fe25e86934a71ae99f6c483c0a2",
+    "original_prompt_sha256": "79904b55ac3d791d451be6ee7285ee47ba371c8405d7e192d4f4d68f4e79693d",
+    "elapsed_seconds": 14.024312417000147,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18107,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 156,
+        "reasoning_output_tokens": 35
+      }
+    ],
+    "completed_utc": "2026-11-05T15:59:51.187330+00:00"
+  }
+}

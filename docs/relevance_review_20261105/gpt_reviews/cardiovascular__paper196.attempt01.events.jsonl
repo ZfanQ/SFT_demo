@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1ac73-dea4-7d32-bd5d-3d92f6581835"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper196\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"To examine whether PTSD is associated with adverse pregnancy and neonatal outcomes in a nationwide population-based cohort of women in Taiwan.\",\"rationale\":\"The study examines PTSD in relation to pregnancy and neonatal outcomes. It does not investigate cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18038,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":103,"reasoning_output_tokens":0}}

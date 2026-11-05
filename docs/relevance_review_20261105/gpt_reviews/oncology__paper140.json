@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper140",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "To explore the forms and mechanisms through which UIS influences vaccination decision‑making among community‑dwelling older adults in post‑pandemic China, we conducted this multicenter qualitative study.",
+    "rationale": "The study examines family support and routine vaccination decisions among older adults. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "7a9259f0083d1fb03c9d9817e02e09992e463e4e3663ab2953ab0a177d191795",
+    "abstract_sha256": "c0fc0e65452660fbc07c65bcbea5df79aecaa63098a9c48361569d6ca5102bb4",
+    "original_prompt_sha256": "a6ea0ee0fa13626d6a7938122eba6e482b2dbf5d8db524de4363edc76d71aa65",
+    "elapsed_seconds": 11.775353666000228,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17939,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 114,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:50:11.178873+00:00"
+  }
+}

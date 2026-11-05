@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper054",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "Aberrant antigen expression contributed to misclassification, with examples of CD19 positivity in AML and CD2/CD7 co-expression in AML profiles.",
+    "rationale": "The study directly addresses cancer biomarkers through antigen-expression patterns used to diagnose and classify acute leukemia. Its evaluation of immunophenotyping and aberrant markers closely matches the profile’s interest in tumor biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "29404b548d418f5eac6c301013849a5fec20d072e515f5381142a41c1b1233bc",
+    "abstract_sha256": "38032f607656f98311b4e02ccc8bfcfbff3c82d6cd97940d076f1907a04a4496",
+    "original_prompt_sha256": "33c4e4d0ee9d2d151bd273f59317d9bdc18259b720a8ba8ef06d0873aba7d3f8",
+    "elapsed_seconds": 16.805590457999642,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18085,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 135,
+        "reasoning_output_tokens": 19
+      }
+    ],
+    "completed_utc": "2026-11-05T16:02:45.608082+00:00"
+  }
+}
