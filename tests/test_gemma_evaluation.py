@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 def load(name, filename):
-    spec = importlib.util.spec_from_file_location(name, Path(__file__).parents[1] / 'tools' / filename)
+    spec = importlib.util.spec_from_file_location(name, Path(__file__).parents[1] / 'src' / filename)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
     return module

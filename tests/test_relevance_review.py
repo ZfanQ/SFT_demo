@@ -5,10 +5,10 @@ import unittest
 import sys
 import csv
 
-spec = importlib.util.spec_from_file_location('review', Path(__file__).parents[1] / 'tools/review_relevance_scores.py')
+spec = importlib.util.spec_from_file_location('review', Path(__file__).parents[1] / 'src/review_relevance_scores.py')
 review = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(review)
-sys.path.insert(0, str(Path(__file__).parents[1] / 'tools'))
+sys.path.insert(0, str(Path(__file__).parents[1] / 'src'))
 from compare_relevance_reviews import metrics, write_csv
 
 

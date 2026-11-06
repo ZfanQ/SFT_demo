@@ -9,14 +9,14 @@ import unittest
 from unittest.mock import patch
 
 ROOT = Path(__file__).parents[1]
-sys.path.insert(0, str(ROOT / 'tools'))
+sys.path.insert(0, str(ROOT / 'src'))
 import review_relevance_population as population
 
 
 class PopulationTests(unittest.TestCase):
     def test_all_pairs_and_original_pilot_bytes_are_preserved(self):
-        source = ROOT / 'docs/feed_matrix_20261031'
-        pilot = ROOT / 'docs/relevance_review_20261105'
+        source = ROOT / 'experiments/performance/feed_matrix_20261031'
+        pilot = ROOT / 'experiments/relevance/relevance_review_20261105'
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             items, protocol, reused = population.prepare(source, pilot, root, 4)

@@ -5,13 +5,13 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-spec=importlib.util.spec_from_file_location('feed_matrix',Path(__file__).parents[1]/'tools/benchmark_feed_matrix.py')
+spec=importlib.util.spec_from_file_location('feed_matrix',Path(__file__).parents[1]/'src/benchmark_feed_matrix.py')
 matrix=importlib.util.module_from_spec(spec);spec.loader.exec_module(matrix)
-analysis_spec=importlib.util.spec_from_file_location('feed_analysis',Path(__file__).parents[1]/'tools/analyze_feed_matrix.py')
+analysis_spec=importlib.util.spec_from_file_location('feed_analysis',Path(__file__).parents[1]/'src/analyze_feed_matrix.py')
 analysis=importlib.util.module_from_spec(analysis_spec);analysis_spec.loader.exec_module(analysis)
-direct_spec=importlib.util.spec_from_file_location('feed_direct',Path(__file__).parents[1]/'tools/benchmark_feed_matrix_llamacpp.py')
+direct_spec=importlib.util.spec_from_file_location('feed_direct',Path(__file__).parents[1]/'src/benchmark_feed_matrix_llamacpp.py')
 direct=importlib.util.module_from_spec(direct_spec);direct_spec.loader.exec_module(direct)
-gemma_spec=importlib.util.spec_from_file_location('feed_gemma',Path(__file__).parents[1]/'tools/benchmark_feed_matrix_gemma.py')
+gemma_spec=importlib.util.spec_from_file_location('feed_gemma',Path(__file__).parents[1]/'src/benchmark_feed_matrix_gemma.py')
 gemma=importlib.util.module_from_spec(gemma_spec);gemma_spec.loader.exec_module(gemma)
 
 

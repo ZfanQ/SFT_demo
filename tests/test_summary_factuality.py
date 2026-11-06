@@ -4,7 +4,7 @@ import unittest
 
 ROOT=Path(__file__).parents[1]
 def module(name):
-    spec=importlib.util.spec_from_file_location(name,ROOT/'tools'/f'{name}.py')
+    spec=importlib.util.spec_from_file_location(name,ROOT/'src'/f'{name}.py')
     obj=importlib.util.module_from_spec(spec);spec.loader.exec_module(obj);return obj
 review=module('review_summary_factuality')
 prepare=module('prepare_factuality_triage')

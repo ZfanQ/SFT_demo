@@ -7,11 +7,11 @@ import tempfile
 import fcntl
 from unittest.mock import patch
 
-spec = importlib.util.spec_from_file_location("review", Path(__file__).parents[1] / "tools/review_summary_evidence.py")
+spec = importlib.util.spec_from_file_location("review", Path(__file__).parents[1] / "src/review_summary_evidence.py")
 m = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(m)
 sys.modules["review_summary_evidence"] = m
-spec2 = importlib.util.spec_from_file_location("adjudicate", Path(__file__).parents[1] / "tools/adjudicate_summary_evidence.py")
+spec2 = importlib.util.spec_from_file_location("adjudicate", Path(__file__).parents[1] / "src/adjudicate_summary_evidence.py")
 a = importlib.util.module_from_spec(spec2)
 spec2.loader.exec_module(a)
 

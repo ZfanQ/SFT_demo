@@ -5,7 +5,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-spec=importlib.util.spec_from_file_location('exporter',Path(__file__).parents[1]/'tools/export_factuality_review.py')
+spec=importlib.util.spec_from_file_location('exporter',Path(__file__).parents[1]/'src/export_factuality_review.py')
 exporter=importlib.util.module_from_spec(spec);spec.loader.exec_module(exporter)
 
 

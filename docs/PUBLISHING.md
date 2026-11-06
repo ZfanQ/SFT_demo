@@ -15,8 +15,8 @@ This changes the destination of subsequent work. Earlier supervisor-facing repor
 
 - The 200-abstract concurrency matrix has 5,400 technically validated scoring responses. The tests establish recorded throughput, latency and score stability, with documented backend differences. They do not establish relevance accuracy.
 - The factuality pilot has twenty source-blinded summary reviews and thirteen automated concerns. Exact source quotations and PDF pages were checked after correcting a two-column extraction issue. The archived snapshot has no recorded independent human calibration.
-- [Independent GPT relevance review](relevance_review_20261105/report_en.md) is complete for 60 stratified paper/profile pairs and 540 comparisons with saved scores. It retains the original 0–3 scale and records abstract evidence, rationale and scope ambiguity. Independent human relevance calibration is the next step.
-- [Full-collection relevance review](relevance_review_full_20261106/report_en.md) extends the same protocol to all 200 papers and three profiles: 600 GPT judgments and 5,400 comparisons. Sixty pilot judgments are preserved byte for byte, with 540 new judgments. The teammate's packet includes all 600 tasks, 28 high-priority pairs, 24 scope ambiguities and 20 agreement controls; human calibration is pending.
+- [Independent GPT relevance review](../experiments/relevance/relevance_review_20261105/report_en.md) is complete for 60 stratified paper/profile pairs and 540 comparisons with saved scores. It retains the original 0–3 scale and records abstract evidence, rationale and scope ambiguity. Independent human relevance calibration is the next step.
+- [Full-collection relevance review](../experiments/relevance/relevance_review_full_20261106/report_en.md) extends the same protocol to all 200 papers and three profiles: 600 GPT judgments and 5,400 comparisons. Sixty pilot judgments are preserved byte for byte, with 540 new judgments. The teammate's packet includes all 600 tasks, 28 high-priority pairs, 24 scope ambiguities and 20 agreement controls; human calibration is pending.
 
 ## Evidence required before promotion
 
