@@ -1,0 +1,18 @@
+{
+  "source_repository": "ZfanQ/SFT_demo",
+  "source_commit": "f5e25e269b4734a2790f2e2f0b2455c66f90739d",
+  "source_sha256": {
+    "experiments/relevance/relevance_review_full_20261106/configuration_summary.csv": "020be962dd9861bd0204001fd82db07ea1a4f76fe5e8879ed9baad75f381b293",
+    "experiments/relevance/relevance_review_full_20261106/comparisons.csv": "851abe87d5f7506caad76ca4da98828edede2e71958ebe59336672cef18bdf45",
+    "experiments/relevance/relevance_review_full_20261106/summary.json": "0f17d25df49106b7e760192240e614d50ee704dfa28ba3233b58b3f3dd840e23",
+    "experiments/performance/feed_matrix_20261031/qwen3_8b/analysis.json": "ff4d5df28b87c2f3ffa2b91b8ebe92b108d5034d8a9a321818a3c36a0a2ea7ba",
+    "experiments/performance/feed_matrix_20261031/qwen35_9b_llamacpp/analysis.json": "918659601a8628e87fe90e20ab0729c45eb726969c63a1334631c0ca99853b71",
+    "experiments/performance/feed_matrix_20261031/gemma4_12b_llamacpp/analysis.json": "f69a6c192a663c1ecaac2904f87b61f39dbef9a017678dc8f74209efbf3bda4d"
+  },
+  "checks": {
+    "rows": 9,
+    "pairs_per_configuration": 600,
+    "comparisons_recomputed": 5400,
+    "human_calibration": "pending"
+  }
+}

@@ -33,3 +33,7 @@ If inputs, extraction, scoring rules or reviewer configuration change, preserve 
 The teammate handles independent human calibration. Use the full-collection relevance forms for the 600 tasks, prioritizing score-2 boundary disagreements and differences of at least two points, alongside scope ambiguities and twenty agreement controls. The earlier 60-pair snapshot retains its six controls. Continue the separate factuality calibration with its existing packet. Freeze a new rubric version if the original coarse 0–3 definitions are refined.
 
 The follow-up remains experimental until the above evidence has been reviewed. The complete 200-paper factuality extension remains pending.
+
+## November 6 combined progress publication
+
+The user explicitly authorized combining the performance benchmark and full GPT relevance review for the supervisor repository. The curated English report and aggregate tables are retained in `publications/2026-11-06_relevance_speed_quality/`. This publication reports measured performance and automated GPT agreement, with teammate human calibration pending. It does not promote GPT scores to human-validated accuracy. Earlier reports retain their original snapshots.
