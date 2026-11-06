@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper157",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study revealed that disrupted hepatic lipid metabolism plays a pivotal role in driving the progression of UC and its extraintestinal hepatobiliary manifestations.",
+    "rationale": "The study focuses on ulcerative colitis, hepatic lipid metabolism, and associated liver injury. The abstract does not address brain or neural mechanisms, cognition, neurological disease, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "7c4a82fa2dba705a7dffc8a65b0cfdaf6a305a15d3653a0674aa33184a50f595",
+    "abstract_sha256": "ed024a8b43fa0a013cda0627094d1a1d40454a38d18bfca555fe4e905b1100df",
+    "original_prompt_sha256": "f67e41196379681194451eb43e30da65e0adf643945385b88188f2e9c3c5f9b4",
+    "elapsed_seconds": 11.548737083000105,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18041,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 115,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:06:06.535311+00:00",
+    "origin": "population_extension"
+  }
+}

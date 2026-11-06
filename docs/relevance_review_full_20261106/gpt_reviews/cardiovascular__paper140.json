@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper140",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "To explore the forms and mechanisms through which UIS influences vaccination decision‑making among community‑dwelling older adults in post‑pandemic China, we conducted this multicenter qualitative study.",
+    "rationale": "The study examines family support and older adults’ vaccination decisions. The abstract does not address cardiovascular conditions, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "19f81b6f28b33fd644ad439276ba6f46ac5cd963d7cd18d75c77a73a3dc1ada5",
+    "abstract_sha256": "c0fc0e65452660fbc07c65bcbea5df79aecaa63098a9c48361569d6ca5102bb4",
+    "original_prompt_sha256": "8cdd41c6913f6d9cc9bed90b55e923743661e75d1a22746fad83e759e9480dda",
+    "elapsed_seconds": 8.298309457999949,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18033,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 117,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:21:29.594862+00:00",
+    "origin": "population_extension"
+  }
+}

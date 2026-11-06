@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper164",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "We evaluated the association between baseline serum brain-derived neurotrophic factor (BDNF) and 1-year screening-defined incident cognitive impairment and examined whether BDNF added predictive information beyond routine clinical, laboratory, and baseline cognitive variables.",
+    "rationale": "The study evaluates a biomarker for cognitive impairment in maintenance hemodialysis patients. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "386fdd431256c5a1f9a2d6f8d211ed7fda03a8cef868798b3c8edf639abbd239",
+    "abstract_sha256": "59ea9464af68161c0bc1ec6772f1c3238e7e3a54cf49a8ef942cc7f76fc0e062",
+    "original_prompt_sha256": "c6961502d919605b6fc21f5103b728ba24d4168d8ae7d608ee5cec95888e9b9f",
+    "elapsed_seconds": 7.944153458000073,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18109,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 128,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:13:57.181366+00:00",
+    "origin": "population_extension"
+  }
+}

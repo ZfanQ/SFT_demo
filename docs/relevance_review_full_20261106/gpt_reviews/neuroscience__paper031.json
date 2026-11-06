@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper031",
+    "profile_id": "neuroscience",
+    "relevance": 2,
+    "evidence_quote": "This study aimed to evaluate the incidence of LT-associated psychiatric issues and analyse the association of delirium with mortality",
+    "rationale": "Postoperative delirium connects the study to cognition and neurological dysfunction. Its risk factors and mortality associations are relevant, although the study focuses on transplant psychiatric outcomes rather than neural mechanisms, neurological biomarkers, or treatments.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The boundary is whether postoperative delirium, framed here as a transplant-associated psychiatric issue, falls within the profile’s cognition and neurological-disorder scope."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "7e6d6be0c1adca0288bb799fe6072c07f7bcd2ba985ebe5cee9cbab822f21b31",
+    "abstract_sha256": "b484b56d305bdbd22b8e56d6ddbce73077fb4ec1934330faf0e15130ee1727e0",
+    "original_prompt_sha256": "095c667403bb010548650a59be6ae7659145ee49208d67863ceb984cfe610577",
+    "elapsed_seconds": 10.813961833000121,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17980,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 225,
+        "reasoning_output_tokens": 83
+      }
+    ],
+    "completed_utc": "2026-11-06T05:11:43.114030+00:00",
+    "origin": "population_extension"
+  }
+}

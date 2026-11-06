@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper033",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study elucidated the important role of B. coccoides-derived metabolite TMAO in exacerbating AD and provided new insights for gut microbe/metabolite-based therapeutic strategies.",
+    "rationale": "The study focuses on microbial metabolites in Alzheimer's disease, cognitive impairment, and Tau pathology. The abstract does not connect these findings to cardiovascular disease, risk prediction, prevention, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "083faa8b3861a1a60949bdb099d8d4fb16c88b0e5833d6a742432ac23745ae13",
+    "abstract_sha256": "79b85bf2101159ba84d91ca9827a3e51870398d51122adc571f4fec50def90cf",
+    "original_prompt_sha256": "87316d069a8d1c20ff6a65d66d8fa65c624e6b4432b62e1ba3c503a8574e36a4",
+    "elapsed_seconds": 9.11005966699986,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17973,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 124,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:23:13.313502+00:00",
+    "origin": "population_extension"
+  }
+}

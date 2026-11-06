@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4e-c4df-70e1-8e7a-165689f66b44"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper032\",\"profile_id\":\"neuroscience\",\"relevance\":1,\"evidence_quote\":\"This qualitative study aimed to understand the experiences of people living with PSSD in the United Kingdom.\",\"rationale\":\"The study is peripherally related through persistent adverse effects of serotonergic antidepressants and emotional numbness. Its focus is lived experience, identity, relationships, and psychological support rather than brain or neural mechanisms, neurological disease, or neurological biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17945,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":193,"reasoning_output_tokens":75}}

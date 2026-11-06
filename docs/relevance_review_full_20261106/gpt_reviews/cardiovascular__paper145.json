@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper145",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study investigated Hepatitis B virus (HBV) infection prevalence and disease-related knowledge among spouses of reported HBV cases in Quzhou City to support family-based interventions reducing intra-familial transmission.",
+    "rationale": "The study focuses on HBV prevalence, knowledge, and prevention of intra-family transmission. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "835e4bd3ebce70c7e09c36024cd2f0beed601e37db41c462f28e1438ff9d0d2f",
+    "abstract_sha256": "4f82afe67bc9af11667629a4fcab784c1ffef5ef43b15c8bfd0ed9de0293f5a1",
+    "original_prompt_sha256": "bd64261ed45db1615e60d95b768106eb317d8c590f5b9531a93cade1bd95a6e9",
+    "elapsed_seconds": 8.89545304100011,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18137,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 125,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:19.534717+00:00",
+    "origin": "population_extension"
+  }
+}

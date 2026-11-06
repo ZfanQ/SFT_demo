@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper116",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Here, we investigated 27 CDAD cases in infants and toddlers under two and found that the amino acid-based formula (AAF) feeding is a notable risk factor closely associated with the development of CDAD in infants.",
+    "rationale": "The study examines infant feeding, gut microbiomes, and risk of Clostridioides difficile-associated disease. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or cardiovascular therapies and outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "b753e50964e06a127b590da710d4af5d7e1072beb059ade091dc417691f6e208",
+    "abstract_sha256": "89ae044801f68e0672c8e1db31f67eaa5ec7ddabd3689144f494d10986381191",
+    "original_prompt_sha256": "cca4d1e8ff495f0332013d447363cd26e28c6df2927f81ce3403a9705bde5d43",
+    "elapsed_seconds": 8.472660625000117,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17904,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 132,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:54.257554+00:00",
+    "origin": "population_extension"
+  }
+}

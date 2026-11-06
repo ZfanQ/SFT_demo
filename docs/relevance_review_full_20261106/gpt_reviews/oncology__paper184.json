@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper184",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "To examine associations of workforce characteristics, calendar period, service-delivery channel, and assessment modality with Quality Technical Assessment (QTA) performance in Sierra Leone, 2019–2022.",
+    "rationale": "The study evaluates workforce and assessment factors affecting family planning and post-abortion care service quality. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "1d6949f0ed9f7856f47effa95be5a2a0567236ce4b1df95b7215239c2f5a9909",
+    "abstract_sha256": "050086f9ad57169401eec1890adb7c2b196cc3c6840e33ef29da124db478fcaa",
+    "original_prompt_sha256": "e112ae3c69fe869f002a16dfb6654d2b7d90bc749cd7b0ae0c0b402911561247",
+    "elapsed_seconds": 9.278261749999729,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18063,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 121,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:03.632634+00:00",
+    "origin": "population_extension"
+  }
+}

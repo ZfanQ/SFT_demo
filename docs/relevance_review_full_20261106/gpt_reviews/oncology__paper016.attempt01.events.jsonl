@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af3e-a13e-75f1-841d-41ae3c24e6a2"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper016\",\"profile_id\":\"oncology\",\"relevance\":0,\"evidence_quote\":\"This study aimed to compare the psychomotor development of displaced children living in Lubumbashi according to their level of exposure to war-related trauma (direct, indirect, or none) and to examine the potential moderating role of school attendance and parental support.\",\"rationale\":\"The study examines war-related trauma and psychomotor development in displaced children. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18150,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":131,"reasoning_output_tokens":0}}

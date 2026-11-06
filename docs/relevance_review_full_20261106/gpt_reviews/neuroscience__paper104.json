@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper104",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study revealed significant variations in seasonal epidemic period and age-specific distributions across influenza subtypes/lineages, as well as a marked disruption of influenza activity due to the COVID-19 pandemic.",
+    "rationale": "The study focuses on influenza epidemiology, seasonal patterns, and age-specific viral distributions. It does not address brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "72fb23cc3220cfa3f300bd78b932139e2cb83890c44b8507f901545228104d32",
+    "abstract_sha256": "1525a3904535e478afac3c4b77d2e97f512840df14cf0e7bb09988861810541b",
+    "original_prompt_sha256": "dee0168640140542808844e126423e6cca525c82c82fbf12bc437291300f6f5d",
+    "elapsed_seconds": 9.605841041000076,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18057,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 127,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:02.336674+00:00",
+    "origin": "population_extension"
+  }
+}

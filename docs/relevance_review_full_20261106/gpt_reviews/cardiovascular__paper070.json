@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper070",
+    "profile_id": "cardiovascular",
+    "relevance": 3,
+    "evidence_quote": "Viral myocarditis (VM) is a cardiac inflammatory condition caused by viral infection and serves as a critical precursor to life-threatening complications, such as dilated cardiomyopathy and heart failure.",
+    "rationale": "The study directly investigates mechanisms of myocardial injury in viral myocarditis and proposes therapeutic targets, closely aligning with cardiovascular disease, heart failure, and therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "5b4be57831c2f1cddba9c174e3be4f2a7157c37423d447eca2e9971f67c1e6d4",
+    "abstract_sha256": "ff6276106bedc4251efe4dab2bf23e46223db9f135279066d1e0fb349efe3005",
+    "original_prompt_sha256": "74dfa069217eb5a9a5fa83a9c2b71b6909a1d26789fdaf2605eb58216e43aea9",
+    "elapsed_seconds": 17.79980716600039,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17923,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 119,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T16:00:27.025790+00:00"
+  }
+}

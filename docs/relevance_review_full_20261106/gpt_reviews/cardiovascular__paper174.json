@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper174",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Objectives: To investigate the role of the SIRT5-PRDX6 axis during the pathogenesis of sepsis-associated acute kidney injury (SA-AKI).",
+    "rationale": "The study focuses on molecular mechanisms and potential treatment of sepsis-associated kidney injury. The abstract does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies evaluated for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "6528f5146982a83a385be386e8772998591df59751e4ba1c8cc6a7bec2613441",
+    "abstract_sha256": "20974d0fcdd719d2a176f193900ad873018a28d9dc430e2c52d653ae74ab90aa",
+    "original_prompt_sha256": "2c55e9156d32b4b230fd353c968336c558bb839d22e855a3688161dfe1d557fa",
+    "elapsed_seconds": 9.315360999999939,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18116,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 119,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:37.631657+00:00",
+    "origin": "population_extension"
+  }
+}

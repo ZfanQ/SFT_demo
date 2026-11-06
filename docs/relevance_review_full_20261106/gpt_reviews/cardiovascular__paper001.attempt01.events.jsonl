@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af42-e087-7191-b7df-f629d6dedc90"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper001\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"This study focused on how adults with cerebral palsy successfully confronted ableism during encounters with others and successfully coped with ableism in general.\",\"rationale\":\"The study examines confronting and coping with ableism among adults with cerebral palsy. It does not address cardiovascular conditions, risk prediction, prevention, or therapies for cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17977,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":111,"reasoning_output_tokens":0}}

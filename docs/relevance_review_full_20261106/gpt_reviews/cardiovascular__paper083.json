@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper083",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study characterized clinical features, pathology, treatment, and prognosis of biopsy-confirmed coexisting IgA nephropathy (IgAN) and diabetic kidney disease (DKD).",
+    "rationale": "The study focuses on kidney pathology, renal prognosis, and renal treatment outcomes. It does not assess cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "4dbe4f753f1a5a5271a696ec3b9bc887a28630cce54f63115efd054bef43e5d7",
+    "abstract_sha256": "27c9b2aa09dfd91b63c6569bf04d8bea1c59cd9c8300d294ecf342da777e6d94",
+    "original_prompt_sha256": "b63552bbd8c8fd013d3e80ba3e7738f51045847c6402be07f51ee37e9d6fb14c",
+    "elapsed_seconds": 7.993963542000074,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18197,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 119,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:21:12.355429+00:00",
+    "origin": "population_extension"
+  }
+}

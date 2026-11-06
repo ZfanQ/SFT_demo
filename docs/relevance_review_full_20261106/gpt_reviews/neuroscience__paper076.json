@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper076",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "We evaluated the association between antihypertensive therapy, particularly CCBs, and AVF flow rate in maintenance HD patients.",
+    "rationale": "The study examines antihypertensive therapy and dialysis vascular access outcomes, without addressing brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "9dd122e65e52b979a3909014e5f0e16801ad401e4258b3cb61127c4f1baa70ad",
+    "abstract_sha256": "3763640603613db444dd351d6c8dec90a0654e4702aeacb17b332eeed8e43624",
+    "original_prompt_sha256": "6186478b89bc68fb536efa245b6ceabe275e2178323a5a7d3fcb091f827fbfad",
+    "elapsed_seconds": 8.758214791999762,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18128,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 110,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:03:58.512542+00:00",
+    "origin": "population_extension"
+  }
+}

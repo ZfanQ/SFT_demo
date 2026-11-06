@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper013",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "To develop and validate a nomogram for estimating the risk of baseline respiratory insufficiency in patients with amyotrophic lateral sclerosis (ALS).",
+    "rationale": "The study predicts respiratory insufficiency in ALS using muscle strength and bulbar onset. It does not address cardiovascular disease, cardiovascular risk, prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "a304c9341dc12b5e817ca125b2a6171499e68c7400a6758cbcf9eb1324dc6989",
+    "abstract_sha256": "7af92223e73b73846fdee89aa62b3a5a9af4586772c1340f7afda2e2023ee8ce",
+    "original_prompt_sha256": "188ceadf798404fb6f900a04b2e689d7bfbc4fce3ae57d2e1d90ee674287e2a3",
+    "elapsed_seconds": 7.785374375000174,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18106,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:18:59.245274+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper154",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to quantify exercise-induced GI symptoms, gut fullness, blood glucose response, and ratings of perceived exertion in response to low-protein (LP) and moderate-protein (MP) pre-exercise shake.",
+    "rationale": "The study evaluates pre-exercise protein intake and gastrointestinal tolerance in runners. It does not examine cardiovascular disease, cardiovascular risk prediction or prevention, or therapies affecting cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3d0bafe33b3c88bd22afe8b66befc51db39eee878297beadcaa6347846299d42",
+    "abstract_sha256": "e8dbceebe0f47fcf6cf76ed9f072b479c800fd11325bc0e4394351fd206e91e1",
+    "original_prompt_sha256": "cb6ae47205e421f7286c97d3fb1117d205c0616680fb3115be890d17ddd3ed6a",
+    "elapsed_seconds": 7.938025207999999,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18339,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 126,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:21:19.901629+00:00",
+    "origin": "population_extension"
+  }
+}

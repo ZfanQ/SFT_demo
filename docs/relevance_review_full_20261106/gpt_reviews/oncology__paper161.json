@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper161",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Stent grafts are widely used to treat dysfunctional hemodialysis vascular access, yet restenosis remains common and its predictors are incompletely understood.",
+    "rationale": "The study examines procedural predictors of stent graft patency in hemodialysis vascular access. It does not address tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "06b89aabfda799bd1ec8b6d62ffeabf00b04d5d9e54de6e51a78c88220d8075f",
+    "abstract_sha256": "a80b7f4849fc784f87b71073644fb269a2249e3ff134716f22675fb7813c86f3",
+    "original_prompt_sha256": "150021dc4692aa80405b1152f58990d7bfffdb8dcf82cd056f79de23fc3c6193",
+    "elapsed_seconds": 7.871860833000028,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17070,
+        "cached_input_tokens": 15488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:28.313839+00:00",
+    "origin": "population_extension"
+  }
+}

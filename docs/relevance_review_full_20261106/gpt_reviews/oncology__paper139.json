@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper139",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study assessed vaccine‑associated RA using the Vaccine Adverse Event Reporting System (VAERS).",
+    "rationale": "The study examines vaccine-associated rheumatoid arthritis adverse events, with no focus on cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "79b9ac994aa3bf2a8fab48020c8acb88a7b03a05fda46353c077e05fc4f50c27",
+    "abstract_sha256": "628631fecbbb7fc9b31306b07d5fe16b0d86c3425ab054761efb85df17fe26d8",
+    "original_prompt_sha256": "b54c5c324aa155559b803851f2e83a70b45abb977b980f4966644d04e9f9b53b",
+    "elapsed_seconds": 8.096063542000138,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17115,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 95,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:34.450448+00:00",
+    "origin": "population_extension"
+  }
+}

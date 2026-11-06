@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper183",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "To examine the spatial variation and determinants of cesarean section delivery across SSA.",
+    "rationale": "The study focuses on geographic inequalities and determinants of cesarean delivery utilization, with no connection to neural mechanisms, cognition, neurological disease, injury, treatments, or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "f524bf1148dcb5f0f8bfa358c9bf55f6c8e7c992eea24e106369883590b09fcf",
+    "abstract_sha256": "2fc6c8946a9774adab5b11f86d8048ae126fccec61c99a00725466d025e014d5",
+    "original_prompt_sha256": "a4de778b881c4b16b392348938fc5c69703bae2cb04d4e22f81b6d86fc3782ca",
+    "elapsed_seconds": 9.41474770800005,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18087,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 99,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:23:23.347814+00:00",
+    "origin": "population_extension"
+  }
+}

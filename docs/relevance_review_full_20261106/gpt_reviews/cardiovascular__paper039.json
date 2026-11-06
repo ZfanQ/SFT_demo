@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper039",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Objective: To evaluate a national training programme that synthesised evidence to support UK women veterans.",
+    "rationale": "The study evaluates provider education and cognitive processing therapy training for military sexual trauma and associated PTSD. It does not address cardiovascular conditions, risk prediction, prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "df21d275cb48f91f667f881f796cac7cba73c2b6a80e07fffe1047b8ed5f1cd4",
+    "abstract_sha256": "d13c4b91d762300ce966e270ae41b9c1ff9c180dcbcbbc41ae77c2b496784eb0",
+    "original_prompt_sha256": "25c279c5fda7c304824f604301fdc29e421978816e52268dcf134397a13e9b09",
+    "elapsed_seconds": 7.350497665999683,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18123,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 103,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:11:58.783977+00:00",
+    "origin": "population_extension"
+  }
+}

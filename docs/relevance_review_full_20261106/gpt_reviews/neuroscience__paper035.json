@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper035",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This qualitative study examined how therapists conceptualised and applied resilience in routine therapeutic practice for trauma-exposed youth.",
+    "rationale": "The study focuses on therapists’ understanding and clinical use of psychological resilience. It does not examine brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "1d4d690e35a05ccf74db16af747f4c00773f151c9e692b38b365a2ee383da98a",
+    "abstract_sha256": "bbc931635429f216736dafb4df0034aa87b1718882ba3dfb82b4fbfe31292a17",
+    "original_prompt_sha256": "feeb8ccfbb3d0bd46a2276e932902d2cfdcd4ffd0c4b585e4bfbb2c0e4079405",
+    "elapsed_seconds": 12.068990292000308,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17979,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 205,
+        "reasoning_output_tokens": 96
+      }
+    ],
+    "completed_utc": "2026-11-06T05:18:09.174522+00:00",
+    "origin": "population_extension"
+  }
+}

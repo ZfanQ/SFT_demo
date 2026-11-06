@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af48-22ed-7af2-88e1-ca054a8082ed"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper200\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"To explore patients’ experiences with CLBP prior to LSF and their hopes and expectations for life after surgery.\",\"rationale\":\"The study focuses on chronic low back pain, lumbar spinal fusion, and patients’ psychosocial experiences and rehabilitation hopes. It does not address cardiovascular disease, risk prediction, prevention, or cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17975,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":110,"reasoning_output_tokens":0}}

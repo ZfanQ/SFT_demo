@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4a-a394-7c72-8117-98b8cfe825ba"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper039\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"The education programme addressed gaps in UK service provider knowledge and increased CPT clinical capacity.\",\"rationale\":\"The study evaluates provider education and capacity to deliver psychotherapy for military sexual trauma–associated PTSD. It does not investigate brain or neural mechanisms, cognition, neural injury, or treatments or biomarkers for neurological disorders.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18126,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":157,"reasoning_output_tokens":50}}

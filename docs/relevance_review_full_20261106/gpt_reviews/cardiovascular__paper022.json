@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper022",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Findings indicate that the Dutch EMIS-M is a psychometrically acceptable instrument for assessing MI among treatment-seeking veterans.",
+    "rationale": "The study evaluates a moral injury measure and its associations with PTSD, psychopathology, and family functioning among veterans. It does not address cardiovascular disease, risk prediction, prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "5daa59cd64d277951612eb55d560d0135643fd5240d837f4c7cc6029c03ae5a9",
+    "abstract_sha256": "b1886ed9573675e608440461a7d6fdbf49c5b1aace98f9133ee03dabe2f1a3f5",
+    "original_prompt_sha256": "69da8c2ad5c2bc1109f2a0489d003835cfccb8bcd7e80c1fc5bbd7dc20ad4179",
+    "elapsed_seconds": 8.804925875000208,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18097,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 114,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:05:30.257213+00:00",
+    "origin": "population_extension"
+  }
+}

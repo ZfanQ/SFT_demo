@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "expected": 600,
+  "completed": 600,
+  "pilot_reused": 60,
+  "workers": 4,
+  "remaining": 0,
+  "updated_utc": "2026-11-06T05:23:52.730299+00:00",
+  "errors": []
+}

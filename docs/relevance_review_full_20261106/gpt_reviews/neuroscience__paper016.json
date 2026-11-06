@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper016",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "Exposure to war-related trauma was strongly associated with impaired psychomotor development in displaced children.",
+    "rationale": "Psychomotor impairment provides a peripheral connection to neural function and development. The study examines trauma exposure and developmental performance without investigating brain mechanisms, cognition, neural injury, or neurological disorders.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "Psychomotor development borders the profile’s neural-function interests, but the abstract frames impairment as a psychosocial and developmental outcome without establishing a neurological mechanism or disorder."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "22770442a8a806b256fff8eaf2ab691ee48cec0076773ecab0c327c907d3e6d2",
+    "abstract_sha256": "39b33bf6b3f5cc570a38f43f46c3b5974d6d69b4e1274a8c59c412e8e2d15f13",
+    "original_prompt_sha256": "5b45863dec2737972a35648b22a0739e690c1e8c0c6488b8d3cf669b02c8aa6f",
+    "elapsed_seconds": 10.997123332999763,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18167,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 187,
+        "reasoning_output_tokens": 51
+      }
+    ],
+    "completed_utc": "2026-11-06T05:13:37.352088+00:00",
+    "origin": "population_extension"
+  }
+}

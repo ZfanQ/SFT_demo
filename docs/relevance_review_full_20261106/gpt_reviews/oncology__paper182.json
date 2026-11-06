@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper182",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "PNI and its linked gut microbiota‒SCFA axis are clinically prognostic biomarkers and potential immunomodulatory targets for early-stage NSCLC.",
+    "rationale": "The study directly addresses oncology through prognostic biomarkers in lung cancer, microbiota-associated tumor immune mechanisms, and experimental interventions that suppress tumor growth and enhance CD8+ tumor-infiltrating lymphocytes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "00791ee9f99c18f419227f20639319dbf05808708b2574bee0d5d1ceab7d1f61",
+    "abstract_sha256": "2919da0cdf5d9721197be41349e49501cc415d32d668c4dc7823d189b5d174f1",
+    "original_prompt_sha256": "8d9df17a80a20102ed71cf051396c240366b64b03a944f2036a24f98024f5b72",
+    "elapsed_seconds": 8.479006582999773,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18085,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 118,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:12:44.332886+00:00",
+    "origin": "population_extension"
+  }
+}

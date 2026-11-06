@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper050",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Molecular categorization of NSCLC cancer is essential for predicting therapy outcomes, enabling the use of bis-(di-4-phenyl-benzylaminethiocarbonyl)disulfide as a cisplatin therapy enhancer for NSCLC patients' subpopulation with significant ABCC2 and ALDH3A1 overexpression.",
+    "rationale": "The study focuses on lung cancer cisplatin resistance and molecular predictors of chemotherapy response. The abstract does not address brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "b308690e886be842c9c7d1df4307125a0a69c9404fce374c42cd5ad3cf094b19",
+    "abstract_sha256": "7e4c383ed40a19b8e9c933d26dbfc09f1a68501746ad4228f2cea35764341d89",
+    "original_prompt_sha256": "5f2576d603680c05561db03370e414da53339b124a85ac25c938c0d75800ee47",
+    "elapsed_seconds": 8.713615333000234,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18118,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 157,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:13:49.233597+00:00",
+    "origin": "population_extension"
+  }
+}

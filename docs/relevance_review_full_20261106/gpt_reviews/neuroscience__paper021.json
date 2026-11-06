@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper021",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This paper explores how employees perceive and engage with MHFA in work settings.",
+    "rationale": "The study concerns workplace mental health support, stigma, disclosure, and organisational wellbeing. It does not address brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "23c5153a865d263b17783166c067e3b21eef8ee321a8c002c08f543b350ec2c3",
+    "abstract_sha256": "f9340687be4b9ea8605842e35dfd9426c7be1c1c7c667ac7e6f8cd204551686d",
+    "original_prompt_sha256": "11d84990cd1c3929cbe718a3e5f976828b68da9b6489aa8302141b78457b5bf2",
+    "elapsed_seconds": 7.441032332999839,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18029,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 103,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:19:53.479629+00:00",
+    "origin": "population_extension"
+  }
+}

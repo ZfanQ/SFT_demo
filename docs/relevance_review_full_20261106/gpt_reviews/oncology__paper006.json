@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper006",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This dual strategy of cholinesterase inhibition and oxidative stress mitigation is a promising approach for novel AD therapeutics.",
+    "rationale": "The study develops Alzheimer’s disease therapeutics targeting BuChE and oxidative stress. The abstract does not investigate tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d4243c0da0120598792f56b3236439eaaf550f60b238f4e3a1d51e775246062b",
+    "abstract_sha256": "60845a064cab0b6f2aec414d7b7b89ea8fd11af42faf958faa541ce4ca57a5db",
+    "original_prompt_sha256": "ff34dbf6cbdb2d2a12ab1c53fa83c1cfc1638967e016cb4f29460d4b0bd23320",
+    "elapsed_seconds": 13.821042208000108,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17832,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 102,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:56:42.579402+00:00"
+  }
+}

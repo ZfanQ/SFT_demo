@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper049",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study investigated the expression profile and mechanism of PGM5P4 antisense RNA 1 (PGM5P4-AS1) in BRCA.",
+    "rationale": "The study focuses on molecular mechanisms, prognosis, and potential therapy in breast cancer. The abstract does not address cardiovascular disease, cardiovascular risk, prevention, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "2ef5cb91ef13b780acb58a632943b795fd1bb415e70a24497d60796a3eac46fb",
+    "abstract_sha256": "93cad50acc2cdb5f6115f1ba0f26c52780795ff143867b26774d845bd503af3b",
+    "original_prompt_sha256": "4d27d1c40c441ca0cab9e2d30a7eccac0686327512d8ea48c5f78772f6f47e08",
+    "elapsed_seconds": 11.295914124999854,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18186,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 114,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:09:58.569517+00:00",
+    "origin": "population_extension"
+  }
+}

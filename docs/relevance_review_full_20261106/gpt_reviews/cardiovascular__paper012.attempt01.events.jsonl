@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4e-dcbb-7d90-a009-3b56368d170a"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper012\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"This study engineered OVV-03, a novel HER2-armed oncolytic vesicular stomatitis virus (VSV), and evaluated its efficacy against GBM.\",\"rationale\":\"The study evaluates oncolytic immunovirotherapy for glioblastoma, including tumor suppression and CAR-T combinations. It does not address cardiovascular disease, risk prediction, prevention, or therapies for cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18007,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":124,"reasoning_output_tokens":0}}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper055",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "In this study, we investigated the immune microenvironment of ITACs (n=59), focusing on tumor-infiltrating T lymphocytes (TILs) and macrophages",
+    "rationale": "The study examines tumor immunity, cancer prognosis, and potential immunotherapies for sinonasal adenocarcinoma. The abstract does not address cardiovascular disease, cardiovascular risk, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "e167caef96fbb531eb1ea2ddf8e6be4ec414636bd0d062ba9b00cbe5e64f1bbb",
+    "abstract_sha256": "884a3f66778cf358924eaf88111456702017e8609f54ffef92f80159d3e37a6e",
+    "original_prompt_sha256": "222354d6946de65e817c174478856845ceb0b009eec67e25ddf618bc053e1f3a",
+    "elapsed_seconds": 8.829661417000352,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18063,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 126,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:17.032908+00:00",
+    "origin": "population_extension"
+  }
+}

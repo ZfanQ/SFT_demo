@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper103",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "A Univariate Poisson regression model was used to explore risk factors associated with HPV vaccine AEFI. Disproportionality analysis was performed to detect abnormal signals related to the HPV vaccine.",
+    "rationale": "The study evaluates post-marketing HPV vaccine safety and adverse reactions. The abstract does not connect this work to cancer biology, tumor progression, tumor biomarkers, or experimental or clinical cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "cf752a9a3c85e00ce5e9b163df9031284b1da688b775f3428cf0cd7bd10ea0db",
+    "abstract_sha256": "1524fce788f95685d650cc40c8241fb31c985aec5813012bf2d1d8dfbd55b25f",
+    "original_prompt_sha256": "123f45658e4df9a7ac947c5420104e1dd0a5c8df033feb079e6362c0bef7bd5c",
+    "elapsed_seconds": 9.36446775000013,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18006,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 173,
+        "reasoning_output_tokens": 48
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:48.956030+00:00",
+    "origin": "population_extension"
+  }
+}

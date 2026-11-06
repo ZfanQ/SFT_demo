@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper155",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Purpose: To adapt and validate a linear binning technique, developed for hyper‐polarized 129Xe MRI, for functional lung MRI with matrix‐pencil decomposition (MP)‐MRI.",
+    "rationale": "The study develops and validates lung MRI processing to assess ventilation, perfusion, and treatment effects in children with cystic fibrosis. It does not address cardiovascular disease, cardiovascular risk, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "51a7145600d8a50094191c1571f48164a618fca7fe08079dd80e5bb4a90dcc65",
+    "abstract_sha256": "b6492979991f3cbdcab7877bc221d8837246502f36c0840c5690f38605e9cd09",
+    "original_prompt_sha256": "572f572415a3130b5b5cda888c77f7c1fd895e9d970241802779dbe0c489a8fb",
+    "elapsed_seconds": 9.451924999999846,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18081,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 155,
+        "reasoning_output_tokens": 24
+      }
+    ],
+    "completed_utc": "2026-11-06T05:05:45.831774+00:00",
+    "origin": "population_extension"
+  }
+}

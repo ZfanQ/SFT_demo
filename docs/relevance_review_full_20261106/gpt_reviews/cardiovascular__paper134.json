@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper134",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "we aimed to investigate the effects of short-term exposure to ambient air pollution on respiratory symptoms and lung function among patients with asthma.",
+    "rationale": "The study focuses on asthma symptoms and lung function following air pollution exposure. It does not investigate cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "26ab75451d4530a192b13f1ffc1fe07e50ea1a572c91b42bb8a1c16c2adeb26d",
+    "abstract_sha256": "7d31cdbecfd0390f6bcb24a34b0159c74dbf3c73decc7b24e79b45046e0dd432",
+    "original_prompt_sha256": "bcdbfc4eab488342cf3ca72318eadaa87087a93fad7f3f45480f3f840e28563e",
+    "elapsed_seconds": 10.20695116700017,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18073,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 107,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:19:35.206833+00:00",
+    "origin": "population_extension"
+  }
+}

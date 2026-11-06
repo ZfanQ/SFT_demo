@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper105",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study examines how far Yemen’s health system responses to prolonged conflict, economic decline, disease outbreaks, and COVID-19 progressed beyond absorptive and adaptive resilience toward transformative resilience, and how strategic health policy across the building blocks shaped this transition.",
+    "rationale": "The study focuses on health system resilience and institutional reform in Yemen during protracted crises. It does not address cardiovascular diseases, cardiovascular risk prediction or prevention, or therapies affecting cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "7bd31f84be588f97ddd6b1eefe477b9cb3914a3b47aa8f4d202b34a6224d3dbc",
+    "abstract_sha256": "76baa04a81e2b39a0c8f442d40c589ac2d8f5de8e60a23332b00bcb90a546e2b",
+    "original_prompt_sha256": "75fa678f3f55c51c7363bddf30238080c8dab3ab4e632fa712d5a86c1686eb51",
+    "elapsed_seconds": 9.46718487499993,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18034,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 133,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:21:29.371098+00:00",
+    "origin": "population_extension"
+  }
+}

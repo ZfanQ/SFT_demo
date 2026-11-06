@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper115",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Overall, our study delineates the antigenic hierarchy and makeup of HPV-specific humoral responses in HPV+ HNC, both intratumorally and systemically, thus providing a framework for future biomarker as well as next-generation therapeutics development.",
+    "rationale": "The study focuses on HPV-specific antibody responses in head and neck cancer. It does not examine brain or neural mechanisms, cognition, neural injury, or neurological disease treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "34700da2a1326ca4afc7e3ed5a2f597c4644859d7afda122bb831c80fd05b532",
+    "abstract_sha256": "32ce9500ddaacc3525cb1013d0d193002f8153e51375de1d2ab736cfa31b2d8e",
+    "original_prompt_sha256": "966052413d5858cbb1753cb042075a25d110fbe6c91f3c77524c56ddbd9930c6",
+    "elapsed_seconds": 8.866367125000124,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18080,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 134,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:50.891940+00:00",
+    "origin": "population_extension"
+  }
+}

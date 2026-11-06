@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper023",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "Significant clinical correlates included a history of stroke (AOR = 4.07), chronic back pain (AOR = 2.76), and high blood pressure (AOR = 2.57).",
+    "rationale": "Stroke provides a peripheral connection to the profile, but the study focuses on population prevalence and correlates of self-reported mental health difficulties rather than neural mechanisms, neurological disease outcomes, or neurological treatments and biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "1c220165ccf2b998f2c00b763b4ff6a5beb0a311aadc9264a4c921ab67a783c6",
+    "abstract_sha256": "4f522b724dc9dba126958f9f957f04f58a4c4ac83991b2816ca378723b69b430",
+    "original_prompt_sha256": "3d7db4f459d319222eb3e78ab66f98ea05207850c6c357b88d61bbd690fdc83c",
+    "elapsed_seconds": 9.558734125000228,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18013,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 191,
+        "reasoning_output_tokens": 54
+      }
+    ],
+    "completed_utc": "2026-11-06T05:13:09.956037+00:00",
+    "origin": "population_extension"
+  }
+}

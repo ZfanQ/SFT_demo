@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4d-7b0b-7b83-afcb-e939beefe49f"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper131\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"This study examined changes in posttraumatic stress symptoms (PTSS) and mental wellbeing over time and identified factors contributing to differences in these outcomes.\",\"rationale\":\"The study focuses on pandemic-related trauma, posttraumatic stress, and mental wellbeing. It does not examine cardiovascular conditions, cardiovascular risk prediction or prevention, or therapies affecting cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18054,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":114,"reasoning_output_tokens":0}}

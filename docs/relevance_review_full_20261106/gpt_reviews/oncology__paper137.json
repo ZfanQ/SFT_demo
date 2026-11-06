@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper137",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Using a modified grounded theory approach, we examined decision making among eligible individuals who enrolled (trial participants (TPs), n = 32) and those that declined enrollment (non-participants (NPs), n = 5) across two phase 1 COVID-19 vaccine trials conducted during the pandemic (Nova Scotia, Canada; 2021–2023).",
+    "rationale": "The study examines enrollment decisions and retention in COVID-19 vaccine trials. It does not address cancer biology, tumor progression, tumor biomarkers, or experimental or clinical cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "c0753870ff34056b83ad3b781d04ae911fb0b920fd8cb0d67e371489431da093",
+    "abstract_sha256": "8b9846ca5e5f430211af5b531844bb5ab9c103085b987fde94e1a5ea702b57ce",
+    "original_prompt_sha256": "17c482c67ddc232abb7f7c79438a363e585b19d44590bb5161c7d9a6f6cb46a9",
+    "elapsed_seconds": 8.71486083400032,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18048,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 156,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:28.623834+00:00",
+    "origin": "population_extension"
+  }
+}

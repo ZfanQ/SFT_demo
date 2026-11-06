@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper133",
+    "profile_id": "neuroscience",
+    "relevance": 2,
+    "evidence_quote": "Tissue-specific SNP heritability enrichment was observed in the cerebellum, cerebellar hemisphere, and cortex.",
+    "rationale": "Brain-region genetic enrichment and shared gene expression connect the study to brain mechanisms. However, its primary focus is the shared genetic architecture of PTSD and obstructive sleep apnea rather than neurological disease or neural function.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The profile includes brain mechanisms, but does not explicitly include psychiatric and sleep disorders; relevance rests on the brain-tissue findings."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "2618c106cd4775f419162651f9f7b27427ed73b8f1a33a31320c5d7cb7f03a1f",
+    "abstract_sha256": "46ed7cedeb62f278072950a206b0d9b590d1cbaa9806846475a8e1de0c16f699",
+    "original_prompt_sha256": "bfb31092603418c46abfabebbec6d759f80f6351b93a2cc033d98b815c99994e",
+    "elapsed_seconds": 11.168170333000035,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18203,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 181,
+        "reasoning_output_tokens": 42
+      }
+    ],
+    "completed_utc": "2026-11-06T05:23:15.042869+00:00",
+    "origin": "population_extension"
+  }
+}

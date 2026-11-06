@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper122",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Our data supports therapeutic benefit of modifying CCR2-dependent cell recruitment in the treatment of viral-induced ARDS.",
+    "rationale": "The study examines pulmonary inflammation and CCR2-targeted treatment for viral-induced respiratory distress. The abstract does not address brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "4cd6ffbc2a36da38be197e7282450efbe271ac5f58c2a88807fb291eb74c5994",
+    "abstract_sha256": "3fca60179c1770cd1db474f731942d484c5101b61c872b288b78389406e1e7c9",
+    "original_prompt_sha256": "60e02fb17ada708243ba5a49e600ed923002a73f4e967f4852b3f87423a76488",
+    "elapsed_seconds": 7.654228459000024,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18084,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:20:57.032932+00:00",
+    "origin": "population_extension"
+  }
+}

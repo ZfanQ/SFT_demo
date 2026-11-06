@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper182",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "PNI and its linked gut microbiota‒SCFA axis are clinically prognostic biomarkers and potential immunomodulatory targets for early-stage NSCLC.",
+    "rationale": "The study concerns gut microbiota, nutritional-immune status, and lung cancer prognosis and treatment. It does not address brain or neural mechanisms, cognition, neural injury, or neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "8d8937329dac4976fe08f881fadfe64c6cad453152dce21653c9cef58d927a29",
+    "abstract_sha256": "2919da0cdf5d9721197be41349e49501cc415d32d668c4dc7823d189b5d174f1",
+    "original_prompt_sha256": "aa3d1425a20d1043ded174702d2af095ea1130e18219d40d0cf9e774488bb2f2",
+    "elapsed_seconds": 7.768533250000019,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18098,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 116,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:19:33.451877+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4c-8d83-7601-956e-65877ea22085"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper078\",\"profile_id\":\"cardiovascular\",\"relevance\":2,\"evidence_quote\":\"IJVR might be an independent risk factor for ischemic stroke with CMBs.\",\"rationale\":\"The study links jugular vein reflux to ischemic stroke with cerebral microbleeds, making it relevant to vascular disease and vascular risk assessment. Its focus is cerebrovascular rather than cardiac outcomes.\",\"scope_ambiguous\":true,\"ambiguity_note\":\"The profile includes vascular disease but does not specify whether cerebrovascular disease and stroke risk are included.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18081,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":190,"reasoning_output_tokens":66}}

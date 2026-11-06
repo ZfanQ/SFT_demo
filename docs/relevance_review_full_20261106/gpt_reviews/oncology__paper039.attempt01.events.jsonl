@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af49-73bf-7c71-9057-72eb07655d59"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper039\",\"profile_id\":\"oncology\",\"relevance\":0,\"evidence_quote\":\"To evaluate a national training programme that synthesised evidence to support UK women veterans.\",\"rationale\":\"The study evaluates provider education and capacity to deliver cognitive processing therapy for military sexual trauma-related PTSD. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18113,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":100,"reasoning_output_tokens":0}}

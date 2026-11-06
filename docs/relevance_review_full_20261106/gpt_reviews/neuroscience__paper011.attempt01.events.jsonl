@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1ac74-a00a-71a3-b2d1-0762656945f4"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper011\",\"profile_id\":\"neuroscience\",\"relevance\":3,\"evidence_quote\":\"Conclusions: Migraine, a polygenic disorder, is causally associated with cognitive impairment.\",\"rationale\":\"The study directly examines the causal relationship between migraine and cognitive impairment, aligning with the profile’s interests in cognition and neurological disease.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17959,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":93,"reasoning_output_tokens":0}}

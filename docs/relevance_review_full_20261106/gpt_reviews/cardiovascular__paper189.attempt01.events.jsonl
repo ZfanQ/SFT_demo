@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af42-8d95-7632-af96-60cdb27ffdef"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper189\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"This study aimed to illuminate the experiences of individuals with CLP undergoing orthognathic surgery.\",\"rationale\":\"The study examines experiences and psychosocial outcomes of jaw surgery in individuals with cleft lip and/or palate. It does not address cardiovascular conditions, risk prediction, prevention, or therapies for cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17980,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":107,"reasoning_output_tokens":0}}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper159",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "These findings identify thrombin as a host-associated modulator of microbial functional dysbiosis in patients with Crohn's disease.",
+    "rationale": "The abstract focuses on thrombin-mediated microbial dysbiosis, mucosal inflammation, and potential biomarkers and treatments for Crohn's disease. It does not address cancer, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3613eb656c6b732160f2daf7e7b6b24fd63fff95b61e55a09cdc9d6649a00ca2",
+    "abstract_sha256": "4667c20c261418fbbac1fac8f3e3e2dce83822800eb34fc7722d696eacb6c91b",
+    "original_prompt_sha256": "b7bbcf081d8233e3dd834bd7378e67159dd03d9f3bc4a59a77a8d9b2e736eb81",
+    "elapsed_seconds": 8.845912083000258,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18060,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 116,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:36.026528+00:00",
+    "origin": "population_extension"
+  }
+}

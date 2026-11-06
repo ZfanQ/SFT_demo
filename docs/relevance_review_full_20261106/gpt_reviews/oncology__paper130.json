@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper130",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Probiotic supplementation administered around COVID-19 vaccination did not change the proportion of seronegative participants for anti-S1-RBD antibodies at 6 months.",
+    "rationale": "The study evaluates probiotic supplementation around COVID-19 vaccination and subsequent antibody responses in older adults. It does not address tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "6d4d32fe7f3d029517d1176756f9ab985d6876087f4537e7ba23286635403548",
+    "abstract_sha256": "1931f4029cab02c289255c1aa639ebd44d1df7d46d4e9d70386c646837e5a1dd",
+    "original_prompt_sha256": "e1823278a83ee44fb13bbf98320d197af6b52eec5d7c106f0b9e0450f4b24c7f",
+    "elapsed_seconds": 10.933781291000287,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18228,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 112,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:06:16.282929+00:00",
+    "origin": "population_extension"
+  }
+}

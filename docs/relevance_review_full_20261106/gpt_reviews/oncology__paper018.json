@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper018",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study evaluates the economic implications of introducing the hexavalent vaccine into India’s national immunization program.",
+    "rationale": "The study concerns routine vaccine program costs, procurement, and delivery efficiencies. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "211e313f6f78407a1dee0221ec49e5c81cbe1dfa6064b7929cdffb6a68c2fc79",
+    "abstract_sha256": "5d632b4c99b2923e6d0cfc89431b6d9c293a6a8fb958ca56d9b3d2c013707c79",
+    "original_prompt_sha256": "1a1ce923e76b0ed4cd31a8170aae2041154e154a75018553cd1b451f574bec2e",
+    "elapsed_seconds": 8.339719666999827,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18007,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 100,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:23:28.358210+00:00",
+    "origin": "population_extension"
+  }
+}

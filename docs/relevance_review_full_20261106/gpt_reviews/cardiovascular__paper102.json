@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper102",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Here, we assessed the stability of the human ‘autoantibodyome’ in 30 healthy adults receiving a heterologous CoronaVac–BNT162b2 vaccination regimen (inactivated-virus priming followed by an mRNA booster).",
+    "rationale": "The study evaluates autoantibody stability and immunological safety after COVID-19 vaccination in healthy adults. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "6e6bac3ad2d2a8b067c1bff4099bc94405544243411c1fbda77c02acc19b6529",
+    "abstract_sha256": "96cdb8caa668b6d1be5cdd623578cb9097666fb5761cdeae55d7d27c43ff3ecb",
+    "original_prompt_sha256": "0876f9ee2c43e03ded995cdef323603046e8d79dfe0169c6db82c2c0a258b161",
+    "elapsed_seconds": 8.387209915999847,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18062,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 137,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:12:32.809031+00:00",
+    "origin": "population_extension"
+  }
+}

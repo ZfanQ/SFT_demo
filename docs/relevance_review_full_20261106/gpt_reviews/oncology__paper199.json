@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper199",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Post-surgical problematic alcohol use appears not simply physiological but a coping response shaped by trauma, identity change, and unmet emotional needs.",
+    "rationale": "The study examines psychosocial drivers of problematic alcohol use after bariatric surgery and supportive care needs. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d0cf48fd1c0b799101e679fa268a2f536efadab2ee947e5ab67193ee2763c4fd",
+    "abstract_sha256": "eae79d378033187800d6ff7946db7062ece4859de73cf7f83aaf5bfa9b75b07d",
+    "original_prompt_sha256": "8a142fc9c43b946fb8c2312658fed4ced1522a943a5b8fa525f31f848fe82dd3",
+    "elapsed_seconds": 7.749868458000037,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17180,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 110,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:02.939258+00:00",
+    "origin": "population_extension"
+  }
+}

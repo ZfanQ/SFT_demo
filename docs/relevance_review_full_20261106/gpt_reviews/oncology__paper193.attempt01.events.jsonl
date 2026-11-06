@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4d-c6ad-7401-9c32-3a86c08eba7c"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper193\",\"profile_id\":\"oncology\",\"relevance\":0,\"evidence_quote\":\"This qualitative study explores the perspectives of 20 pregnant women and their families across the five health regions, using the Peqqissuserput model of Kalaallit Inuit health and wellbeing to understand sociocultural dimensions of health and well-being.\",\"rationale\":\"The study concerns the cultural, familial, and community effects of centralized maternity care. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17937,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":126,"reasoning_output_tokens":0}}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper092",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Collectively, these findings suggest that L. acidophilus may improve metabolic dysfunction through coordinated hepatic metabolic regulation and gut microbial modulation, supporting its potential as a probiotic candidate for MASLD and diabetes-associated metabolic disease.",
+    "rationale": "The study investigates probiotic effects on hepatic metabolism, gut microbes, MASLD, and diabetes. It does not address tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "53417528bedc87d2d154f0aecd94abe94e8f7acc5e16ce8db22191b2620d430b",
+    "abstract_sha256": "bfcaf0e9ab722ab99f5675402dec581d4ef01667dc61ed84f13a1ba9a8342cd9",
+    "original_prompt_sha256": "910b85037bc7543990461aa0ce4476e2b7674ac3e4dbf0a0ab33982ce33e4107",
+    "elapsed_seconds": 8.410885207999854,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18024,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 124,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:39.587141+00:00",
+    "origin": "population_extension"
+  }
+}

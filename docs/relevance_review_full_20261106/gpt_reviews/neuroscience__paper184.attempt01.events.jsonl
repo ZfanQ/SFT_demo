@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af43-bc13-7771-ab2c-0622f3ee5c5d"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper184\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"To examine associations of workforce characteristics, calendar period, service-delivery channel, and assessment modality with Quality Technical Assessment (QTA) performance in Sierra Leone, 2019–2022.\",\"rationale\":\"The study evaluates workforce and assessment factors affecting quality scores in family planning and post-abortion care programmes. It does not address neural mechanisms, cognition, neurological disease, injury, treatments, or biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18070,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":126,"reasoning_output_tokens":0}}

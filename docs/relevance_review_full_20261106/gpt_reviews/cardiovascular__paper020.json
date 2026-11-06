@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper020",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Here, we have performed a pilot study to characterize the feasibility and safety of such a procedure, replacing between 16 and 26 L of patient blood plasma with young (ages 18–24) donor blood plasma for twelve patients who recently received a diagnosis of mild cognitive impairment with biomarker evidence of AD.",
+    "rationale": "The study evaluates plasma exchange safety and feasibility in patients with cognitive impairment and Alzheimer’s biomarkers. It does not investigate cardiovascular disease, cardiovascular risk prediction or prevention, or cardiovascular treatment outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "a3f99a4be25b43c200598e8de0214cce883dc0ee3f2243cde215470024dd7e9b",
+    "abstract_sha256": "a530541fe850a378c7ea0e1db39e2a2d7712974c37484313a222b8219f386381",
+    "original_prompt_sha256": "b6540fea4bdf5b62cbf3e24f923d0cd867aa8586e65b48efe5ff0d7c0d4f49f2",
+    "elapsed_seconds": 8.552983666999808,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18058,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 147,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:12:50.231867+00:00",
+    "origin": "population_extension"
+  }
+}

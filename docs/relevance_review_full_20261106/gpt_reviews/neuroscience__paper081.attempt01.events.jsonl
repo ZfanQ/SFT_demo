@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4f-3703-7da3-8ee1-65f816064698"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper081\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"Objective: In this study, we developed and evaluated an AI model combining guidelines with clinical features and continuous glucose monitoring (CGM) to optimize therapeutic decision-making.\",\"rationale\":\"The study optimizes type 2 diabetes treatments for glucose and weight control. It does not investigate brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17212,"cached_input_tokens":9216,"cache_write_input_tokens":0,"output_tokens":119,"reasoning_output_tokens":0}}

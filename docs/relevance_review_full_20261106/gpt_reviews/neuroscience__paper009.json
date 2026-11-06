@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper009",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "We investigated population-wide changes in prescriptions of oral anticoagulants (OAC) (vitamin K antagonists [VKA]) compared to direct oral anticoagulants (DOAC) and whether these translated into a decline in incidences of OAC-related intracerebral hemorrhages (ICH).",
+    "rationale": "The study directly examines intracerebral hemorrhage incidence and its association with anticoagulant use, aligning with the profile’s interests in stroke, neural injury, and treatment safety for neurological outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "c4a244e9ee3ba333b576146a9df4e4f78718b3137383161ceb44403a30284b4c",
+    "abstract_sha256": "3520a9d7d32ca2d36dd87a205c27c655824a6b5c46eb227a20de1e15ad56d19d",
+    "original_prompt_sha256": "0734d0201a317681ea274314f4a32dc8febd3c1036bdfb9f116df9799c363eed",
+    "elapsed_seconds": 8.762486541999806,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18132,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 148,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:31.172329+00:00",
+    "origin": "population_extension"
+  }
+}

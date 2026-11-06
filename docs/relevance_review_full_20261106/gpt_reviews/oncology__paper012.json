@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper012",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "Critically, OVV-03 synergized with B7H3- or HER2-targeted CAR-T cells, inducing superior tumor regression and prolonged survival in orthotopic models.",
+    "rationale": "The study directly evaluates an experimental glioblastoma treatment, including combination therapy with CAR-T cells, tumor regression, and survival outcomes. It also investigates antitumor mechanisms involving apoptosis, immune activation, and PD-L1 regulation.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "af94734f5656314af39ab3513b245c24205e054934e105142e8080ad374e7788",
+    "abstract_sha256": "9b13fdf8f25ffff5c442f938e55a1045c07ddfe47eb1eef0d3e1f2890b959020",
+    "original_prompt_sha256": "4a3125dfcd5c96f845a3006d1d329ce3f5c37358a1fca8c00774048315d566d6",
+    "elapsed_seconds": 8.423393166000096,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17997,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 130,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:18:32.425828+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper081",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Objective: In this study, we developed and evaluated an AI model combining guidelines with clinical features and continuous glucose monitoring (CGM) to optimize therapeutic decision-making.",
+    "rationale": "The study optimizes type 2 diabetes treatments for glucose and weight control. It does not investigate brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "b83cf53aaf40131a4a89ec8d9bb3759b3007be11c821aa774e816623e478fb02",
+    "abstract_sha256": "73d36d1209dc3338ca5596ce5b3011d2871ab76d5ffa29d9573a65dcb67b67af",
+    "original_prompt_sha256": "49e6dcd1abfb458ba13ea52626111d7689dea99fd540ff08bb08f68d50b33b32",
+    "elapsed_seconds": 7.715774624999995,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17212,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 119,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:54.328622+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper159",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "These findings identify thrombin as a host-associated modulator of microbial functional dysbiosis in patients with Crohn's disease.",
+    "rationale": "The study focuses on intestinal microbiota, mucosal inflammation, and thrombin-targeted treatment in Crohn's disease. The abstract does not address brain or neural mechanisms, cognition, neural injury, or neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "7d72ed2b00c53147936259cc9c580749665cc7b2d1964bce0cac52ec7343335d",
+    "abstract_sha256": "4667c20c261418fbbac1fac8f3e3e2dce83822800eb34fc7722d696eacb6c91b",
+    "original_prompt_sha256": "11a2e895600c27c48dae6ba72f916dac9dbeba886e7afacbea8f04bc2206aced",
+    "elapsed_seconds": 7.8096088329998565,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18075,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 117,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:13:07.978190+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper002",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "A 1D navigator prior to the first echo reduces ghosting and improves thoracic SC image quality without respiratory monitoring.",
+    "rationale": "The study develops an imaging correction method for thoracic spinal cord assessment, including multiple sclerosis lesions. It does not address cardiovascular disease, risk prediction, prevention, or cardiovascular therapies and outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "cdcf5d655200db8aa180907e1d4cf3af20b2bcf2086daefd4990205308c2f3d5",
+    "abstract_sha256": "35fd7739c184a8527feac275436b061f82f2c8471e33b1688ed4e713d81c465b",
+    "original_prompt_sha256": "5eda5e31fb0673624389bfe24d8cc0c484b021d9d8b81d80293aadea5d2a0306",
+    "elapsed_seconds": 9.641169874999832,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18080,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 110,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:37.521721+00:00",
+    "origin": "population_extension"
+  }
+}

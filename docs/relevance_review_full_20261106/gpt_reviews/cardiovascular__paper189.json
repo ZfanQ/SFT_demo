@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper189",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to illuminate the experiences of individuals with CLP undergoing orthognathic surgery.",
+    "rationale": "The study examines experiences and psychosocial outcomes of jaw surgery in individuals with cleft lip and/or palate. It does not address cardiovascular conditions, risk prediction, prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3e396c21c63e4b774e862284144ba73f90e007d7456741c4f450f75c44e03d02",
+    "abstract_sha256": "abfa8c858b35e89173719588b1d25493101c3050c6b84c4e9a3db64d573acaf7",
+    "original_prompt_sha256": "2c75f50cc43b4d109fc41c395c9f9f7fa8c0bf542d22885b68bb273f2ec21c1c",
+    "elapsed_seconds": 8.18241716700004,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17980,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 107,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:09:04.972585+00:00",
+    "origin": "population_extension"
+  }
+}

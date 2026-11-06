@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper044",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "L3MBTL4 inhibited cell proliferation and colony formation, and induced G1/S arrest and apoptosis in ESCC cells.",
+    "rationale": "The study investigates L3MBTL4-mediated tumor suppression and therapeutic sensitivity in esophageal cancer, with no stated connection to cardiovascular disease, risk prediction, prevention, or outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "ed81a02596711dcf90e05ad0487b1ccc81524f08d57557acba56a4b9765ee32a",
+    "abstract_sha256": "272e3c24b85144c5a209108290e14a121b2815c410004febf7739ad60599a8f1",
+    "original_prompt_sha256": "f73fb7c79cf2c79851486df6b3f7dd5ac4cb8a82433297bea6737db0396540a7",
+    "elapsed_seconds": 8.974388665999868,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18025,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 109,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:06:05.346865+00:00",
+    "origin": "population_extension"
+  }
+}

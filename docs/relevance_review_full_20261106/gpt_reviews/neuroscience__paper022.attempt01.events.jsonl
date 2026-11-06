@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4c-6abc-77d1-b024-8f7c63dc7cae"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper022\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"examine the factor structure and psychometric properties of the Dutch Expressions of Moral Injury Scale – Military Version (EMIS-M)\",\"rationale\":\"The study validates a moral injury questionnaire and examines PTSD profiles, psychopathology, and family functioning. It does not investigate brain or neural mechanisms, cognition, neurological injury, or treatments or biomarkers for neurological disorders.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18094,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":155,"reasoning_output_tokens":37}}

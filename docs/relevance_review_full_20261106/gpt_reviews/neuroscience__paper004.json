@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper004",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "This study aims to characterize tinnitus patients with somatic complaints, investigate associations between somatic complaints and tinnitus, hyperacusis, and symptoms of anxiety and depression, and to compare patient profiles across genders and healthcare services.",
+    "rationale": "The study offers peripheral clinical relevance through tinnitus and associated symptoms, but focuses on questionnaire-based comorbidity patterns rather than brain mechanisms, cognition, neural injury, or neurological treatments and biomarkers.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The profile does not specify whether clinical tinnitus and hyperacusis studies qualify as neurological-disorder research when no neural mechanisms are investigated."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "a93ae18e4c7d281e1b664e4e9779b6b941b199ceb4989aa2a434a7495e71c2be",
+    "abstract_sha256": "b242efc35ce14f00199f29a626e91ef479180de723ff4d22dfbcd783efff84ed",
+    "original_prompt_sha256": "4855df7ee833627271b76d8af8a2696f055e64cb2f0b59152170ee363cf3eb73",
+    "elapsed_seconds": 12.760357250000197,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17996,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 191,
+        "reasoning_output_tokens": 35
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:22.907908+00:00",
+    "origin": "population_extension"
+  }
+}

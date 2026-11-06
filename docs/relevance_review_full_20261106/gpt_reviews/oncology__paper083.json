@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper083",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Aims: This study characterized clinical features, pathology, treatment, and prognosis of biopsy-confirmed coexisting IgA nephropathy (IgAN) and diabetic kidney disease (DKD).",
+    "rationale": "The study concerns kidney disease pathology, treatment responses, and renal prognosis. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "9ac8cbc2dcd1658b7b5e2e02065ce435e4d1e673da942600c4df2304e5420def",
+    "abstract_sha256": "27c9b2aa09dfd91b63c6569bf04d8bea1c59cd9c8300d294ecf342da777e6d94",
+    "original_prompt_sha256": "b4fc5ba5dab17943893c69d93f14c6d6f397e0720faa3ebf1e684d412dfdcd2f",
+    "elapsed_seconds": 10.432003875000191,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18187,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 118,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:46.730585+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper070",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Here, we employed single-cell RNA sequencing to reveal a significant correlation between impaired mitophagy and cardiomyocyte pathology in CVB3-induced myocarditis.",
+    "rationale": "The study examines viral myocarditis, cardiomyocyte pathology, and mitochondrial mechanisms underlying myocardial injury. The abstract does not connect these findings to brain or neural mechanisms, cognition, neural injury, or neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "9a15984207c9a78253b101206ace8b7cbd832c4c2c1870f76d24c2254b85864d",
+    "abstract_sha256": "ff6276106bedc4251efe4dab2bf23e46223db9f135279066d1e0fb349efe3005",
+    "original_prompt_sha256": "51cb344aa2ddcf6fe4e831382721e8f96687795f7edf713e954ae87d52d927ad",
+    "elapsed_seconds": 7.761651124999844,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18012,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 121,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:50.247527+00:00",
+    "origin": "population_extension"
+  }
+}

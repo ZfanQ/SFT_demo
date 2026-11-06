@@ -1,0 +1,16 @@
+{
+  "state": "passed",
+  "accepted_pairs": 600,
+  "comparison_rows": 5400,
+  "original_pilot_files_byte_verified": 300,
+  "source_files_verified": 55,
+  "review_attempts": 600,
+  "service_failures": 0,
+  "validation_retries": 0,
+  "resume_zero_new_calls": true,
+  "human_calibration": "pending",
+  "test_results": {
+    "population_tests": 3,
+    "existing_relevance_tests": 10
+  }
+}

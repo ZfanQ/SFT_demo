@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper048",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "Together, these data reveal the dynamic remodeling of peripheral immunity following platinum-based CRT and identify a delayed peripheral immune activation phase that may represent an optimal window for combining CRT with immune checkpoint blockade.",
+    "rationale": "The study directly addresses clinical cancer treatment by profiling immune responses after chemoradiation in head and neck cancer patients and identifying a potential timing window for combining treatment with immune checkpoint blockade.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "a33e03ab0b6291e79334e4229ab2c170f8a5234dbd7e25692712999fa9e1adda",
+    "abstract_sha256": "d4e6cb5ab96fd0191191a10616223975c573c6e78926a5a1961b3ec810bdad96",
+    "original_prompt_sha256": "1cc37efd35091ac387843fe7b12b5c43d6bebb4f16607cb3dc03fe899a22a5a4",
+    "elapsed_seconds": 8.590143666999666,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17062,
+        "cached_input_tokens": 15488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 121,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:11:05.482833+00:00",
+    "origin": "population_extension"
+  }
+}

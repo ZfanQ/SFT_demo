@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper040",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to explore the current mental health status and lived psychological consequences of women from Srebrenica and surrounding regions who experienced multiple war-related losses.",
+    "rationale": "The study focuses on long-term war-related trauma, grief, coping, and mental health support. The abstract does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "0dd750de2821218455077cecad99e7606919d9e3a21ad391639408223939fd97",
+    "abstract_sha256": "61c9e84be21c38d2747607df4a635ab6705e4227dc6280ff2845ba23631f02a7",
+    "original_prompt_sha256": "8505cc29a9224dccbc9c7bb19146e12f5c18bf0b8a016ef99d7181c2fb3c92b3",
+    "elapsed_seconds": 7.602593125000112,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18068,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 116,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:10:26.570965+00:00",
+    "origin": "population_extension"
+  }
+}

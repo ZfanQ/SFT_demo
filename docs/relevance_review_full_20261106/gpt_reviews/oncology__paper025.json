@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper025",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Pain catastrophizing appears as a key factor associated with CB-ASD and CB-PTSD symptoms.",
+    "rationale": "The study examines childbirth-related pain and its relationship to acute and posttraumatic stress symptoms. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "9166da8178171a44f25556cfb6ccc6716457ba3c4aa8e1ac4c5bd711c919dcad",
+    "abstract_sha256": "7164e162884874f03dfcd97d789b71d28a41f0d5c0d676c755026fc75930b383",
+    "original_prompt_sha256": "d7656445f30ef992385cefadeae5c7991e3a72749a1dd67a2bb81730cde8f10d",
+    "elapsed_seconds": 7.479618124999888,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18105,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 103,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:11:22.717077+00:00",
+    "origin": "population_extension"
+  }
+}

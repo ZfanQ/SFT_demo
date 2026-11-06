@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper188",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study explored how individuals adapted by addressing their main concerns.",
+    "rationale": "The study examines psychosocial and existential adaptation across liver transplantation, without addressing brain or neural mechanisms, cognition, neurological disease, injury, treatments, or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "f10c77831e4d71480fde50455d5aacc499b95ce39f773e738c7aa45627b33515",
+    "abstract_sha256": "60c6716a6cd2ad9c43ac281df2e2771479c837450f828aab4874f6afac2af9c2",
+    "original_prompt_sha256": "3f29e2247a5e44c93dea4ddad80a06da3f8f3e1a394a6c92996e1b8b9450423b",
+    "elapsed_seconds": 7.546627833000002,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17974,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 92,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:15:18.733261+00:00",
+    "origin": "population_extension"
+  }
+}

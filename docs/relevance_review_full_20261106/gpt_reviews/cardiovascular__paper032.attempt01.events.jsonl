@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4b-e5b9-75b1-b286-22fbf18a148e"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper032\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"This qualitative study aimed to understand the experiences of people living with PSSD in the United Kingdom.\",\"rationale\":\"The study examines lived experiences of post-SSRI sexual dysfunction and its effects on identity, relationships, and mental health. It does not address cardiovascular conditions, risk prediction, prevention, or cardiovascular treatment outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17942,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":109,"reasoning_output_tokens":0}}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper119",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Using 2011 and 2023 mortality data from Brazil and Mexico, we estimated HPV-attributable cancer deaths, years of life lost (YLL), average YLL, and years of potential productive life lost (YPPLL) by sex, age, and cancer type, applying attributable fractions.",
+    "rationale": "The study examines mortality and premature life loss from HPV-attributable cancers and cancer prevention. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "54b1a019910b6440d45cc2d55cc19e3f5d16a7ff343895bd94f0cf8d46939e61",
+    "abstract_sha256": "04ac790358995547b01faa464d7cd91a82b2121b3583f26654d54f7d225eae67",
+    "original_prompt_sha256": "11113d52979c68a8495e1930ecf3ac709780fd4a63cfb32fb434aef42eaaf1e1",
+    "elapsed_seconds": 8.412284874999841,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18114,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 146,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:23:33.180616+00:00",
+    "origin": "population_extension"
+  }
+}

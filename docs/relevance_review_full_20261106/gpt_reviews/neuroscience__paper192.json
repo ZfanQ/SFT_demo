@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper192",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to assess the compliance with PAP guidelines in women undergoing cesarean delivery in Jordan and evaluate its impact on the incidence of SSIs.",
+    "rationale": "The study concerns antibiotic prophylaxis compliance and surgical site infections after cesarean delivery. It does not address brain or neural mechanisms, cognition, neurological injury, or treatments or biomarkers for neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "30309eb71d1159f54f371818160f48588465bfb44ffd032e691fefb1d193b5b3",
+    "abstract_sha256": "191cf23e8f671f9db59eb8e980f8350713df156910ec0393de9e353c6ddaebc8",
+    "original_prompt_sha256": "cfafcd7b12cc59cdd76819fe44a2fdd1a59c1f25dfc88e6e011eec77559e5b0c",
+    "elapsed_seconds": 7.786716749999869,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17278,
+        "cached_input_tokens": 15488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 118,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:13:17.747410+00:00",
+    "origin": "population_extension"
+  }
+}

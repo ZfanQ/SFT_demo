@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper096",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to evaluate the association between sodium-glucose cotransporter-2 inhibitors (SGLT2i) use andBD risk in T2DM patients, compared with sulfonylureas.",
+    "rationale": "The study examines diabetes treatments and biliary disease risk, with metabolic and biliary biomarkers. It does not address neural mechanisms, cognition, neurological disease, injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "cda0d4f4616d25df232ae6290af5e559fbfdb0635f9436af6d1f6f267e50dfed",
+    "abstract_sha256": "fdef9c879b7d754c939904b29b9e66d15dc0da44f3f3fd5ec8a0fcd53dad4251",
+    "original_prompt_sha256": "7633638bf059c25a06bdf1eb727c1ea426e0fd5f5735fb80809263854add9cec",
+    "elapsed_seconds": 7.925730458000089,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18145,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 129,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:22.374076+00:00",
+    "origin": "population_extension"
+  }
+}

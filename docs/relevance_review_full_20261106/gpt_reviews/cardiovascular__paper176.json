@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper176",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "The purpose of this study was to evaluate the capacity of Nursing stations to deliver PHC services in FN communities with populations greater than 2,500, compared to smaller FN communities with populations less than 2,500, by analysing markers of chronic kidney disease (CKD) quality care among individuals living with CKD.",
+    "rationale": "The study evaluates primary healthcare capacity and CKD care across First Nations communities. The abstract does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies targeting cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "9dcabb761dd46a3590c787613e65c854efd1ceb98030cabe9d15cf2059f025e7",
+    "abstract_sha256": "4f9f63c15839cbe200d35d766d8d3da741bda79126e4fef3002ee3487f10b087",
+    "original_prompt_sha256": "089c760f803cc8fed8328209fb193cb59896e42625fc6a7d8ffdaaf6030b4b1f",
+    "elapsed_seconds": 9.227366374999747,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18079,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 148,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:12:42.038409+00:00",
+    "origin": "population_extension"
+  }
+}

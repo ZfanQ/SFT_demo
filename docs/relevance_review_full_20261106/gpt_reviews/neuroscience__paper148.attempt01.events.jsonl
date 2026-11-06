@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af47-5445-7052-a3a8-4a5585db8e29"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper148\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"These data enhance our understanding of the mechanisms that regulate host immune functions and pave the way for new therapeutic strategies to control gut inflammation.\",\"rationale\":\"The abstract focuses on bacterial modulation of lymphoid cells and intestinal inflammation in IBD. It does not address brain or neural mechanisms, cognition, neural injury, or neurological disease treatments or biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17995,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":113,"reasoning_output_tokens":0}}

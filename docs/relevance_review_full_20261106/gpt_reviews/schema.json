@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "properties": {
+    "paper_id": {
+      "type": "string"
+    },
+    "profile_id": {
+      "type": "string"
+    },
+    "relevance": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "evidence_quote": {
+      "type": "string"
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "scope_ambiguous": {
+      "type": "boolean"
+    },
+    "ambiguity_note": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "paper_id",
+    "profile_id",
+    "relevance",
+    "evidence_quote",
+    "rationale",
+    "scope_ambiguous",
+    "ambiguity_note"
+  ],
+  "additionalProperties": false
+}

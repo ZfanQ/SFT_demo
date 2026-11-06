@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper057",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Purpose: To explore the needs and experiences related to discharge readiness among patients after esophagectomy.",
+    "rationale": "The study focuses on discharge readiness, emotional experiences, and home care after surgery. The abstract does not identify cancer as the underlying diagnosis or examine tumor mechanisms, biomarkers, or cancer treatment.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The underlying diagnosis and whether esophagectomy was performed as cancer treatment are unspecified, leaving the oncology connection uncertain."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "adabe33c248bc3bbd2cfb5382357c9531f09a0dcfc84796af53b7060f537c0e4",
+    "abstract_sha256": "4a72f76c253abd8b32cd738b7bb1819bf7cb01208f61064cfff28f80b67fb81d",
+    "original_prompt_sha256": "210e8ae7e986b7134163bb6e4dfad2c64c071dbc9605216662304bdc2d414448",
+    "elapsed_seconds": 10.640521250000347,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17898,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 211,
+        "reasoning_output_tokens": 84
+      }
+    ],
+    "completed_utc": "2026-11-06T05:06:55.433848+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper055",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "In this study, we investigated the immune microenvironment of ITACs (n=59), focusing on tumor-infiltrating T lymphocytes (TILs) and macrophages",
+    "rationale": "The study examines tumor immunity, prognosis, and potential immunotherapies for sinonasal adenocarcinoma. The abstract does not address brain or neural mechanisms, cognition, neural injury, or neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "77c107b0b1a14ec8a6071560f4ac9a13e5f6e4f1eec8418af613ffd5204c3c6f",
+    "abstract_sha256": "884a3f66778cf358924eaf88111456702017e8609f54ffef92f80159d3e37a6e",
+    "original_prompt_sha256": "58c0e83f4c960bc8d164c65678be7ab5a9a0dbeee0a0d0a56fc676ec0cfe0ba6",
+    "elapsed_seconds": 8.454112040999917,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18062,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 127,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:15:13.977250+00:00",
+    "origin": "population_extension"
+  }
+}

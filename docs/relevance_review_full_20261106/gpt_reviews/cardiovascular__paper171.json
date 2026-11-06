@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper171",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "We investigated the role of transcription factor POU2F2 in KIRC oncogenesis and macrophage polarization.",
+    "rationale": "The study focuses on kidney cancer oncogenesis, tumor immunity, and a potential cancer therapeutic target, with no stated connection to cardiovascular disease, risk prediction, prevention, or outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "4b93441270ac31671654e543bb973e82f7c0649a8fa2e7be065af0794cab149b",
+    "abstract_sha256": "d2f7045f3ac693a44a2084b4e06eb72f1c03f25c4e0b1cda2be04f9da15309ad",
+    "original_prompt_sha256": "6b429c70c9ce87088de36129bbe334fa539b4337d64058230b412445a2255ffa",
+    "elapsed_seconds": 8.542897834000087,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17887,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 106,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:34.792871+00:00",
+    "origin": "population_extension"
+  }
+}

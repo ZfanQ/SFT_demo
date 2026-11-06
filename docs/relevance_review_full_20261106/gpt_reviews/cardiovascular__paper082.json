@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper082",
+    "profile_id": "cardiovascular",
+    "relevance": 1,
+    "evidence_quote": "We assessed the effects of daily potato fiber/sugar beet pectin supplementation (fiber, n = 19) versus maltodextrin (placebo, n = 21), both added to a high-protein diet (25E% protein, ±45% plant-based), on peripheral insulin sensitivity (IS) in adults with overweight/obesity.",
+    "rationale": "The trial examines insulin sensitivity and metabolic effects of dietary supplementation in adults with overweight/obesity, providing peripheral relevance to cardiovascular prevention. It does not directly assess cardiovascular disease, cardiovascular risk prediction, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "db53b00f9f323dc9b21b27aa905ef0450ad0d19a0d7694c9cff2a53bfaa14828",
+    "abstract_sha256": "b4b67de0676fd70b7758645f1e6587a930633974e23b67087d29b0a97352a38a",
+    "original_prompt_sha256": "623a80a4e43e68fa451d5748b7288662d62f7e27452d6115ea9d5ce1be645a3c",
+    "elapsed_seconds": 11.721077041999706,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18101,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 209,
+        "reasoning_output_tokens": 45
+      }
+    ],
+    "completed_utc": "2026-11-06T05:18:36.076545+00:00",
+    "origin": "population_extension"
+  }
+}

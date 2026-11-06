@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper101",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to examine the thematic structure, spatial heterogeneity, and macro-level correlates of public responses to daily-life narratives shared by people living with HIV/AIDS on Douyin in China, with a focus on spatially varying correlational patterns of digital HIV/AIDS stigma.",
+    "rationale": "The study examines geographic patterns and correlates of HIV/AIDS stigma in social media responses. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "79c1006f87074314f8b6fc191fa0e0d5c712cd9ec1037786fd299ebeaa29181a",
+    "abstract_sha256": "2c020e97bca41510c2f0ccec5ac1eafc38aff87c4d8979c0353a75bf846e61c6",
+    "original_prompt_sha256": "2446e65492aa81d61c71e9cbe26617eff0481bab5a5f3f17d0966f8663884848",
+    "elapsed_seconds": 9.468348041000354,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18174,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 136,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:14:39.883894+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper142",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "this study aimed to investigate the virus replication cycle and immune-related determinants responsible for restricted HEV infection in murine hepatocytes.",
+    "rationale": "The study investigates hepatitis E virus infection barriers in murine liver cells. It does not address cardiovascular disease, risk prediction, prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "b4b8cbf0b489f892e9ba1ff7c9ed08fef53e1cf487bcf7a81a7a21b4eb15cf2c",
+    "abstract_sha256": "9a1ade947f7226d07ebf92526f1718ae0c71c104ac6f8441f719e16067f39aca",
+    "original_prompt_sha256": "cb187a98a6fb023065f864896ba90100977e605ced61658a0d13f636eb47c00e",
+    "elapsed_seconds": 7.561150875000294,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17047,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 106,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:06.723433+00:00",
+    "origin": "population_extension"
+  }
+}

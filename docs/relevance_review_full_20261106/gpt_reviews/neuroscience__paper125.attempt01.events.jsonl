@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af44-a833-7a93-ba7e-735aa4d9f371"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper125\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"Here, we identify the receptor tyrosine kinase AXL as an IAV functional entry factor with dual roles in viral invasion and host immune modulation.\",\"rationale\":\"The abstract focuses on respiratory viral entry, immune modulation, and antiviral treatment, with outcomes involving pulmonary viral loads and lung pathology. It does not address brain or neural mechanisms, cognition, neural injury, or neurological disorders.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18005,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":122,"reasoning_output_tokens":0}}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper150",
+    "profile_id": "oncology",
+    "relevance": 1,
+    "evidence_quote": "Infectious diseases were the primary cause of granulomas, followed by inflammatory diseases, sarcoidosis and response to neoplasms.",
+    "rationale": "Neoplasms are one cause considered in this study of granulomatous inflammation, providing a peripheral oncology connection. The study focuses on granuloma aetiologies and diagnostic evaluation rather than tumor progression mechanisms, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "6df541271e3723faab397a3e9217223da26e289d5bc949a15b74148eea578e47",
+    "abstract_sha256": "7628cedd89ab8c24486c67b30a88b581bf5d006fd13412ee7b27c2e2721c5efb",
+    "original_prompt_sha256": "36298359058e8a54bc7e78bceb47200fa8fe2f82fa23b7af765870fb7246ea68",
+    "elapsed_seconds": 8.73728116700022,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18140,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 122,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:05:46.217185+00:00",
+    "origin": "population_extension"
+  }
+}

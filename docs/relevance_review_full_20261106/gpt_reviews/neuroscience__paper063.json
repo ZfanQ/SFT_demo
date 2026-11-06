@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper063",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "The Random Forest model, enhanced by functional assessments and SHAP interpretability, offers a robust, transparent tool for predicting intradialytic exercise intolerance, supporting precision nephrology through tailored risk management.",
+    "rationale": "The study predicts exercise intolerance and hypotension during hemodialysis for nephrology risk management. It does not investigate brain or neural mechanisms, cognition, neural injury, or neurological disease treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3b4ca56427cd4494518fb39faf27aa950306f2eafd523062e28df1b02ed8eb0f",
+    "abstract_sha256": "68018c0cff331ac52d9d1f7e208b167d716547736ca90aef0564e4b6ce9e50a4",
+    "original_prompt_sha256": "5cf0ffc76c3c27b84366692eb6ce7fb422747b856c601ea9332891f854860c7f",
+    "elapsed_seconds": 7.553000041999894,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18095,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 128,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:20:49.372614+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper077",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study evaluated the association of Chuanhuang Patent Formula (CHPF) with short-term renal function parameters and long-term prognosis in patients with acute kidney injury (AKI) on chronic kidney disease (CKD) (A on C) and explored potential subgroups that might derive greater benefit.",
+    "rationale": "The study concerns kidney injury, chronic kidney disease, and renal treatment outcomes. It does not address brain or neural mechanisms, cognition, neurological disease, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "e740fc14a7b5dafc72524cb0b4bc59a415d341fa6c59887ad60750df90798e48",
+    "abstract_sha256": "db8206c904ebaa05e01d14528287871c5a1fec5d48bb2227564fe434df5db4d4",
+    "original_prompt_sha256": "310c39c13c4d4f10a331e209ce1156d54bad7fee223226b1fa5fd07dc0138800",
+    "elapsed_seconds": 9.600858750000043,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18060,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 143,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:48.580896+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper086",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Using multivariate and mediation models, we evaluated the associations of SAT characteristics with systemic IR (TyG index), systemic inflammation (C-reactive protein), and VAT area.",
+    "rationale": "The study examines adipose tissue function, visceral fat accumulation, and metabolic disease associations by sex. It does not address brain or neural mechanisms, cognition, neural injury, or neurological disorders and their treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "0f436596f7871b0fdd820e2ea03f161a0c560dffe096be96812233dd14be6959",
+    "abstract_sha256": "b5a8b13378cf4c349d5e3e5780f39207236b1fc9249e1b4b65f7db63309cafb8",
+    "original_prompt_sha256": "01551aac2b1a0bc69c45581df56ce198cf2c9372cd0ff130591edaa8b7e25a7f",
+    "elapsed_seconds": 9.209509582999999,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18002,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 125,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:03:59.161360+00:00",
+    "origin": "population_extension"
+  }
+}

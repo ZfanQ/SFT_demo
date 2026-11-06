@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper198",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "The aim of this study was to gain a comprehensive understanding of health-related quality of life (HRQoL) in patients undergoing MIRPE.",
+    "rationale": "The study examines quality of life after surgical repair of a chest wall deformity. It does not investigate brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers. Reported pain and fatigue do not establish a neuroscience focus.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "71f8660883b8dc25624bf34aed0461335ba3fe2953c9b30171ff5102c92f68aa",
+    "abstract_sha256": "e925d404ebc9b24e26b17b32f6f639a8b1249584f569dfc92be464ea6d9b5251",
+    "original_prompt_sha256": "3983beb5f3cde945a3cd60b21058fc4b909ab736115c3cfb1a7e995a0e93ba06",
+    "elapsed_seconds": 10.877060667000023,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17978,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 128,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:20:32.033621+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper074",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This retrospective study explored the associations of plasma homocysteine (Hcy), cysteine (Cys) and methionine (Met) levels with 90-day prognosis in intracerebral hemorrhage (ICH) patients and evaluated their predictive value for ICH prognosis.",
+    "rationale": "The study evaluates prognostic biomarkers for intracerebral hemorrhage. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "e1c50a9c497eafc39f9271f7d6e9ee89d6110ea6b8fe09443286dda0ec5f8dde",
+    "abstract_sha256": "796950a21a8c47498be98a655467ccae46b6353652ee18623444f7ba830ebc03",
+    "original_prompt_sha256": "801cac9197b2ad34510d9f295445f9d049e7a5d8ea5d7de59da8ce2439c8e4ae",
+    "elapsed_seconds": 8.756837333000021,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18113,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 133,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:15:30.276771+00:00",
+    "origin": "population_extension"
+  }
+}

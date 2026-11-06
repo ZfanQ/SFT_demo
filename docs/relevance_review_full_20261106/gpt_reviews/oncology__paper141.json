@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper141",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "We conducted a national, multicenter, hospital‐based registry study to evaluate adj‐ChTs in resected BTCs.",
+    "rationale": "The study directly evaluates clinical cancer treatments, comparing adjuvant chemotherapy regimens for resected biliary tract cancers using recurrence-free and overall survival outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "ad4e49807747d749dabf907473be2f0e2c14e8e3a8c7e3bf3299ff575eead2fc",
+    "abstract_sha256": "b6efc3df124df07a9f086ba5402aa7d2b8f45162113c71c58c55bb68e0f61b78",
+    "original_prompt_sha256": "2744adceb2b0830f5ab1727d544c8f5c67cf4688c27acf11c427dea530a4f3d6",
+    "elapsed_seconds": 8.06585616700022,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17319,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 105,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:10:29.998529+00:00",
+    "origin": "population_extension"
+  }
+}

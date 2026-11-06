@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper111",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study sought to determine the perceptions and experiences of the caretakers of children with neurologic deficits after severe malaria in Uganda.",
+    "rationale": "The study concerns caretakers’ experiences of childhood neurologic deficits following severe malaria. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "c425203a96193221d8fc4a805af7d053071c9d399b26d901bcef58f554bd4505",
+    "abstract_sha256": "3b6dd55226fb582c374ec26272ca2d31439f658012bcdcc2cfdc1353b1a6c1c9",
+    "original_prompt_sha256": "b4398b8cab028dac1f8511308f7244fe6c77413b6b455ced3079352ea6848163",
+    "elapsed_seconds": 7.81379650000008,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17953,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 106,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:23:03.867169+00:00",
+    "origin": "population_extension"
+  }
+}

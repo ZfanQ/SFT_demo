@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper013",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "To develop and validate a nomogram for estimating the risk of baseline respiratory insufficiency in patients with amyotrophic lateral sclerosis (ALS).",
+    "rationale": "The study develops a respiratory insufficiency risk model for ALS patients. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "0691baa2236594699579ea83c5450b0f8bd870ca8986b00f9a51409eaba0a858",
+    "abstract_sha256": "7af92223e73b73846fdee89aa62b3a5a9af4586772c1340f7afda2e2023ee8ce",
+    "original_prompt_sha256": "998886753e73301914bf8a3290a09966afde99fe914f57e1b5879733d02dc861",
+    "elapsed_seconds": 7.261746541999855,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18098,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 106,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:23:20.010600+00:00",
+    "origin": "population_extension"
+  }
+}

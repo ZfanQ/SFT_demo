@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper003",
+    "profile_id": "cardiovascular",
+    "relevance": 1,
+    "evidence_quote": "Our study aimed to explore the experiences and needs of care providers across multiple regions of the Philippines to inform the development of stroke support initiatives and programmes.",
+    "rationale": "The study concerns stroke rehabilitation services and provider needs, giving it peripheral relevance to the profile’s vascular disease interest. Its focus is service delivery and support rather than cardiovascular risk prediction, prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The profile does not specify whether vascular disease includes stroke rehabilitation and support services."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "7547bc6059eb6e5a46dcd41394956f26b3173a0035cdf5f7f482e076ec544dd7",
+    "abstract_sha256": "7b0fd96bd24161c9311821a09f8a9a3bf398a592c087dae05b7da683bbe5bb95",
+    "original_prompt_sha256": "7f6970468ad373b1a121f8d23a8398e6bb8b937a762cc16e7e603cf70bd59b82",
+    "elapsed_seconds": 12.300156291999883,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17887,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 171,
+        "reasoning_output_tokens": 34
+      }
+    ],
+    "completed_utc": "2026-11-05T15:57:37.127849+00:00"
+  }
+}

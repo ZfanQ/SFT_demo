@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper113",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "To establish an annual national monitoring of the behavioral and social drivers of influenza vaccination, we validated the World Health Organization’s Behavioral and Social Drivers of Influenza Vaccination survey.",
+    "rationale": "The study validates a survey of behavioral and social drivers of influenza vaccination. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "e9a8395a83158634b9b5c0a0315c0472175f03b65042badde27565338c399bf7",
+    "abstract_sha256": "7709372bd0b008efaf1ee3578cca26f0e4904cdb9725b105cfcec30d1093f17c",
+    "original_prompt_sha256": "6308408624c6c1f8c46f4161108a378848e3baefbd6f4cd37010c3b1517df0a8",
+    "elapsed_seconds": 7.8242773750002925,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17951,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 113,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:14:52.377535+00:00",
+    "origin": "population_extension"
+  }
+}

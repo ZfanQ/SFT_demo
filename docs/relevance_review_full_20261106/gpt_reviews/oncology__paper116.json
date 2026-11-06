@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper116",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Here, we investigated 27 CDAD cases in infants and toddlers under two and found that the amino acid-based formula (AAF) feeding is a notable risk factor closely associated with the development of CDAD in infants.",
+    "rationale": "The study concerns formula feeding, infant gut microbiomes, and susceptibility to C. difficile-associated disease. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "6ecb9d90c658bab2b373dacba60570801b8a27eaa8d2e262874460fb6ab0e25f",
+    "abstract_sha256": "89ae044801f68e0672c8e1db31f67eaa5ec7ddabd3689144f494d10986381191",
+    "original_prompt_sha256": "b429c51ec6a54f60eac6ad9d0f534371659a971d94f332dcb68157d45625557b",
+    "elapsed_seconds": 8.06924783300019,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17888,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 128,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:06:44.564104+00:00",
+    "origin": "population_extension"
+  }
+}

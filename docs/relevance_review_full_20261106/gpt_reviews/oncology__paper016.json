@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper016",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to compare the psychomotor development of displaced children living in Lubumbashi according to their level of exposure to war-related trauma (direct, indirect, or none) and to examine the potential moderating role of school attendance and parental support.",
+    "rationale": "The study examines war-related trauma and psychomotor development in displaced children. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "1bf656e985c2e08259143f56589d527b313a8661199b219336ff40d285474bb0",
+    "abstract_sha256": "39b33bf6b3f5cc570a38f43f46c3b5974d6d69b4e1274a8c59c412e8e2d15f13",
+    "original_prompt_sha256": "b4e528aafc4fc8b69a3623b077d12a0331f44de6ae830ac74c711e9b202095e4",
+    "elapsed_seconds": 8.229301916000168,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18150,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 131,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:47.903297+00:00",
+    "origin": "population_extension"
+  }
+}

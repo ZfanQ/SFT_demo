@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper162",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study investigates the role of ectonucleotide pyrophosphatase/phosphodiesterase 3 (ENPP3) as a potential therapeutic target and immune-checkpoint enzyme in ccRCC.",
+    "rationale": "The study focuses on renal cancer progression and anti-tumor immunotherapy, with no stated connection to cardiovascular disease, risk prediction, prevention, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "150944eebc4209a32769ebb12423c6c2e10ef2e68cc84a577b6dfce9ac87dbd3",
+    "abstract_sha256": "4a09d6d655a10f351fe8ed70ac9a7d046dd8dd2990cc6b06708df53a5e839378",
+    "original_prompt_sha256": "797cb2ecd84b5bb45a6fde092b9c6c7a2c2d29b5694f296965e5b0462a31f171",
+    "elapsed_seconds": 10.522587375000057,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18082,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 122,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:18:51.442301+00:00",
+    "origin": "population_extension"
+  }
+}

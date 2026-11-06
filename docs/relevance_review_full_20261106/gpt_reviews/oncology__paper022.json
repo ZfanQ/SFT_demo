@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper022",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Findings indicate that the Dutch EMIS-M is a psychometrically acceptable instrument for assessing MI among treatment-seeking veterans.",
+    "rationale": "The study evaluates moral injury measurement and its associations with PTSD, psychopathology, and family functioning in veterans. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "69f926cf41caf41b25ce31c7f6673005ef31cd1a69cd1555001eda68fc2c830c",
+    "abstract_sha256": "b1886ed9573675e608440461a7d6fdbf49c5b1aace98f9133ee03dabe2f1a3f5",
+    "original_prompt_sha256": "628f5ba972681e513c05dc8a8840e231d1609be71705304525cae1a2f11802f3",
+    "elapsed_seconds": 8.002156292000109,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18087,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:03.438787+00:00",
+    "origin": "population_extension"
+  }
+}

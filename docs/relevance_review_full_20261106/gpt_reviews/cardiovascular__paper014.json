@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper014",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This multicentre study aimed to identify factors influencing QoL among MS patients in Northwest Ethiopia, where data are scarce.",
+    "rationale": "The study examines quality of life and its predictors in multiple sclerosis patients. It does not investigate cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "30bbdd574e345589940e9085db8fd3169cbd76bc5f70114dc5ced71aaf2883cd",
+    "abstract_sha256": "0b4615ebc7845a596ddbf1e049708e83c34d6fe25e86934a71ae99f6c483c0a2",
+    "original_prompt_sha256": "367d8e652c9f2ea6d7a5a3313ee4cc08a68133fe7d7970fd36b165b9ceaa97aa",
+    "elapsed_seconds": 8.021416958999907,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18198,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 105,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:15:02.724666+00:00",
+    "origin": "population_extension"
+  }
+}

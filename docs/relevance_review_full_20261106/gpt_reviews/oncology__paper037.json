@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper037",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "We evaluated the feasibility and effectiveness of two self-directed online writing interventions embedded within China's WeChat ecosystem during the COVID-19 pandemic through a pragmatic randomised controlled trial.",
+    "rationale": "The study evaluates online writing interventions for posttraumatic stress symptoms. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "7deabe5b72a39c794c92b10b71540cf8c2b9539be5895a17a2c1c2110596b534",
+    "abstract_sha256": "cb9be7c63323a4207db52df179f1fdbe2fa6bc18491c04bc393c28a21b1ed66a",
+    "original_prompt_sha256": "1540a5c9c1ec0a00a1e6e5e0ae52e896961ca84af3b1b1d1a0a923ee033e240b",
+    "elapsed_seconds": 8.858481666999978,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17161,
+        "cached_input_tokens": 15488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:11:59.391341+00:00",
+    "origin": "population_extension"
+  }
+}

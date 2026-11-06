@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af48-c474-7c71-9d88-4fc53b2f6f1e"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper018\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"This study evaluates the economic implications of introducing the hexavalent vaccine into India’s national immunization program.\",\"rationale\":\"The study focuses on vaccine program costs, procurement prices, and immunization delivery efficiencies. It does not address cardiovascular diseases, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18019,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":106,"reasoning_output_tokens":0}}

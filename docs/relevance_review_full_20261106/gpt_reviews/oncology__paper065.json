@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper065",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This retrospective study examined the association between BMI and Cardiopulmonary Exercise Testing (CPET) indices and the modifying effect of sex in 405 CCS patients recruited from the Cardiovascular Disease Center of Taizhou People’s Hospital.",
+    "rationale": "The study concerns BMI, cardiopulmonary exercise capacity, and sex differences in chronic coronary syndrome patients. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3d6f59106d09aa29c13ea15914800aaf67a9e9b001293a808a003ad2d0555d44",
+    "abstract_sha256": "b75ec3b908cf90accff5e628b9c528e19f4e69911aa7d05dc18fc7b96622b2bd",
+    "original_prompt_sha256": "5cbdbeb0dc9953d0885bba4b04469c90647db5e314552b38d9bdec0feeb09790",
+    "elapsed_seconds": 8.456196624999848,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18116,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 132,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:06:28.399878+00:00",
+    "origin": "population_extension"
+  }
+}

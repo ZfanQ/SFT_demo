@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper019",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This integrated sequencing analysis pipeline provides accurate, comprehensive characterization of repeat expansion disorders and has the potential to improve routine genetic diagnosis.",
+    "rationale": "The study characterizes repeat expansions for genetic diagnosis of neurological and neuromuscular disorders. It does not address tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d25c378ba746aedc4c77b10931df120fdbbe88d8b55c2c3f26473b949383db47",
+    "abstract_sha256": "e99dadfb21d85b856de720ca52bc10d6352fa55d25c3560f60c66ebebd1404ce",
+    "original_prompt_sha256": "146213b6db15ee047ff7e8a0c44b044131608951c606c1f03f4ae516333e759e",
+    "elapsed_seconds": 8.171870374999799,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18069,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 104,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:48.682799+00:00",
+    "origin": "population_extension"
+  }
+}

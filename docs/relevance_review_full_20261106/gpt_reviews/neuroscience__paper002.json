@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper002",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "Preliminary evaluation in three pwMS showed consistent improvements in artifact mitigation, structural delineation, and lesion conspicuity with navigator correction, providing proof‐of‐concept for potential clinical application.",
+    "rationale": "The study improves spinal cord imaging and multiple sclerosis lesion visualization, directly supporting assessment of neural pathology and diagnosis of a neurological disorder.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "92e60a931c7de97b869a307bc6e5f5b0add6c2bb391bacb023fb4ba1a5d225c5",
+    "abstract_sha256": "35fd7739c184a8527feac275436b061f82f2c8471e33b1688ed4e713d81c465b",
+    "original_prompt_sha256": "79f036cddc6881f5e5a11d803e6a50e12f38962d2e098524f117fb3919bc3cf4",
+    "elapsed_seconds": 8.732329375000063,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18083,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 112,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:12:41.672968+00:00",
+    "origin": "population_extension"
+  }
+}

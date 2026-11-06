@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper125",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Here, we identify the receptor tyrosine kinase AXL as an IAV functional entry factor with dual roles in viral invasion and host immune modulation.",
+    "rationale": "The study focuses on respiratory viral entry, inflammation, and antiviral targeting of AXL. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "951693c0c777f4981d866bd21538fbfab884db0dd95f9039f55d7cc192ba4f3a",
+    "abstract_sha256": "fe9684e615d9ee6021c2125dd935c071172a44c271961c1663f099758c5f684d",
+    "original_prompt_sha256": "d43faf19fa977cf6baceba63d1457c21b11715a68405acd909f997b689ba9986",
+    "elapsed_seconds": 8.841779124999903,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18008,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 115,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:05:09.502092+00:00",
+    "origin": "population_extension"
+  }
+}

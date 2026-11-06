@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper041",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "These findings highlight spatially localized cytotoxic cell exhaustion as a key immune evasion mechanism in HPV-negative HNSCC and underscore the value of integrating spatial and single-cell data to reveal therapeutic vulnerabilities.",
+    "rationale": "The study directly addresses cancer progression through tumor-specific immune changes and cytotoxic cell exhaustion, identifying immune evasion mechanisms and potential therapeutic vulnerabilities in HPV-negative HNSCC.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "9e277d709bb2c39dbc78569ad239b4f9a43c0c5dce6f77e131f8300e652a6e68",
+    "abstract_sha256": "3efffb7c9f07ea00ac1ba7471a8c5625d1e924a7a7a699dc3cecfd0423adb47a",
+    "original_prompt_sha256": "db93a129675b8ef2972e7214049aa7d7ea24d082270ab7ffa1d4aa97b40f590e",
+    "elapsed_seconds": 8.264325499999813,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17099,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 120,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:21:52.206982+00:00",
+    "origin": "population_extension"
+  }
+}

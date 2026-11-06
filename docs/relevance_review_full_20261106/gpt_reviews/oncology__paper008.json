@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper008",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to investigate the impact of CMI and sarcopenia, as well as their integration into a metabolico-muscular composite risk model, on all-cause and cardiovascular mortality in CKD patients.",
+    "rationale": "The study assesses mortality risk and prognostic biomarkers in chronic kidney disease. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "6a06c5011b1c8e76306ab7e07b1479d89795836cd0ff774e7bc502eb7b8245b6",
+    "abstract_sha256": "41406d2a74b077d57d632144d9e4126d3f118ac49346284f9718868550753071",
+    "original_prompt_sha256": "ac1d7c6169821848241f27ddd3d4c2f3402aead40b94f6ddc4b20ab36d7608c8",
+    "elapsed_seconds": 11.82021962500039,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18105,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 122,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:10:38.395380+00:00",
+    "origin": "population_extension"
+  }
+}

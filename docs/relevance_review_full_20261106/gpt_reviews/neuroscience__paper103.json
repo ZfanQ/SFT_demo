@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper103",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "Myalgia, induration with a diameter greater than 5 cm, immune thrombocytopenia, and mild reactions such as fatigue, drowsiness, dizziness, and headache were detected as abnormal signals.",
+    "rationale": "The study reports drowsiness, dizziness, and headache as adverse-event signals, providing peripheral relevance to neurological symptoms. Its main focus is HPV vaccine safety surveillance rather than neural mechanisms, neurological disease, or neurological treatments and biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "1f9703d564203701f0bfa897b69ff4d0436a71be210539201b9791a789b6d994",
+    "abstract_sha256": "1524fce788f95685d650cc40c8241fb31c985aec5813012bf2d1d8dfbd55b25f",
+    "original_prompt_sha256": "5eda2d26fc07c9ea5435167bd976a205926123cab90983b5a5056b493ee04e7e",
+    "elapsed_seconds": 10.076142834000166,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18017,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 183,
+        "reasoning_output_tokens": 46
+      }
+    ],
+    "completed_utc": "2026-11-06T05:06:48.757647+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper119",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Using 2011 and 2023 mortality data from Brazil and Mexico, we estimated HPV-attributable cancer deaths, years of life lost (YLL), average YLL, and years of potential productive life lost (YPPLL) by sex, age, and cancer type, applying attributable fractions.",
+    "rationale": "The study quantifies mortality and lost life years from HPV-attributable cancers. It does not address brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "63053fac574bdf3f83551011112041b48dfd7ec9f858d4863e10ef63af3448da",
+    "abstract_sha256": "04ac790358995547b01faa464d7cd91a82b2121b3583f26654d54f7d225eae67",
+    "original_prompt_sha256": "d4d4e5c926825ffe97205f42b86e3536aa6af5d162653f8cbd0a51f28e3d74f1",
+    "elapsed_seconds": 12.796176958000615,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18029,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 148,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T16:02:28.801525+00:00"
+  }
+}

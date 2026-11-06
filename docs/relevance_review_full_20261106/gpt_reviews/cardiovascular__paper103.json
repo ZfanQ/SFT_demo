@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper103",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "A Univariate Poisson regression model was used to explore risk factors associated with HPV vaccine AEFI. Disproportionality analysis was performed to detect abnormal signals related to the HPV vaccine.",
+    "rationale": "The study evaluates HPV vaccine adverse events and post-marketing safety. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "e0f7a888ee71382d878741a16eb2f65672e91a8765c5f9ec37e07ebc1676d0ac",
+    "abstract_sha256": "1524fce788f95685d650cc40c8241fb31c985aec5813012bf2d1d8dfbd55b25f",
+    "original_prompt_sha256": "01654486e7107d196dba034f1c577ff5a934c14c973f269d138dee190eef991c",
+    "elapsed_seconds": 8.826917417000004,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18016,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 119,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:20:18.946197+00:00",
+    "origin": "population_extension"
+  }
+}

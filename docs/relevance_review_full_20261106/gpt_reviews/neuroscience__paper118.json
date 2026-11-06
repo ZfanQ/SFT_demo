@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper118",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study is the first to systematically demonstrate that L. reuteri and its metabolite IAld exert a protective effect against sepsis through the DUSP1/ERK/NOX2/ROS axis, providing novel mechanistic insights and potential therapeutic targets for immunometabolic intervention in sepsis.",
+    "rationale": "The study focuses on microbiota-derived modulation of macrophage bacterial clearance and sepsis treatment. The abstract does not address brain or neural mechanisms, cognition, neural injury, or neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "8209d60816ca2e5ce83a01ac9247ce4be3ff19d9c5e93b0912cf741046679191",
+    "abstract_sha256": "24545ec07e6ef9fd47ccf5f3121d4583b3beff94be6ba5f87f340f75ceed14aa",
+    "original_prompt_sha256": "5dc5385d262cd9c435f89457e35223de71dc9787c9b1ec2d9b9149d1d35d6bb3",
+    "elapsed_seconds": 8.467280458000005,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18040,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 147,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:14:44.551435+00:00",
+    "origin": "population_extension"
+  }
+}

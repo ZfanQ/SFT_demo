@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af42-ee2d-79b2-9bfe-2babf08d47e5"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper128\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"The primary objectives were to evaluate reactogenicity, safety and immunogenicity post-vaccination. Secondary and tertiary objectives were to further evaluate humoral and cell-mediated immunity post-vaccination.\",\"rationale\":\"The study evaluates COVID-19 vaccine safety and immune responses in healthy adults. It does not investigate brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18151,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":126,"reasoning_output_tokens":0}}

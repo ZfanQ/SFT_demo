@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper185",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to compare the virological features of BKPyV between KTR and HSCT recipients and to explore possible associations with clinical manifestations.",
+    "rationale": "The study examines viral genetics, replication, and complications after transplantation. It does not investigate tumor progression, tumor biomarkers, or cancer treatments, and the abstract does not link its HSCT population to cancer.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "cf129d6b44482c00c4bae129457f71e01722caba99eb00957df474c914b136f5",
+    "abstract_sha256": "0cbf902ea99e2dcbad017ce567ccc1cfa218c316bf09b3f608059b06a24dd204",
+    "original_prompt_sha256": "155600e077376b4a3405c0dba922ec324e9a1cd0120f37f838782b6075096d42",
+    "elapsed_seconds": 9.799296458999379,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17129,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 117,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:56:52.379185+00:00"
+  }
+}

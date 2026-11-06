@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper107",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "We assessed vaccine hesitancy toward two novel respiratory syncytial virus (RSV) immunization strategies, maternal vaccines and infant monoclonal antibodies (mAbs), among 4422 couples across eight Chinese provinces, via a multicenter cross-sectional survey with convenience sampling from medical institutions.",
+    "rationale": "The study examines parental hesitancy toward RSV immunization and associated demographic and pregnancy factors. It does not address brain or neural mechanisms, neurological disease, injury, treatments, or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "57a5a563ad38efa105cd5af3597c3b7ae7104b46db5f1c8eed350c36d781c670",
+    "abstract_sha256": "55e3c4e9778798c8138331ae81ac8dfaed13db67ad94933da0c49d3c62694cf1",
+    "original_prompt_sha256": "e760e3a35ab2f30f59c6fda9f0ca57b6cd9aeb8d4a7718ef7ed805d3cddaa332",
+    "elapsed_seconds": 9.364017625000088,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18123,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 144,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:12:07.379738+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper137",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Using a modified grounded theory approach, we examined decision making among eligible individuals who enrolled (trial participants (TPs), n = 32) and those that declined enrollment (non-participants (NPs), n = 5) across two phase 1 COVID-19 vaccine trials conducted during the pandemic (Nova Scotia, Canada; 2021–2023).",
+    "rationale": "The study examines enrollment decisions and retention in COVID-19 vaccine trials. It does not address cardiovascular conditions, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "84503ad52886b6066707faa039278b9ada84b49e791b2a3c5d6136093322095a",
+    "abstract_sha256": "8b9846ca5e5f430211af5b531844bb5ab9c103085b987fde94e1a5ea702b57ce",
+    "original_prompt_sha256": "dfa0c4649586141ef501b595abc4503a5a11e96467bbe01f86bed93367dd5e75",
+    "elapsed_seconds": 9.19066900000007,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18052,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 156,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:15:19.271808+00:00",
+    "origin": "population_extension"
+  }
+}

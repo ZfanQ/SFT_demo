@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper068",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to compare mortality risks among patients with stage 2 cardiovascular-kidney-metabolic syndrome (CKM) across different multimorbidity states.",
+    "rationale": "The study examines multimorbidity, vitamin D, and mortality in cardiovascular-kidney-metabolic syndrome. It does not address brain or neural mechanisms, cognition, stroke, neural injury, or neurological disorder treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "00693cbc012cfa20e7ddcf91a0cec527f943a1c49d72ec519482d8dea4350dc9",
+    "abstract_sha256": "0654e57fcc31ec446fce56e803d4d8c26f367fdb0e62da79156b928e944d3ad9",
+    "original_prompt_sha256": "98a842dbb3bb7ea3d070616021849cb5e59a6c4345c5c6f6f5f0aba73b2835f9",
+    "elapsed_seconds": 8.211998583999957,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17981,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 124,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:14:01.309677+00:00",
+    "origin": "population_extension"
+  }
+}

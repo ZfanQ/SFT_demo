@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper172",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Objective: To assess the geographic accessibility of dialysis services and estimate potential coverage gains from integrating PD into existing hemodialysis (HD) facilities.",
+    "rationale": "The study examines geographic access to kidney failure care and dialysis service integration. It does not address brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "16db569fe873467da96b6ad943241b6d59da406cd5afde3d4c393f860e45de35",
+    "abstract_sha256": "f287f9929ad34fb9012700af83adbbba8efc280c2bb4dc02f40089d264ee8221",
+    "original_prompt_sha256": "6d0eeef39dc902673c85ab0198d84fae96f19ed35a972562c3d38f39e736af90",
+    "elapsed_seconds": 10.610907750000024,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18051,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 115,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:20:04.369300+00:00",
+    "origin": "population_extension"
+  }
+}

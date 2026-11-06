@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper130",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "The primary outcome was the proportion of participants without detectable anti-S1-receptor binding domain (anti-S1-RBD) antibodies at 6 months post-vaccination.",
+    "rationale": "The study evaluates probiotic supplementation and antibody responses to COVID-19 vaccination in older adults. It does not investigate brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "913a69ab083b0d3e957a751322be960bb7fe5d1aa1a7e9555cd5e2ba1f549e80",
+    "abstract_sha256": "1931f4029cab02c289255c1aa639ebd44d1df7d46d4e9d70386c646837e5a1dd",
+    "original_prompt_sha256": "4801dfc9d37e8e8bf640b1a135f5d628b9b4289e392e92205cba44187119abb7",
+    "elapsed_seconds": 8.00286637499994,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18237,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 124,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:05:46.561031+00:00",
+    "origin": "population_extension"
+  }
+}

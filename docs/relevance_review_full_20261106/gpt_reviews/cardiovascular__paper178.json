@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper178",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "These findings define the epigenetic alterations underlying WT heterogeneity and support improved molecular stratification and therapeutic approaches.",
+    "rationale": "The abstract focuses on Wilms tumour epigenetics, molecular subtypes, and cancer treatment predictions. It does not examine cardiovascular disease, cardiovascular risk or prevention, or therapies evaluated for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "accdb81c227d0789c5178fd076755d3df37c2ad86d8f8b862c553c74a348f90a",
+    "abstract_sha256": "ca0eaa9e39131bf0e7033879e9883261629ab05eb66f6af2e451512562da2e1a",
+    "original_prompt_sha256": "700ec1e1517353c966b60738b277d2be5132f6e00bc93f13c722f86d3a39a89c",
+    "elapsed_seconds": 7.998404208000011,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18092,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 110,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:52.305417+00:00",
+    "origin": "population_extension"
+  }
+}

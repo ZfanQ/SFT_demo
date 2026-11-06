@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper180",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "we evaluated the clinical activity and safety of cabozantinib plus nivolumab in patients with advanced nccRCC.",
+    "rationale": "The study directly addresses clinical cancer treatment by evaluating response, survival, and toxicity of combination therapy in advanced non-clear cell renal cell carcinoma.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "e91dcc5cadce98529f678bb43a8796dbdd2233f6b2f6820ed1a58e6138b9715b",
+    "abstract_sha256": "c70f4a201cb7757d0142cb845cf87e1427841cf90d7b38104b1e172e035f1f09",
+    "original_prompt_sha256": "12c8427a6d558ed84d68c3f2a67974f107fafbaf18ce78e5e62588ebbceaab89",
+    "elapsed_seconds": 13.158534291999786,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18075,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 100,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:54:41.593244+00:00"
+  }
+}

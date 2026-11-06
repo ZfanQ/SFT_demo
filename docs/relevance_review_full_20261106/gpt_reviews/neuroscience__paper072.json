@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper072",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "The relationship between metabolic score for insulin resistance index (METS-IR) and all-cause and cardiovascular disease (CVD) mortality in peritoneal dialysis (PD) patients remains unexplored.",
+    "rationale": "The study examines insulin resistance as a predictor of all-cause and cardiovascular mortality in dialysis patients. It does not address brain or neural mechanisms, cognition, stroke, neural injury, or neurological disorders and their treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "cf764913e676fffe942d1a7f0bdf2e50efbb8bc4d5cc8c279491b99aa1cb5e90",
+    "abstract_sha256": "5e83f6c2bf339fc984be841529f15311c16d5680d4da21a60a15f23406d7a6ad",
+    "original_prompt_sha256": "0e261361506f1542ee73366cda1d6b05bc6723109b75a2c493130ef46521191d",
+    "elapsed_seconds": 9.424144500000239,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18135,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 133,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:14:44.085568+00:00",
+    "origin": "population_extension"
+  }
+}

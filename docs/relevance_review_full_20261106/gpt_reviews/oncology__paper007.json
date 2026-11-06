@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper007",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "We investigated the fatality rates and causes of death in patients with IS in Thailand within and beyond 30 days post-discharge.",
+    "rationale": "The study examines mortality after ischemic stroke. Neoplasm appears only as a comorbid cause of death; the abstract does not investigate tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "0cb707e6059cb14590bc0fb38836ed5d0ac1104c24f429e7f52b9c1a81e3dea2",
+    "abstract_sha256": "4d6b9559b39ec399bcf790b8675842c381cd5bc5c9e487c6e8a9c0b5efd096c7",
+    "original_prompt_sha256": "6e933100d13d3021f02ccdb5b0b462394135b7513be71f4ad8bd75f00484cdb5",
+    "elapsed_seconds": 8.875031749999835,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18079,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 155,
+        "reasoning_output_tokens": 42
+      }
+    ],
+    "completed_utc": "2026-11-06T05:19:44.087951+00:00",
+    "origin": "population_extension"
+  }
+}

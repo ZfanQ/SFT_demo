@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper200",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "Three themes captured how participants experience pain as overwhelming, impacting cognition, emotion, and daily functioning, alongside loss of identity and autonomy, leading to social withdrawal and reduced belonging.",
+    "rationale": "The study has peripheral relevance through chronic pain’s reported effects on cognition and functioning. Its focus is patients’ psychosocial experiences and hopes surrounding spinal fusion, without investigating neural mechanisms, neural injury, or neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "e28f8140e54a8e6090f5809555dd30370ded6b27a323f9927235830f3b36f890",
+    "abstract_sha256": "c0734ef8a7d48853223129a8bb1f0ba86c89148be3f19ef38adf6d6be449cbcd",
+    "original_prompt_sha256": "1f7e848a1fe27331e88311eb869b9d98e9952c6251ae2c708528aa1ed4695dac",
+    "elapsed_seconds": 9.169640125000114,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17974,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 165,
+        "reasoning_output_tokens": 38
+      }
+    ],
+    "completed_utc": "2026-11-06T05:10:29.552853+00:00",
+    "origin": "population_extension"
+  }
+}

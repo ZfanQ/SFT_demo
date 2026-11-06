@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper101",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to examine the thematic structure, spatial heterogeneity, and macro-level correlates of public responses to daily-life narratives shared by people living with HIV/AIDS on Douyin in China, with a focus on spatially varying correlational patterns of digital HIV/AIDS stigma.",
+    "rationale": "The study examines geographic patterns and correlates of digital HIV/AIDS stigma and support. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3c61dea71cd94ea5be5994c64fa2d7bfc047c8f4d7067fbef9871c05e688da22",
+    "abstract_sha256": "2c020e97bca41510c2f0ccec5ac1eafc38aff87c4d8979c0353a75bf846e61c6",
+    "original_prompt_sha256": "1b446d56cba01099ffbd5a00a9852b45bf442c92b2b2a4ca9cb4da7b2c6a891a",
+    "elapsed_seconds": 9.59722550000015,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18186,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 138,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:05:27.492925+00:00",
+    "origin": "population_extension"
+  }
+}

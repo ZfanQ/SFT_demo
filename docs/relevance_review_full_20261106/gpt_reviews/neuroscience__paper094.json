@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper094",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study investigated whether changes in Hb levels correlated with changes in physiological and cardiometabolic parameters during a six-month behavioral intervention in individuals with metabolic syndrome.",
+    "rationale": "The study examines hemoglobin, metabolic function, and cardiometabolic changes in metabolic syndrome. It does not address brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "6e0c216ffb3955de40eba7047c324119dc0e1efcda82a6150bec0aa7c4db810a",
+    "abstract_sha256": "646f77057a7f17a65d94b01b4ca6c7466e84803cd3ca0dd00cc387d0a57dd739",
+    "original_prompt_sha256": "bde5ef4d13eeb2ac7ffdcc6bdebb12d0eb22e10b97d9e3bb0d29425f6ab3d7ee",
+    "elapsed_seconds": 8.456701334000172,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18130,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 120,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:11:22.791859+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper023",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "this study sought to determine the prevalence and associated factors with Self-Reported Mental Health Difficulties among individuals aged 10 years and older by utilizing a nationally representative sample.",
+    "rationale": "The study examines mental health prevalence and associated factors in Somalia. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "fe2f3355712a8948899670dc72dd913f6641a5c45c71630c62820c7ddde1a20f",
+    "abstract_sha256": "4f522b724dc9dba126958f9f957f04f58a4c4ac83991b2816ca378723b69b430",
+    "original_prompt_sha256": "0ffea88fc25bfd83ec87576d0777e7444026d882a1c74a1fcc720658b8c51dd3",
+    "elapsed_seconds": 8.101316666999992,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17050,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 110,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:09:18.049316+00:00",
+    "origin": "population_extension"
+  }
+}

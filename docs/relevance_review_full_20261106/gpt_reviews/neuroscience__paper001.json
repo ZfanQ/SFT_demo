@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper001",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "This study focused on how adults with cerebral palsy successfully confronted ableism during encounters with others and successfully coped with ableism in general.",
+    "rationale": "The study concerns people with cerebral palsy, providing a peripheral connection to neurological disease. Its focus is social experiences, confronting ableism, and coping strategies rather than neural mechanisms, neurological injury, treatments, or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "b7139c2260710bd2ae3d7747d3f8ecf0e85c5678fa18bb7ae73852566e885db2",
+    "abstract_sha256": "b51c78a7845129cad19209c2b2f8773ec16f7cf34c8cfeed2c999249a4023285",
+    "original_prompt_sha256": "72eff18ad7d349d88be01dc1e2f82f094c1f27b1b2a5d530379c519797afc0c9",
+    "elapsed_seconds": 9.212183582999842,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17982,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 145,
+        "reasoning_output_tokens": 23
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:19.272916+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper136",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study employs a mixed-methods approach to understand the reasons behind this trend by linking statistical observations with in-depth view of vaccine hesitancy.",
+    "rationale": "The study investigates post-pandemic Covid-19 and influenza vaccine hesitancy and its social influences. It does not examine cardiovascular conditions, risk prediction, prevention, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "8ec1a5144420913510a681e862be7bbc8f857523c38fb57b8a9329f708212edc",
+    "abstract_sha256": "223bcd104602c4af9e48e96b93848987d2e05450f5b403bc2db3a2319e375868",
+    "original_prompt_sha256": "4ce5ae93ebcde31ee776c2b6a527116cf872423aff8af28f5aca503557a4c8e8",
+    "elapsed_seconds": 8.045612583000093,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18051,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 114,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:42.498116+00:00",
+    "origin": "population_extension"
+  }
+}

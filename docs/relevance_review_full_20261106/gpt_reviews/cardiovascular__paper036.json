@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper036",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Objective: To examine associations among ADHD, trauma exposure, and psychological outcomes, and to differentiate trauma-specific reactions from broader internalising symptoms.",
+    "rationale": "The study focuses on adolescent ADHD, trauma exposure, and psychological symptoms. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "f265025d0ec7409c140e71d2e162e2a9dc7b0f686300b58fdb633b94b7923e01",
+    "abstract_sha256": "e0aa1b3500d3417166dcc7129fd26af734d545a401b4bfd8cf03ff4eb0e105de",
+    "original_prompt_sha256": "0decaba0051aa51b2c292dd055d074e6fcdb7465e0bb495b324e2735b4830c2f",
+    "elapsed_seconds": 7.744117707999976,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18108,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 109,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:27.280994+00:00",
+    "origin": "population_extension"
+  }
+}

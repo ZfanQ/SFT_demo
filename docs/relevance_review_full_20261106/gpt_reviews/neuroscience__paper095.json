@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper095",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "Primary outcomes included renal function (measured by eGFR decline), coronary artery disease, ischemic stroke, and heart failure.",
+    "rationale": "Ischemic stroke is explicitly within the interest profile and is a measured outcome. However, the study primarily evaluates renal and cardiovascular effects of diabetes therapy and reports no stroke-specific findings, making its neuroscience relevance peripheral.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "b11ebf7c201ea0a321e4fe5d1a27d27081e82022d970d2374245cefda4c0751b",
+    "abstract_sha256": "1df7749696e4bb2a087279c2c2668675c84ed73c44e3720c27f43e55896b6596",
+    "original_prompt_sha256": "8652df13a784a4aa4c9c2d39fb618d8d4a1ed29ef068fd24bc787b83b6cc9179",
+    "elapsed_seconds": 10.45002866699997,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18282,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 175,
+        "reasoning_output_tokens": 56
+      }
+    ],
+    "completed_utc": "2026-11-06T05:10:50.503163+00:00",
+    "origin": "population_extension"
+  }
+}

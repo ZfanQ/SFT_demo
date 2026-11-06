@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper035",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This qualitative study examined how therapists conceptualised and applied resilience in routine therapeutic practice for trauma-exposed youth.",
+    "rationale": "The study concerns therapists’ understanding and application of resilience in youth trauma care. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "2bf80059bc30f45c78f130b439e39cddc024eb726c9eb091afdfc566797a6e15",
+    "abstract_sha256": "bbc931635429f216736dafb4df0034aa87b1718882ba3dfb82b4fbfe31292a17",
+    "original_prompt_sha256": "61cab7967d987c0c572bcb96afec8c27a3bef764ea0136ba8f487d21549a1a95",
+    "elapsed_seconds": 9.952158915999917,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17966,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 101,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:20:22.001032+00:00",
+    "origin": "population_extension"
+  }
+}

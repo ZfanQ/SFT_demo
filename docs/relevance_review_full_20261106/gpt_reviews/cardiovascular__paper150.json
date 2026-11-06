@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper150",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Infectious diseases were the primary cause of granulomas, followed by inflammatory diseases, sarcoidosis and response to neoplasms.",
+    "rationale": "The study examines the causes and diagnostic evaluation of granulomatous inflammation. The abstract does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d6d627dee6341d00aca6aa6f316b32f672f6f1a25fd3f6a7faa628d5f0212a43",
+    "abstract_sha256": "7628cedd89ab8c24486c67b30a88b581bf5d006fd13412ee7b27c2e2721c5efb",
+    "original_prompt_sha256": "8bd8f28a902ca3a970f2af9082df63bf94f0b8143d210b02a1700e3312b58edf",
+    "elapsed_seconds": 9.284097958000075,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18152,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 110,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:34.030801+00:00",
+    "origin": "population_extension"
+  }
+}

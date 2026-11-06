@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper019",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This integrated sequencing analysis pipeline provides accurate, comprehensive characterization of repeat expansion disorders and has the potential to improve routine genetic diagnosis.",
+    "rationale": "The abstract focuses on sequencing and genetic diagnosis of repeat expansion disorders. It does not investigate cardiovascular disease, risk prediction, prevention, or cardiovascular treatment outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "1bf470f16260b47b489cbd253a6f343746c420475103e6194a4453199151c963",
+    "abstract_sha256": "e99dadfb21d85b856de720ca52bc10d6352fa55d25c3560f60c66ebebd1404ce",
+    "original_prompt_sha256": "bf364ef8321431f6ff1a77e11d9e65617dabc4cde088fe141ef299acd46811d6",
+    "elapsed_seconds": 8.92724354100028,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18077,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 103,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:14.994789+00:00",
+    "origin": "population_extension"
+  }
+}

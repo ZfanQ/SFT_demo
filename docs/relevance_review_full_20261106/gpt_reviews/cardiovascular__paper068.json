@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper068",
+    "profile_id": "cardiovascular",
+    "relevance": 3,
+    "evidence_quote": "Notably, sufficient serum 25-hydroxyvitamin D [25(OH)D] levels demonstrated a potential antagonistic effect on multimorbidity-related mortality, particularly for CVD.",
+    "rationale": "The study directly examines cardiovascular mortality risk across multimorbidity states in CKM patients and whether vitamin D status modifies that risk, matching the profile’s interests in cardiovascular risk and prevention.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "6ba3faf790fc92ed454a0615b2edca833e0a5a72ec6557f1b23174d91cf70a27",
+    "abstract_sha256": "0654e57fcc31ec446fce56e803d4d8c26f367fdb0e62da79156b928e944d3ad9",
+    "original_prompt_sha256": "221d266532d414baf633ea04b3c36f72b6e72b6e3329e3e07759c59c0e41ce78",
+    "elapsed_seconds": 9.048924125000212,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17986,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 124,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:55.184235+00:00",
+    "origin": "population_extension"
+  }
+}

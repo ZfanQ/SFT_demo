@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af44-f061-7591-b47a-646262f5749b"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper041\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"Here, we integrated two single-cell RNA sequencing (scRNA-seq) datasets from 29 samples totaling nearly 300,000 immune cells to dissect immune rewiring during tumor progression and lymph node metastasis in HPV-negative HNSCC.\",\"rationale\":\"The study focuses on immune changes and immune evasion in head and neck cancer. It does not address brain or neural mechanisms, cognition, neural injury, or neurological disorders and their treatments or biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17116,"cached_input_tokens":9216,"cache_write_input_tokens":0,"output_tokens":136,"reasoning_output_tokens":0}}

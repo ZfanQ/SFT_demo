@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper122",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Our data supports therapeutic benefit of modifying CCR2-dependent cell recruitment in the treatment of viral-induced ARDS.",
+    "rationale": "The study investigates pulmonary inflammation and CCR2-targeted treatment in SARS-CoV2-induced ARDS. It does not address tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "9def7f5004cefc7a46cbc1c99c61e28fe55dcacd36111992c85276cf1b040ca0",
+    "abstract_sha256": "3fca60179c1770cd1db474f731942d484c5101b61c872b288b78389406e1e7c9",
+    "original_prompt_sha256": "0bbd6b2338df167771ce01255ae3b50d21f07dd26eacfdd9f43dd3bf32152359",
+    "elapsed_seconds": 7.440050042000166,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18075,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 103,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:19:25.680334+00:00",
+    "origin": "population_extension"
+  }
+}

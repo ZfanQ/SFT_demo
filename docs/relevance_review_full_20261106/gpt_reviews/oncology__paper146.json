@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper146",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "Predictive modeling using TAM subsets showed that only the densities of two completely polarized subsets were predictors of therapeutic response in patients with rectal cancer.",
+    "rationale": "The study directly addresses tumor biomarkers and clinical cancer treatment response by identifying tumor-associated macrophage subsets that predict response to neoadjuvant therapy in rectal cancer.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d5f4a6dcc229c76e8a01170777eed3889d0eda40e21ff8504e2e6e158832f16e",
+    "abstract_sha256": "2e57cc05ed4dd7b5702fff72d2f80c78f47c3b4f30182f9374500763e5be3ee0",
+    "original_prompt_sha256": "e28fc8c3db5db94ff15ab2da359a731c324e13d0f6a3679aafe5fc5c4f62f63c",
+    "elapsed_seconds": 8.373341416999665,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18034,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 108,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:10:36.866233+00:00",
+    "origin": "population_extension"
+  }
+}

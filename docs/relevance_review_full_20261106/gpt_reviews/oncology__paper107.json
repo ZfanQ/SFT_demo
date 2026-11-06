@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper107",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "We assessed vaccine hesitancy toward two novel respiratory syncytial virus (RSV) immunization strategies, maternal vaccines and infant monoclonal antibodies (mAbs), among 4422 couples across eight Chinese provinces, via a multicenter cross-sectional survey with convenience sampling from medical institutions.",
+    "rationale": "The study examines parental hesitancy toward RSV immunization and its sociodemographic associations. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "8d86ed803a92f67949d78da8afdc7403bab1012f090b7becb75d583394c31559",
+    "abstract_sha256": "55e3c4e9778798c8138331ae81ac8dfaed13db67ad94933da0c49d3c62694cf1",
+    "original_prompt_sha256": "dae6af97ad70e3506698aaa4c5b6c2343ec83b8cfa5ec16c54113f33790e1f2a",
+    "elapsed_seconds": 8.296445250000033,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17162,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 142,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:14:20.046525+00:00",
+    "origin": "population_extension"
+  }
+}

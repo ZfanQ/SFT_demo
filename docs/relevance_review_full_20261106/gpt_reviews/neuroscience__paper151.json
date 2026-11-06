@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper151",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "We evaluated the association between adding RFH to first-line immune checkpoint inhibitor (ICI) plus chemotherapy and outcomes in patients with HER2-negative advanced gastric/gastroesophageal junction (GEJ) adenocarcinoma.",
+    "rationale": "The study evaluates treatment outcomes for gastric/GEJ cancer, with no stated focus on brain or neural mechanisms, cognition, neural injury, or neurological disorders and their treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "8b071df35ade144aa01d483a47c10a6490ea5cf32901b308bbf2caee9d0b5dfd",
+    "abstract_sha256": "d4ba983cc05a7de96cbbb8a1bd81ec94b1dee0bdf2affcafee7e77d3005696c1",
+    "original_prompt_sha256": "4f99a1d5e2ec8f1b5d7fec387b101071ae3a303531046f6d6cfaba450064e354",
+    "elapsed_seconds": 8.166247624999869,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18168,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 128,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:15:22.145610+00:00",
+    "origin": "population_extension"
+  }
+}

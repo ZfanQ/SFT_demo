@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1ac6e-ca32-7f43-b09b-4f9f49d7a167"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper013\",\"profile_id\":\"neuroscience\",\"relevance\":3,\"evidence_quote\":\"Objectives: To develop and validate a nomogram for estimating the risk of baseline respiratory insufficiency in patients with amyotrophic lateral sclerosis (ALS).\",\"rationale\":\"The study directly addresses neurological disease by developing a clinical prediction tool for respiratory insufficiency in ALS, identifying predictors that support screening and risk stratification.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17163,"cached_input_tokens":9216,"cache_write_input_tokens":0,"output_tokens":108,"reasoning_output_tokens":0}}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af43-0452-7ce3-9bbe-ba3e4e225ea9"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper004\",\"profile_id\":\"oncology\",\"relevance\":0,\"evidence_quote\":\"This study aims to characterize tinnitus patients with somatic complaints, investigate associations between somatic complaints and tinnitus, hyperacusis, and symptoms of anxiety and depression, and to compare patient profiles across genders and healthcare services.\",\"rationale\":\"The study examines tinnitus and associated somatic and psychological complaints. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17979,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":120,"reasoning_output_tokens":0}}

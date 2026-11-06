@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper029",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "In this cross-sectional study, we explored a broad spectrum of emotional, cognitive, and behavioural peritraumatic reactions and investigated their associations with assault characteristics, sexual assault history, and symptoms of post-traumatic stress and depression/anxiety.",
+    "rationale": "The study focuses on reactions during sexual assault and their associations with subsequent mental health symptoms. It does not address cardiovascular conditions, risk prediction, prevention, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "65f11d8b1b47850a0f34af01dc255e5b8252deae72b445e38976acbbe4af17dc",
+    "abstract_sha256": "0f9e41e54eb7daf4e6b1ac0551ddbcbd1e136f7e1f0b4de92ba7db40f93a9ea7",
+    "original_prompt_sha256": "4bc06f6d1e007b3a3a817c4384e3810920c38e63a796770a777d5ecce405e4d8",
+    "elapsed_seconds": 8.476470583000264,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18120,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 128,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:18:07.198372+00:00",
+    "origin": "population_extension"
+  }
+}

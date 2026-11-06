@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper143",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Our study provides preclinical evidence that S. boulardii CNCM I-745 targets a microbial deficiency previously described in CeD through modulation of microbial tryptophan metabolism.",
+    "rationale": "The study investigates microbial metabolism and probiotic treatment in celiac disease. The abstract does not address tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "ff17d1364268b3b8e1bbecd02c4817c971578be324d11374a6d39a37f3bcf58e",
+    "abstract_sha256": "cddc8c9caef1b63f3692d182be4654ac593268a481925b646a9ca34ddcac8c59",
+    "original_prompt_sha256": "a8e6827a41dcedd8ce7ad61cb4387a464758bc4eff8591c37f8ca4e079187003",
+    "elapsed_seconds": 8.3418110409998,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17952,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 113,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:18.407576+00:00",
+    "origin": "population_extension"
+  }
+}

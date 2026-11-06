@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper161",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Stent grafts are widely used to treat dysfunctional hemodialysis vascular access, yet restenosis remains common and its predictors are incompletely understood.",
+    "rationale": "The study concerns stent graft patency and procedural predictors in hemodialysis vascular access, with no stated connection to brain or neural mechanisms, neurological disease, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "794c0053719f8d2a9a39acd877b6173ff3f178cbe5eb60a3dc42d52c98e00535",
+    "abstract_sha256": "a80b7f4849fc784f87b71073644fb269a2249e3ff134716f22675fb7813c86f3",
+    "original_prompt_sha256": "2dfb30894edd348da2a9649a309adb76051d429f3f9d3a7a3ff250c6bf61db32",
+    "elapsed_seconds": 8.108294125000157,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18027,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 117,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:43.432954+00:00",
+    "origin": "population_extension"
+  }
+}

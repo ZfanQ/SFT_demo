@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper079",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "To explore the perspectives of GPs concerning secondary preventive practices after stroke to shed light on areas of improvement",
+    "rationale": "The study examines primary care organization and medication adherence for secondary stroke prevention. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "2cc8ee1062550e59a2e124ba3edd53cdc1c439303882d004b7f09d5f54becbe2",
+    "abstract_sha256": "16d7cd4ec21516f7a4b983878ec9b8fba86b4471810d7f36cda5d8de074ffad8",
+    "original_prompt_sha256": "1953f75f7ea50be66dc24eb1e6ed6c2decfb9562c86ee45a1148744610503d85",
+    "elapsed_seconds": 7.733196958999997,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18007,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 100,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:21.401617+00:00",
+    "origin": "population_extension"
+  }
+}

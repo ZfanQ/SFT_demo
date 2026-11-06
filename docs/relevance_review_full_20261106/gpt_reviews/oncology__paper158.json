@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper158",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "These results identify methylation changes associated with sporadic MSI beyond CIMP status and MLH1 hypermethylation, reveal heterogeneity within MSI CRCs, and indicate that anatomical location is a major determinant of the CRC methylome, advancing molecular stratification of CRC.",
+    "rationale": "The study directly addresses colorectal cancer biology by characterizing tumor epigenetic alterations and MSI-associated methylation patterns. Its findings support molecular stratification and align closely with the profile’s interest in cancer mechanisms and tumor biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "712696f47d83601e7367f262f3b63f3631c89394b02febe807e207e6bbc5e02e",
+    "abstract_sha256": "04df4f2a02b5343215596084e473177662fbfaf1ea9f6de2131e9b7f9a32fb01",
+    "original_prompt_sha256": "93b33e76e8cf6b327b2447244b7e5f86a67abef5694cc8da751b73f11b2c0351",
+    "elapsed_seconds": 8.875048915999741,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18095,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 145,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:11.817996+00:00",
+    "origin": "population_extension"
+  }
+}

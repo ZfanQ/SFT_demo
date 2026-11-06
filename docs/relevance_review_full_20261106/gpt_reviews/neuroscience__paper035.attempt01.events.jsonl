@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4a-cc15-7d93-a1c6-d8d467fad2ee"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper035\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"This qualitative study examined how therapists conceptualised and applied resilience in routine therapeutic practice for trauma-exposed youth.\",\"rationale\":\"The study focuses on therapists’ understanding and clinical use of psychological resilience. It does not examine brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17979,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":205,"reasoning_output_tokens":96}}

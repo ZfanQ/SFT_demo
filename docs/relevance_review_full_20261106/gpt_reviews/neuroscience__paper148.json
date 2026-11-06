@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper148",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "These data enhance our understanding of the mechanisms that regulate host immune functions and pave the way for new therapeutic strategies to control gut inflammation.",
+    "rationale": "The abstract focuses on bacterial modulation of lymphoid cells and intestinal inflammation in IBD. It does not address brain or neural mechanisms, cognition, neural injury, or neurological disease treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "da0f9d1d546b6f068c4db7a83342871c960b1706897d6b3e99e56fcca77d329d",
+    "abstract_sha256": "1edf31bb7652b03139c2a98013d947897adaab64e096da2819bc48b4e19ae625",
+    "original_prompt_sha256": "09293a7cdf7b4074fdca3d2e0949e9903139a5aa504f0b4f44dfaea2599dfdf5",
+    "elapsed_seconds": 7.957815750000009,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17995,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 113,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:14:17.783134+00:00",
+    "origin": "population_extension"
+  }
+}

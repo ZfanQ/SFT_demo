@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper089",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Objective: To identify plasma protein differences between type 2 diabetes mellitus (T2DM) patients with and without metabolic dysfunction-associated steatotic liver disease (MASLD), and to evaluate the diagnostic potential of X-prolyl aminopeptidase 3 (XPNPEP3) for identifying MASLD in T2DM patients.",
+    "rationale": "The study evaluates a plasma biomarker for liver disease in patients with diabetes. The abstract does not address brain or neural mechanisms, cognition, neural injury, or neurological disease diagnosis or treatment.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "63e4680598db67e235b24412707dd0a43b277347e4893370e1332cdd0da09def",
+    "abstract_sha256": "74d24869dd41c3b020117882f88c2e73089adfff6def2b668784bd1862cd5e8d",
+    "original_prompt_sha256": "25c259bf48f0ea946be2b6a38126efa4cbcbd0043add39ac57095c6e58601ea1",
+    "elapsed_seconds": 10.034641290999843,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18099,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 155,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:05:36.376953+00:00",
+    "origin": "population_extension"
+  }
+}

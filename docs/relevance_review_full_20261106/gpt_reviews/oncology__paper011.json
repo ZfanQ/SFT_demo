@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper011",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Conclusions: Migraine, a polygenic disorder, is causally associated with cognitive impairment.",
+    "rationale": "The study investigates the causal relationship between migraine and cognitive impairment, with no focus on cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "fb9e85f2e5b23c8f89ce15a2987daa653026557df65dfc73ba5875dfdb0aea52",
+    "abstract_sha256": "e79a94aacc6a7b25c352465a9daca447390e5e64683c0be6f245abf80b0eefac",
+    "original_prompt_sha256": "0f9d69916520be55140a1382f36fc8e2ec7c9b6038900f055759a6eba8b2341d",
+    "elapsed_seconds": 8.597908208999797,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18034,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 96,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:40.509648+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper186",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Together, these findings highlight the gut–bone axis as a central framework linking microbiota-derived IPA to skeletal remodeling and provide preclinical proof-of-concept for an engineered C. sporogenes–IPA strategy with therapeutic potential in PMOP.",
+    "rationale": "The study focuses on microbiota-derived IPA and an engineered bacterial therapy for postmenopausal osteoporosis and bone remodeling. It does not address cardiovascular disease, cardiovascular risk, or therapies targeting cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d6cfa3cc6d984ec901baa43864f0ab988cb0aac3f62f65d12ed918864e79c12b",
+    "abstract_sha256": "927ac8fd4e08274081269755f83ed2ae158f7a590de8f4502befcec4f09bcc36",
+    "original_prompt_sha256": "b3f98eee95886ef6493bfd90b7000edb7c97a75a01b0e276f4c3f7226e8d8e6d",
+    "elapsed_seconds": 10.913553667000087,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17964,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 136,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:53.413719+00:00",
+    "origin": "population_extension"
+  }
+}

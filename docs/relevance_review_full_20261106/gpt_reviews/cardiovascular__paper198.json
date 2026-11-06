@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper198",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "The aim of this study was to gain a comprehensive understanding of health-related quality of life (HRQoL) in patients undergoing MIRPE.",
+    "rationale": "The study examines quality of life after surgical repair of a congenital chest wall deformity. It does not investigate cardiovascular disease, cardiovascular risk, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "7df3e528e2c63bcffe643c0965d31ddbba64f104a4c58b93c089d122212ed42e",
+    "abstract_sha256": "e925d404ebc9b24e26b17b32f6f639a8b1249584f569dfc92be464ea6d9b5251",
+    "original_prompt_sha256": "837635f65a0bfac9df62d6d546767ce7a260d6731914d6ab4f16ee4c5f23fabf",
+    "elapsed_seconds": 11.680616165999709,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17977,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 207,
+        "reasoning_output_tokens": 95
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:08.009745+00:00",
+    "origin": "population_extension"
+  }
+}

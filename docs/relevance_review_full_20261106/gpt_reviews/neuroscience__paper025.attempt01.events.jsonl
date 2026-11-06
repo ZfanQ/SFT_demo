@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af40-1a8b-7321-af75-d25126b777c5"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper025\",\"profile_id\":\"neuroscience\",\"relevance\":1,\"evidence_quote\":\"Pain catastrophizing appears as a key factor associated with CB-ASD and CB-PTSD symptoms.\",\"rationale\":\"Pain catastrophizing and posttraumatic stress symptoms have peripheral relevance to cognition and pain, but the study examines psychological associations surrounding childbirth rather than brain or neural mechanisms, neurological disease, or neurological treatments and biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18114,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":170,"reasoning_output_tokens":58}}

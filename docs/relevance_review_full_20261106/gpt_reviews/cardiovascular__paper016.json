@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper016",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Exposure to war-related trauma was strongly associated with impaired psychomotor development in displaced children.",
+    "rationale": "The study concerns war-related trauma and psychomotor development in displaced children. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "e5666df04f83f7a43e9e8653bdb7523b57038b39bd22705050021b765a4ce115",
+    "abstract_sha256": "39b33bf6b3f5cc570a38f43f46c3b5974d6d69b4e1274a8c59c412e8e2d15f13",
+    "original_prompt_sha256": "1f4b1f2634506a82699a44ec34a85be752c214a916e376a40dd7947922681f4a",
+    "elapsed_seconds": 7.568614584000443,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18162,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 101,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:59.018104+00:00",
+    "origin": "population_extension"
+  }
+}

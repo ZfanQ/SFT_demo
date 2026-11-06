@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper026",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "The current study aimed to investigate the ICD-11 PTSD and complex PTSD symptom trajectories and trauma disorders diagnostic changes in a longitudinal study of a trauma-exposed community sample of adolescents.",
+    "rationale": "The study examines adolescent PTSD symptom trajectories and diagnostic changes. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "15dff94fe536b1fa463f79f6ef8ece472661622663215ac77982e133280698cf",
+    "abstract_sha256": "889d9161a6d6c7b96c23739e0515c75b43d23177c91d52b15828cdce4777f361",
+    "original_prompt_sha256": "dc63c074de146cf82c3d52e50809780560612937bf009152ea20c4ea4b354e5f",
+    "elapsed_seconds": 8.054119959000218,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18089,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:19:15.964332+00:00",
+    "origin": "population_extension"
+  }
+}

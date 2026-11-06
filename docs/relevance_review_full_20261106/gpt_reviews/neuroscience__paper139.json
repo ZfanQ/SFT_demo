@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper139",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study assessed vaccine‑associated RA using the Vaccine Adverse Event Reporting System (VAERS).",
+    "rationale": "The study focuses on vaccine-associated rheumatoid arthritis and predominantly musculoskeletal adverse events. It does not investigate brain or neural mechanisms, cognition, neural injury, or neurological disorders, treatments, or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "c59d73785cb17e5e6a0fe8da9549517e7a3904d0ff7e05a9afab3d1b02b3b4f1",
+    "abstract_sha256": "628631fecbbb7fc9b31306b07d5fe16b0d86c3425ab054761efb85df17fe26d8",
+    "original_prompt_sha256": "9d2f6d5fded2eb921d4d2e2f8722a6d4bc83b3ca4a60d86604240b357f88f163",
+    "elapsed_seconds": 8.52421937500003,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18076,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 107,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:19:53.755849+00:00",
+    "origin": "population_extension"
+  }
+}

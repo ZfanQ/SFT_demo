@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper156",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Here, we provide novel insights revealing that both the intrinsic cytotoxic capacity of NK cells and the tumor microenvironment differ between sexes and jointly modulate anti-tumor immunity in PDAC.",
+    "rationale": "The study examines sex differences in NK cell activity and pancreatic cancer tumor immunity. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "f92b703e8e911d01742596e6e74bad2dcd868eaa4060578f220808a18ddcb34f",
+    "abstract_sha256": "4ca5a51e0fb637cbadd454b43e6e995d56d8bd3f0ee72774744262e07ecf6cfb",
+    "original_prompt_sha256": "fee091ad30a5629c9217c77331b653fbe2e9b65b81be29bf50b85cd5313b3421",
+    "elapsed_seconds": 8.392163625000194,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17993,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 121,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:06:36.793191+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper066",
+    "profile_id": "cardiovascular",
+    "relevance": 1,
+    "evidence_quote": "Patients with heart disease, hypertension, and diabetes had a considerably greater incidence of severe COVID-19, with computed odds ratios (ORs) of 1.50, 1.34, and 2.89, respectively, indicating that diabetes was the best predictor of severity in this cohort.",
+    "rationale": "Heart disease and hypertension are examined as predictors of COVID-19 severity. This is peripheral to cardiovascular medicine because the study focuses on infectious disease outcomes rather than cardiovascular outcomes, cardiovascular risk prediction, or cardiovascular therapies.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "5d11c050c6f85dc58a9951cd4f79bbd46d4c2968213e283d888e3eaba1905afe",
+    "abstract_sha256": "1c3c90f2ced0495a92ac074234f2dde23e9ae68b8956724720811f0903ccf5b6",
+    "original_prompt_sha256": "adbe499aac627e98886ee18cc34b919d739722bdac97531d019e658f5cf5b219",
+    "elapsed_seconds": 14.937321999999767,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17901,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 182,
+        "reasoning_output_tokens": 30
+      }
+    ],
+    "completed_utc": "2026-11-05T15:54:56.531430+00:00"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper102",
+    "profile_id": "oncology",
+    "relevance": 1,
+    "evidence_quote": "these findings provide proteome-wide evidence that heterologous BNT162b2 boosting after CoronaVac priming is not associated with sustained induction of IgG autoantibodies linked to autoimmune or cancer-related pathways.",
+    "rationale": "Cancer-related pathways provide a peripheral connection to oncology, but the study evaluates COVID-19 vaccine safety and autoantibody stability in healthy adults. It does not investigate tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "79fb829bf11238f60f4c34bafcb019a4a52ed507e031b21ee7f6369f1bb30541",
+    "abstract_sha256": "96cdb8caa668b6d1be5cdd623578cb9097666fb5761cdeae55d7d27c43ff3ecb",
+    "original_prompt_sha256": "94fbaf319b6fbbc565704592d4ad42457cdf41e0f3844330036bb9e7a050630b",
+    "elapsed_seconds": 8.563160332999814,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17104,
+        "cached_input_tokens": 15488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 172,
+        "reasoning_output_tokens": 37
+      }
+    ],
+    "completed_utc": "2026-11-06T05:11:15.235988+00:00",
+    "origin": "population_extension"
+  }
+}

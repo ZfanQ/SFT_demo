@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper046",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study elucidated the molecular mechanism by which JuA regulates mitochondrial energy metabolism and induces apoptosis in bladder cancer cells through targeted inhibition of ATP1A2.",
+    "rationale": "The study examines molecular mechanisms and anticancer effects in bladder cancer cells. It does not address cardiovascular disease, risk prediction, prevention, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3d058e744ee228350a7bf4c109ff76c43dcd2c8e69fe766ecf45f98f403356dd",
+    "abstract_sha256": "f641c31e5d01c47496bdd570b5213401f86c6fde426d01927599d9ec73c55954",
+    "original_prompt_sha256": "7cdbe4a1fd24b6cc06496aaa27f2eecc284c50c93733dd4f0cf2d159ae0eedc9",
+    "elapsed_seconds": 7.321775500000058,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18058,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 110,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:21:04.357037+00:00",
+    "origin": "population_extension"
+  }
+}

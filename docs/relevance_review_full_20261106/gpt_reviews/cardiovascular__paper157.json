@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper157",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This investigation suggests a novel therapeutic strategy for UC and associated liver injury based on the L. johnsonii-hepatic LXRα–SCD1 axis.",
+    "rationale": "The study focuses on ulcerative colitis and associated liver injury, investigating hepatic lipid metabolism and a microbiota-mediated therapy. The abstract does not connect these mechanisms or treatments to cardiovascular disease, risk prediction, prevention, or outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "630b63721503aa01ebb9ec489eb60739c8e7bba62bcc80001fa50d12a5df16f0",
+    "abstract_sha256": "ed024a8b43fa0a013cda0627094d1a1d40454a38d18bfca555fe4e905b1100df",
+    "original_prompt_sha256": "73f4d9690dc13041f140bf6793beaaeb1904bf21327e10bac2386cf8e024c567",
+    "elapsed_seconds": 8.172982584000238,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18042,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 127,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:47.571764+00:00",
+    "origin": "population_extension"
+  }
+}

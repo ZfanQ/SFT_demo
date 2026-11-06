@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper081",
+    "profile_id": "cardiovascular",
+    "relevance": 1,
+    "evidence_quote": "Transfer learning was used to optimize for glucose-lowering therapies that led to successful treatment outcomes, defined as an absolute 0.3% reduction in hemoglobin A1c (when it is over 6.5%) without weight gain in patients with a BMI over 28 kg/m2.",
+    "rationale": "The study concerns individualized diabetes treatment targeting glucose and weight control, making it peripheral to cardiovascular risk prevention. It does not evaluate cardiovascular disease, cardiovascular risk prediction, or therapies measured by cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "26a089199e0c5c09944edf7e13a17cc2df39d19f89831cfc345f2f071f55fc58",
+    "abstract_sha256": "73d36d1209dc3338ca5596ce5b3011d2871ab76d5ffa29d9573a65dcb67b67af",
+    "original_prompt_sha256": "b440bac0a57656083468bdce62e094cb50854f912bc6dc971fc037c309bb2174",
+    "elapsed_seconds": 10.039741167000102,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18155,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 194,
+        "reasoning_output_tokens": 46
+      }
+    ],
+    "completed_utc": "2026-11-06T05:18:42.467987+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper002",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "A 1D navigator prior to the first echo reduces ghosting and improves thoracic SC image quality without respiratory monitoring.",
+    "rationale": "The abstract focuses on improving spinal cord MRI image quality, with evaluation in healthy volunteers and people with multiple sclerosis. It does not address tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "951d39d8429b8200ed4e77ddde4779a14496e1b42704c303bb503c377a89b054",
+    "abstract_sha256": "35fd7739c184a8527feac275436b061f82f2c8471e33b1688ed4e713d81c465b",
+    "original_prompt_sha256": "23f8ba9e1c2934e4f9883c33fbdc8484e322083364a9bf54044d4867c3e84ef4",
+    "elapsed_seconds": 8.286528333000206,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18066,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 108,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:21:37.664617+00:00",
+    "origin": "population_extension"
+  }
+}

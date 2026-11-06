@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af3e-89d4-7441-b411-0e3c21bf397e"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper057\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"Purpose: To explore the needs and experiences related to discharge readiness among patients after esophagectomy.\",\"rationale\":\"The study concerns discharge readiness and home care after esophagectomy, with no stated connection to cardiovascular disease, risk prediction, prevention, or cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17906,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":98,"reasoning_output_tokens":0}}

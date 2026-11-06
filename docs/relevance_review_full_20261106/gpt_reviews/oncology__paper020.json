@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper020",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Here, we have performed a pilot study to characterize the feasibility and safety of such a procedure, replacing between 16 and 26 L of patient blood plasma with young (ages 18–24) donor blood plasma for twelve patients who recently received a diagnosis of mild cognitive impairment with biomarker evidence of AD.",
+    "rationale": "The study evaluates plasma exchange safety and feasibility in patients with mild cognitive impairment and Alzheimer’s disease biomarkers. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "831a7fded26999c2f874a3a0973e6e60b84aa608c8a6e025a7c396fafed0485f",
+    "abstract_sha256": "a530541fe850a378c7ea0e1db39e2a2d7712974c37484313a222b8219f386381",
+    "original_prompt_sha256": "2e4f6713136699e73f18160574aed48dc0715df2b2fb63d18dce43f2a3007791",
+    "elapsed_seconds": 9.443894583999736,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18048,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 147,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:21:09.945390+00:00",
+    "origin": "population_extension"
+  }
+}

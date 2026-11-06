@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper178",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "These findings define the epigenetic alterations underlying WT heterogeneity and support improved molecular stratification and therapeutic approaches.",
+    "rationale": "The study directly addresses cancer biology through epigenetic mechanisms of Wilms tumour heterogeneity and IGF2 activation, a tumour-specific methylation signature, molecular stratification, and predicted chemotherapy sensitivity.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "01b4384efe7cdd5287d65273cc49c5e417ef5a6fb9455dda21a2482c11bb0158",
+    "abstract_sha256": "ca0eaa9e39131bf0e7033879e9883261629ab05eb66f6af2e451512562da2e1a",
+    "original_prompt_sha256": "2691573eaf62d730bcfa696414362fe99c8a30516342d1bba1c901429a6d0caa",
+    "elapsed_seconds": 9.294878457999857,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17134,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 109,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:10:46.165596+00:00",
+    "origin": "population_extension"
+  }
+}

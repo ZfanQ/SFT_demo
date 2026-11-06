@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper185",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to compare the virological features of BKPyV between KTR and HSCT recipients and to explore possible associations with clinical manifestations.",
+    "rationale": "The study examines BK polyomavirus genetics, replication, and renal or urinary complications in transplant recipients. It does not address cardiovascular disease, risk prediction, prevention, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d1d9abdd7b8be4b82689fd5753e36ae1a70dbd861b139e69a913d26217d4eab2",
+    "abstract_sha256": "0cbf902ea99e2dcbad017ce567ccc1cfa218c316bf09b3f608059b06a24dd204",
+    "original_prompt_sha256": "4eeae25432b21f577a86b370474083cb15054fab3087090f37d8e287ad7ff005",
+    "elapsed_seconds": 10.883210040999984,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18091,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 114,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:05:18.771197+00:00",
+    "origin": "population_extension"
+  }
+}

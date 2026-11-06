@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper027",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "Objectives: To characterize PTSD symptom trajectories in a large civilian cohort during the first year following the 7 October 2023 Nova music-festival mass-trauma event.",
+    "rationale": "The study concerns PTSD symptom trajectories and associated risk factors, providing peripheral relevance to the profile. It does not examine brain or neural mechanisms, cognition, neurological injury, or treatments or biomarkers for neurological disorders.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The profile does not specify whether psychiatric symptom studies without neural or cognitive measures fall within its neuroscience scope."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3f8c84c85e260d0939dc92010458494f753f1ba41d29aeaf12e33ec26c4d94f9",
+    "abstract_sha256": "032150936e1a2859d6af921943f9161853b42cf37596fe763d32e4af2d95f694",
+    "original_prompt_sha256": "b33ef7c8a7a67e10c81302ad51c99abdeeb8451ebcbbb7e49d76263d76bf9882",
+    "elapsed_seconds": 8.608649499999956,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18058,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 173,
+        "reasoning_output_tokens": 30
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:46.242741+00:00",
+    "origin": "population_extension"
+  }
+}

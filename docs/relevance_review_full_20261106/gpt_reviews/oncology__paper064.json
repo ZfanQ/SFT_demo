@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper064",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Background: Factors related to the very long-term progression of atherosclerosis after stent implantation remain unclear.",
+    "rationale": "The study examines coronary atherosclerosis progression after stenting and factors affecting revascularization. It does not address cancer biology, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "76d675bc121aba17b5cdf94e00dab51619cda391776d2d3c7c34b48afc9b43ca",
+    "abstract_sha256": "6a3f2ef1d8ddaeb9fd29e70d3bf1fdec016d1ace1c49c45d4622cb2fe917966c",
+    "original_prompt_sha256": "5557d2bf2a944b499602dd6ab87da2368f30d3ab756b3253f6344b07e27cb42d",
+    "elapsed_seconds": 7.827449207999962,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17238,
+        "cached_input_tokens": 15488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 101,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:56.785293+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper085",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This cross-sectional study assessed adult immunization coverage and associated clinical and sociodemographic factors among Filipino adults with diabetes recruited from inpatient, outpatient, and community outreach settings at a tertiary hospital.",
+    "rationale": "The study examines vaccination uptake and its determinants among adults with diabetes. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d54facbc64acf11e663b3eb962fa5ef578b9106e4b39c2767382c39c3b7b7722",
+    "abstract_sha256": "8d2fa25c026ee5a8a705d9b9eb9e81ac24293fce29f9c15b141e50115e6e81bd",
+    "original_prompt_sha256": "ddca2da4444b4b0ac0aeb35c55cb9ef0068632ad93efca12cbbc1e2b7b086081",
+    "elapsed_seconds": 8.532681583999874,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18090,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 116,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:21:40.150171+00:00",
+    "origin": "population_extension"
+  }
+}

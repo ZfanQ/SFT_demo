@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper132",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to determine the coverage of the 23-valent pneumococcal polysaccharide vaccine (PPV23) and the influenza vaccine, along with related factors, among elderly individuals aged 60 y and above in the capital urban of China.",
+    "rationale": "The study examines vaccine coverage, willingness, and uptake factors among elderly individuals. It does not address brain or neural mechanisms, cognition, neurological disease, injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "695d35fa0d82c8d5b9e68ee0aa10b5fc3358e769b14742ce3aa333cf364a8539",
+    "abstract_sha256": "89aa6f97736df8e47655683330d4270b4e9da37e4f6152f07dd62fb30c0979cc",
+    "original_prompt_sha256": "30a7bd9e5e57f1a8eda03d44428aa906ac9b1c51cf001bf46d96fcd585a47a3e",
+    "elapsed_seconds": 8.985297416999856,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18033,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 138,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:18:51.455701+00:00",
+    "origin": "population_extension"
+  }
+}

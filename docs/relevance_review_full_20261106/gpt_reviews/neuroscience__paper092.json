@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper092",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Collectively, these findings suggest that L. acidophilus may improve metabolic dysfunction through coordinated hepatic metabolic regulation and gut microbial modulation, supporting its potential as a probiotic candidate for MASLD and diabetes-associated metabolic disease.",
+    "rationale": "The study focuses on probiotic effects on liver disease, glucose and lipid metabolism, and gut microbial communities. It does not examine brain or neural mechanisms, cognition, neural injury, or neurological disorders, treatments, or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "a7b001a2d0ca56bda502b125b7996596c48362ff51e74a2a76ff31432365a02c",
+    "abstract_sha256": "bfcaf0e9ab722ab99f5675402dec581d4ef01667dc61ed84f13a1ba9a8342cd9",
+    "original_prompt_sha256": "a33c092df99687afb29de2fbd57c9d0ec2899f48e59b7b269a25a93c7c46de31",
+    "elapsed_seconds": 8.849960208000084,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17085,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 136,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:19:00.566028+00:00",
+    "origin": "population_extension"
+  }
+}

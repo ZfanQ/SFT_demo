@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper129",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "The aim of this study is to investigate the associations of these indices to OSAS in overweight and obese adults.",
+    "rationale": "The study examines body composition indices and obstructive sleep apnea diagnosis in overweight and obese adults. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "959630b54e98c61ffc1fa737d83fd325ee37ca195d037d975c16b0fbd62c070f",
+    "abstract_sha256": "ad0a8ff839ffc567fe79f24a3293ad4b7837f27fcb7ecfa39d9a4deaaa9c39f6",
+    "original_prompt_sha256": "9afc74c454eaf1e4889dfc706514f76a695b3d62eed5d3dac8019cce8a851b0e",
+    "elapsed_seconds": 8.252820999999585,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18091,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 105,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:39.671193+00:00",
+    "origin": "population_extension"
+  }
+}

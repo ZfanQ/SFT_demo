@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper182",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "PNI and its linked gut microbiota‒SCFA axis are clinically prognostic biomarkers and potential immunomodulatory targets for early-stage NSCLC.",
+    "rationale": "The study focuses on lung cancer prognosis and microbiota-based modulation of tumor immunity. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "a2b8a7bc8b85587fdd1a64baff73de22534662894d5f718c0791348777b290db",
+    "abstract_sha256": "2919da0cdf5d9721197be41349e49501cc415d32d668c4dc7823d189b5d174f1",
+    "original_prompt_sha256": "2178ad984b964cad09aae485789ba1e990cdd20acc24d88432e416b98191112b",
+    "elapsed_seconds": 7.771357667000302,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18091,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 114,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:09:21.521721+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper170",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "A mouse kidney I/R model was employed to evaluate the renoprotective effect of DP.",
+    "rationale": "The study examines D-pinitol treatment for kidney injury and renal cellular signaling. The abstract does not address brain or neural mechanisms, cognition, neural injury, or neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "8df12adef0e2b909e4e4772d6b307091cc305374476eb4f3d68b5e0c4bf7be5e",
+    "abstract_sha256": "2aadaf9a63bfc9a328cb25a2103da7204f428cef8539d51240ea7047966d1fea",
+    "original_prompt_sha256": "fea92be7553c69329216d55d121f234f328c0ee54d52d5c70f05837119234853",
+    "elapsed_seconds": 8.310900749999746,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18083,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 103,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:05:45.985276+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper111",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study sought to determine the perceptions and experiences of the caretakers of children with neurologic deficits after severe malaria in Uganda.",
+    "rationale": "The study focuses on caretakers’ experiences of childhood neurologic impairments after severe malaria, with no stated connection to cardiovascular disease, risk prediction, prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "499f9ea255374abb63bcaa78cd902d209f46aba829164e4968e079d7ecfb65b0",
+    "abstract_sha256": "3b6dd55226fb582c374ec26272ca2d31439f658012bcdcc2cfdc1353b1a6c1c9",
+    "original_prompt_sha256": "8e0c755bca09e2155ae94fed3c0020328572cc291c944a1aa03b31e960307203",
+    "elapsed_seconds": 8.063016916999914,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17965,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:09:35.626547+00:00",
+    "origin": "population_extension"
+  }
+}

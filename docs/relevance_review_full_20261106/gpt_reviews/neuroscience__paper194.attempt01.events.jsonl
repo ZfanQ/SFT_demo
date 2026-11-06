@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af42-4b63-7791-a884-b30cb4c722b2"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper194\",\"profile_id\":\"neuroscience\",\"relevance\":1,\"evidence_quote\":\"We aim to study the impact of virtual reality on perioperative anxiety during surgeries performed under regional anesthesia.\",\"rationale\":\"The study has peripheral relevance through anxiety and psychological modulation using virtual reality. Its focus is perioperative anxiety management in orthopedic patients, without examining brain or neural mechanisms, cognition, neurological disease, or neurological biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18117,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":159,"reasoning_output_tokens":47}}

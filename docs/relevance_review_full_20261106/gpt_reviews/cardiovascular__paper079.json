@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper079",
+    "profile_id": "cardiovascular",
+    "relevance": 3,
+    "evidence_quote": "To explore the perspectives of GPs concerning secondary preventive practices after stroke to shed light on areas of improvement",
+    "rationale": "The study directly addresses secondary vascular prevention after stroke, examining follow-up practices and medication adherence barriers. This aligns with the profile’s interests in vascular disease and prevention, although the study evaluates care delivery rather than treatment efficacy.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "cbdefb63319570c3a54d25f241cc0dc36bc331ecc0d2648f626f8e1d418f9cd0",
+    "abstract_sha256": "16d7cd4ec21516f7a4b983878ec9b8fba86b4471810d7f36cda5d8de074ffad8",
+    "original_prompt_sha256": "6a2b57a7c6aefd4f8b9b51f5685c754b3d7a7d6365b4ddf4e077a6cf3d7e6429",
+    "elapsed_seconds": 10.34216562499978,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18019,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 174,
+        "reasoning_output_tokens": 59
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:00.087753+00:00",
+    "origin": "population_extension"
+  }
+}

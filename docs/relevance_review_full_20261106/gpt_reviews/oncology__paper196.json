@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper196",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "To examine whether PTSD is associated with adverse pregnancy and neonatal outcomes in a nationwide population-based cohort of women in Taiwan.",
+    "rationale": "The study examines PTSD and pregnancy and neonatal outcomes. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "fce9af30ccb22a5961e676a1731120bfa19c60dfe2236cbc8b817c9f51aab5bc",
+    "abstract_sha256": "9d7749908aebca894527a698cd08b36f3242996a87b4b71d14143d93f52be39c",
+    "original_prompt_sha256": "e203dd162df9ae5e55eec79ee532490eca4bfff7de7fad050c3b078bd53d35c5",
+    "elapsed_seconds": 8.748458291000134,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18114,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 98,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:12:24.419158+00:00",
+    "origin": "population_extension"
+  }
+}

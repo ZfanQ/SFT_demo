@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4e-54a0-77c3-b818-4f3f9b64e0e1"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper057\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"Purpose: To explore the needs and experiences related to discharge readiness among patients after esophagectomy.\",\"rationale\":\"The study examines discharge readiness and home care after esophagectomy, with no focus on neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17909,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":102,"reasoning_output_tokens":0}}

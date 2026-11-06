@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper123",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Objective: To determine whether the 17 GPS symptom items support the use of a single total score as an efficient indicator of global trauma-related burden.",
+    "rationale": "The study validates a psychological symptom screening score using psychometric methods. It does not examine brain or neural mechanisms, cognition, neurological injury or disease, or treatments or biomarkers for neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "9087177ccafc7213a16ae39cc1dc1ee5d0d59363e85245fe67a5a923fda70057",
+    "abstract_sha256": "f1ece1e652a09c01b987b96ca6bc62488a1240c006bfaea9993df67b08f7a85a",
+    "original_prompt_sha256": "64b8e31b341acc1334d2d630f1aa5faa83273ec7885b5dd589fdae8c0ead82e7",
+    "elapsed_seconds": 8.93753529200012,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18098,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 140,
+        "reasoning_output_tokens": 23
+      }
+    ],
+    "completed_utc": "2026-11-06T05:10:02.691792+00:00",
+    "origin": "population_extension"
+  }
+}

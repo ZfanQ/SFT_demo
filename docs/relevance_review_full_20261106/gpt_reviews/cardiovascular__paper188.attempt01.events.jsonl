@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af3f-dbc5-7292-902a-b4cd3104f886"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper188\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"This study explored how individuals adapted by addressing their main concerns.\",\"rationale\":\"The study examines psychosocial and existential adaptation across liver transplantation, with no focus on cardiovascular disease, risk prediction, prevention, or cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17975,"cached_input_tokens":9216,"cache_write_input_tokens":0,"output_tokens":89,"reasoning_output_tokens":0}}

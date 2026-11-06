@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper039",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "To evaluate a national training programme that synthesised evidence to support UK women veterans.",
+    "rationale": "The study evaluates provider education and capacity to deliver cognitive processing therapy for military sexual trauma-related PTSD. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "ceae20ef701892f15e7b60de541209900099b30bcb231870451205a73afe0d4c",
+    "abstract_sha256": "d13c4b91d762300ce966e270ae41b9c1ff9c180dcbcbbc41ae77c2b496784eb0",
+    "original_prompt_sha256": "2903967e4560dc0a8ef2237f8e376e1a07954e6e43a330dd2338b1f077a71dd7",
+    "elapsed_seconds": 7.688832040999841,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18113,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 100,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:36.644279+00:00",
+    "origin": "population_extension"
+  }
+}

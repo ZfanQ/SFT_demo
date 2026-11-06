@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper012",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "Its synergistic combination with CAR-T cells highlights OVV-03 as a highly promising oncolytic immunovirotherapy platform for GBM.",
+    "rationale": "The study directly addresses treatment development for glioblastoma, aligning with the profile’s interest in treatments for neurological disorders. It evaluates therapeutic efficacy, survival, and mechanisms of immune modulation.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The profile does not explicitly specify whether brain tumors are included within neurological disorders; the abstract focuses on tumor immunotherapy rather than neural function."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "653680131b6d410dca1760bef776405caf8cd0a21eff6b008ed0693012dfb3e5",
+    "abstract_sha256": "9b13fdf8f25ffff5c442f938e55a1045c07ddfe47eb1eef0d3e1f2890b959020",
+    "original_prompt_sha256": "aff7faa2076c5594cae75009a8a64f59aeda556cce11c63a025247e0c3cd458e",
+    "elapsed_seconds": 13.96399695800028,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18010,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 244,
+        "reasoning_output_tokens": 102
+      }
+    ],
+    "completed_utc": "2026-11-06T05:06:00.182801+00:00",
+    "origin": "population_extension"
+  }
+}

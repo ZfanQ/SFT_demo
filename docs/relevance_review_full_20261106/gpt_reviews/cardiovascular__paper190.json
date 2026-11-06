@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper190",
+    "profile_id": "cardiovascular",
+    "relevance": 1,
+    "evidence_quote": "confidence was lower for managing cardiac parturients (6.21) and neonatal resuscitation (5.89).",
+    "rationale": "Managing cardiac parturients provides a peripheral cardiovascular connection, but the study primarily assesses obstetric anesthesia training and self-reported competence rather than cardiovascular disease management, prevention, or outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "2dcb362524c582df9e3f5987242642a73ac474487bd69ba6d742c0587fdde0e1",
+    "abstract_sha256": "c6f932823091c62f08ccff427b1f386219b5928b873c793b6183d6e16e39fb16",
+    "original_prompt_sha256": "49db7fc75c91734ab28eb9e10aec4587ad09819d581797caf882af77cd5cf43e",
+    "elapsed_seconds": 8.544176375000006,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18232,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 110,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:06.785965+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper060",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study uses mathematical modeling to evaluate these effects. A compartmental modeling approach was used to simulate TSL-encapsulated doxorubicin (DOX) delivery.",
+    "rationale": "The study models chemotherapy delivery to solid tumors and optimizes hyperthermia schedules. It does not investigate cardiovascular disease, risk prediction, prevention, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "86f9bdb6c67c8d16dfce70855c4b1ddeddf5eb279442b81a4dc3d28926fb2d5d",
+    "abstract_sha256": "62da56b75e72bada2c8a4d23a397aa87b3d278c3e5bcf504928cea3526383ef6",
+    "original_prompt_sha256": "48a61a60f9d1694fe4db26239d3d7db8932d53e8deaa1140a7aca6f82d84af41",
+    "elapsed_seconds": 8.77506641700029,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18079,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 116,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:09:13.749080+00:00",
+    "origin": "population_extension"
+  }
+}

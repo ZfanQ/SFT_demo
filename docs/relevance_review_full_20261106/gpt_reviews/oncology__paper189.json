@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper189",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to illuminate the experiences of individuals with CLP undergoing orthognathic surgery.",
+    "rationale": "The study examines experiences and psychosocial outcomes of corrective jaw surgery in individuals with cleft lip and/or palate. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "1ec08368c1104f799952a0fd379bf0760cba4913e6d950fe195761ecbbc3ec46",
+    "abstract_sha256": "abfa8c858b35e89173719588b1d25493101c3050c6b84c4e9a3db64d573acaf7",
+    "original_prompt_sha256": "7f7cca2ede6d263e2015b85095370fff3de0feccb256ade244e6a31e2b875bf9",
+    "elapsed_seconds": 9.213175625000076,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17966,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 106,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:18:18.393966+00:00",
+    "origin": "population_extension"
+  }
+}

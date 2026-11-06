@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper073",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Overall, Rac1 is involved in Sigma1R-mediated mitophagy and mitochondrial protection, highlighting Sigma1R as a potential therapeutic target for renal IRI.",
+    "rationale": "The study investigates mitochondrial protection and treatment of renal ischemia-reperfusion injury, with no stated connection to tumor progression, tumor biomarkers, or cancer treatment.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "6c6d143f27cd7aea9554218df1b61562889107378c5c2179ff2f7ee487831f79",
+    "abstract_sha256": "c97ed9415f99a9ae36ac62b6d18e6e4cdab19d376723028a2cc21705dbde3051",
+    "original_prompt_sha256": "43d3ed4ef7400acaf79ca6c49332e1aed64e9b722e831d48ecd3555ce67095e8",
+    "elapsed_seconds": 8.442011332999755,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17889,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:23:12.741762+00:00",
+    "origin": "population_extension"
+  }
+}

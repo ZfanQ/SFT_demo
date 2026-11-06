@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af46-482e-7923-9dd3-717d416cd145"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper028\",\"profile_id\":\"neuroscience\",\"relevance\":1,\"evidence_quote\":\"A poly-victimisation class was associated with greater emotion-related impulsivity and mental-health burden.\",\"rationale\":\"The study has peripheral relevance through impulsive behaviour and its relationship to cognition. Its primary focus is childhood adversity patterns and mental-health associations, without examining brain or neural mechanisms, neurological disease, neural injury, or neurological treatments or biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18199,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":175,"reasoning_output_tokens":59}}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper058",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "Their persistence in metastatic lesions and association with reduced recurrence risk support further investigation of KLRB1-associated HPV-reactive T-cell states as biomarkers and immunotherapeutic targets.",
+    "rationale": "The study directly addresses tumor-specific immune-cell persistence in metastatic cancer, links these states to recurrence and prognosis, and identifies potential tumor biomarkers and immunotherapeutic targets, closely matching the oncology profile.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "047f7f827edbccd5ab136eb1e63833efc2294e8e5ebe99f15b6b71359fb15889",
+    "abstract_sha256": "ff69538db65fe5138c0e9550f211c25942e347f7e47f5f9bde29b235e40980fd",
+    "original_prompt_sha256": "6511032d472666ec7b0d207959564118a17760951bd33c139da8991182074cac",
+    "elapsed_seconds": 8.159604666999712,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18128,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 120,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:37.378968+00:00",
+    "origin": "population_extension"
+  }
+}

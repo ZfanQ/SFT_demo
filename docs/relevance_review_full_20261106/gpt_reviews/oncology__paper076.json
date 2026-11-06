@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper076",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "We evaluated the association between antihypertensive therapy, particularly CCBs, and AVF flow rate in maintenance HD patients.",
+    "rationale": "The study concerns antihypertensive therapy and vascular access outcomes in hemodialysis patients, with no focus on cancer biology, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "e1f14afddb6a3bf9a63f5946eab475f20430e0ccb145ccf675e1432612599325",
+    "abstract_sha256": "3763640603613db444dd351d6c8dec90a0654e4702aeacb17b332eeed8e43624",
+    "original_prompt_sha256": "dda9c973976c977e16c1a3fccb605f7927f979628d21a94f11a4eee6e577288b",
+    "elapsed_seconds": 8.764163290999932,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18115,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 107,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:59.204091+00:00",
+    "origin": "population_extension"
+  }
+}

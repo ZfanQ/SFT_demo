@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper147",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Background: Sodium citrate (SC) can elevate extracellular buffering capacity, yet the intra-individual reliability of its blood bicarbonate ([HCO₃−]) kinetics and gastrointestinal (GI) responses is unclear, limiting individualized dosing strategies.",
+    "rationale": "The study examines sodium citrate dosing, blood bicarbonate kinetics, and gastrointestinal responses in healthy males. It does not address tumor progression, tumor biomarkers, or experimental or clinical cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "6c8d3c18284eb0d57ea89211fd3c20d4eae948106df761f156b54a49f6e61b87",
+    "abstract_sha256": "01b620cde4b27cd3ac54b38d4ecac3fa5476a2f939085942b90211b40265ca4d",
+    "original_prompt_sha256": "58417264f3e123efb393e42581ed9ec612b5b817d585eb8ba5985e0a30b142b4",
+    "elapsed_seconds": 9.31482512499997,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18218,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 130,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:20:19.578121+00:00",
+    "origin": "population_extension"
+  }
+}

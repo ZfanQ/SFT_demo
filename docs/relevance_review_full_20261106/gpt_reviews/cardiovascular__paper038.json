@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper038",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study investigated the association between the CONUT score and neurocognitive performance in patients receiving maintenance PD.",
+    "rationale": "The study examines nutritional status and cognitive performance in peritoneal dialysis patients. It does not investigate cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "7601487c8ac877038005afa8bad683920ee9a3d853b7834dc7a845b1d9e433e4",
+    "abstract_sha256": "d95bb5c437987c408479a055b9a10067eb7b348eb5a6f668f66535fa0df97dc4",
+    "original_prompt_sha256": "c6364ec445f02bc9b9ab6386958a0248eb361d9408d3012c373c55e4662e9dc7",
+    "elapsed_seconds": 7.709907709000163,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17114,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 104,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:24.743695+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper105",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study examines how far Yemen’s health system responses to prolonged conflict, economic decline, disease outbreaks, and COVID-19 progressed beyond absorptive and adaptive resilience toward transformative resilience, and how strategic health policy across the building blocks shaped this transition.",
+    "rationale": "The study focuses on health system resilience, governance, financing, and institutional reform in Yemen. It does not address brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "94e67d4832c8da2861acefc6ca3195ca17692155463aa09f1c5b9644b14370a1",
+    "abstract_sha256": "76baa04a81e2b39a0c8f442d40c589ac2d8f5de8e60a23332b00bcb90a546e2b",
+    "original_prompt_sha256": "5414f6c477796236eba35dac24d4e70d1d090d3ba229a2748263786e3ff06518",
+    "elapsed_seconds": 9.611549000000196,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18031,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 138,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:03:49.752314+00:00",
+    "origin": "population_extension"
+  }
+}

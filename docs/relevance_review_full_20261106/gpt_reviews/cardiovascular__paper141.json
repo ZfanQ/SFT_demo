@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper141",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "We conducted a national, multicenter, hospital‐based registry study to evaluate adj‐ChTs in resected BTCs.",
+    "rationale": "The study compares adjuvant chemotherapy regimens for resected biliary tract cancers using recurrence-free and overall survival outcomes. It does not address cardiovascular diseases, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "53a396f3c0cefe17134b2bf50b8720f5ac90782ef55a1ae5edbedb3585a22849",
+    "abstract_sha256": "b6efc3df124df07a9f086ba5402aa7d2b8f45162113c71c58c55bb68e0f61b78",
+    "original_prompt_sha256": "ee3db9b6ca4de3b92b0f7041bd10bbb4d3e72be73b1d04e4cbecce390960f093",
+    "elapsed_seconds": 7.859714624999924,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18277,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 119,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:20:44.303221+00:00",
+    "origin": "population_extension"
+  }
+}

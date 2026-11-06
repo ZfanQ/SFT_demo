@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper126",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to estimate the 5 y budget impact of maternal RSV Prefusion F (RSVpreF) vaccination, compared with no vaccination, from the public healthcare payer perspective in Egypt.",
+    "rationale": "The study evaluates the budget impact and infant health outcomes of maternal RSV vaccination. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "03066e06b71d5cbc244e9720e8f19a58fe5ce3f8caae99df82ff006ce0fab7de",
+    "abstract_sha256": "afce513f1ccd561d54bb5838fffb1dd608f1f999aeb61cfe642710c4250cf274",
+    "original_prompt_sha256": "55f0f7a1a3d8fe2629ede465c448cd2c591999731707bc774e2b75001e29c863",
+    "elapsed_seconds": 8.015106124999875,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18097,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 119,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:11.650151+00:00",
+    "origin": "population_extension"
+  }
+}

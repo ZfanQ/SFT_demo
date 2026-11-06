@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper041",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "These findings highlight spatially localized cytotoxic cell exhaustion as a key immune evasion mechanism in HPV-negative HNSCC and underscore the value of integrating spatial and single-cell data to reveal therapeutic vulnerabilities.",
+    "rationale": "The abstract focuses on tumor immune states, immune evasion, and immunotherapeutic targets in head and neck cancer. It does not address cardiovascular disease, risk prediction, prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "01f51fb8ad2c9b343fac509248d32883c6c268aa0fa6db12c0ec79acfbaa42f9",
+    "abstract_sha256": "3efffb7c9f07ea00ac1ba7471a8c5625d1e924a7a7a699dc3cecfd0423adb47a",
+    "original_prompt_sha256": "99f3955f14bd8a04b71d6c21dd457efa5a61c39c4b972fd3895adc2c9a907c4c",
+    "elapsed_seconds": 9.211075000000164,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18059,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 129,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:11:06.671361+00:00",
+    "origin": "population_extension"
+  }
+}

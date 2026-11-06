@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4e-4d96-7aa2-afa7-fd8f27904428"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper136\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"This study employs a mixed-methods approach to understand the reasons behind this trend by linking statistical observations with in-depth view of vaccine hesitancy.\",\"rationale\":\"The study examines attitudes toward Covid-19 and influenza vaccination, including mistrust, safety concerns, and misinformation. It does not address brain or neural mechanisms, neurological diseases, cognition, neural injury, or neurological treatments or biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18056,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":123,"reasoning_output_tokens":0}}

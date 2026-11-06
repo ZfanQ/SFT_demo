@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper001",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study focused on how adults with cerebral palsy successfully confronted ableism during encounters with others and successfully coped with ableism in general.",
+    "rationale": "The study examines confronting and coping with ableism among adults with cerebral palsy. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "495e0bbe490b422873788722e1a4d22fa319a5306243fa4567fd590d06995ff7",
+    "abstract_sha256": "b51c78a7845129cad19209c2b2f8773ec16f7cf34c8cfeed2c999249a4023285",
+    "original_prompt_sha256": "325b647b917b400683456dec5935c4642da34137f897b2d1b69b35d20f4ae530",
+    "elapsed_seconds": 7.512727416999951,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17967,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 109,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:14:56.215533+00:00",
+    "origin": "population_extension"
+  }
+}

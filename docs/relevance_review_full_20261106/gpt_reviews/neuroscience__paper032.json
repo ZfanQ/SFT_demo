@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper032",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "This qualitative study aimed to understand the experiences of people living with PSSD in the United Kingdom.",
+    "rationale": "The study is peripherally related through persistent adverse effects of serotonergic antidepressants and emotional numbness. Its focus is lived experience, identity, relationships, and psychological support rather than brain or neural mechanisms, neurological disease, or neurological biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "c82d330b9c5365b26b054a847a875253508abee3696461d84b71bedf5bd5952a",
+    "abstract_sha256": "19c9b8e05eb34e064546e4c77685adf0f417abe4106ea334fa803041e872cf55",
+    "original_prompt_sha256": "11b5efa56d25a54428d42c162ed3031ea808e3c8f02ffcc787c5ebed84c53815",
+    "elapsed_seconds": 10.497982124999908,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17945,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 193,
+        "reasoning_output_tokens": 75
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:27.873735+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper138",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "We conducted longitudinal genomic surveillance of 282 carbapenem-resistant K. pneumoniae (CRKP) isolates (225 sputum, 57 blood) between 2021and 2024 to characterize population structure, source-associated genomic adaptations, and plasmid evolution.",
+    "rationale": "The study examines bacterial resistance, virulence, and genomic adaptation in respiratory and bloodstream infections. It does not address tumor progression, cancer biomarkers, or experimental or clinical cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "a7a4ac3e889e4eedb430c24335dcb7ad15ad21a3c85d90fb920399dae43aef41",
+    "abstract_sha256": "e9c6c6da22fb6bbd7be6229fecbf3ed2909d83c6607083c77a1a6e418fe1a944",
+    "original_prompt_sha256": "0db2f78a3a43ef9074128d0c4b94a103632d5b4fa9231606e1f5d2333b3eac77",
+    "elapsed_seconds": 8.651775457999975,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18099,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 136,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:19:07.903075+00:00",
+    "origin": "population_extension"
+  }
+}

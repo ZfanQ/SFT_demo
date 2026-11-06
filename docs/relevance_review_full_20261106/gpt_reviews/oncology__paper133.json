@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper133",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study reveals a shared genetic basis of PTSD and OSA, characterised by genetic correlation, shared novel variants, tissue enrichment, and causal relationships, providing evidence for genetic overlap underlying their biological mechanisms.",
+    "rationale": "The abstract investigates shared genetics and causal relationships between PTSD and obstructive sleep apnea. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "bb20394174956a5c3753139a2aa6f6c8557dce0300177b247c1d8fafa056eb07",
+    "abstract_sha256": "46ed7cedeb62f278072950a206b0d9b590d1cbaa9806846475a8e1de0c16f699",
+    "original_prompt_sha256": "4cab1b2d0e62e26705175154dcafec22d47534529b215f8402116230d474b7d4",
+    "elapsed_seconds": 8.271430000000237,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18190,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 120,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:24.009431+00:00",
+    "origin": "population_extension"
+  }
+}

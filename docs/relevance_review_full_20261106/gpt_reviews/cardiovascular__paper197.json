@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper197",
+    "profile_id": "cardiovascular",
+    "relevance": 1,
+    "evidence_quote": "We performed quantitative metagenomic analyses of the GM accompanied by SIgA sequencing in 48 pediatric SOT recipients (age = 10.6 ± 4.7 y) receiving either heart (n = 11), kidney (n = 10) or liver transplantation (n = 27)",
+    "rationale": "Heart transplant recipients provide a peripheral cardiovascular connection, but the study focuses on gut dysbiosis, immunosuppression, and SIgA across organ transplants without assessing cardiovascular disease, risk, or outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "cf622cf302a504eb7aa9763caf642ab2eb8ef02b9f3cf8b3b68ac0be61d3fdce",
+    "abstract_sha256": "ea14de673a5cc78129c857d41fbe96685c6d80ba5ae60fe6c602d8c37d0f2eea",
+    "original_prompt_sha256": "65781954ba648ac56a5f66d0cce9cb1c26eff4290aeb4a6e0f73ebe14c0fa40a",
+    "elapsed_seconds": 10.446479083999748,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18024,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 154,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:06:30.651030+00:00",
+    "origin": "population_extension"
+  }
+}

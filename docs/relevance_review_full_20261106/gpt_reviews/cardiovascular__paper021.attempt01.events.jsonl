@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af46-a7e8-7ba2-978a-5750bf55501f"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper021\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"This paper explores how employees perceive and engage with MHFA in work settings.\",\"rationale\":\"The study focuses on workplace Mental Health First Aid, including stigma, disclosure, and employee engagement. The abstract does not address cardiovascular conditions, risk prediction, prevention, or cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18028,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":100,"reasoning_output_tokens":0}}

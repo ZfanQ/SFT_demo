@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper174",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Objectives: To investigate the role of the SIRT5-PRDX6 axis during the pathogenesis of sepsis-associated acute kidney injury (SA-AKI).",
+    "rationale": "The study investigates mechanisms and a potential therapeutic target for sepsis-associated kidney injury. The abstract does not connect these findings to brain or neural mechanisms, cognition, neural injury, or neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "c09e8076ff8acb033adfa7d73d3a51b5eca1713d0765ad469fe95ddae4f987c7",
+    "abstract_sha256": "20974d0fcdd719d2a176f193900ad873018a28d9dc430e2c52d653ae74ab90aa",
+    "original_prompt_sha256": "557305cd666660af989b8bd722250bcfc64368fdcb8a2eae4204bd035028c3bf",
+    "elapsed_seconds": 9.401733374999822,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18117,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 120,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:21:19.354102+00:00",
+    "origin": "population_extension"
+  }
+}

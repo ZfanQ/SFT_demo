@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper155",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Purpose: To adapt and validate a linear binning technique, developed for hyper‐polarized 129Xe MRI, for functional lung MRI with matrix‐pencil decomposition (MP)‐MRI.",
+    "rationale": "The study develops functional lung MRI processing for assessing cystic fibrosis and its treatment effects. The abstract does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "bf975c5cde06e7b77462e2d9f61bebc09bc68a02b43a90ec21f02e6d8398e05a",
+    "abstract_sha256": "b6492979991f3cbdcab7877bc221d8837246502f36c0840c5690f38605e9cd09",
+    "original_prompt_sha256": "e702d80d931eb185641ad0a0680c8124159e94e4bceccc3d29a4671c0244821a",
+    "elapsed_seconds": 7.947905250000076,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18075,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 122,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:52.732868+00:00",
+    "origin": "population_extension"
+  }
+}

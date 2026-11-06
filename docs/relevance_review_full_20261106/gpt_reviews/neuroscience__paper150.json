@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper150",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "We retrospectively described a cohort of patients with a diagnosis of granulomas in histopathological samples over an 11-year period.",
+    "rationale": "The study examines granuloma causes and diagnostic approaches across tissues. The abstract does not address brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "6962c94a210e05bcdcc8fa8ed4c31ccad0f86498355011d5f46d958a186183e5",
+    "abstract_sha256": "7628cedd89ab8c24486c67b30a88b581bf5d006fd13412ee7b27c2e2721c5efb",
+    "original_prompt_sha256": "f9abfd5b400c34d692659acb2995eb49c60501bd1825704eff108639f8d4bf68",
+    "elapsed_seconds": 10.131296041000041,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18147,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:15:56.327454+00:00",
+    "origin": "population_extension"
+  }
+}

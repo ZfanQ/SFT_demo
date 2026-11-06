@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af45-5e6f-7103-9da3-a35ee405c8dd"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper199\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"While physiological mechanisms are well documented, , limited qualitative research explores the psychosocial drivers behind this shift.\",\"rationale\":\"The study examines psychosocial drivers of problematic alcohol use after bariatric surgery and support needs in bariatric care. It does not investigate brain or neural mechanisms, neurological disease, neural injury, or neurological treatments or biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18141,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":137,"reasoning_output_tokens":23}}

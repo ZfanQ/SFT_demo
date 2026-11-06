@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper018",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study evaluates the economic implications of introducing the hexavalent vaccine into India’s national immunization program.",
+    "rationale": "The study focuses on vaccine program costs, procurement prices, and immunization delivery efficiencies. It does not address cardiovascular diseases, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "1b79ebe13571a30771170448549bfbb96642a3d81509de6ba2ba2ac04ae24653",
+    "abstract_sha256": "5d632b4c99b2923e6d0cfc89431b6d9c293a6a8fb958ca56d9b3d2c013707c79",
+    "original_prompt_sha256": "c95bebf0b5c5be72630b32dd7fcfc8920cafb3669b1942500bd93964c45167f0",
+    "elapsed_seconds": 9.3617131660003,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18019,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 106,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:15:53.415265+00:00",
+    "origin": "population_extension"
+  }
+}

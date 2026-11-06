@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af49-6074-7a13-ac22-39f03dce3704"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper110\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"However, no specific modeling has been reported to characterize the kinetics of antibody waning for these heterologous regimens.\",\"rationale\":\"The study models neutralizing antibody waning after COVID-19 vaccine booster regimens. It does not address brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17164,"cached_input_tokens":9216,"cache_write_input_tokens":0,"output_tokens":113,"reasoning_output_tokens":0}}

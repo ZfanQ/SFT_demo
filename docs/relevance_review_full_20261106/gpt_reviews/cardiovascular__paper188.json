@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper188",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study explored how individuals adapted by addressing their main concerns.",
+    "rationale": "The study examines psychosocial and existential adaptation across liver transplantation, with no focus on cardiovascular disease, risk prediction, prevention, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "97421bd5e65ef9a661e6b66ea65f60502a0340492bba5907888e02ae9981a548",
+    "abstract_sha256": "60c6716a6cd2ad9c43ac281df2e2771479c837450f828aab4874f6afac2af9c2",
+    "original_prompt_sha256": "8203ab1b08c60ca0dad5029cdcfd47df0a78899826eb47dfaa2029d114c752e6",
+    "elapsed_seconds": 10.519106249999822,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17975,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 89,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:06:10.705877+00:00",
+    "origin": "population_extension"
+  }
+}

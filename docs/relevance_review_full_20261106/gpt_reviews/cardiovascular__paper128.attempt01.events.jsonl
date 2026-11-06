@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af46-8749-7851-8a43-4f5022707262"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper128\",\"profile_id\":\"cardiovascular\",\"relevance\":1,\"evidence_quote\":\"No vaccine-related serious adverse events or myocarditis/pericarditis cases were reported.\",\"rationale\":\"The study has peripheral cardiovascular relevance through reporting myocarditis/pericarditis safety outcomes. Its main focus is COVID-19 vaccine reactogenicity, safety, and immune responses in healthy adults, rather than cardiovascular disease, risk prediction, or therapies for cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18144,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":160,"reasoning_output_tokens":40}}

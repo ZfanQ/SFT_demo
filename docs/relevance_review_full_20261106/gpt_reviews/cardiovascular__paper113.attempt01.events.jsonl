@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4c-f89e-7602-8f00-2d9073b869b3"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper113\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"To establish an annual national monitoring of the behavioral and social drivers of influenza vaccination, we validated the World Health Organization’s Behavioral and Social Drivers of Influenza Vaccination survey.\",\"rationale\":\"The study validates a survey of influenza vaccination behavior and intention. The abstract does not address cardiovascular disease, cardiovascular risk, or therapies for cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17957,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":112,"reasoning_output_tokens":0}}

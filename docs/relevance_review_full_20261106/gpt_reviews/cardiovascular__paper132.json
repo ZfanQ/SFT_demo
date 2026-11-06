@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper132",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to determine the coverage of the 23-valent pneumococcal polysaccharide vaccine (PPV23) and the influenza vaccine, along with related factors, among elderly individuals aged 60 y and above in the capital urban of China.",
+    "rationale": "The study examines vaccination coverage, willingness, and barriers among older adults. It does not address cardiovascular conditions, cardiovascular risk prediction or prevention, or therapies evaluated for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "bc97e3678749926eaf6b944323943a84e9c79de0c7d27769bef0760ff53ed3e3",
+    "abstract_sha256": "89aa6f97736df8e47655683330d4270b4e9da37e4f6152f07dd62fb30c0979cc",
+    "original_prompt_sha256": "613fa4c220bb311ab9f3f4a11f2cce99003b1f3800190a6630a2d63bc2894d6f",
+    "elapsed_seconds": 8.584395374999986,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18038,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 135,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:18:04.807583+00:00",
+    "origin": "population_extension"
+  }
+}

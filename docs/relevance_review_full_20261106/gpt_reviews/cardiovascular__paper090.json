@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper090",
+    "profile_id": "cardiovascular",
+    "relevance": 1,
+    "evidence_quote": "Patients with HHcy showed higher rates of hypertension",
+    "rationale": "Hypertension provides peripheral overlap with cardiovascular risk, but the study evaluates homocysteine in relation to IgAN pathology and kidney function, without assessing cardiovascular risk prediction, prevention, or outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3a241b2d8cda362818c5792668f5353c698b88035ceccb74cba26da2855c77ab",
+    "abstract_sha256": "821646c1c7de385a7255c3f7a24d59bf1d2e0cd73f57f73f64c5e0f17d70810f",
+    "original_prompt_sha256": "dbf33f7faa5dd15b78f69401ab7ebc465da2188233c14a0404f943f1d7f16430",
+    "elapsed_seconds": 13.416392332999749,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18091,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 154,
+        "reasoning_output_tokens": 55
+      }
+    ],
+    "completed_utc": "2026-11-05T16:03:45.245474+00:00"
+  }
+}

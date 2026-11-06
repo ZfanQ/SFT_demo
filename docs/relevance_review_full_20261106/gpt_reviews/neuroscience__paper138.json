@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper138",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "These findings provide a comprehensive genomic characterization of CRKP from respiratory tract and bloodstream infections",
+    "rationale": "The study focuses on bacterial genomic adaptation, antimicrobial resistance, and virulence in respiratory and bloodstream infections. It does not address brain or neural mechanisms, neurological disease, neural injury, cognition, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "e75e3d6c383482925cbb2cdbe814a64b5a6723e9b23bf995e6de73f5f3c18d1a",
+    "abstract_sha256": "e9c6c6da22fb6bbd7be6229fecbf3ed2909d83c6607083c77a1a6e418fe1a944",
+    "original_prompt_sha256": "d5a77bd3ad2c7c5d41fd4cf7cc5763578d89e7db8086d53a903717365a98be43",
+    "elapsed_seconds": 7.670914999999695,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18108,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 109,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:20:12.045237+00:00",
+    "origin": "population_extension"
+  }
+}

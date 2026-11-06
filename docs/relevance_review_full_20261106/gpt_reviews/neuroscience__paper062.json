@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper062",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "TRVmax exceeding 2.8 m/s has prognostic value for heart failure rehospitalization and cardiovascular mortality in HFpEF patients, suggesting its potential utility as a risk stratification tool in this population.",
+    "rationale": "The study evaluates a prognostic marker for heart failure rehospitalization and cardiovascular mortality. It does not address brain or neural mechanisms, cognition, neurological injury, or biomarkers or treatments for neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "80d6a391cff60ca8e4cb47ed3563d544147405de84e95065fef7ec6f59a38b31",
+    "abstract_sha256": "ded3b88215c4cbfe796f47ae1cefa4028dc0d1a64b316824a4857dc58c497069",
+    "original_prompt_sha256": "f8d55333bd9c0aea3f2aa9a4df996eb0d875912b814e69363d60297132dc150e",
+    "elapsed_seconds": 8.414986708000015,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17177,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 131,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:05:11.061371+00:00",
+    "origin": "population_extension"
+  }
+}

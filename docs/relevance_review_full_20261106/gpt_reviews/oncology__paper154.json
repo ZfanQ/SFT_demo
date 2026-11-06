@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper154",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to quantify exercise-induced GI symptoms, gut fullness, blood glucose response, and ratings of perceived exertion in response to low-protein (LP) and moderate-protein (MP) pre-exercise shake.",
+    "rationale": "The study examines pre-exercise protein intake and gastrointestinal tolerance in recreational runners. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "6acc48ee7b09db812d8789fe370b75aa26760a1d3e76cc357e54a8564161acf8",
+    "abstract_sha256": "e8dbceebe0f47fcf6cf76ed9f072b479c800fd11325bc0e4394351fd206e91e1",
+    "original_prompt_sha256": "6ca753ed87b9d0bee24734c6c6e93feb96c44de0b2e933241e8665d626bffbd7",
+    "elapsed_seconds": 8.35063054200009,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18325,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 124,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:04.411707+00:00",
+    "origin": "population_extension"
+  }
+}

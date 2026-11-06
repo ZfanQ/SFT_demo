@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper193",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This qualitative study explores the perspectives of 20 pregnant women and their families across the five health regions, using the Peqqissuserput model of Kalaallit Inuit health and wellbeing to understand sociocultural dimensions of health and well-being.",
+    "rationale": "The study addresses cultural identity, family support, and maternity service centralization. It does not investigate brain or neural mechanisms, cognition, neurological disease, injury, treatments, or biomarkers. Emotional distress is discussed as a sociocultural consequence of childbirth care.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d22a2b3b278356f041d69c78a8c4a4a39dbe49f509d062b9b8fb63331e661db4",
+    "abstract_sha256": "37ca7394846c41d2b4c6b494a77fbe937c4570579f67d3c4f5461b24ba2883ce",
+    "original_prompt_sha256": "22292e42c26e902eb98c27c36e0da30a267e40f0dbac36beeae2b91595a1f17b",
+    "elapsed_seconds": 9.051149833999716,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17946,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 144,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:13:51.828611+00:00",
+    "origin": "population_extension"
+  }
+}

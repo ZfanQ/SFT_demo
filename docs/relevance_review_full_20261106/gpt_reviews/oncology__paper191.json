@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper191",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "These findings support further evaluation of cfDNA and NLR as accessible biomarkers for patient stratification in oligoprogressive disease treated with SABR while maintaining an ICI.",
+    "rationale": "The study directly addresses clinical cancer treatments and biomarkers, evaluating cfDNA and NLR as predictors of survival in patients receiving SABR with immune checkpoint inhibitors.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "1f008262a76fcf4ac6e1d9cf579395ede55005322e1e28a57caf3a71907a0a60",
+    "abstract_sha256": "3fb1e31415662769f9c6ca45998f4aeccff086d0e9827ed7b710118f867c69a9",
+    "original_prompt_sha256": "1e548554409ac7d5d20be2c4c1c4c65c6d737aa9653e7c1045774caa60649c6f",
+    "elapsed_seconds": 9.393850375000056,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18081,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:46.610069+00:00",
+    "origin": "population_extension"
+  }
+}

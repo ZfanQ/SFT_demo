@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper076",
+    "profile_id": "cardiovascular",
+    "relevance": 1,
+    "evidence_quote": "We evaluated the association between antihypertensive therapy, particularly CCBs, and AVF flow rate in maintenance HD patients.",
+    "rationale": "The study overlaps with cardiovascular medicine through antihypertensive therapy and vascular function, but its endpoints concern dialysis access flow and failure rather than cardiovascular disease or cardiovascular outcomes.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The profile includes vascular disease, but does not specify whether dialysis arteriovenous fistula dysfunction falls within that scope."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "506e3597169eb8e60d8e538a9fdf53e221d842e3a2452bf29d853575d8e5bb5a",
+    "abstract_sha256": "3763640603613db444dd351d6c8dec90a0654e4702aeacb17b332eeed8e43624",
+    "original_prompt_sha256": "54a3880f72b3c0522f005c1eb578464e7c49a21f97423932265f21fab89cbb0d",
+    "elapsed_seconds": 16.90665883300062,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18039,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 177,
+        "reasoning_output_tokens": 44
+      }
+    ],
+    "completed_utc": "2026-11-05T15:54:28.433417+00:00"
+  }
+}

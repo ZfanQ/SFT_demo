@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper005",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "We established GBM cell culture models of acquired temozolomide (TMZ) resistance, analyzed the role of m6A in controlling resistance-associated pathways, and assessed the effects of METTL3 inhibition.",
+    "rationale": "The study focuses on glioblastoma chemotherapy resistance and METTL3 inhibition. The abstract does not address cardiovascular disease, risk prediction, prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "83b8e9c9754676fe157490752c03048940558e0dd338857b4d011463cf1da1a1",
+    "abstract_sha256": "5b628f92b855669f1aac9a7d781df6523332bd15fbe3548b44c251babb2825f7",
+    "original_prompt_sha256": "e80f467a4939cc963063029063e8b39ce972d07242f857ab53c235a130b6e1f2",
+    "elapsed_seconds": 8.460907832999965,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17961,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 126,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:26.347018+00:00",
+    "origin": "population_extension"
+  }
+}

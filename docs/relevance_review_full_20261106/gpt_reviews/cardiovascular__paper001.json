@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper001",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study focused on how adults with cerebral palsy successfully confronted ableism during encounters with others and successfully coped with ableism in general.",
+    "rationale": "The study examines confronting and coping with ableism among adults with cerebral palsy. It does not address cardiovascular conditions, risk prediction, prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "f637b930e4309bba2720f17d2dd8591a02087bdfe00cd82416f527aa7d9994c5",
+    "abstract_sha256": "b51c78a7845129cad19209c2b2f8773ec16f7cf34c8cfeed2c999249a4023285",
+    "original_prompt_sha256": "65cfc9326437a0a2bb563f8acba9f6bedd2318f4aff3c238309a947e6d29c212",
+    "elapsed_seconds": 9.16231208399995,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17977,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:09:27.213132+00:00",
+    "origin": "population_extension"
+  }
+}

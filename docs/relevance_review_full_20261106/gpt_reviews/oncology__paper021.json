@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper021",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This paper explores how employees perceive and engage with MHFA in work settings.",
+    "rationale": "The study examines workplace mental health support, stigma, and employee engagement. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "2a65967907f2f7a69fe218180a92c393b8fa495cbea935d0dc6ce5cd175ef442",
+    "abstract_sha256": "f9340687be4b9ea8605842e35dfd9426c7be1c1c7c667ac7e6f8cd204551686d",
+    "original_prompt_sha256": "4c7a5e22e84c6af7c66eb283d598c2eeb139363f4e26850eb7444668aff8e6a6",
+    "elapsed_seconds": 7.546506125000178,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18016,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 94,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:10.986483+00:00",
+    "origin": "population_extension"
+  }
+}

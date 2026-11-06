@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af45-1734-7123-a3b3-015a19eb7c6b"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper189\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"This study aimed to illuminate the experiences of individuals with CLP undergoing orthognathic surgery.\",\"rationale\":\"The study examines patient experiences and psychosocial outcomes of jaw surgery for cleft lip and/or palate. It does not investigate brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17981,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":111,"reasoning_output_tokens":0}}

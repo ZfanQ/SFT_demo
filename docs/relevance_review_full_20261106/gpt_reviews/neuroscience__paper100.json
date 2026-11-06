@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper100",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "DN is the leading cause of end-stage renal disease, and podocyte injury is a key event in the progression of DN.",
+    "rationale": "The study examines hirsutine protection against high-glucose-induced podocyte injury in diabetic nephropathy. Its focus is renal disease, with no investigation of neural mechanisms, cognition, neurological injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3d124d3c541255b86eabfa9d22d9ceb81a3a0dc1b38e2ba353cb85a98b8ab226",
+    "abstract_sha256": "af8ef1f06bbe9f627659fff5c29dd1f083f6029ab6c5ae84c2be7143ca37147a",
+    "original_prompt_sha256": "507ddec0d5abf2b0e0c22bf71767ffebf87a4146764012e004ee01f3704d8656",
+    "elapsed_seconds": 19.638652166999236,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17126,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 120,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:55:16.170564+00:00"
+  }
+}

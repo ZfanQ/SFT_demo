@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper144",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "We conducted a pooled analysis of individual patient data from two phase II trials evaluating oxaliplatin-based chemotherapy combined with checkpoint inhibitors as first-line treatment for MSS metastatic colorectal cancer.",
+    "rationale": "The study evaluates cancer treatment efficacy and immune biomarkers in metastatic colorectal cancer. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "4fa7fc56a6c1efad4aefb9018be1eda3bff08a58606c672615c0f9cbb163e8c7",
+    "abstract_sha256": "45c599453037db7acc9ad41e55f6d2cfec2bbfc44d8a1d061d52fef1ae1da161",
+    "original_prompt_sha256": "bd3b3909f8639cbd8022a56fd9a81ce0edaef4a01a2ed4d25a877c2e529029d2",
+    "elapsed_seconds": 9.710429541999929,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18104,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 117,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:10.007732+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper117",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "To assess the impact of implementing a two-dose varicella vaccine (VarV) immunization recommendation program on the incidence of varicella in Chongqing, China.",
+    "rationale": "The study evaluates varicella vaccination coverage, surveillance, and population incidence. The abstract does not address brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "788c0aea29136ad912a4863e72535fefded0bf168dbf7220d83ffcd6d8e4afe1",
+    "abstract_sha256": "81410e6d245cb9e3efa5e2bed4d0a94f677015545084278b32ce808fdba443ed",
+    "original_prompt_sha256": "7133be0ca0ebf1202bb714e780234023de534850fe2b026acba5d0d21a15b129",
+    "elapsed_seconds": 8.665885084000365,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18103,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 122,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:58.715759+00:00",
+    "origin": "population_extension"
+  }
+}

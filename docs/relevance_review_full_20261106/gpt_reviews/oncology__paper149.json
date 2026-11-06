@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper149",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "Together, our data show that SNPs in human and H. pylori serine protease HtrA and CagA modulate cancer signaling in complex Wnt-/β-catenin and ECM signaling networks, and that the protein variants can be causative or protective factors.",
+    "rationale": "The study directly examines molecular mechanisms of stomach adenocarcinoma progression, connecting human and bacterial variants to cancer signaling, EMT, and metastasis. It also proposes predictive tumor biomarkers, directly matching the profile’s interests in tumor progression and biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "52bffa7d36dd0a2577ed4629a5917b96bb5d707534ce12cdb299722f7ce659e2",
+    "abstract_sha256": "700643d8afec4d6d282083a232ede955947553aa111c7fd6f4e8df8a9fc18a83",
+    "original_prompt_sha256": "8b922583aca1447b749f2dfd47a99d15202cd8b27a16ab170d395e4ab0c101f8",
+    "elapsed_seconds": 9.843697208000322,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18165,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 153,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:03:49.984997+00:00",
+    "origin": "population_extension"
+  }
+}

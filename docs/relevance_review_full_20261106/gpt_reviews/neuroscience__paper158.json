@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper158",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "We performed epigenome-wide DNA methylation profiling of 259 sporadic CRCs using the Illumina EPICv2 array.",
+    "rationale": "The study examines DNA methylation patterns and molecular stratification in colorectal cancer. The abstract does not address brain or neural mechanisms, cognition, neural injury, or neurological disorders and their treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d649eab3ba1d6bb2d4ff87a44fbc6ace2bc62d37295aed684c8ac8eec8b5d1d0",
+    "abstract_sha256": "04df4f2a02b5343215596084e473177662fbfaf1ea9f6de2131e9b7f9a32fb01",
+    "original_prompt_sha256": "dce9c5e356f877de69a9d848833e803f795fdf688ec74460f6283b384c452367",
+    "elapsed_seconds": 7.752912917000231,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18106,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 116,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:00.293422+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper023",
+    "profile_id": "cardiovascular",
+    "relevance": 1,
+    "evidence_quote": "Significant clinical correlates included a history of stroke (AOR = 4.07), chronic back pain (AOR = 2.76), and high blood pressure (AOR = 2.57).",
+    "rationale": "Stroke and high blood pressure provide a peripheral cardiovascular connection, but the study examines mental health prevalence and its correlates rather than cardiovascular risk prediction, prevention, or treatment outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "4d5e094c3d4007992511f91e054be866ee2f82126ca2a473fcc96f6b75186404",
+    "abstract_sha256": "4f522b724dc9dba126958f9f957f04f58a4c4ac83991b2816ca378723b69b430",
+    "original_prompt_sha256": "105aa97413f28130d0cba69f0f6f831e69c35492fdb06240323956871be0f985",
+    "elapsed_seconds": 9.465004082999712,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18016,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 160,
+        "reasoning_output_tokens": 30
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:21.117993+00:00",
+    "origin": "population_extension"
+  }
+}

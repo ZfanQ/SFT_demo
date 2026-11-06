@@ -1,0 +1,242 @@
+{
+  "oncology__paper038": {
+    "result_sha256": "fde370422fb6d6c494674a684aff7144c90d3ac27e4c08de14511815eaf6a133",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper140": {
+    "result_sha256": "3e8551c758995458ace154a4b2268cdc4cf6ef11711a3f735e9ae38d59114246",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper172": {
+    "result_sha256": "a5e384cddd62b7778dcf73fb3c67d9ec34dd039f49708b689ae66b78cdffa937",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper009": {
+    "result_sha256": "2d0471a8bb43f5f9ed9a0a5e318ea0544f9d7c22a4453b1281bef16b3b67f95c",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper026": {
+    "result_sha256": "722aad2d01b989a2a911007c18265934392c22140f32ef2adb315ab5b7760686",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper042": {
+    "result_sha256": "ac4fe5de6c2de9db44f2906d012687ef23e41cc3869af39f3a90cfa1f851b153",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper078": {
+    "result_sha256": "acf0cb86dff00a2696d03716de3cfbc7d431a79e7e32876c28cc6ad2a06ad28e",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper195": {
+    "result_sha256": "33516ce6d9ceaf3533f8860bcb876469afc3682130638dc46a6bd108f40c782d",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper179": {
+    "result_sha256": "54fbaf97173b6a352cb3f32f50f268736f5b02ab7ef4f7950e6779a825ea1572",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper053": {
+    "result_sha256": "5dc1e1ac9effcd1166a820b28f89c0eb17ee3a9eaf8ed50bdab4ae44925a6e9d",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper175": {
+    "result_sha256": "2f582ea751c79ac1cff0abd44507599cdc4620e5b4ea06dc04174074da1731dd",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper058": {
+    "result_sha256": "21dfce3e8498cd9b19cd1ce417c373be736206500c97eb890f114829e083cc8b",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper076": {
+    "result_sha256": "b683b8beb829c5566edef1f0ee66d041cf9724fa8ef0e7d372e372a48dab3ccb",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper180": {
+    "result_sha256": "986c89e65af285b78e20fcfa479c493824b86cd4a3c9e8b4bed6a57866704e7b",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper066": {
+    "result_sha256": "248209a51728a5c75532dee0af1258f5ae5f1054d642e1649dd1ce659a4d1947",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper100": {
+    "result_sha256": "42676bc650e0e6d93388abd8243774816a71df594fe04bece31c9ad98bdb8b0a",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper062": {
+    "result_sha256": "6fae2d38500f9b35147fd289465e077ffd596b131233b7fd535b4dc30055abb7",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper072": {
+    "result_sha256": "e1f12f3b6a771d2918510815556382c637a1034dbab954610e403bee4012d1a1",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper080": {
+    "result_sha256": "895db8d20e5206e9c29655e4c89294949f87bd591e245991cf7ad786229da6a6",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper019": {
+    "result_sha256": "ee280f9e8e2dfc5e8f6191782ba19eb4bcf3b1176f0e2f5c750430050eab8859",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper006": {
+    "result_sha256": "b18949309a2b111a85b3d112fa982c3369668935c83591145a7c6e880eb4923b",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper006": {
+    "result_sha256": "d6cb02a12ba03f3387c2c6e23c94fc17dddb6e8c834c4464cd51b9d6c70bb2c8",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper185": {
+    "result_sha256": "d3940eb6112301968c52c5dff0d24d9d82af5deee4f06423782346a2253c031b",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper151": {
+    "result_sha256": "269665538141d3f9d885ba8db6ae38f15de682b44b8a42bcd45186cf7d185a4d",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper064": {
+    "result_sha256": "da251265c313d6596c214573075b0b6b44e1d1d85d198cf64f7cf8dfec20f338",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper003": {
+    "result_sha256": "6071232d2350b504cd4e685995847c62ccb85bd620b4496f85f085e02058f00b",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper061": {
+    "result_sha256": "170e36fca0496b228d8e7cf9a80a4eae9972a4f02aa5e4e7f4b6e0e8ea2b8d20",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper024": {
+    "result_sha256": "5cc33544006a8ba7942085a4a35f98ba67ee4f9cde3d6c55e522f1af1d761d48",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper069": {
+    "result_sha256": "153d0b7c0f6732253a47e907c3ce01c9815b7be84620c3199decee51dd6f05f5",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper013": {
+    "result_sha256": "06efc8ef166dad25c4d6b1ee4c7c1d9eb84f44538544ebba790b389c7698045d",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper093": {
+    "result_sha256": "e28072cc7f66a15e71c9cd9606330f3b358e237fb9018152e16ea370f5ac0b33",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper011": {
+    "result_sha256": "ff42807a63b644f5fa1660f5b716cc1e1654f2aa2e4db2e1c39f8f4d56935e7c",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper007": {
+    "result_sha256": "50b80d7e58643c8730188b3bbdd70090a9008141c55603a2e53e00deacf5a90e",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper046": {
+    "result_sha256": "05049b9cf5992854d45e8be9de0cdc31bc53cdb6e1a0b0e6568d9ef003805afb",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper014": {
+    "result_sha256": "bd6f4da7768abb9bb8c829d869b32cd62fa4b1eb7f49b139f53cca92ed95da68",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper069": {
+    "result_sha256": "dc407c3b38d211e6ffdb94a25ad5258fbda43ef3110e000fac18fb8f70680a85",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper070": {
+    "result_sha256": "f709453e746244692d0f79b901ef5304f2d746155a76acef893516aa6e698cbe",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper010": {
+    "result_sha256": "bd7c88b3e509e5971383fd986630c914aa6e09c1e5d218d5d806e75cd6196c7b",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper061": {
+    "result_sha256": "43871dc9ed88d8e3b1bf1512bd19e0f71e168988b8f1d02236bb618624486799",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper024": {
+    "result_sha256": "a5bf1a76e67930914fff6d526025d86925c2368c3f86302b324de1204ab99890",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper067": {
+    "result_sha256": "d67122745e8645ee435a3380d7607568fe84d8855cf286ca4a1e7f186eab2cd1",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper067": {
+    "result_sha256": "ebc2f5862a8e4286004cb4d6a47fcd3d9bd71cf1124e32f3a04c083dbba5b635",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper144": {
+    "result_sha256": "fdd018cca6e2e27a8971025025acc60764d6105b77a39656feacbe413eb06b5a",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper047": {
+    "result_sha256": "8532ea5185f5e96ae0e6de54344159934bafbe507636c401d536386d069e1bbc",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper119": {
+    "result_sha256": "3c50a97829ba5c65e9fc15bfb5b74026c9b6eb6cb35f4cde8ac0f2f72e99c7fa",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper054": {
+    "result_sha256": "9f18d42e8e5e509d28d09770d583ac4e4d4ee8029eccaa4834cb3d14b9db100f",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper160": {
+    "result_sha256": "c41224bb76cf9020615e21133cb9f3ff598619e01790096519bed73e00c5c645",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper196": {
+    "result_sha256": "84a81b2c71ffc599962659c587354cfeb04f41155fc436fda2551b23b204fba4",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper175": {
+    "result_sha256": "0a996d082b8272e6c98ba33206451fbe3329f451c84897870d5a01d6486af9fb",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper090": {
+    "result_sha256": "74a95d123f87d265dddbd16c0d1848344afbb89f2593b42ca8cea9e5ae5a1424",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper147": {
+    "result_sha256": "87030c97372dd3db51774277e522e746b6db912af3da29d60c6bbd8ed3203cd8",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper196": {
+    "result_sha256": "0c700d517bb53e7c26d0a288634df9727487aa1e63471836afd8857f20b8fcdf",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper051": {
+    "result_sha256": "c9d9308e8d50559659eaa78a590ec99d403f6c7e37035ccc369ce2db3e1b03bd",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "cardiovascular__paper177": {
+    "result_sha256": "bfd0eab2f1527bd3b68658e63910bdcca09bca1845d5f7c3fffb7fb1a499b859",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper086": {
+    "result_sha256": "61d5107c5fe9b115168f110e316bb8987cc4b872af081e6f28c1cfa82c920def",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper011": {
+    "result_sha256": "38f8609720422923cf54458ae66a82463d42ed2caa4507a1f96cb71879f0c288",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper152": {
+    "result_sha256": "af8dcad48a3eb15b63c83a16b199f95eb9ac6c6c62197c0b84d7a3c955f2798d",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "neuroscience__paper079": {
+    "result_sha256": "e1b67f21e3a942bc9707ec0acd932af1e9e3808ccaee0dd568c061a7c8a5f1fe",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper088": {
+    "result_sha256": "fc0241d8c74ed805cc1900f1684dc77e9e750bf334f05d75534d12b3947ec488",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  },
+  "oncology__paper052": {
+    "result_sha256": "01a3fc1e08e286883d3916ebdbb6a000868ede2fcf8fc5a2064ef65d70b89d32",
+    "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3"
+  }
+}

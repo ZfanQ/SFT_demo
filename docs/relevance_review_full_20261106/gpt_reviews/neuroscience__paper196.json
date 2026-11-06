@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper196",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "To examine whether PTSD is associated with adverse pregnancy and neonatal outcomes in a nationwide population-based cohort of women in Taiwan.",
+    "rationale": "PTSD provides a peripheral connection to the interest in brain and cognition, but the study examines pregnancy and neonatal outcomes rather than neural mechanisms, neurological injury, or treatments and biomarkers for neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "ed097ace9586480ec70e98b91eccfe6d6e3442578cf8c7a397962c8dc01dff5f",
+    "abstract_sha256": "9d7749908aebca894527a698cd08b36f3242996a87b4b71d14143d93f52be39c",
+    "original_prompt_sha256": "5ecbe00e976807a03cee0e6370fe433938be2f264cc1f6b1030cd4c1d87e27f1",
+    "elapsed_seconds": 14.41922670799977,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18037,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 188,
+        "reasoning_output_tokens": 76
+      }
+    ],
+    "completed_utc": "2026-11-05T16:03:13.474968+00:00"
+  }
+}

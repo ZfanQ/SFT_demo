@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper017",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "The P2X7 receptor (P2X7R) is an imaging biomarker of glioblastoma-associated microglia/macrophages (GAMMs), yet no SPECT tracer is currently available for GAMM imaging.",
+    "rationale": "The study develops a SPECT tracer for glioblastoma-associated immune cells and evaluates tumour imaging. The abstract does not address cardiovascular disease, risk prediction, prevention, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "1e2f00ca45d802097e46a60fe4bc53ca8b3ee7fdc7d695edfa0fdc6c77758fa0",
+    "abstract_sha256": "f16e3afe97a3238d02295e566e5e4b83edbe597bfd09d50e9d079b5eea50be66",
+    "original_prompt_sha256": "67d89ffb37f037961a52bb4084747d12d1cdc9f35e953ca8c3b25ccaea9188a4",
+    "elapsed_seconds": 8.851736665999852,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17990,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 132,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:39.394765+00:00",
+    "origin": "population_extension"
+  }
+}

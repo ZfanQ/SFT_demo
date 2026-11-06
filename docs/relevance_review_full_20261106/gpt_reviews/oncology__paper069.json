@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper069",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This nationwide cohort study demonstrates a clear day-of-the-week variation in hospital admissions for ischemic stroke among patients with AF, with fewer admissions on weekends than on weekdays.",
+    "rationale": "The study examines weekday variation in ischemic stroke admissions among patients with atrial fibrillation. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "c32eccd3e9f55eeb1353f85bd107e086c5e29d31d6149730fa73dd9a647d626b",
+    "abstract_sha256": "24c5ce72f5413832897df2995de2998f23a8cf3348ec741892143a03e107f677",
+    "original_prompt_sha256": "473f6d67fe70c4f92690facfc2db21e6224462c0626aed060b88a19050d6c02c",
+    "elapsed_seconds": 8.66479662499978,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18047,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 116,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:23.465557+00:00",
+    "origin": "population_extension"
+  }
+}

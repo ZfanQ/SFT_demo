@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af45-37ae-76e1-a7bb-76f71fcbea1e"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper039\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"Objective: To evaluate a national training programme that synthesised evidence to support UK women veterans.\",\"rationale\":\"The study evaluates provider education and cognitive processing therapy training for military sexual trauma and associated PTSD. It does not address cardiovascular conditions, risk prediction, prevention, or therapies for cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18123,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":103,"reasoning_output_tokens":0}}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper180",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "we evaluated the clinical activity and safety of cabozantinib plus nivolumab in patients with advanced nccRCC.",
+    "rationale": "The study evaluates systemic treatment for renal cell carcinoma, with outcomes focused on tumor response, survival, and toxicity. It does not address neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "69070929fc8c2b0f098145eced9092afe57b7aae9ad059e11f9f5df76942d3f5",
+    "abstract_sha256": "c70f4a201cb7757d0142cb845cf87e1427841cf90d7b38104b1e172e035f1f09",
+    "original_prompt_sha256": "f1c4322a845d16c4a94a85bac9f2fd59f8d0f9c19db637366182e660c6a5113c",
+    "elapsed_seconds": 8.602023334000023,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18176,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 117,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:18:52.535559+00:00",
+    "origin": "population_extension"
+  }
+}

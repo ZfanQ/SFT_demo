@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper033",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "Supplementation with B. coccoides could exacerbate cognitive impairment and Tau phosphorylation in P301s mice.",
+    "rationale": "The study directly investigates Alzheimer's disease mechanisms, linking a microbial metabolite to cognitive impairment, Tau phosphorylation, and oxidative stress, with implications for therapeutic strategies.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "a52f4fc0ae62c64ba3bb53f735dfd927120693d7f8ac5aeb8b476460a785d78d",
+    "abstract_sha256": "79b85bf2101159ba84d91ca9827a3e51870398d51122adc571f4fec50def90cf",
+    "original_prompt_sha256": "b407cf59bf7ffe6d772844cc39fb24a68ab008f770171f56be54ed3bd93962c4",
+    "elapsed_seconds": 7.442309250000108,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17974,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 101,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:09:09.944827+00:00",
+    "origin": "population_extension"
+  }
+}

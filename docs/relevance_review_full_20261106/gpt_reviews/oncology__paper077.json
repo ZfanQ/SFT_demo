@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper077",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study evaluated the association of Chuanhuang Patent Formula (CHPF) with short-term renal function parameters and long-term prognosis in patients with acute kidney injury (AKI) on chronic kidney disease (CKD) (A on C) and explored potential subgroups that might derive greater benefit.",
+    "rationale": "The study evaluates treatment outcomes in acute kidney injury on chronic kidney disease. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "aa6ad071fae93d38e32e44c5649c1dc579cd414c1d1100ea46e21bc8f9ff6f47",
+    "abstract_sha256": "db8206c904ebaa05e01d14528287871c5a1fec5d48bb2227564fe434df5db4d4",
+    "original_prompt_sha256": "c63c4b308eaa8f6fac5aada76ae0183397c490800b1a16e718b5927324a1775c",
+    "elapsed_seconds": 9.16661141700024,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18049,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 138,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:10:14.236377+00:00",
+    "origin": "population_extension"
+  }
+}

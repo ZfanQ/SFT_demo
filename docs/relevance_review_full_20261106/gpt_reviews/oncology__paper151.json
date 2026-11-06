@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper151",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "We evaluated the association between adding RFH to first-line immune checkpoint inhibitor (ICI) plus chemotherapy and outcomes in patients with HER2-negative advanced gastric/gastroesophageal junction (GEJ) adenocarcinoma.",
+    "rationale": "The study directly evaluates a clinical cancer treatment combination, assessing survival, tumor response, and safety in patients with advanced gastric/GEJ adenocarcinoma. This directly matches the profile’s interest in clinical cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "a9de71c322e17652b45f7b5edd3ce1e4b7ed26d573125e49fa535dbe43c1ec44",
+    "abstract_sha256": "d4ba983cc05a7de96cbbb8a1bd81ec94b1dee0bdf2affcafee7e77d3005696c1",
+    "original_prompt_sha256": "f431fc7f00952a47e8b043c030e34f0c363c0f46de60e7b21f026f0ad138f783",
+    "elapsed_seconds": 20.369166125000447,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18067,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 134,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:57:12.749751+00:00"
+  }
+}

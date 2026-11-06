@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper020",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "Here, we have performed a pilot study to characterize the feasibility and safety of such a procedure, replacing between 16 and 26 L of patient blood plasma with young (ages 18–24) donor blood plasma for twelve patients who recently received a diagnosis of mild cognitive impairment with biomarker evidence of AD.",
+    "rationale": "The study directly evaluates the safety and feasibility of a potential treatment for patients with cognitive impairment and Alzheimer’s disease biomarkers, and tracks short-term cognitive outcomes. This directly matches interests in neurodegeneration, cognition, and treatments for neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "60dc850430e45e3b2855ae3f12bcc0446ccd547aed4c0a19c9d79a2445cc1c6b",
+    "abstract_sha256": "a530541fe850a378c7ea0e1db39e2a2d7712974c37484313a222b8219f386381",
+    "original_prompt_sha256": "e32bbab2621e81c7b7047b655235e47f6e5f232ff74046a59a289911fc04657a",
+    "elapsed_seconds": 8.736230500000147,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18059,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 158,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:14:48.700671+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af49-893c-73b3-be1b-58fca523a0ac"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper136\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"This study employs a mixed-methods approach to understand the reasons behind this trend by linking statistical observations with in-depth view of vaccine hesitancy.\",\"rationale\":\"The study investigates post-pandemic Covid-19 and influenza vaccine hesitancy and its social influences. It does not examine cardiovascular conditions, risk prediction, prevention, or cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18051,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":114,"reasoning_output_tokens":0}}

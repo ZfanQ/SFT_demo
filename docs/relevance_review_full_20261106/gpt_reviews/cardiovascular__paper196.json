@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper196",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "To examine whether PTSD is associated with adverse pregnancy and neonatal outcomes in a nationwide population-based cohort of women in Taiwan.",
+    "rationale": "The study examines PTSD in relation to pregnancy and neonatal outcomes. It does not investigate cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "15732bb911ce463db7de8ca543175954cdedc3ded7fd65b6e803c23a27256fa9",
+    "abstract_sha256": "9d7749908aebca894527a698cd08b36f3242996a87b4b71d14143d93f52be39c",
+    "original_prompt_sha256": "645fe575bfc08d88d41f1692564034f3f3877eaa36cdb12db410e05e259bd758",
+    "elapsed_seconds": 16.54303545899984,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18038,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 103,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T16:04:13.708140+00:00"
+  }
+}

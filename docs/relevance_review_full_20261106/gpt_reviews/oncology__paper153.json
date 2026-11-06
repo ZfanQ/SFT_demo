@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper153",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "we aimed to investigate the potential pro-inflammatory effects of sterile fecal microbiome filtrate (FMF) using a microphysiological, immunocompetent intestine-on-chip (IoC) model.",
+    "rationale": "The study investigates microbiome-derived inflammation and intestinal barrier damage in ulcerative colitis. The abstract does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "347bd6103dd157b2ae49d341b8e4092682f999c7eb1f45a22de071741bb44ad0",
+    "abstract_sha256": "df7d34a2314d6610f2ce0388d000aa8c550757364cac5aec97077b2310502704",
+    "original_prompt_sha256": "6d9cd9711e81992b1e6899d665cad2de0f05f4e18c13d22ecefdeafe79b4fd19",
+    "elapsed_seconds": 8.679316749999998,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18199,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 124,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:11:07.663605+00:00",
+    "origin": "population_extension"
+  }
+}

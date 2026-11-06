@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper114",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Our findings emphasize the importance of protecting high-risk school populations, implementing prompt outbreak control measures, and conducting timely health education to prevent pertussis transmission.",
+    "rationale": "The study focuses on school-based pertussis outbreaks and transmission prevention, with no connection to cardiovascular disease, cardiovascular risk prediction, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "ff608017e20fe61e83c2eba77ab14eac00ce869aa6e83d0c49b30c566c5caa70",
+    "abstract_sha256": "fe15771e055716e5a9638aa454be6a960d754b64f6f751af234e3d39fd4f3fe0",
+    "original_prompt_sha256": "c33c2e8d1204bc698a6b97737019f562de66105d7899974e0650dc9ef1063696",
+    "elapsed_seconds": 7.44150958299997,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17976,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 110,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:13:44.796115+00:00",
+    "origin": "population_extension"
+  }
+}

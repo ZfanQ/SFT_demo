@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper113",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "To establish an annual national monitoring of the behavioral and social drivers of influenza vaccination, we validated the World Health Organization’s Behavioral and Social Drivers of Influenza Vaccination survey.",
+    "rationale": "The study validates a survey of influenza vaccination attitudes and intentions. It does not investigate brain or neural mechanisms, neurological disease, neural injury, or neurological treatments or biomarkers. Cognitive interviews serve survey development rather than research on cognition.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "65b6dc9fee7e0e6f7ca4c4429e2362949a9e5cab973f7786564bff8a9c79ca7a",
+    "abstract_sha256": "7709372bd0b008efaf1ee3578cca26f0e4904cdb9725b105cfcec30d1093f17c",
+    "original_prompt_sha256": "9339ba9b3393325d412c37f49451321e295846b9ac0b0453cb5fe53ebaf49e16",
+    "elapsed_seconds": 8.273687874999723,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17962,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 127,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:19.903822+00:00",
+    "origin": "population_extension"
+  }
+}

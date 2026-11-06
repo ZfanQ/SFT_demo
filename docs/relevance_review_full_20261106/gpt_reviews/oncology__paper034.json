@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper034",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "We aimed to (a) estimate the prevalence of self-harm ideation among perinatal women, (b) explore sociodemographic, clinical, and psychosocial correlates of SHI.",
+    "rationale": "The study examines perinatal self-harm ideation and its mental health and socioeconomic correlates. It does not address tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "2cccd36562e905c2a8cc698b956fbd4988637e0580d87f28d3ed2cf7a2688935",
+    "abstract_sha256": "005ac6fe0d498cf02cdb43159302a3f1056621cfb617bc091d94a8a4d9263a22",
+    "original_prompt_sha256": "2f80e5d0c66c740c0240b0cbdb2cb2d08715884ce33b2c387ab8b9d6b48a8e33",
+    "elapsed_seconds": 7.961216916000012,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18167,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 123,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:14:17.614960+00:00",
+    "origin": "population_extension"
+  }
+}

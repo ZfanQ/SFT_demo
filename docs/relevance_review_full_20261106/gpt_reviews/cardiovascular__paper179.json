@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper179",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "The primary aim was to assess the feasibility, tolerability, and safety of intravaginal oxybutynin administration via the MedRing OAB system.",
+    "rationale": "The study evaluates an intravaginal drug-delivery device for overactive bladder, with outcomes concerning feasibility, tolerability, safety, and user experience. It does not address cardiovascular conditions, risk prediction, prevention, or cardiovascular treatment outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d9893362b5d00feb2cd1ee6c36a364ada81437bb79c94932a44f7e7db6f7b6f4",
+    "abstract_sha256": "e2efd700a2f5cfa9cf4c5562e003bf3eb8b0a2b0e22280ab948c0f15dcd950f1",
+    "original_prompt_sha256": "a7820e836c7f2625a30f055af6eae223ce897fcbca6a74479cc43d93d603620f",
+    "elapsed_seconds": 11.631692958999793,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18077,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 127,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:13.666104+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper015",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "We examined whether objectively measured sleep efficiency is associated with axial motor impairment and explored its potential relationship with cognitive and mood profiles.",
+    "rationale": "The study examines sleep quality, axial motor impairment, cognition, and mood in Parkinson’s disease. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "81b82b7c69d739e1eceba240d6795539499a0f4369137812d486abeec86cb9bd",
+    "abstract_sha256": "b4abfa08f861d40a139b906eb39ee84aec91ace1212e69b727a061a1957beba3",
+    "original_prompt_sha256": "d665e60e0e66db4524bf3854fdb0256018e4cb7cbc8ebbce4c1e5260d866e615",
+    "elapsed_seconds": 8.360571208000238,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17984,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:12:24.376639+00:00",
+    "origin": "population_extension"
+  }
+}

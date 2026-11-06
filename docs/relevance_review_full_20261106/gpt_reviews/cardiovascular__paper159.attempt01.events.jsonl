@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4e-294e-7da2-b77e-b05c15694d57"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper159\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"These findings identify thrombin as a host-associated modulator of microbial functional dysbiosis in patients with Crohn's disease.\",\"rationale\":\"The study focuses on intestinal microbial dysbiosis, mucosal inflammation, and thrombin-targeted treatment in Crohn's disease. The abstract does not address cardiovascular disease, risk prediction, prevention, or cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18074,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":117,"reasoning_output_tokens":0}}

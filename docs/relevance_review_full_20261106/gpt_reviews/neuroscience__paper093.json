@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper093",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "We examined the association between computed tomography (CT)-measured trabecular attenuation at the first lumbar vertebra (L1 CT-attenuation), bone mineral density (BMD), and osteoporosis in patients on hemodialysis.",
+    "rationale": "The study evaluates CT-based osteoporosis screening and bone mineral density in hemodialysis patients. It does not address brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "fe01e3313b41310cedb5aaf88a9eb631731d675fecfd08e1cf2f4125b07c5bf9",
+    "abstract_sha256": "795d2be027236c9751db577ff439d6bcee475c5725c80bc669e2227b9e60b1f6",
+    "original_prompt_sha256": "fccd616aedd8e9b39fcb18f3df9d06f546878c244d7e9bc9166c73720ffc0040",
+    "elapsed_seconds": 8.36815658400019,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18095,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 137,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:28.629786+00:00",
+    "origin": "population_extension"
+  }
+}

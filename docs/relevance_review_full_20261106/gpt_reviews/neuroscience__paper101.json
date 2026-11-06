@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper101",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to examine the thematic structure, spatial heterogeneity, and macro-level correlates of public responses to daily-life narratives shared by people living with HIV/AIDS on Douyin in China, with a focus on spatially varying correlational patterns of digital HIV/AIDS stigma.",
+    "rationale": "The study examines geographic patterns of online HIV/AIDS stigma and support and their sociodemographic correlates. It does not address brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "03e4f1764809b0d7ee36580e765b907d6495edb055136c24d108fab0195ef0d0",
+    "abstract_sha256": "2c020e97bca41510c2f0ccec5ac1eafc38aff87c4d8979c0353a75bf846e61c6",
+    "original_prompt_sha256": "237e918b0306eba5300df83a238f6ac0474388cc3fd7c50a803a06d1a7e53ab7",
+    "elapsed_seconds": 8.612368332999722,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18185,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 147,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:02.031642+00:00",
+    "origin": "population_extension"
+  }
+}

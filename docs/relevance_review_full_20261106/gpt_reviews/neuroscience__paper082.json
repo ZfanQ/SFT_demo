@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper082",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This 12-week randomized, placebo-controlled trial aimed to improve metabolic health through increasing distal SCFA production while inhibiting proteolytic fermentation using a fiber supplement that increased distal SCFA production in vitro.",
+    "rationale": "The study focuses on dietary fiber, gut fermentation, insulin sensitivity, and metabolic health. It does not investigate brain or neural mechanisms, cognition, neurological injury, or neurological disease treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "c5d3114df6a39e901c0de0a0d4aa4233afff63e5aef81eceb4d1d5780d8b29f9",
+    "abstract_sha256": "b4b67de0676fd70b7758645f1e6587a930633974e23b67087d29b0a97352a38a",
+    "original_prompt_sha256": "90b5f704e56317f5aea054807b36b5e8b797ed7f50205a2b3cfb51e311199d16",
+    "elapsed_seconds": 8.128709999999955,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18102,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 127,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:15:44.046749+00:00",
+    "origin": "population_extension"
+  }
+}

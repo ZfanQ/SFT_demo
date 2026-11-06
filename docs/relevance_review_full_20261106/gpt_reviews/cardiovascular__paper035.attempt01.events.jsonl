@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af40-52b3-7d52-9bcf-fb60d60d9f06"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper035\",\"profile_id\":\"cardiovascular\",\"relevance\":0,\"evidence_quote\":\"This qualitative study examined how therapists conceptualised and applied resilience in routine therapeutic practice for trauma-exposed youth.\",\"rationale\":\"The study concerns therapists’ understanding and application of resilience in youth trauma care. It does not address cardiovascular conditions, risk prediction or prevention, or therapies for cardiovascular outcomes.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17974,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":103,"reasoning_output_tokens":0}}

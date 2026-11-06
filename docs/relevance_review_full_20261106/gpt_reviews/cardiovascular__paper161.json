@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper161",
+    "profile_id": "cardiovascular",
+    "relevance": 2,
+    "evidence_quote": "Stent grafts are widely used to treat dysfunctional hemodialysis vascular access, yet restenosis remains common and its predictors are incompletely understood.",
+    "rationale": "The study addresses vascular stenosis, stent graft patency, and potentially modifiable procedural factors, making it relevant to vascular disease and intervention. Its outcomes concern dialysis access function rather than broader cardiovascular outcomes.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The profile includes vascular disease but does not specify whether dialysis access dysfunction and access patency fall within that scope."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "a4519a487651e03c829e1882edf80c85caef13a5ec7fee16f444c1cc0ae6d3a0",
+    "abstract_sha256": "a80b7f4849fc784f87b71073644fb269a2249e3ff134716f22675fb7813c86f3",
+    "original_prompt_sha256": "d1837290061959202d54d485cfffc0db1f1c0ad801f2c6ad93dda6ae235a1adf",
+    "elapsed_seconds": 8.86739362499975,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18030,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 177,
+        "reasoning_output_tokens": 34
+      }
+    ],
+    "completed_utc": "2026-11-06T05:13:25.674451+00:00",
+    "origin": "population_extension"
+  }
+}

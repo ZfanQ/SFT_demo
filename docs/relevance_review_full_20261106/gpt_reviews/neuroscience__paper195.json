@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper195",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "We present and evaluate an autonomous robotic DRS scanning system incorporating real-time contact force regulation to enable safe, repeatable, and large-area ex vivo tissue assessment.",
+    "rationale": "The study develops robotic spectroscopy for tissue scanning and surgical margin assessment. The abstract does not address brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "2db24eb6d944bddcddf62e90ce4227ee530ac6f4a9bdc833c4311d634028bb8f",
+    "abstract_sha256": "186fabb2e45d33ad8b512b126f41fcc3e0e652823a147a4e4439ea65ceb4526c",
+    "original_prompt_sha256": "5f413aab8fd5bf35dc3e94d7e7ef0a56f27e114ef50b65772051cc060b930f45",
+    "elapsed_seconds": 15.204187082999852,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17095,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 145,
+        "reasoning_output_tokens": 25
+      }
+    ],
+    "completed_utc": "2026-11-05T15:53:16.031632+00:00"
+  }
+}

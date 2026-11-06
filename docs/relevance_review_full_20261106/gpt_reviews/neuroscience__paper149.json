@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper149",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Here, we examined novel human and bacterial risk determinants as well as related signal transduction events associated with STAD development.",
+    "rationale": "The study investigates bacterial and human factors in stomach adenocarcinoma progression and potential cancer biomarkers. The abstract does not connect these mechanisms to the brain, cognition, neural injury, or neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "b093d2b81622463d93f23d7a0f4ad3206e77d7d5d0a32dfff96f54450a15bd12",
+    "abstract_sha256": "700643d8afec4d6d282083a232ede955947553aa111c7fd6f4e8df8a9fc18a83",
+    "original_prompt_sha256": "6ae86caa786b8dd30eeda39ed6e5851691844418fd357521041110ac49d952c5",
+    "elapsed_seconds": 7.525393959000212,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18174,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 112,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:06:56.286375+00:00",
+    "origin": "population_extension"
+  }
+}

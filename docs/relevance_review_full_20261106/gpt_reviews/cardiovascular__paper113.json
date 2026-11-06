@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper113",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "To establish an annual national monitoring of the behavioral and social drivers of influenza vaccination, we validated the World Health Organization’s Behavioral and Social Drivers of Influenza Vaccination survey.",
+    "rationale": "The study validates a survey of influenza vaccination behavior and intention. The abstract does not address cardiovascular disease, cardiovascular risk, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3d41a04e8d13b81e9ef541c669810eeceeca7f735cd731b686de124be6784b14",
+    "abstract_sha256": "7709372bd0b008efaf1ee3578cca26f0e4904cdb9725b105cfcec30d1093f17c",
+    "original_prompt_sha256": "bce327fec642e46ac5deb8dc7b062620866e81b9ef8eef21b9020ffed7c5e98e",
+    "elapsed_seconds": 7.835627459000079,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17957,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 112,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:20:27.416043+00:00",
+    "origin": "population_extension"
+  }
+}

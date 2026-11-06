@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper053",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "By addressing key methodological gaps, metaFun facilitates accessible and reproducible metagenomic analysis for the broader research community.",
+    "rationale": "The abstract focuses on a reproducible metagenomic analysis pipeline validated in a colorectal cancer cohort. It does not address brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "fb9fff71d7479247f8da0f6c7e997792fb9d736e031c102a3823d73ce33a0dc0",
+    "abstract_sha256": "3cf47206c4b10a260191f1cdc1d96fba0211bcb2461f0826953e12d196a07821",
+    "original_prompt_sha256": "f1c8afc5db1f5b1bf4281e2efde3262bd85607cc7d271a5bd65f7cbf9edf3bc8",
+    "elapsed_seconds": 8.753490874999898,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17930,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 114,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:18:34.878158+00:00",
+    "origin": "population_extension"
+  }
+}

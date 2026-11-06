@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper142",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "this study aimed to investigate the virus replication cycle and immune-related determinants responsible for restricted HEV infection in murine hepatocytes.",
+    "rationale": "The study focuses on HEV infection barriers and viral entry in liver cells. The abstract does not address brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "29386fcccfc05023aa72b5cb962f7e24e8970808d9ab5cf05f08024b431ed18c",
+    "abstract_sha256": "9a1ade947f7226d07ebf92526f1718ae0c71c104ac6f8441f719e16067f39aca",
+    "original_prompt_sha256": "cce4ecb0e72f008470999275ca2dba96b271dff3cbf6658e7364dc47309aa4ab",
+    "elapsed_seconds": 7.654641999999967,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17994,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 113,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:11:58.012182+00:00",
+    "origin": "population_extension"
+  }
+}

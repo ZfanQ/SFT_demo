@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper141",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "We conducted a national, multicenter, hospital‐based registry study to evaluate adj‐ChTs in resected BTCs.",
+    "rationale": "The study compares adjuvant chemotherapy regimens and survival in resected biliary tract cancers. It does not address brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d997390a62063be78639da994a5515a541b3f678bf9c6819905a00d7977571f8",
+    "abstract_sha256": "b6efc3df124df07a9f086ba5402aa7d2b8f45162113c71c58c55bb68e0f61b78",
+    "original_prompt_sha256": "308fb6e6d7fc1df72d0094c225027e473c987a80db42049564d8010e65cdc040",
+    "elapsed_seconds": 8.452951458999905,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18276,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 118,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:42.484830+00:00",
+    "origin": "population_extension"
+  }
+}

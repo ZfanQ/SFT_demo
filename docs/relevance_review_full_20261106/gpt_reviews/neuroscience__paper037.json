@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper037",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "Primary outcome was PTSD symptom severity (PTSD Checklist-Short), assessed at baseline, post-intervention, 2-week, and 1-month follow-ups.",
+    "rationale": "The study evaluates writing interventions for posttraumatic stress symptoms, giving it peripheral relevance through mental health treatment. It does not investigate brain or neural mechanisms, cognition, neural injury, neurodegeneration, or neurological biomarkers.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The profile does not specify whether psychiatric conditions such as PTSD fall within neurological disorders; the abstract focuses on symptom outcomes without a neural or cognitive investigation."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d0c377ad388bbfe08f79a934b7b987619e9e32eee7a248fecb0499ac2995ea7f",
+    "abstract_sha256": "cb9be7c63323a4207db52df179f1fdbe2fa6bc18491c04bc393c28a21b1ed66a",
+    "original_prompt_sha256": "c0885fcf789d6c62e0e79b09f4ff1f7b2c81b2b21485b287a0258907f8dfd2ee",
+    "elapsed_seconds": 15.795670500000142,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18120,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 194,
+        "reasoning_output_tokens": 40
+      }
+    ],
+    "completed_utc": "2026-11-06T05:06:11.350077+00:00",
+    "origin": "population_extension"
+  }
+}

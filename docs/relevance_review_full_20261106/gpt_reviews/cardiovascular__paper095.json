@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper095",
+    "profile_id": "cardiovascular",
+    "relevance": 3,
+    "evidence_quote": "Primary outcomes included renal function (measured by eGFR decline), coronary artery disease, ischemic stroke, and heart failure.",
+    "rationale": "The study directly evaluates therapy effects on coronary disease, heart failure, stroke, and major adverse cardiovascular events, matching the profile’s interest in cardiovascular disease and therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "cfd1859bc9afebe3301e1ce912f53c1bd986240581472fd1d9baf092f361c318",
+    "abstract_sha256": "1df7749696e4bb2a087279c2c2668675c84ed73c44e3720c27f43e55896b6596",
+    "original_prompt_sha256": "e2e3181687bdf7f905ded2644c8ee2dc9d796041b7febcbd9571fee8eeab9733",
+    "elapsed_seconds": 7.886754624999867,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18281,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 110,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:15:10.075159+00:00",
+    "origin": "population_extension"
+  }
+}

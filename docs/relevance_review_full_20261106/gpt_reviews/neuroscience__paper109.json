@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper109",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This multifunctional, sprayable hydrogel combines targeted antibacterial action with sustained pro-regenerative signaling, offering a promising strategy for further preclinical investigations of infected wound management.",
+    "rationale": "The study develops a hydrogel for infected skin wound healing through antibacterial activity and tissue regeneration. It does not address brain or neural mechanisms, neurological disease, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "8c4927e77c0dd7ae0c90b61d3cab75024a3713654e80247ecb06d68c288bc2c4",
+    "abstract_sha256": "10dbb3f72f745dcd45631357f2bf930f1354f012186153526fc09918ef2b0410",
+    "original_prompt_sha256": "5dc0396ac7098f1e402696701b1916855ebce11d8e4791f5b9567f8ace520eaa",
+    "elapsed_seconds": 8.285853958000189,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17980,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 121,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:02.980711+00:00",
+    "origin": "population_extension"
+  }
+}

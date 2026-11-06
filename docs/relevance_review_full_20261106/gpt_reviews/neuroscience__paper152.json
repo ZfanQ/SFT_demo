@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper152",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "We assessed global and SDI-stratified trends, inequality, empirical lower-bound burden frontiers, and decomposition of burden change.",
+    "rationale": "The study examines age-stratified colorectal cancer burden, inequality, and screening-related population trends. It does not address brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "91c3f6568d5ecd548317eb7cafc0d196b9d10cc867fbd0f60ad66e5c730dbcf5",
+    "abstract_sha256": "5cc20977373989b8091b036bf3a8e72cbf903b16faf5a4a6255ff239ff6a3660",
+    "original_prompt_sha256": "f5e846409d4017328edc39d3116ece25d3c055856854b119c933028be0dbd94d",
+    "elapsed_seconds": 8.09738441699983,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18103,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 117,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:19.098887+00:00",
+    "origin": "population_extension"
+  }
+}

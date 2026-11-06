@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper100",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study provides new evidence that hirsutine protects against HG-induced cell injury by simultaneously modulating apoptosis, autophagy and ferroptosis, highlighting its potential as a candidate for future DN therapy.",
+    "rationale": "The study examines protection against high-glucose-induced podocyte injury and potential treatment of diabetic nephropathy. It does not investigate tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "6106df9ce84eba7a779ebdf4a847a7c9f3c15408f25155c4e5dc6fbe68cf8aca",
+    "abstract_sha256": "af8ef1f06bbe9f627659fff5c29dd1f083f6029ab6c5ae84c2be7143ca37147a",
+    "original_prompt_sha256": "c0b9ee80306229f800351d5f45a2b8cc1a460639c6c4240c5acd1c3c3e0bb6cf",
+    "elapsed_seconds": 9.713214333999986,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18061,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 124,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:23:24.760910+00:00",
+    "origin": "population_extension"
+  }
+}

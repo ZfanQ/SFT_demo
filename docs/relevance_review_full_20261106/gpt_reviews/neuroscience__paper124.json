@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper124",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study integrates phenotype identification with longitudinal lung function analysis to develop a prediction tool for rapid decline in a large Chinese cohort.",
+    "rationale": "The study focuses on COPD phenotypes and predicting lung function decline. The abstract does not address brain or neural mechanisms, cognition, neurological injury, or neurological disease treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "32964f64510a4b21e18f1577da552fbb6aa542402cc0e6e22f9a297ef457c80f",
+    "abstract_sha256": "16dccf6b984eb2dff00512fd2de7c4cf19d4c0401dfae126b2e9e9aadec3b4d3",
+    "original_prompt_sha256": "ab1a3f14e3904f93bdaf3c4d0903c1e63eb7dae236946d1c7ada093747e97e9d",
+    "elapsed_seconds": 9.004291708999972,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18083,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 108,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:09:08.024355+00:00",
+    "origin": "population_extension"
+  }
+}

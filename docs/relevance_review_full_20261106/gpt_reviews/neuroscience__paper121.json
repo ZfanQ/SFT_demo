@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper121",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "The aim of our study was to explore the acceptability of the treatable traits approach to people with bronchiectasis in a regional setting.",
+    "rationale": "The study examines patient acceptability of individualized bronchiectasis care and perceived respiratory health improvements. It does not address brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "11040a9b8b17b6255493fe343a0633769de03abe6e79700502f3b6a433650622",
+    "abstract_sha256": "080bc730f5174e4c578270d13b15b5a48066538df039f23ad2c79d9c797b42d6",
+    "original_prompt_sha256": "9209fb1a302e353c6bb67de5b9df5addee2d80647c2ba062bfb822c8b92cd94b",
+    "elapsed_seconds": 7.817349333000038,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18068,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 118,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:21:00.494558+00:00",
+    "origin": "population_extension"
+  }
+}

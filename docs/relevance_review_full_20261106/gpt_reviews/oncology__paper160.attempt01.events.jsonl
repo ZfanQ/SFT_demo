@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af46-0654-71e0-adf5-fb88f9ffab4c"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper160\",\"profile_id\":\"oncology\",\"relevance\":0,\"evidence_quote\":\"This study established a mouse small intestinal organoid (mSIO) model of M. avium infection to assess CD-related inflammation.\",\"rationale\":\"The study focuses on infection-driven intestinal inflammation and Crohn’s disease pathology. It does not investigate tumor progression, tumor biomarkers, or cancer treatments; Mmp7 is discussed as a marker connecting infection to inflammatory pathology.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17948,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":118,"reasoning_output_tokens":0}}

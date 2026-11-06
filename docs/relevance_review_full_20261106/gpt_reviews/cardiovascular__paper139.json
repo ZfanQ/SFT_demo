@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper139",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study assessed vaccine‑associated RA using the Vaccine Adverse Event Reporting System (VAERS).",
+    "rationale": "The study examines vaccine-associated rheumatoid arthritis and adverse-event reporting, with no stated focus on cardiovascular disease, cardiovascular risk, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "9a863a7bbcc057579215323734e730bfb7935dc0a2680138a6779547629ccd0c",
+    "abstract_sha256": "628631fecbbb7fc9b31306b07d5fe16b0d86c3425ab054761efb85df17fe26d8",
+    "original_prompt_sha256": "3a4c8f53d4754704c631bad7f252b661fcf615008e8eef1c0436f8e7d6f02cfa",
+    "elapsed_seconds": 8.678623541999968,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18077,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 98,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:05:07.885709+00:00",
+    "origin": "population_extension"
+  }
+}

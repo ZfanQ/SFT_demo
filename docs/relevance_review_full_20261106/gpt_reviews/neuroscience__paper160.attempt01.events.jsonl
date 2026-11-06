@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af40-6488-7722-af5f-b740fb9536ca"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper160\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"This study established a mouse small intestinal organoid (mSIO) model of M. avium infection to assess CD-related inflammation.\",\"rationale\":\"The study focuses on intestinal infection and Crohn’s disease inflammation, with no stated connection to neural mechanisms, cognition, neural injury, or neurological disorders.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17961,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":106,"reasoning_output_tokens":0}}

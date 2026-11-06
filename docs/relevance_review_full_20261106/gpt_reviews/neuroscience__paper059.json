@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper059",
+    "profile_id": "neuroscience",
+    "relevance": 2,
+    "evidence_quote": "miR-103b compromised the tight junctions of HUVECs and increased BBB permeability in mice.",
+    "rationale": "The study examines mechanisms affecting blood–brain barrier integrity, alongside apoptosis and oxidative stress in astrocyte surrogate cells. These connect to brain injury mechanisms, although the primary disease context is breast cancer brain metastasis.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The boundary is whether mechanisms supporting brain metastasis fall within neurological disease research; the abstract centers on cancer progression while studying brain barrier and cellular dysfunction."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "0c7c611b66f3d5b68df23d6a76a7163e008e9f0cf039a58a469ea776a66dbb72",
+    "abstract_sha256": "2a90d1e59e0db58a2a261d3e1cbefb119821185b9a34faaafa5f82b1e312a4c7",
+    "original_prompt_sha256": "f3c2c62bfa6b6fba6d056684a0b8688948752dd356b806ff9495def38d9cec88",
+    "elapsed_seconds": 11.632585582999582,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18090,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 181,
+        "reasoning_output_tokens": 38
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:10.146061+00:00",
+    "origin": "population_extension"
+  }
+}

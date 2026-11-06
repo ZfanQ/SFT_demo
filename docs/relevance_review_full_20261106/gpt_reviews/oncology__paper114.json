@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper114",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "We conducted a retrospective study using data from Zhejiang Province’s pertussis surveillance system between February 1 and May 1, 2024, defining school-based clusters as ≥5 cases occurring within 21 d in the same class.",
+    "rationale": "The study examines school-based pertussis outbreaks, transmission intervals, and outbreak prevention. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "4244a79e023ba0ba5271ddc2fc9e5b01e76b1cae040543ad455fe4e8f7a84099",
+    "abstract_sha256": "fe15771e055716e5a9638aa454be6a960d754b64f6f751af234e3d39fd4f3fe0",
+    "original_prompt_sha256": "47e691afc593724be5b1c6ce4426553ef50ec106320d6eb148a022431dd6b13e",
+    "elapsed_seconds": 8.971233375000338,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17970,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 129,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:15:28.244998+00:00",
+    "origin": "population_extension"
+  }
+}

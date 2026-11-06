@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper195",
+    "profile_id": "oncology",
+    "relevance": 2,
+    "evidence_quote": "Force-regulated robotic DRS enables standardized, autonomous tissue scanning with expert-level spectral consistency, advancing spectroscopic sensing toward reliable automated surgical margin assessment.",
+    "rationale": "The system supports surgical margin assessment relevant to cancer resection. Its relevance is methodological: validation uses bovine and ovine tissues without reported tumor-specific testing, biomarkers, or tumor biology.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The boundary is whether technology intended to support tumor resection, evaluated without reported malignant tissue testing, falls within experimental cancer treatments or adjacent surgical instrumentation."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "09ed50d13a43ade38982e2c2409a204251fdde3df19e8a9b5c2310cc4eacbce0",
+    "abstract_sha256": "186fabb2e45d33ad8b512b126f41fcc3e0e652823a147a4e4439ea65ceb4526c",
+    "original_prompt_sha256": "702a02452443750a136c502179375fe8e4f3eb717d37f74a0aa9f51a19cb3e51",
+    "elapsed_seconds": 13.452390291000029,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18030,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 222,
+        "reasoning_output_tokens": 78
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:50.045335+00:00",
+    "origin": "population_extension"
+  }
+}

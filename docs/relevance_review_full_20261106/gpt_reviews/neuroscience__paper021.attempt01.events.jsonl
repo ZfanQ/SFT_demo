@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4c-759d-7942-affd-c48625eac1cf"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper021\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"This paper explores how employees perceive and engage with MHFA in work settings.\",\"rationale\":\"The study concerns workplace mental health support, stigma, disclosure, and organisational wellbeing. It does not address brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18029,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":103,"reasoning_output_tokens":0}}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper009",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "We investigated population-wide changes in prescriptions of oral anticoagulants (OAC) (vitamin K antagonists [VKA]) compared to direct oral anticoagulants (DOAC) and whether these translated into a decline in incidences of OAC-related intracerebral hemorrhages (ICH).",
+    "rationale": "The study examines anticoagulant prescribing and associated intracerebral hemorrhage incidence. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "247919fa852327f9d3531e97cad9ff16a838645c343b0644ac651176142c5000",
+    "abstract_sha256": "3520a9d7d32ca2d36dd87a205c27c655824a6b5c46eb227a20de1e15ad56d19d",
+    "original_prompt_sha256": "792097ae3f569b784f069474aafe0c74440e5e067c4104620c87570df725c684",
+    "elapsed_seconds": 8.335597624999991,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18123,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 142,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:57.163921+00:00",
+    "origin": "population_extension"
+  }
+}

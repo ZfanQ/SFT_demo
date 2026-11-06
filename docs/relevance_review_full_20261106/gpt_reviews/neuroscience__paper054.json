@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper054",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to assess the concordance between morphological diagnosis and flow cytometric immunophenotyping in newly diagnosed patients at the National Oncology Center, Sana'a, Yemen, and describe discordant cases and antigen-expression patterns.",
+    "rationale": "The study evaluates diagnostic agreement and antigen-expression patterns in acute leukemia. It does not address brain or neural mechanisms, cognition, neural injury, or treatments or biomarkers for neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "f8ff7bdcaa8240f51ef1f7606c0037f110d8c96a5519e4f1954c0b6621c59160",
+    "abstract_sha256": "38032f607656f98311b4e02ccc8bfcfbff3c82d6cd97940d076f1907a04a4496",
+    "original_prompt_sha256": "2b9f71658fb12ddcfe8e1f27bcb3f353134fc04479b773d4c60269c9ead88347",
+    "elapsed_seconds": 8.981131125000047,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18184,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 127,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:45.457761+00:00",
+    "origin": "population_extension"
+  }
+}

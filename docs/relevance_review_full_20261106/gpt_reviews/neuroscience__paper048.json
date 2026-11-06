@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper048",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Here, we performed longitudinal, multidimensional profiling of peripheral immunity in patients with LA-HNSCC at baseline (BSL), one month (CRT-1M), and three months (CRT-3M) after platinum-based CRT.",
+    "rationale": "The study examines peripheral immune changes after chemoradiation for head and neck cancer and timing of immune checkpoint blockade. It does not address brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "bb0688c9d552a839578ae91dde4922935f927628cc8ad1d9153de59dad2ac799",
+    "abstract_sha256": "d4e6cb5ab96fd0191191a10616223975c573c6e78926a5a1961b3ec810bdad96",
+    "original_prompt_sha256": "4af19fe877721caecaf722b595fb0e3aec6a797ac17006ba9673d3dcef4c281c",
+    "elapsed_seconds": 8.2201332919999,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18023,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 142,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:10.058046+00:00",
+    "origin": "population_extension"
+  }
+}

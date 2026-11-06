@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper052",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Here, we show that the efficacy of VEGFR blockade, vaccination, and PD-1 inhibition critically depends on treatment sequence.",
+    "rationale": "The abstract investigates treatment sequencing for renal carcinoma immunotherapy, focusing on tumor vasculature and antitumor immune responses. It does not address neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "2071ff2b1ed0eb62007131058edb51927e8951886728d11e23ba958d527890fe",
+    "abstract_sha256": "9391de6fe5105955dd107c075c44c5e01fb3785eb35d55187365aea17253cfbe",
+    "original_prompt_sha256": "df9980988bb98de9987dc5df1c3e6c5f4966b11512d219ac2268039fb8f3cc8a",
+    "elapsed_seconds": 8.812498541999958,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18038,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 119,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:54.757111+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper044",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "L3MBTL4 inhibited cell proliferation and colony formation, and induced G1/S arrest and apoptosis in ESCC cells.",
+    "rationale": "The study investigates tumor suppression, DNA repair signaling, and drug sensitivity in esophageal squamous cell carcinoma. It does not examine neural mechanisms or neurological disorders; the protein family's name does not establish neuroscience relevance.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "0d85ad3c2e168c3b14b5648644a252f75ac8bc5d10b31e9b21d3df9ab1497ca2",
+    "abstract_sha256": "272e3c24b85144c5a209108290e14a121b2815c410004febf7739ad60599a8f1",
+    "original_prompt_sha256": "26ff8697ede44b1310c44b4f6adc6b9d7e99799f6983fa5a25860cd2b9b1d7cb",
+    "elapsed_seconds": 7.724036666999837,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18026,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 115,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:18:26.122345+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper047",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Leveraging Iceland's centralized healthcare, we reassessed MG epidemiology and clinical features in a nationwide legacy cohort.",
+    "rationale": "The study examines epidemiology and clinical features of myasthenia gravis, an autoimmune neuromuscular disorder. The abstract does not address tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "f0d01ac582d49c7e284318203bd6a0d7860906e88dfdb93c285e1b0a2ee0f35c",
+    "abstract_sha256": "525fa8fe114eda2a32fa3074a1570dd830fa61e2583e76f413731da05bf072e2",
+    "original_prompt_sha256": "8d34cba55426e6b1888fd86dc81a6aad8f5cf63e8cc764c776e3e7f005bcc9b5",
+    "elapsed_seconds": 8.298620792000293,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17990,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 109,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:05:38.557140+00:00",
+    "origin": "population_extension"
+  }
+}

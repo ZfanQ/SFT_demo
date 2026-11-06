@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper072",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "The relationship between metabolic score for insulin resistance index (METS-IR) and all-cause and cardiovascular disease (CVD) mortality in peritoneal dialysis (PD) patients remains unexplored.",
+    "rationale": "The study examines insulin resistance as a predictor of mortality in peritoneal dialysis patients, with sex-specific associations. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "fc2d4734879343441962cb234b68a48cd440fe0b2a61e24f8f8265dd660eb31e",
+    "abstract_sha256": "5e83f6c2bf339fc984be841529f15311c16d5680d4da21a60a15f23406d7a6ad",
+    "original_prompt_sha256": "d88ed0b38dce258591126f07ae0770ae9f354c27fc8c02702c21eba629d9e8ae",
+    "elapsed_seconds": 8.938833416999842,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17174,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 127,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:14.444834+00:00",
+    "origin": "population_extension"
+  }
+}

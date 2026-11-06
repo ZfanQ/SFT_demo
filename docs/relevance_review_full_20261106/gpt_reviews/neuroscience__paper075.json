@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper075",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study investigated the diagnostic accuracy of AI-assisted diabetic retinopathy screening in primary care, using ophthalmologist-led screening as the reference standard.",
+    "rationale": "The study evaluates screening accuracy for diabetic retinopathy and fundus image quality. It does not investigate neural mechanisms, cognition, neurological injury, or treatments or biomarkers for neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "772a17edff1b8f872359ae829acf33e67e011fe7e62f2ad054cdc8520b523ebe",
+    "abstract_sha256": "b0307dc7e6c081e0ad6c1f6f74d2cd8ea6911f9edb3a6ee8361d8d635283b8df",
+    "original_prompt_sha256": "1647523af612fe69fdc34fe97d97897f29ac2f4fba73713ce5fb2220cae14e75",
+    "elapsed_seconds": 8.311975708000318,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18013,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 113,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:21.336966+00:00",
+    "origin": "population_extension"
+  }
+}

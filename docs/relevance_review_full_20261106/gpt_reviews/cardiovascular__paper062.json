@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper062",
+    "profile_id": "cardiovascular",
+    "relevance": 3,
+    "evidence_quote": "TRVmax exceeding 2.8 m/s has prognostic value for heart failure rehospitalization and cardiovascular mortality in HFpEF patients, suggesting its potential utility as a risk stratification tool in this population.",
+    "rationale": "The study directly addresses heart failure and cardiovascular risk prediction by evaluating TRVmax as a prognostic marker for heart failure rehospitalization and cardiovascular mortality in HFpEF patients.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "9eaf6bfd3b133a491bc420af1ace8747b96571503a90edf1fc0bd17faa2aaec1",
+    "abstract_sha256": "ded3b88215c4cbfe796f47ae1cefa4028dc0d1a64b316824a4857dc58c497069",
+    "original_prompt_sha256": "20529cb4870c38c24fbf780d1e188b0d61bb5b59b0bef710545f42b038cd462d",
+    "elapsed_seconds": 11.98131120800008,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18034,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 127,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:55:28.153153+00:00"
+  }
+}

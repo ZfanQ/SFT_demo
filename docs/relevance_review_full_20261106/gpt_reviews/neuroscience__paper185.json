@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper185",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to compare the virological features of BKPyV between KTR and HSCT recipients and to explore possible associations with clinical manifestations.",
+    "rationale": "The study examines viral genetics and replication in transplant recipients, with kidney nephropathy and hemorrhagic cystitis as clinical outcomes. It does not address brain or neural mechanisms, neurological disease, neural injury, cognition, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "81589955ef5cc6e0f38b994c93a7b005654a67e80c39f4fe9bd936bac4b50dcf",
+    "abstract_sha256": "0cbf902ea99e2dcbad017ce567ccc1cfa218c316bf09b3f608059b06a24dd204",
+    "original_prompt_sha256": "18e36114b38e118f33d93434bd7c117056b1a2c34257280b1053c46131451dae",
+    "elapsed_seconds": 8.21080829199991,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18084,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 127,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:10:05.068075+00:00",
+    "origin": "population_extension"
+  }
+}

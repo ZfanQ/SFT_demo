@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper015",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "Sleep efficiency may represent a clinically accessible marker of shared brainstem-related pathology underlying axial dysfunction.",
+    "rationale": "The study directly addresses Parkinson’s disease, linking objectively measured sleep efficiency to axial motor severity and proposing it as a marker of brainstem-related pathology. This matches the profile’s interests in neurological disease, neural mechanisms, and biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "66cbecb7727ef67140c4444a15b1132eb1d3e71c5b48a1654d13306cdf926cf6",
+    "abstract_sha256": "b4abfa08f861d40a139b906eb39ee84aec91ace1212e69b727a061a1957beba3",
+    "original_prompt_sha256": "cc3c22bc14a48fe52fbd63ed27988653d6bb213d087af862b55bdb607fc33404",
+    "elapsed_seconds": 8.418329665999863,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17983,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 112,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:13:07.715342+00:00",
+    "origin": "population_extension"
+  }
+}

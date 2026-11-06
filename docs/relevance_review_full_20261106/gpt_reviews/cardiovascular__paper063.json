@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper063",
+    "profile_id": "cardiovascular",
+    "relevance": 1,
+    "evidence_quote": "Exercise intolerance, primarily manifesting as intradialytic hypotension (IDH), is common in maintenance hemodialysis patients, interrupting interventions and contributing to adverse outcomes.",
+    "rationale": "The study predicts dialysis-related exercise intolerance manifested as hypotension, providing a peripheral connection to cardiovascular hemodynamics and risk management. Its main focus is nephrology treatment tolerance rather than cardiovascular disease, cardiovascular outcomes, or their prevention.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "f95e7a2ba53b97f2c7d899e8c7fd37070f7f8bfb0adaebf14ec86cd4a02447c4",
+    "abstract_sha256": "68018c0cff331ac52d9d1f7e208b167d716547736ca90aef0564e4b6ce9e50a4",
+    "original_prompt_sha256": "749789a07afba0ad04643223df9e93a552c0e417a6aa3ff7f94ce4d3c767528d",
+    "elapsed_seconds": 9.984456541999862,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18090,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 192,
+        "reasoning_output_tokens": 60
+      }
+    ],
+    "completed_utc": "2026-11-06T05:05:37.478705+00:00",
+    "origin": "population_extension"
+  }
+}

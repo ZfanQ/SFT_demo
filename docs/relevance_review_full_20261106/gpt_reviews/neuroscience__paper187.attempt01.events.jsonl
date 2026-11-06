@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af38-7710-7431-add0-96b555d057ff"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper187\",\"profile_id\":\"neuroscience\",\"relevance\":0,\"evidence_quote\":\"We evaluated the longitudinal impact of BS, microbiome resilience, and Mediterranean Diet (MedDiet) adherence up to 24 months.\",\"rationale\":\"The study examines bariatric surgery, gut microbiome changes, diet adherence, and fat loss in obesity. It does not investigate neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18105,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":117,"reasoning_output_tokens":0}}

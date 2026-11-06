@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper024",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "Comparative thinking about one’s well-being (e.g. social, temporal, counterfactual, or expectation-based comparisons) may act as a cognitive link between bereavement and psychopathology.",
+    "rationale": "The study examines cognitive comparison processes and mental health after bereavement, providing a peripheral connection to the profile’s interest in cognition. It does not investigate brain or neural mechanisms, neurological disease, or neurological treatments or biomarkers.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The profile includes cognition, which could encompass comparative thinking, but its neuroscience and neurological disease framing leaves the inclusion of behavioral clinical psychology uncertain."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "e26c5d8fc38acd9d0af148c97b507ec231e4db374fc40bc3543a3e417eb7c840",
+    "abstract_sha256": "b1b5f20bf62ecae23b7777c091e5a9e7f1279f2843650d06158331fd1b9202f3",
+    "original_prompt_sha256": "3fc7f50b837e191d3fc3b5afe7fa1013c3a3ad64e731c8159d1508f58ff4c218",
+    "elapsed_seconds": 20.663070915999924,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17969,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 210,
+        "reasoning_output_tokens": 50
+      }
+    ],
+    "completed_utc": "2026-11-05T16:01:19.175082+00:00"
+  }
+}

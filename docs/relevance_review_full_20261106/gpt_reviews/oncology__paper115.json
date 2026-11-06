@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper115",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "Overall, our study delineates the antigenic hierarchy and makeup of HPV-specific humoral responses in HPV+ HNC, both intratumorally and systemically, thus providing a framework for future biomarker as well as next-generation therapeutics development.",
+    "rationale": "The study directly examines tumor-specific immune responses in head and neck cancer, characterizing intratumoral antibody-secreting cells and systemic antibodies with explicit relevance to cancer biomarker and therapeutic development.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "919dcd8585ea7c925be9ed5f2130de023f57d658a789a458527f448eaba4816f",
+    "abstract_sha256": "32ce9500ddaacc3525cb1013d0d193002f8153e51375de1d2ab736cfa31b2d8e",
+    "original_prompt_sha256": "af5ef16c14905d3ec6e101fe74972acf51a78c14182c08bbd2219086e9f2f0a7",
+    "elapsed_seconds": 9.157048082999609,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18071,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 136,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:11:14.703506+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -9,6 +9,7 @@ This repository, **[ZfanQ/SFT_demo](https://github.com/ZfanQ/SFT_demo)**, is the
 | [Relevance concurrency](docs/feed_matrix_20261031/report_en.md) | 200 abstracts, three profiles, three models; 5,400 scoring calls | Technical audit complete; relevance accuracy has no independent gold labels |
 | [Summary factuality calibration](docs/factuality_review_20261031/report_en.md) | Ten papers, twenty blinded candidate reviews; thirteen automated concerns | Evidence locations checked; independent human calibration pending in the October 31 snapshot |
 | [Independent GPT relevance review](docs/relevance_review_20261105/report_en.md) | 60 stratified paper/profile pairs; 540 comparisons with nine saved configurations | GPT evidence and source hashes verified; human relevance calibration pending |
+| [Full-collection GPT relevance review](docs/relevance_review_full_20261106/report_en.md) | 200 papers × three profiles; 600 judgments and 5,400 comparisons | Complete automated audit; 28 high-priority pairs, 24 scope ambiguities and 20 agreement controls prepared for teammate calibration |
 
 Reports describe their recorded snapshots. Completion of format, hash or performance checks alone does not establish content accuracy. Existing experimental reports already published in the supervisor repository remain labeled with their limitations; this policy governs subsequent updates.
 

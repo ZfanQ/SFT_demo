@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper051",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Our Goal is to sensitize human colorectal cancer (CRC) to the differentiation-inducing effects of retinoic acid (RA) agents by suppressing WNT signaling.",
+    "rationale": "The study focuses on drug combinations targeting colorectal cancer growth and differentiation. Its mention of neuroendocrine differentiation concerns CRC cells, with no investigation of brain or neural mechanisms, neurological disease, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "0e778c6c6e0eccad19d9146e20d0e8e9f59e79d27f9f1eaa1bdd3ffefec49896",
+    "abstract_sha256": "3927fa9ab5d5865b380bec1cbb1918bd310b85895f06d939618037f9f2ba418e",
+    "original_prompt_sha256": "3a8f24a65c318caba5852d06446932666d25acac1e5956a433d0c4e965f629ac",
+    "elapsed_seconds": 8.267873541999961,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17108,
+        "cached_input_tokens": 9216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 126,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:39.869608+00:00",
+    "origin": "population_extension"
+  }
+}

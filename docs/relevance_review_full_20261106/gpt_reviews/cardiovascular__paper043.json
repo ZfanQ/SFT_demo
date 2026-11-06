@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper043",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "In this study, we constructed a high-resolution transcriptomic atlas of the thyroid cancer ecosystem by analyzing 55,005 single cells from paired primary tumors and lymph node metastases.",
+    "rationale": "The study focuses on thyroid cancer metastasis, tumor immune interactions, and immunotherapy targets. The abstract does not address cardiovascular disease, risk prediction, prevention, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "cee0afc16e97551bdcf200becb842b94162a63b34ca3169422ecc55e9e4bcb90",
+    "abstract_sha256": "80c88094ef15734214d42aad2b15b9591beeb1369b252a4ef4d10161e19e7063",
+    "original_prompt_sha256": "a752710f67a7cc977ea9594ff1bbc5737d191d836d4b65f7267b983038464e85",
+    "elapsed_seconds": 8.191903040999932,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18073,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 119,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:19:00.730296+00:00",
+    "origin": "population_extension"
+  }
+}

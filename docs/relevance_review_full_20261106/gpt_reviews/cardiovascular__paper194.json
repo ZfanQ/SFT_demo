@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper194",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "We aim to study the impact of virtual reality on perioperative anxiety during surgeries performed under regional anesthesia.",
+    "rationale": "The study evaluates virtual reality for anxiety management in orthopedic surgery, with outcomes focused on anxiety, anxiolytic use, and satisfaction. The abstract does not address cardiovascular disease, risk prediction, prevention, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "97f87d37e93e44b20fee85232d0fd3238bbd85be0eba141a72644250ffc92b1c",
+    "abstract_sha256": "70e8c0e0049593a84284b1eeca034eb95a5b5bf7efe396542f0dd152ed2ddc45",
+    "original_prompt_sha256": "cc2fc768a36e5734ed76f15dfe03eee2a3bec911971c641c9bc1e8cc08b2092c",
+    "elapsed_seconds": 9.704278249999788,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18122,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 112,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:23:04.296009+00:00",
+    "origin": "population_extension"
+  }
+}

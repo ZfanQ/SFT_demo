@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper030",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "We investigated (1) whether the factor structure of prolonged grief disorder (PGD) and well-being remains stable over time, and (2) whether aspects of CJS involvement are related to latent PGD and well-being levels reported after the criminal trial.",
+    "rationale": "The study examines grief, psychological well-being, and criminal justice involvement in bereaved people. It does not investigate brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "a8bb0511bdfe4f69b8e491a2fef7c5d422807b173b67b0aa61ee368969c5dc83",
+    "abstract_sha256": "bbaab8d8545ecbf5d0a47d90a2e5de9cdae0be0c7965b7f4b8f18f532783e3c0",
+    "original_prompt_sha256": "18ae30f25707599da16234d5ae5153817999200e80153b8f2d84f62864b6bfb2",
+    "elapsed_seconds": 8.715255250000155,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18105,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 174,
+        "reasoning_output_tokens": 31
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:14.165020+00:00",
+    "origin": "population_extension"
+  }
+}

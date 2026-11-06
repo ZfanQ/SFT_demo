@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper062",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "The prognostic value of Doppler-derived peak tricuspid regurgitation velocity (TRVmax) in HFpEF patients remains underexplored.",
+    "rationale": "The study evaluates a prognostic marker for heart failure outcomes, with no connection to cancer biology, tumor biomarkers, tumor progression, or cancer treatments in the supplied abstract.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "ed7f908147cf16d246622f5b15a4b8f1c18d1a4df6b3d6b4efbe0c94f4452df0",
+    "abstract_sha256": "ded3b88215c4cbfe796f47ae1cefa4028dc0d1a64b316824a4857dc58c497069",
+    "original_prompt_sha256": "afadf8128c21174ae21077b392a6636cde53bf86cb97ca4ad65ba004fc29135e",
+    "elapsed_seconds": 7.717677666999862,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18112,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 112,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:15.731695+00:00",
+    "origin": "population_extension"
+  }
+}

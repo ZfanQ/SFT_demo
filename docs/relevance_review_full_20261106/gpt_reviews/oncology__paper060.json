@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper060",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "Thermosensitive liposomal (TSL) drug delivery with intravascular release under hyperthermia is a promising approach for chemotherapy of solid tumors, where the hyperthermia schedule strongly influences delivery efficacy.",
+    "rationale": "The study directly addresses cancer treatment by modeling how hyperthermia schedules optimize doxorubicin delivery to solid tumors, including differences across cancer types and multidrug resistance levels.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "064aef44c6d8ba7c0451b175a0ad6377022d8143d7da4a984d93290b99fabd9d",
+    "abstract_sha256": "62da56b75e72bada2c8a4d23a397aa87b3d278c3e5bcf504928cea3526383ef6",
+    "original_prompt_sha256": "083fcc5b2a4249fa4820114755783fbae263f6c18757da347ee7b3f22bd23728",
+    "elapsed_seconds": 10.236240707999968,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18075,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 123,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:11:32.958137+00:00",
+    "origin": "population_extension"
+  }
+}

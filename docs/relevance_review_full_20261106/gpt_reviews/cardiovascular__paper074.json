@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper074",
+    "profile_id": "cardiovascular",
+    "relevance": 2,
+    "evidence_quote": "This retrospective study explored the associations of plasma homocysteine (Hcy), cysteine (Cys) and methionine (Met) levels with 90-day prognosis in intracerebral hemorrhage (ICH) patients and evaluated their predictive value for ICH prognosis.",
+    "rationale": "Biomarker prediction of intracerebral hemorrhage outcomes is relevant to the profile’s vascular disease interest, although its focus is cerebrovascular prognosis rather than cardiac disease, cardiovascular prevention, or therapies.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The profile includes vascular disease but does not specify whether cerebrovascular conditions such as intracerebral hemorrhage fall within its cardiovascular scope."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "7dcea5c293c94ef69ad0928e42eb0a8da3195ebbbd039eacb3797e48e7be4ebc",
+    "abstract_sha256": "796950a21a8c47498be98a655467ccae46b6353652ee18623444f7ba830ebc03",
+    "original_prompt_sha256": "4acb518c7483711840ea5d1ea75b016908694f0332055a4bb8f3fddd163fd9a8",
+    "elapsed_seconds": 11.69019170799993,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18123,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 209,
+        "reasoning_output_tokens": 39
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:38.978005+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper017",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "The P2X7 receptor (P2X7R) is an imaging biomarker of glioblastoma-associated microglia/macrophages (GAMMs), yet no SPECT tracer is currently available for GAMM imaging.",
+    "rationale": "The study develops and evaluates an imaging tracer for glioblastoma-associated microglia/macrophages, directly matching the interest in brain mechanisms and biomarkers for neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "a4ea7c5beca057fa21ecfab31a8fbeadac4cc54398fad6e745eb47fd44f2ebcf",
+    "abstract_sha256": "f16e3afe97a3238d02295e566e5e4b83edbe597bfd09d50e9d079b5eea50be66",
+    "original_prompt_sha256": "eeedcd7cbeb01ae1cf1ce4629228f73f22ed3006e9b4119dbbe149a0a000b74c",
+    "elapsed_seconds": 8.822024541999781,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17991,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 129,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:13:16.802135+00:00",
+    "origin": "population_extension"
+  }
+}

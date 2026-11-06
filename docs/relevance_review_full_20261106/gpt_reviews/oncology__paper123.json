@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper123",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Objective: To determine whether the 17 GPS symptom items support the use of a single total score as an efficient indicator of global trauma-related burden.",
+    "rationale": "The study evaluates the psychometric properties of a trauma symptom screener in Italian adults. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "be748fecc2c2fa697ef698bbbf56bc8795c424fecde77d03074c75993c6f43c2",
+    "abstract_sha256": "f1ece1e652a09c01b987b96ca6bc62488a1240c006bfaea9993df67b08f7a85a",
+    "original_prompt_sha256": "8088d3784f8a8427dd227d4762af1d539e2d2e49645805622db494c1fe74e3b1",
+    "elapsed_seconds": 7.750304874999983,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18089,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 111,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:15:03.971291+00:00",
+    "origin": "population_extension"
+  }
+}

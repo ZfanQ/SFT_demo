@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper099",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study investigated the relationship between renal vascular lesion severity and echocardiographic indices in biopsy-confirmed DN.",
+    "rationale": "The study examines renal vascular pathology and cardiac diastolic function in diabetic nephropathy. It does not address brain or neural mechanisms, neurological disease, cognition, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "734d374d2d0d836158678e9b49f09536305847f166b12cc413c1d77ad5f313a1",
+    "abstract_sha256": "e04cc9e7113193c2b6dcbf1cc87bcdb11122188e6440223b28c077b55196ce1e",
+    "original_prompt_sha256": "38cd16fecb1f793ad49d37d674c6e5584f6334fcd52e2d7fb6a1be956bddbb11",
+    "elapsed_seconds": 8.113469082999927,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18103,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 112,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:09:13.465128+00:00",
+    "origin": "population_extension"
+  }
+}

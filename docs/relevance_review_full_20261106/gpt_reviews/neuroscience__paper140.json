@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper140",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Findings reveal that UIS is a central social mechanism influencing vaccination decisions among older adults.",
+    "rationale": "The study examines family support and routine vaccination decisions among older adults. It does not address brain or neural mechanisms, neurological disease, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "1590bc0056d35db8be24b2bddf7f78aa7e8095203a473e63d855729e12914e60",
+    "abstract_sha256": "c0fc0e65452660fbc07c65bcbea5df79aecaa63098a9c48361569d6ca5102bb4",
+    "original_prompt_sha256": "35b88dbc72b8a12c1d430e7687737368bfbc1b71b3466a9db9bae49b07630f11",
+    "elapsed_seconds": 8.948379625000143,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18034,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 100,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:10.210123+00:00",
+    "origin": "population_extension"
+  }
+}

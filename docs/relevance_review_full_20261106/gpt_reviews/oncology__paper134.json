@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper134",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "we aimed to investigate the effects of short-term exposure to ambient air pollution on respiratory symptoms and lung function among patients with asthma.",
+    "rationale": "The study examines air pollution exposure and asthma symptoms and lung function. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3fd189bbb2cbef52e05965cd8f9bc6c750bdbaaa42410212495cf161f0b2a96a",
+    "abstract_sha256": "7d31cdbecfd0390f6bcb24a34b0159c74dbf3c73decc7b24e79b45046e0dd432",
+    "original_prompt_sha256": "57698c5c05dee3f3e42469104ab9024676319cc481442ffc18869b40f8e1f44b",
+    "elapsed_seconds": 7.7597171669999625,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17111,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 103,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:05:26.339650+00:00",
+    "origin": "population_extension"
+  }
+}

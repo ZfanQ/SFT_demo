@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper010",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "In orthotopic GBM models, systemic DOX-OMV-ANG administration extended survival, induced potent tumor suppression via DOX-induced apoptosis and OMV-ANG-mediated immunomodulation, and triggered sustained IFN-γ elevation with macrophage and CD8 + T-cell recruitment.",
+    "rationale": "The study develops and tests a treatment for glioblastoma, targeting blood-brain barrier penetration and demonstrating brain delivery, tumor suppression, and improved survival. This directly aligns with treatments for brain disease and CNS therapeutic delivery.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "da8473c3953a62feeb7d5211fdf0c595b608366ec12426094d56208f932e16d0",
+    "abstract_sha256": "34d2a5e0d9c9a7a3c0e5d04ff024601bc881b10283c87e28cbc3f69c03968c27",
+    "original_prompt_sha256": "50067e910bf7014b91ed725552a02911e5d74c83be901523b5042f4e9ac1b433",
+    "elapsed_seconds": 12.261285541000234,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18001,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 203,
+        "reasoning_output_tokens": 51
+      }
+    ],
+    "completed_utc": "2026-11-06T05:10:18.964966+00:00",
+    "origin": "population_extension"
+  }
+}

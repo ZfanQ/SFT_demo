@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper120",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "We conducted a prospective study of patients with suspected bacterial infections receiving ceftriaxone to identify microbiome and resistome features associated with ESBL-E acquisition.",
+    "rationale": "The study concerns antibiotic-associated gut microbiome disruption and resistance to bacterial colonization. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "be4049059a6c2ef426073ee43aa57713c0d0a91d9ace179443768d80df7d9c79",
+    "abstract_sha256": "0fe9a5e85f0434389cd7be8ea7a172e3e91d935bf2add84dde8fddb6489b8d3a",
+    "original_prompt_sha256": "0ecd2d188b166f855376767278be8c4a9b4a4b3e06ff3f9310cb7cb74de42fbd",
+    "elapsed_seconds": 8.72322883400011,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18003,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 115,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:15.510767+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper086",
+    "profile_id": "cardiovascular",
+    "relevance": 1,
+    "evidence_quote": "Using multivariate and mediation models, we evaluated the associations of SAT characteristics with systemic IR (TyG index), systemic inflammation (C-reactive protein), and VAT area.",
+    "rationale": "The study examines adipose dysfunction, insulin resistance, inflammation, and visceral adiposity, providing peripheral relevance to cardiovascular risk prevention. It does not directly assess cardiovascular disease, cardiovascular risk prediction, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "039e97fc3d1ff29cb0bfa4bb51361fc7d7b2c8a9e087a22ce0c7334cb1ed1903",
+    "abstract_sha256": "b5a8b13378cf4c349d5e3e5780f39207236b1fc9249e1b4b65f7db63309cafb8",
+    "original_prompt_sha256": "75fae3247325bd3f82936ee6b53a52f6fc3f163be258ccc3d1b7759a393223b8",
+    "elapsed_seconds": 9.315905500000099,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17999,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 150,
+        "reasoning_output_tokens": 22
+      }
+    ],
+    "completed_utc": "2026-11-06T05:12:51.356213+00:00",
+    "origin": "population_extension"
+  }
+}

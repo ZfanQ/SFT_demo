@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper064",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "To define factors predicting disease progression as either target lesion (TL) or a new site target lesion (NTL) coronary stenosis.",
+    "rationale": "The study examines coronary stenosis progression and revascularization after coronary stenting. It does not address brain or neural mechanisms, stroke, cognition, neural injury, or neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "c481ebdc21167bed9857fb8630e3ad8831107480ce4bc0e631778e57e5e37a62",
+    "abstract_sha256": "6a3f2ef1d8ddaeb9fd29e70d3bf1fdec016d1ace1c49c45d4622cb2fe917966c",
+    "original_prompt_sha256": "09c55898e4b8c4b3b06a471e18d0e60958da591744c6577caf9bbe2b8478be58",
+    "elapsed_seconds": 8.237244707999707,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18203,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 112,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:22.405743+00:00",
+    "origin": "population_extension"
+  }
+}

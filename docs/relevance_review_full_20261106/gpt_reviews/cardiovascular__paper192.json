@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper192",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to assess the compliance with PAP guidelines in women undergoing cesarean delivery in Jordan and evaluate its impact on the incidence of SSIs.",
+    "rationale": "The study concerns antibiotic prophylaxis and surgical site infections after cesarean delivery. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "db540e415c8f6d69a4f16f1435f9269f78db6c88b00e0226eee31d63f7408ccd",
+    "abstract_sha256": "191cf23e8f671f9db59eb8e980f8350713df156910ec0393de9e353c6ddaebc8",
+    "original_prompt_sha256": "55772c433d32cfe56c71d472d9c38c2e22d3267bee84f55a905ba6569fe9a953",
+    "elapsed_seconds": 7.882332333999784,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18225,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 114,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:21:54.348208+00:00",
+    "origin": "population_extension"
+  }
+}

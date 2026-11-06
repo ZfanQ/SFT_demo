@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper030",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "We investigated (1) whether the factor structure of prolonged grief disorder (PGD) and well-being remains stable over time, and (2) whether aspects of CJS involvement are related to latent PGD and well-being levels reported after the criminal trial.",
+    "rationale": "The study examines grief, mental well-being, and criminal justice involvement among bereaved people. It does not address cardiovascular conditions, risk prediction, prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "b327f5f181ec0270e9915097bfed62d0c5761447da88428221b58e06dd5f3112",
+    "abstract_sha256": "bbaab8d8545ecbf5d0a47d90a2e5de9cdae0be0c7965b7f4b8f18f532783e3c0",
+    "original_prompt_sha256": "be57062a806c994b6c1dc836bd6c052c26611408a4ce44d853f861ba06638f9b",
+    "elapsed_seconds": 8.420199167000192,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18104,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 136,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:12:34.028061+00:00",
+    "origin": "population_extension"
+  }
+}

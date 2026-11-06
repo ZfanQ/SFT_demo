@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper143",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Our study provides preclinical evidence that S. boulardii CNCM I-745 targets a microbial deficiency previously described in CeD through modulation of microbial tryptophan metabolism.",
+    "rationale": "The study investigates microbial mechanisms and a probiotic treatment for celiac disease. The abstract does not connect these findings to brain or neural mechanisms, cognition, neural injury, or neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "5e00c0e812f00ab5458d6ae22659d5f7d861f828ba4fd12976671260749d8738",
+    "abstract_sha256": "cddc8c9caef1b63f3692d182be4654ac593268a481925b646a9ca34ddcac8c59",
+    "original_prompt_sha256": "40d270da1652b5967de750bd23b96034019958197899a2cc852a781911e79830",
+    "elapsed_seconds": 10.038182750000033,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17959,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 122,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:17:10.060860+00:00",
+    "origin": "population_extension"
+  }
+}

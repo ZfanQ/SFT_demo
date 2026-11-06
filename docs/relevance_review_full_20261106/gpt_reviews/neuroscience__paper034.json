@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper034",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "We aimed to (a) estimate the prevalence of self-harm ideation among perinatal women, (b) explore sociodemographic, clinical, and psychosocial correlates of SHI.",
+    "rationale": "Perinatal self-harm ideation and depressive symptoms are peripheral to the neuroscience interest. The study examines prevalence and psychosocial correlates rather than brain mechanisms, cognition, neural injury, or neurological disease treatments or biomarkers.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The profile does not explicitly include psychiatric epidemiology; relevance depends on whether mental health research without neural mechanisms falls within its broader scope."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3297d7b5a4a35c6629d3edf45fd27470cb15e8c76373a31cdecd6c5b45784c28",
+    "abstract_sha256": "005ac6fe0d498cf02cdb43159302a3f1056621cfb617bc091d94a8a4d9263a22",
+    "original_prompt_sha256": "70e69b6e6e3669b280585c6d79e4374b2a3d76e71f333cdbfb9673b8a98be831",
+    "elapsed_seconds": 11.678427458999977,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18178,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 257,
+        "reasoning_output_tokens": 96
+      }
+    ],
+    "completed_utc": "2026-11-06T05:19:29.038292+00:00",
+    "origin": "population_extension"
+  }
+}

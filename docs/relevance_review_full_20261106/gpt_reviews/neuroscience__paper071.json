@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper071",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "Seasonal influenza vaccination was associated with a significantly reduced risk of incident IS within 7 months among older adults with diabetes, supporting its potential inclusion as a low-cost stroke prevention strategy in this high-risk population.",
+    "rationale": "The study directly examines ischemic stroke incidence and a potential stroke prevention strategy, matching the profile’s explicit interest in stroke and neurological disease.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "72ace8a69904a60908044f1f41be3b280abd8814b780e3432ab409256142f450",
+    "abstract_sha256": "144eede65c7bae665929545afd343fe91793b3e93a21ccfaf38ac10f2da9c32c",
+    "original_prompt_sha256": "8bb06b4f6e5ace4214929c3e87ab7daf57411e1e93d42e183010ec815dfe69eb",
+    "elapsed_seconds": 8.112145207999674,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18148,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 117,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:08.200966+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4b-e0b3-7832-bed6-004215509e1d"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper026\",\"profile_id\":\"oncology\",\"relevance\":0,\"evidence_quote\":\"The current study aimed to investigate the ICD-11 PTSD and complex PTSD symptom trajectories and trauma disorders diagnostic changes in a longitudinal study of a trauma-exposed community sample of adolescents.\",\"rationale\":\"The study examines adolescent PTSD symptom trajectories and diagnostic changes. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18089,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":111,"reasoning_output_tokens":0}}

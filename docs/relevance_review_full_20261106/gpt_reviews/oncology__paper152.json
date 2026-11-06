@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper152",
+    "profile_id": "oncology",
+    "relevance": 1,
+    "evidence_quote": "Using GBD 2023 data, we analyzed CRC incidence, deaths, and DALYs from 1990 to 2023 across four age groups (15–44, 45–49, 50–74, 75+ years).",
+    "rationale": "The study concerns colorectal cancer but focuses on population burden, age patterns, and surveillance policy. It is peripheral to the profile’s emphasis on molecular tumor progression, biomarkers, and experimental or clinical cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "5c291ff041f8b1b1f0d715e8b5fa48f3aeed51fa61f302261dce3ecf3d79133c",
+    "abstract_sha256": "5cc20977373989b8091b036bf3a8e72cbf903b16faf5a4a6255ff239ff6a3660",
+    "original_prompt_sha256": "631418b1b0af792bf8b1e6f7b43daf0906dd61ca87b5b62518ce0d08e3c3dbd7",
+    "elapsed_seconds": 11.023647207999602,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18002,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 189,
+        "reasoning_output_tokens": 48
+      }
+    ],
+    "completed_utc": "2026-11-05T16:05:09.002852+00:00"
+  }
+}

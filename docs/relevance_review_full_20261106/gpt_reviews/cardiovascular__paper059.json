@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper059",
+    "profile_id": "cardiovascular",
+    "relevance": 1,
+    "evidence_quote": "miR-103b compromised the tight junctions of HUVECs and increased BBB permeability in mice.",
+    "rationale": "The study examines endothelial barrier dysfunction, providing a peripheral connection to vascular biology. Its primary focus is breast cancer brain metastasis, with no assessment of cardiovascular disease, risk prediction, prevention, or cardiovascular outcomes.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The boundary is whether cancer-associated blood–brain barrier dysfunction falls within the profile’s vascular disease interest; the abstract studies vascular mechanisms without identifying a vascular disease outcome."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "d99ec4bf1c303ddfa1afae389c06e4ccd3cf13be09a4d5d8ca3cacb756e9cc1a",
+    "abstract_sha256": "2a90d1e59e0db58a2a261d3e1cbefb119821185b9a34faaafa5f82b1e312a4c7",
+    "original_prompt_sha256": "9378528b30ce3a6c0a608200d93639aca75b649553bb4591949e037b00715677",
+    "elapsed_seconds": 13.11190141599991,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18091,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 243,
+        "reasoning_output_tokens": 98
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:24.099656+00:00",
+    "origin": "population_extension"
+  }
+}

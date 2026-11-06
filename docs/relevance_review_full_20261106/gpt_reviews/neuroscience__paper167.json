@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper167",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to identify key determinants of poor medication adherence and develop a clinically applicable prediction model. A cross-sectional survey was conducted among 401 patients undergoing maintenance peritoneal dialysis in Xinjiang, China.",
+    "rationale": "The study models medication nonadherence among peritoneal dialysis patients. It does not address brain or neural mechanisms, cognition, neurological disease, neural injury, or neurological treatments or biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "24be6e843baadbe3c6a0916da8ee9e6539d7e8cd4a34cf1ea865144a1c5ba037",
+    "abstract_sha256": "34c6e2fb653a6ad21fdde26b9afda977b9092a60fa045102c92c182f2426514b",
+    "original_prompt_sha256": "0150941f54715091fad940bdac15bb1ef577c8146f4829dc36db2b0a51172a56",
+    "elapsed_seconds": 8.407136834000084,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18014,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 127,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:23:04.295942+00:00",
+    "origin": "population_extension"
+  }
+}

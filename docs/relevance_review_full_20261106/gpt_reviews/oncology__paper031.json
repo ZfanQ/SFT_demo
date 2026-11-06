@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper031",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to evaluate the incidence of LT-associated psychiatric issues and analyse the association of delirium with mortality",
+    "rationale": "The study concerns psychiatric complications, delirium risk factors, and mortality following lung transplantation. The abstract does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "e7f477f6366dd78974371f48eb2bd9d70851fa2f61a11f48f9ea11c56bdd5fb4",
+    "abstract_sha256": "b484b56d305bdbd22b8e56d6ddbce73077fb4ec1934330faf0e15130ee1727e0",
+    "original_prompt_sha256": "80e385ed6952245cac65205a69d8486137d99a14ffb924a09ba9bad1627b987a",
+    "elapsed_seconds": 7.830604833000052,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17965,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 105,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:12:07.223455+00:00",
+    "origin": "population_extension"
+  }
+}

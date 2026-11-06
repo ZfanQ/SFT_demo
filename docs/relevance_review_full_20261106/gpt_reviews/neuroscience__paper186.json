@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper186",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "Together, these findings highlight the gut–bone axis as a central framework linking microbiota-derived IPA to skeletal remodeling and provide preclinical proof-of-concept for an engineered C. sporogenes–IPA strategy with therapeutic potential in PMOP.",
+    "rationale": "The study investigates skeletal remodeling and treatment of postmenopausal osteoporosis. The abstract does not address brain or neural mechanisms, cognition, neural injury, or neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "130ce0578e070e7e980f7ccc138dbfab822ed31e574bfac64d8c07d9de21f98d",
+    "abstract_sha256": "927ac8fd4e08274081269755f83ed2ae158f7a590de8f4502befcec4f09bcc36",
+    "original_prompt_sha256": "4eac69d27aafde40cf864988d4c759b52d008a63165fe1f0ca873778d086d489",
+    "elapsed_seconds": 8.861923707999722,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17969,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 130,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:01.077452+00:00",
+    "origin": "population_extension"
+  }
+}

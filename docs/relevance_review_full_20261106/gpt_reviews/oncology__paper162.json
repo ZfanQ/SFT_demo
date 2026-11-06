@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper162",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "ENPP3 overexpression accelerated tumor growth, while its knockdown or antibody blockade inhibited progression and synergized with anti-PD-L1.",
+    "rationale": "The study directly addresses molecular mechanisms of ccRCC progression, ENPP3 as a prognostic biomarker, and experimental antibody treatment that activates anti-tumor immunity and enhances anti-PD-L1 efficacy.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "828c686d10a846859f4e52e6a8177efbf91377329bdb578077d3bd991c81b339",
+    "abstract_sha256": "4a09d6d655a10f351fe8ed70ac9a7d046dd8dd2990cc6b06708df53a5e839378",
+    "original_prompt_sha256": "e2d182ffd9059e02e942b480234929ef1cf34fd361bba8f6f9af01ed95ea4f97",
+    "elapsed_seconds": 8.36270579100028,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18072,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 118,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:20:01.847650+00:00",
+    "origin": "population_extension"
+  }
+}

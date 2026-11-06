@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper054",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to assess the concordance between morphological diagnosis and flow cytometric immunophenotyping in newly diagnosed patients at the National Oncology Center, Sana'a, Yemen, and describe discordant cases and antigen-expression patterns.",
+    "rationale": "The study evaluates diagnostic agreement and antigen-expression patterns in acute leukemia. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "11685477db5ee282ea090db017843f552f27f3e7dc7ce9d363cb54484cc235c5",
+    "abstract_sha256": "38032f607656f98311b4e02ccc8bfcfbff3c82d6cd97940d076f1907a04a4496",
+    "original_prompt_sha256": "7a3b2f522968170a04a55daa507fde5f704927be7af8a430b0d6d569705d1d4b",
+    "elapsed_seconds": 9.596229416999904,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18185,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 124,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:19:10.329133+00:00",
+    "origin": "population_extension"
+  }
+}

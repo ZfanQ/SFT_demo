@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper005",
+    "profile_id": "neuroscience",
+    "relevance": 2,
+    "evidence_quote": "Moreover, these data highlight METTL3 inhibition as a promising therapeutic approach to overcoming TMZ resistance in GBM.",
+    "rationale": "The study investigates treatment resistance in glioblastoma and identifies a potential therapeutic approach, connecting it to disease treatment interests. Its primary focus is cancer-associated RNA regulation rather than neural mechanisms, cognition, or neural injury.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The profile does not explicitly specify whether glioblastoma and other neuro-oncology treatments fall within its scope of neurological disorders."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3bc7fca47033043f82609305e8fa111b63ce09a995a058e6d3fe96e633845313",
+    "abstract_sha256": "5b628f92b855669f1aac9a7d781df6523332bd15fbe3548b44c251babb2825f7",
+    "original_prompt_sha256": "1758424ee8562924953b32cf99c89073fba7b27366e348d727fb001251e660b9",
+    "elapsed_seconds": 12.20726008299971,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17960,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 237,
+        "reasoning_output_tokens": 99
+      }
+    ],
+    "completed_utc": "2026-11-06T05:09:56.855986+00:00",
+    "origin": "population_extension"
+  }
+}

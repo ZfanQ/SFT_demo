@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af41-2384-74a0-9a27-bc73856f531c"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper036\",\"profile_id\":\"oncology\",\"relevance\":0,\"evidence_quote\":\"To examine associations among ADHD, trauma exposure, and psychological outcomes, and to differentiate trauma-specific reactions from broader internalising symptoms.\",\"rationale\":\"The study focuses on ADHD, trauma, and psychological outcomes in adolescents, with no connection to cancer biology, tumor progression, tumor biomarkers, or cancer treatments.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18100,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":104,"reasoning_output_tokens":0}}

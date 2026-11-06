@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper187",
+    "profile_id": "cardiovascular",
+    "relevance": 1,
+    "evidence_quote": "Baseline gut ecology significantly conditioned long-term BS outcomes: patients in the highest quartile of baseline Bifidobacterium spp. lost significantly less fat mass at 24 months than those in the lowest (6.6% vs. 13.2%, p = 0.010).",
+    "rationale": "The study has peripheral relevance through obesity, fat loss, and diabetes status, which relate to cardiovascular risk prevention. Its central focus is microbiome adaptation and bariatric surgery outcomes; it does not evaluate cardiovascular disease, cardiovascular risk prediction, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "5a5f19a3e0c58b88bb9d917f981d09887893fbaf7f2a1c77fda758a33dd9b0ad",
+    "abstract_sha256": "5a934d27ee296188dedfd899c102ef6ba42bf4ebd21b395b7da0e0d88f59605a",
+    "original_prompt_sha256": "1b8c74e260cd0391b716038622bc21e946651e696596cfe131281e10f6144573",
+    "elapsed_seconds": 12.25235554100027,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18106,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 188,
+        "reasoning_output_tokens": 28
+      }
+    ],
+    "completed_utc": "2026-11-06T05:21:31.612663+00:00",
+    "origin": "population_extension"
+  }
+}

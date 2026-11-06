@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper127",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study aimed to evaluate the relationships between multi-flow fractional exhaled nitric oxide parameters (FeNO50, FeNO200, and CaNO) and lung function, and to assess their utility in predicting airway hyperresponsiveness (AHR) in this population.",
+    "rationale": "The study examines airway inflammation, lung function, and prediction of airway hyperresponsiveness in chronic cough patients. It does not address tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "43f83c6fb84f2b20365f5752341a4b9d816ed128fc7fb1e94139e9cfc70b63a8",
+    "abstract_sha256": "513dd8312c94aee80c5145cb33095fa7dcbb9835d540ae52676f5057b09fcb92",
+    "original_prompt_sha256": "12a615f4c7e891cd1d655dda54c5f949fc2ebe838950ed0986f50bd1a8c18b53",
+    "elapsed_seconds": 8.314282917000128,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18082,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 136,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:10:12.610826+00:00",
+    "origin": "population_extension"
+  }
+}

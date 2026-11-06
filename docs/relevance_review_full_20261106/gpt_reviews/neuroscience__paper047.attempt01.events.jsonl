@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1ac72-114d-72a3-8808-137050c2e582"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper047\",\"profile_id\":\"neuroscience\",\"relevance\":3,\"evidence_quote\":\"Myasthenia gravis (MG) is a rare autoimmune neuromuscular disorder for which population-based estimates remain scarce, particularly in small, homogeneous settings.\",\"rationale\":\"The study directly concerns a neuromuscular disorder, assessing its epidemiology, clinical features, diagnostic delays, treatment patterns and disease severity. This fits the profile’s interest in neurological disease.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":17911,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":159,"reasoning_output_tokens":37}}

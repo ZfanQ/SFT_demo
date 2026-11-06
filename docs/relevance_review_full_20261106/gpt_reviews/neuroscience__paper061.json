@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper061",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "In older patients with cardiometabolic diseases, objective low wearable-estimated sleep efficiency evaluated with wrist-worn wearable devices was associated with low muscle strength.",
+    "rationale": "The study examines sleep efficiency and muscle strength in cardiometabolic disease, without investigating brain or neural mechanisms, neurological disorders, or their treatments or biomarkers. Cognitive function appears only as an adjustment variable.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "62dd4f3e9b94a50ad22f4e7f433ab45d0ac3e5a22967e7b7ed6adac00b8e2cc0",
+    "abstract_sha256": "d31dce8bd75e92b41c40de11128a91ef031addd3e954140e8c66e34d46064542",
+    "original_prompt_sha256": "4deba9139166f0947e61e091ece5356b1bf0500c906c49f1069cd6c4548437b4",
+    "elapsed_seconds": 8.46976870799972,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18376,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 157,
+        "reasoning_output_tokens": 37
+      }
+    ],
+    "completed_utc": "2026-11-06T05:12:16.014204+00:00",
+    "origin": "population_extension"
+  }
+}

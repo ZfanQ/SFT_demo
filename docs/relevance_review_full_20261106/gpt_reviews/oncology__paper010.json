@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper010",
+    "profile_id": "oncology",
+    "relevance": 3,
+    "evidence_quote": "In orthotopic GBM models, systemic DOX-OMV-ANG administration extended survival, induced potent tumor suppression via DOX-induced apoptosis and OMV-ANG-mediated immunomodulation, and triggered sustained IFN-γ elevation with macrophage and CD8 + T-cell recruitment.",
+    "rationale": "The study directly evaluates an experimental glioblastoma treatment, demonstrating tumor suppression and extended survival while examining apoptosis and antitumor immune responses.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "1e035a6b2fe43eb404d2dda4f154321fc3254c5fd1ad5d72d3615515bd88a2bc",
+    "abstract_sha256": "34d2a5e0d9c9a7a3c0e5d04ff024601bc881b10283c87e28cbc3f69c03968c27",
+    "original_prompt_sha256": "b7fbe1f155a9c03fcaf1408ef2a6f8ab0e26c8b13c4a8f4004250c838fad095d",
+    "elapsed_seconds": 17.08291470899985,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17902,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 133,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T16:00:44.110170+00:00"
+  }
+}

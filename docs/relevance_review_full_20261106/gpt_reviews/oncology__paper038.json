@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper038",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study investigated the association between the CONUT score and neurocognitive performance in patients receiving maintenance PD.",
+    "rationale": "The study examines nutritional status and cognitive performance in peritoneal dialysis patients. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "0888f8fb9dd0c80e58c8fbd7e0966c008b7172891a2df6cbbc80e2c0d651c71f",
+    "abstract_sha256": "d95bb5c437987c408479a055b9a10067eb7b348eb5a6f668f66535fa0df97dc4",
+    "original_prompt_sha256": "89a91679191ab355f580ef97155d836596c8d865436166bd3681bc8fc73c1976",
+    "elapsed_seconds": 16.356965582999692,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17964,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 101,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T15:49:59.402025+00:00"
+  }
+}

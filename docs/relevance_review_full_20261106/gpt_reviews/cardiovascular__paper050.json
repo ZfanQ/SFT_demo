@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper050",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Bis-(di-4-phenyl-benzylaminethiocarbonyl)disulfide reverses cisplatin resistance in a cisplatin-resistant variant of A549 cells (via ALDH and ABCC2 inhibition) but not in NCI-H158 cells.",
+    "rationale": "The study investigates molecular mechanisms and treatment of cisplatin resistance in non-small-cell lung cancer. It does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "f9a27119616cb446fc863ea04d841f58fce31763a9aefe94aea4f254cfc51910",
+    "abstract_sha256": "7e4c383ed40a19b8e9c933d26dbfc09f1a68501746ad4228f2cea35764341d89",
+    "original_prompt_sha256": "d72073f15429da30806d81c35ce08f742db00cbd1db387b94109015ed3cc4bcf",
+    "elapsed_seconds": 9.487070083000162,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17165,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 143,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:46.133314+00:00",
+    "origin": "population_extension"
+  }
+}

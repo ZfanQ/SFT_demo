@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper143",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Our study provides preclinical evidence that S. boulardii CNCM I-745 targets a microbial deficiency previously described in CeD through modulation of microbial tryptophan metabolism.",
+    "rationale": "The study focuses on microbial mechanisms and a probiotic intervention for celiac disease. The abstract does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "ffa373eaee4006521dd9236ab80c31d14fac0875a971597f9ff1ed1641fc72b5",
+    "abstract_sha256": "cddc8c9caef1b63f3692d182be4654ac593268a481925b646a9ca34ddcac8c59",
+    "original_prompt_sha256": "5b65e603d6c9f7a636e04969df23fae182b0d6d093554e09d40ba06102d33ee7",
+    "elapsed_seconds": 9.805258625000079,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17960,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 121,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:56.050764+00:00",
+    "origin": "population_extension"
+  }
+}

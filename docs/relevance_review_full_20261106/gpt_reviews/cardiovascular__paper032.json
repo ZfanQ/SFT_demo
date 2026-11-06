@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper032",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This qualitative study aimed to understand the experiences of people living with PSSD in the United Kingdom.",
+    "rationale": "The study examines lived experiences of post-SSRI sexual dysfunction and its effects on identity, relationships, and mental health. It does not address cardiovascular conditions, risk prediction, prevention, or cardiovascular treatment outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "69f063eb2039b567b65e67643ea047c3781d5a141d4c935052fc7fe8803af808",
+    "abstract_sha256": "19c9b8e05eb34e064546e4c77685adf0f417abe4106ea334fa803041e872cf55",
+    "original_prompt_sha256": "538a66e0c41059a5bcab0168123be86b8dcd1ee550d4e8ca395c2eed648708c9",
+    "elapsed_seconds": 8.148122707999846,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17942,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 109,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:19:17.354116+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper065",
+    "profile_id": "cardiovascular",
+    "relevance": 3,
+    "evidence_quote": "In patients with CCS, higher BMI was positively correlated with absolute peak exercise capacity but negatively correlated with peak VO2/kg, and this correlation showed sex heterogeneity.",
+    "rationale": "The study directly addresses coronary disease by examining BMI, exercise capacity, and sex differences in patients with chronic coronary syndrome, matching the profile’s cardiovascular medicine and coronary disease interests.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "aca88b3549fabf6ccca6eb396fe058705dd8d2ed6559d7892f9bca6ab460d222",
+    "abstract_sha256": "b75ec3b908cf90accff5e628b9c528e19f4e69911aa7d05dc18fc7b96622b2bd",
+    "original_prompt_sha256": "fe354e1fdbeccec82852cce597f133282fe221e6f9ffcbe2fc3fb7e32de6b038",
+    "elapsed_seconds": 8.805866916000014,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18126,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 115,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:15:30.953554+00:00",
+    "origin": "population_extension"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper199",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Using reflexive thematic analysis, we examined semi-structured interviews with 11 UK-based women (aged 33–63) who underwent bariatric surgery (2012–2021) and subsequently developed problematic alcohol use, despite no formal diagnosis of alcohol use disorder.",
+    "rationale": "The study examines psychosocial drivers of problematic alcohol use after bariatric surgery. It does not investigate cardiovascular disease, cardiovascular risk prediction or prevention, or therapies evaluated for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "5b33781b6cc9a20bc0a6f831c2d81f5eba277725811e5cf4ea2867cc5ce2e339",
+    "abstract_sha256": "eae79d378033187800d6ff7946db7062ece4859de73cf7f83aaf5bfa9b75b07d",
+    "original_prompt_sha256": "2dd8168b2ca69a8b39e97227064c66727dbc4991d4b5b2f0664958eac4d14e60",
+    "elapsed_seconds": 8.422424916999717,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18140,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 137,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:10:11.116344+00:00",
+    "origin": "population_extension"
+  }
+}

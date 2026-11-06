@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper038",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "Higher CONUT scores were independently associated with poorer neurocognitive performance assessed by the MoCA in patients undergoing PD.",
+    "rationale": "The study directly investigates cognition, an explicit profile interest, by measuring neurocognitive performance and assessing a nutritional score as a screening tool for neurocognitive dysfunction in dialysis patients.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "6ef4899dd449bd30aaf736a0b68feac4d37140b55912262a8c5c2855b10fdcb4",
+    "abstract_sha256": "d95bb5c437987c408479a055b9a10067eb7b348eb5a6f668f66535fa0df97dc4",
+    "original_prompt_sha256": "cbef0558f0b966cd5b88250a64aecec3cf18c8f754748d38dd2767e70eb29e54",
+    "elapsed_seconds": 10.267394292000063,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18065,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 133,
+        "reasoning_output_tokens": 24
+      }
+    ],
+    "completed_utc": "2026-11-06T05:18:32.136133+00:00",
+    "origin": "population_extension"
+  }
+}

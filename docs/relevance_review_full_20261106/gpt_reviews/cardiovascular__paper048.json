@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper048",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Here, we performed longitudinal, multidimensional profiling of peripheral immunity in patients with LA-HNSCC at baseline (BSL), one month (CRT-1M), and three months (CRT-3M) after platinum-based CRT.",
+    "rationale": "The study examines immune dynamics after chemoradiation for head and neck cancer to inform checkpoint blockade timing. It does not address cardiovascular disease, cardiovascular risk, prevention, or cardiovascular treatment outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "3cf798ef351441e4309316650bffff0c8bf453157d2adbf850691fe5d31ca5ee",
+    "abstract_sha256": "d4e6cb5ab96fd0191191a10616223975c573c6e78926a5a1961b3ec810bdad96",
+    "original_prompt_sha256": "9111756b7ef8390499a4e9c58152925638f4199e4a10dccd6359313c31759d95",
+    "elapsed_seconds": 9.090954042000249,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18024,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 134,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:14:30.413752+00:00",
+    "origin": "population_extension"
+  }
+}

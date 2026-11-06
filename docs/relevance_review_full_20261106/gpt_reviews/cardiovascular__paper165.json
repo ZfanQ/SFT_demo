@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper165",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Here, 99 patients with HFRS-AKI treated at Jinling Hospital were analyzed retrospectively to determine the rate of CKD progression and identify associated risk factors.",
+    "rationale": "The study examines progression from acute kidney injury to chronic kidney disease and therapy associated with kidney recovery. It does not investigate cardiovascular conditions, cardiovascular risk prediction or prevention, or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "fe509005e9d34f9c6a883df8c001e648a43751efb2253f719a20ae4667899765",
+    "abstract_sha256": "c4dbc2079773210369acaef3b9a0a1c7d858847fe8e3a7c3c5dacce8cd8f6d13",
+    "original_prompt_sha256": "0ca1d25afd43b9bd44b352a301bc0d3053ba7ddc4dd9440ffabdaf6fff878030",
+    "elapsed_seconds": 8.51393383300001,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17139,
+        "cached_input_tokens": 15488,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 119,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:07:35.691947+00:00",
+    "origin": "population_extension"
+  }
+}

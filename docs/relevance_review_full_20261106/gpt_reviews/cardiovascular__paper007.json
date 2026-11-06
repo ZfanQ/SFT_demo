@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper007",
+    "profile_id": "cardiovascular",
+    "relevance": 2,
+    "evidence_quote": "We investigated the fatality rates and causes of death in patients with IS in Thailand within and beyond 30 days post-discharge.",
+    "rationale": "The study addresses ischemic stroke mortality, relevant to the profile’s vascular disease interest, and identifies heart disease among leading comorbid causes of death. Its focus on broad post-stroke mortality and care makes the cardiovascular connection relevant but less direct.",
+    "scope_ambiguous": true,
+    "ambiguity_note": "The profile does not specify whether vascular disease includes cerebrovascular disease such as ischemic stroke; that boundary affects whether this study is directly relevant."
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "811b6406ac42150dfc3b88499e54baa48b978658ff257ba86365b233e2d38851",
+    "abstract_sha256": "4d6b9559b39ec399bcf790b8675842c381cd5bc5c9e487c6e8a9c0b5efd096c7",
+    "original_prompt_sha256": "2e6bff9881205cef81673e16551769e3768d69b00cdcad45c0bce6133a0c3176",
+    "elapsed_seconds": 12.02416200000016,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18089,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 226,
+        "reasoning_output_tokens": 73
+      }
+    ],
+    "completed_utc": "2026-11-06T05:16:01.744313+00:00",
+    "origin": "population_extension"
+  }
+}

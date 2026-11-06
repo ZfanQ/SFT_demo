@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper028",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "This cross-sectional study identified latent classes of ACEs among adults living in Saudi Arabia and examined their associations with five facets of UPPS-P impulsive behaviour and brief mental-health indicators.",
+    "rationale": "The study focuses on childhood adversity patterns, impulsivity, and mental-health burden. It does not examine cardiovascular conditions, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "e46e77d898a9c4dd4b68dbfafb67e8c8263e23857a85251f314e15333685de0a",
+    "abstract_sha256": "d3e336d66c3de4830a4e67499ac1c5ce436dc9c439d3f16b5d6621f37f0a621d",
+    "original_prompt_sha256": "078f40a1686f4177b07c2b0618c81ed3cfbdb7412fec16a03d84b333ddafa58b",
+    "elapsed_seconds": 8.51462579200006,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18198,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 120,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:22:09.599910+00:00",
+    "origin": "population_extension"
+  }
+}

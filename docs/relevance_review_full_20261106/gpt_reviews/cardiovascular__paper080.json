@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper080",
+    "profile_id": "cardiovascular",
+    "relevance": 1,
+    "evidence_quote": "These findings suggest that RAS blockade may confer early kidney protection in patients with type 2 diabetes and hypertension with preserved renal function.",
+    "rationale": "The study concerns hypertension and its treatment, providing peripheral relevance to cardiovascular prevention. Its research question and measured outcomes focus on kidney protection and incident CKD, rather than cardiovascular disease or cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "7b71731906a28b0c785310b851f436310f28f99801f7b18d1a50f0e6e44bdd1e",
+    "abstract_sha256": "c88802ffa6d7c06733d08385f9a30ceca418cca5ffcd240ceb829d0270fddc66",
+    "original_prompt_sha256": "24200f8f7cc43624b7b6bc92983b9f941491f9de3daa91c9ee14569fc10d3a24",
+    "elapsed_seconds": 20.260848667000573,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17094,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 145,
+        "reasoning_output_tokens": 30
+      }
+    ],
+    "completed_utc": "2026-11-05T15:55:59.853435+00:00"
+  }
+}

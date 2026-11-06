@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper163",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "This study explored perceived causes of sleep disturbance, patient-prioritized sleep outcomes, and experiences of reporting and managing sleep problems.",
+    "rationale": "Sleep disturbance and reported restless legs syndrome provide peripheral overlap with neuroscience. The study primarily examines patient priorities and sleep management in chronic kidney disease, without investigating brain or neural mechanisms, cognition, neural injury, or treatments or biomarkers for neurological disorders.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "123b8c57d9c4ad6161f20f24a9d76898588c5154b66f57de646acffd38b880ce",
+    "abstract_sha256": "a9dd5267fac62e708534111582a45d4794f863bb248966d26ddbe8ea7dfb1615",
+    "original_prompt_sha256": "46629785275dd48a6bff2cdb821418f750e7cfce7dbc75f8cdc7462bb851ec38",
+    "elapsed_seconds": 9.616348625000228,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18058,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 168,
+        "reasoning_output_tokens": 45
+      }
+    ],
+    "completed_utc": "2026-11-06T05:04:16.342711+00:00",
+    "origin": "population_extension"
+  }
+}

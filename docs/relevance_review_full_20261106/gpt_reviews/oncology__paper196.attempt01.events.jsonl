@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af45-9678-76a3-a58a-058fb832522b"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper196\",\"profile_id\":\"oncology\",\"relevance\":0,\"evidence_quote\":\"To examine whether PTSD is associated with adverse pregnancy and neonatal outcomes in a nationwide population-based cohort of women in Taiwan.\",\"rationale\":\"The study examines PTSD and pregnancy and neonatal outcomes. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18114,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":98,"reasoning_output_tokens":0}}

@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper164",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "We evaluated the association between baseline serum brain-derived neurotrophic factor (BDNF) and 1-year screening-defined incident cognitive impairment and examined whether BDNF added predictive information beyond routine clinical, laboratory, and baseline cognitive variables.",
+    "rationale": "The study directly addresses cognition and a potential biomarker for incident cognitive impairment in hemodialysis patients, matching the profile’s interests in cognition and neurological biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "14ea86791c00971749aa54a8129c117ba711d7794b6652293a4a632ca1cfb471",
+    "abstract_sha256": "59ea9464af68161c0bc1ec6772f1c3238e7e3a54cf49a8ef942cc7f76fc0e062",
+    "original_prompt_sha256": "461d3715606330bcc0f51b0bb5395460a84b5450c234cf21a65f8a04a652aee8",
+    "elapsed_seconds": 9.0209412910001,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18126,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 127,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T04:58:04.589571+00:00",
+    "origin": "population_extension"
+  }
+}

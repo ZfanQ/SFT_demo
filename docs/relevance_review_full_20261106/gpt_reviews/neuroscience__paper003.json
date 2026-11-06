@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper003",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "Three high-level themes were constructed: 1) inequitable stroke care and rehabilitation services, 2) barriers to the provision and access of stroke services and 3) desires, needs and opportunities for improvement.",
+    "rationale": "The study directly addresses stroke, an explicit profile interest, by examining care providers’ experiences, rehabilitation access, and opportunities to improve support following stroke.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "c0c6a645cfb3938d9c383f76bfd4cbb99257fefc03e5d820d663ad233721be20",
+    "abstract_sha256": "7b0fd96bd24161c9311821a09f8a9a3bf398a592c087dae05b7da683bbe5bb95",
+    "original_prompt_sha256": "e4d976d356d85caf6dd1ae200f4501e588a3c82df229b9e40bdd8e02bb95c1f6",
+    "elapsed_seconds": 11.788099500000044,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17982,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 165,
+        "reasoning_output_tokens": 43
+      }
+    ],
+    "completed_utc": "2026-11-06T05:11:52.835659+00:00",
+    "origin": "population_extension"
+  }
+}

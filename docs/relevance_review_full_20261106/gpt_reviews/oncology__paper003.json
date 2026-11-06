@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper003",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Our study aimed to explore the experiences and needs of care providers across multiple regions of the Philippines to inform the development of stroke support initiatives and programmes.",
+    "rationale": "The study focuses on care providers’ experiences and stroke rehabilitation services in the Philippines. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "fe3100080b1a0b676786e48297a7ebc8558ba6af64bee7e09751c8f0d6518852",
+    "abstract_sha256": "7b0fd96bd24161c9311821a09f8a9a3bf398a592c087dae05b7da683bbe5bb95",
+    "original_prompt_sha256": "b6815f0f93b6bfe430e71da4fd173cb9de4241b3e45aa3985b78745e09559d04",
+    "elapsed_seconds": 8.097222916000192,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17969,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 110,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:14:21.320923+00:00",
+    "origin": "population_extension"
+  }
+}

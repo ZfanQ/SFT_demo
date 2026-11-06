@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper194",
+    "profile_id": "neuroscience",
+    "relevance": 1,
+    "evidence_quote": "We aim to study the impact of virtual reality on perioperative anxiety during surgeries performed under regional anesthesia.",
+    "rationale": "The study has peripheral relevance through anxiety and psychological modulation using virtual reality. Its focus is perioperative anxiety management in orthopedic patients, without examining brain or neural mechanisms, cognition, neurological disease, or neurological biomarkers.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "ef579b333116aa0564dbea225f5dabfc5890fd76b0ac92809ad8a948889f8aec",
+    "abstract_sha256": "70e8c0e0049593a84284b1eeca034eb95a5b5bf7efe396542f0dd152ed2ddc45",
+    "original_prompt_sha256": "386ecd392d87a66be317d21e513d9a5059a449747feccf4d074733919acb73c0",
+    "elapsed_seconds": 8.953919125000084,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18117,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 159,
+        "reasoning_output_tokens": 47
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:48.824858+00:00",
+    "origin": "population_extension"
+  }
+}

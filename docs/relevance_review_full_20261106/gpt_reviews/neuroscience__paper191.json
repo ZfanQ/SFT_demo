@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper191",
+    "profile_id": "neuroscience",
+    "relevance": 0,
+    "evidence_quote": "These findings support further evaluation of cfDNA and NLR as accessible biomarkers for patient stratification in oligoprogressive disease treated with SABR while maintaining an ICI.",
+    "rationale": "The study evaluates blood biomarkers and survival following radiotherapy and immune checkpoint inhibitor treatment for oligoprogressive disease. The abstract does not address brain or neural mechanisms, neurological disease, cognition, stroke, or neural injury.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "67de7e618e1941978609cc4b2de7206ef2df8a9e7b36fb29547ed2f7fa1a3956",
+    "abstract_sha256": "3fb1e31415662769f9c6ca45998f4aeccff086d0e9827ed7b710118f867c69a9",
+    "original_prompt_sha256": "a46435165ff6eeeade8d9520c1a35201197399e232c565aef95f9a66195b8e14",
+    "elapsed_seconds": 8.364552999999887,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18086,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 124,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:08:10.889388+00:00",
+    "origin": "population_extension"
+  }
+}

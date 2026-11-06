@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper091",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "This study aims to describe variations in the conceptions of patients with type 2 diabetes who opted out of group-based education.",
+    "rationale": "The study examines diabetes education preferences and self-management in primary care. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "0180153022584899a11783691bcd45ef8eedbefe5e43e76c41a53d8c5e370075",
+    "abstract_sha256": "790352364fd5c19c69b583b2abf94c736b7e263b5bc37cc252a3437a3e56d822",
+    "original_prompt_sha256": "c972029b101bf6696e0d7587e96da5dd199580c530c37915dfbf71989e337956",
+    "elapsed_seconds": 8.496327332999954,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17979,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 103,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:12:01.334829+00:00",
+    "origin": "population_extension"
+  }
+}

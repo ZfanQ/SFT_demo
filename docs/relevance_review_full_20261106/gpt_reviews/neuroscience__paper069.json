@@ -1,0 +1,36 @@
+{
+  "fingerprint": "a35de401e78681e589d86f2ce22d1cafb9f9af4186f896ce7fa6f3759fd9aea3",
+  "result": {
+    "paper_id": "paper069",
+    "profile_id": "neuroscience",
+    "relevance": 3,
+    "evidence_quote": "This nationwide cohort study demonstrates a clear day-of-the-week variation in hospital admissions for ischemic stroke among patients with AF, with fewer admissions on weekends than on weekdays.",
+    "rationale": "The study directly examines ischemic stroke, an explicitly listed interest, characterizing admission patterns and identifying timely care as a potential target for improving stroke outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "969d7a453952523e09a43d83f7c4cb6bbc6fa661c8e9e2d7dc7a4cc64b4c7df0",
+    "abstract_sha256": "24c5ce72f5413832897df2995de2998f23a8cf3348ec741892143a03e107f677",
+    "original_prompt_sha256": "c1a8106bf0a2d76d2a992ead9c3886469f66b934d6cc6c91c6827455b8e7d178",
+    "elapsed_seconds": 18.036086208000597,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17970,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 112,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-05T16:00:09.224592+00:00"
+  }
+}

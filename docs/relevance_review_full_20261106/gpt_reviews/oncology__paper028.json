@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper028",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "Objective: This cross-sectional study identified latent classes of ACEs among adults living in Saudi Arabia and examined their associations with five facets of UPPS-P impulsive behaviour and brief mental-health indicators.",
+    "rationale": "The study examines childhood adversity patterns, impulsivity, and mental-health outcomes. It does not address cancer biology, tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "1fe84226b065532cba3e5633e55877db0531d3f6ad2cd5a3adf5d7f35d007615",
+    "abstract_sha256": "d3e336d66c3de4830a4e67499ac1c5ce436dc9c439d3f16b5d6621f37f0a621d",
+    "original_prompt_sha256": "2d10c2f5caee0312a92e79f20c70462cffc0944f7d27c7356d621f973c5ee60a",
+    "elapsed_seconds": 9.100672000000031,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18188,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 118,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:06:26.008438+00:00",
+    "origin": "population_extension"
+  }
+}

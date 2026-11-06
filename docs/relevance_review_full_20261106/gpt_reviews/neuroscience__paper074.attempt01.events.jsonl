@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1af4b-804d-73a1-a5f3-865e8fa04dcf"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"paper_id\":\"paper074\",\"profile_id\":\"neuroscience\",\"relevance\":3,\"evidence_quote\":\"This retrospective study explored the associations of plasma homocysteine (Hcy), cysteine (Cys) and methionine (Met) levels with 90-day prognosis in intracerebral hemorrhage (ICH) patients and evaluated their predictive value for ICH prognosis.\",\"rationale\":\"The study directly addresses prognostic biomarkers for intracerebral hemorrhage, aligning with the profile’s interests in stroke and biomarkers for neurological disorders.\",\"scope_ambiguous\":false,\"ambiguity_note\":\"\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":18126,"cached_input_tokens":16384,"cache_write_input_tokens":0,"output_tokens":132,"reasoning_output_tokens":0}}

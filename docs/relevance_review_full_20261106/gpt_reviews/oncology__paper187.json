@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper187",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "We evaluated the longitudinal impact of BS, microbiome resilience, and Mediterranean Diet (MedDiet) adherence up to 24 months.",
+    "rationale": "The study examines microbiome changes and fat-loss outcomes following bariatric surgery in patients with obesity. It does not address tumor progression, tumor biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "28ceaa651ba87cf866306611a71f7090858b8c5832fb873beb01a53da0491ae9",
+    "abstract_sha256": "5a934d27ee296188dedfd899c102ef6ba42bf4ebd21b395b7da0e0d88f59605a",
+    "original_prompt_sha256": "a87e9cc182e261424223e5e725b3c61d65cc7e9a338d11f30b9dbfe259d44f7f",
+    "elapsed_seconds": 8.454133083000215,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18094,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 107,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:20:10.112756+00:00",
+    "origin": "population_extension"
+  }
+}

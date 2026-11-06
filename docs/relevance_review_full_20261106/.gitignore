@@ -1,0 +1,4 @@
+execution.lock
+*.stderr.log
+pilot.log
+run.log

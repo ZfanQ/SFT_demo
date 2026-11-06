@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper195",
+    "profile_id": "cardiovascular",
+    "relevance": 0,
+    "evidence_quote": "Force-regulated robotic DRS enables standardized, autonomous tissue scanning with expert-level spectral consistency, advancing spectroscopic sensing toward reliable automated surgical margin assessment.",
+    "rationale": "The study evaluates robotic spectroscopy for tumor resection margin assessment. The abstract does not address cardiovascular disease, cardiovascular risk prediction or prevention, or therapies for cardiovascular outcomes.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "525cae6e9760e5fcbc4f570862e4be61798228c1090be74b1e644a3c6bc20bbe",
+    "abstract_sha256": "186fabb2e45d33ad8b512b126f41fcc3e0e652823a147a4e4439ea65ceb4526c",
+    "original_prompt_sha256": "a7c3d0d93176a6e7b811ff9b85e3ae3492e553be3e8087f89c6c34c6bc87a8a6",
+    "elapsed_seconds": 7.788299625000036,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 18040,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 110,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:14:47.677790+00:00",
+    "origin": "population_extension"
+  }
+}

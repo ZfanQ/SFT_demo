@@ -1,0 +1,37 @@
+{
+  "fingerprint": "4214ae4c8a680e12daefdfb383dacb0d7f8dc7d798d0419cf6315d2e8cdfad4b",
+  "result": {
+    "paper_id": "paper142",
+    "profile_id": "oncology",
+    "relevance": 0,
+    "evidence_quote": "To dissect the molecular mechanisms underlying species barriers to HEV infection, this study aimed to investigate the virus replication cycle and immune-related determinants responsible for restricted HEV infection in murine hepatocytes.",
+    "rationale": "The study examines HEV infection barriers, viral entry, and replication in murine hepatocytes. It does not address tumor progression, cancer biomarkers, or cancer treatments.",
+    "scope_ambiguous": false,
+    "ambiguity_note": ""
+  },
+  "metadata": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "request_sha256": "ba0c2d45484398768a19dfc262f9c12c63862aa8949c75c2f1a0db4eff6e5358",
+    "abstract_sha256": "9a1ade947f7226d07ebf92526f1718ae0c71c104ac6f8441f719e16067f39aca",
+    "original_prompt_sha256": "bb28b7de3f0638133b381fb9591788378bd6632abebe08c4b1a14a29c3ae7e90",
+    "elapsed_seconds": 8.642429209000056,
+    "attempts": [
+      {
+        "number": 1,
+        "valid": true
+      }
+    ],
+    "usage": [
+      {
+        "input_tokens": 17985,
+        "cached_input_tokens": 16384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 119,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "completed_utc": "2026-11-06T05:20:52.947781+00:00",
+    "origin": "population_extension"
+  }
+}
