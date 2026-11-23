@@ -1,0 +1,22 @@
+{
+  "dataset_sha256": "d7167d37541c88eb8f98a36f117821f467174680107990cfccd4b0c63410949a",
+  "mesh_sha256": null,
+  "input_catalogue_sha256": "4ec21fee1cddc9d9039a27ef0599e62edb0ed5ac0c60df1b135c5a9061fb0b30",
+  "catalogue_sha256": "4ec21fee1cddc9d9039a27ef0599e62edb0ed5ac0c60df1b135c5a9061fb0b30",
+  "script_sha256": "ea5d58ea3af03c84236b9eb3b00fe7ee3dad2388f66678c106d9f6356ac87d39",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "c9745ed1d9f207416be6d2e6f8de32d1f16199bf",
+  "torch_version": "2.14.0+cu130",
+  "device": "cuda",
+  "paper_count": 200,
+  "interest_count": 2000,
+  "pairs": 400000,
+  "paper_windows": 392,
+  "interest_windows": 2000,
+  "catalogue_s": 0.04129235597793013,
+  "initialization_s": 9.158452372998,
+  "embedding_and_match_s": 27.624978438019753,
+  "stages_wall_s": 37.71387987898197,
+  "candidate_k": 12,
+  "omitted_literal_pairs": 1980
+}

@@ -1,0 +1,13 @@
+paper_id,interest_id,label,semantic_rank,k12_qwen_score,k12_qwen_position,k30_qwen_score,k30_qwen_position,k50_qwen_score,k50_qwen_position,k50_display_with_ties
+paper193,D004930,Inuit,19,,,85,1,0,21,False
+paper177,D016678,Genome,19,,,0,19,0,22,False
+paper057,D016629,Esophagectomy,20,,,0,21,0,21,False
+paper083,D005919,Glomerular Filtration Rate,20,,,85,5,60,3,True
+paper037,D000097103,Digital Health,30,,,80,7,13,10,False
+paper171,D049109,Cell Proliferation,36,,,,,0,36,False
+paper095,D003920,Diabetes Mellitus,37,,,,,60,6,True
+paper153,D016207,Cytokines,38,,,,,0,38,False
+paper125,D007249,Inflammation,43,,,,,0,43,True
+paper200,D001416,Back Pain,55,,,,,,,False
+paper138,D016678,Genome,66,,,,,,,False
+paper079,D058005,General Practitioners,81,,,,,,,False

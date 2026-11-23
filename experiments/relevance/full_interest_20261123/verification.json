@@ -1,0 +1,23 @@
+{
+  "semantic_pairs": 400000,
+  "candidate_pairs": 2400,
+  "audit_counts": {
+    "incidental": 8,
+    "clear": 4,
+    "secondary": 6
+  },
+  "qwen": {
+    "raw_responses": 200,
+    "scores": 2400,
+    "distinct_scores": 38,
+    "score_range": [
+      0,
+      100
+    ],
+    "papers_with_ties": 197,
+    "papers_tied_at_top": 62,
+    "p50_request_s": 10.190641487482935,
+    "p95_request_s": 11.55086206049018,
+    "max_input_tokens": 2039
+  }
+}

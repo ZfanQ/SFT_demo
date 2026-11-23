@@ -1,0 +1,5 @@
+{
+  "original_script_sha256": "6ab72c6e0dd67444c52e7471353cb1f448312d0cff86299cfe57ca302875505b",
+  "validation_script_sha256": "2d7ab44494ec566d57b292a3f3ea3f709c4d7ff77afff3b275924f30b1d6e3f3",
+  "revision": "Interpret tier numbers by relative order. After two invalid responses preserve the full tie."
+}

@@ -1,0 +1,19 @@
+paper_id,interest_id,label,semantic_rank,cosine,judgment,exact_abstract_excerpt,reason
+paper176,D010361,Patients,19,0.34698230028152466,incidental,refer patients more readily,Patients describes the sample generically.
+paper193,D004930,Inuit,19,0.3548721969127655,clear,centralization disrupts Kalaallit Inuit birth culture,Inuit birth culture is central to the study design and findings.
+paper057,D016629,Esophagectomy,20,0.29692497849464417,clear,discharge readiness among patients after esophagectomy,The procedure defines the entire study population and follow-up question.
+paper162,D000906,Antibodies,28,0.26265111565589905,secondary,therapeutic anti-ENPP3 antibody administration,Antibody blockade is a substantial experimental modality. The broad heading is less specific than the target and disease.
+paper037,D000097103,Digital Health,30,0.3121027648448944,clear,Both interventions comprised three self-directed daily writing sessions delivered entirely online,The trial tests entirely online mental-health interventions in a digital platform.
+paper087,D016017,Odds Ratio,24,0.27227240800857544,incidental,Odds ratio (OR) and confidence interval were estimated.,Routine effect measure rather than study topic.
+paper027,D008603,Mental Health,33,0.28811097145080566,secondary,indicating a sustained mental-health burden among survivors,"Broad heading supported by the PTSD trajectories, which are more specific than general mental well-being."
+paper091,D007858,Learning,95,0.2613500654697418,secondary,preferred individual learning,Learning preferences are one finding within a study of declining diabetes education.
+paper200,D001416,Back Pain,55,0.27073508501052856,clear,To explore patients’ experiences with CLBP prior to LSF,Chronic low back pain defines the study population and aim.
+paper014,D012598,Sclerosis,62,0.2573074698448181,incidental,Multiple sclerosis (MS) significantly affects,Generic pathological sclerosis is not the disease concept assessed in the abstract.
+paper094,D005215,Fasting,49,0.23591741919517517,incidental,Key measurements included fasting blood samples,Sampling condition rather than a fasting intervention.
+paper096,D015897,Comorbidity,100,0.18549880385398865,secondary,with high comorbidity burdens,Comorbidity is a subgroup variable for the primary treatment comparison.
+paper061,D014930,Women,1026,0.017169799655675888,incidental,<18 kg for women,"The threshold uses sex, but the question concerns sleep and physical function."
+paper009,D010361,Patients,193,0.126639261841774,incidental,all non-traumatic ICH patients,Generic participant term.
+paper063,D064886,Dataset,736,0.06644605845212936,incidental,on the entire dataset,Ordinary reference to study data. The paper evaluates classifiers rather than publishing a dataset.
+paper011,D013624,Taiwan,819,0.05204486474394798,secondary,analyses of the Taiwan Biobank,"Taiwan is the source of data, while the research question concerns migraine and cognition."
+paper030,D011153,Population,987,0.031414903700351715,incidental,In a sample of MH17-bereaved people,The generic geographic population concept is not the study topic.
+paper172,D007668,Kidney,521,0.06871280819177628,secondary,patients with Kidney Failure (KF),Kidney failure is central. The anatomical heading is broader than the study question on dialysis access.

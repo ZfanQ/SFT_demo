@@ -1,0 +1,19 @@
+paper_id,interest_id,label,semantic_rank,cosine,judgment,exact_abstract_excerpt,reason
+paper035,D000296,Adolescent Psychiatry,25,0.3880454897880554,secondary,centres for child and adolescent psychiatry,Clinical specialty of the participating therapists. The study focuses on their understanding of resilience.
+paper177,D016678,Genome,19,0.323436439037323,clear,we characterized the UPEC pangenome,Genome characterization defines the study.
+paper156,D002477,Cells,28,0.2664300501346588,secondary,NK cell-mediated responses in PDAC,The heading is broader than the specific natural killer cell mechanism.
+paper196,D001034,Apgar Score,14,0.3111768364906311,secondary,abnormal 5-minute Apgar score,One of several neonatal outcomes. The abstract reports no detected relationship for this endpoint.
+paper085,D000086382,COVID-19,20,0.29893553256988525,secondary,uptake was 44.4% for influenza,COVID-19 vaccination is one of six coverage measures. The disease itself is outside the primary question.
+paper083,D005919,Glomerular Filtration Rate,20,0.20207366347312927,clear,estimated glomerular filtration rate (eGFR) decline or kidney failure,Filtration-rate decline defines the main kidney endpoint.
+paper125,D007249,Inflammation,43,0.286066472530365,clear,virus-induced inflammatory responses,Inflammation is a principal measured outcome.
+paper171,D049109,Cell Proliferation,36,0.23437903821468353,clear,inhibited KIRC cell proliferation,Changes in cell proliferation are among the key functional findings.
+paper105,D004196,Disease Outbreaks,37,0.2801632583141327,secondary,"economic decline, disease outbreaks, and COVID-19",One of several crises motivating a health-system resilience analysis.
+paper113,D014944,World Health Organization,38,0.2718162536621094,secondary,validated the World Health Organization’s Behavioral and Social Drivers of Influenza Vaccination survey,The organization authored the survey. Validation and vaccination behavior are the research targets.
+paper095,D003920,Diabetes Mellitus,37,0.23286017775535583,clear,in elderly patients with type 2 diabetes mellitus,Diabetes defines the treatment population and comparator question.
+paper153,D016207,Cytokines,38,0.2630367875099182,clear,significantly increased proinflammatory cytokines,Cytokine changes are a principal study finding.
+paper194,D006990,Hypnosis,77,0.2332541048526764,incidental,"the principle of distraction, hypnosis",The trial compares VR with standard care. Hypnosis occurs in the background discussion.
+paper079,D058005,General Practitioners,81,0.32793372869491577,clear,To explore the perspectives of GPs concerning secondary preventive practices after stroke,General practitioners define both the study population and the research question.
+paper183,D005869,Ghana,71,0.2356324940919876,secondary,"Gabon, Ghana, and Senegal",Ghana is one of several identified hot spots in a multi-country analysis.
+paper040,D029181,Spirituality,76,0.2621859312057495,secondary,"family, spirituality, and peer support",Spirituality is one of several observed coping strategies.
+paper048,D012008,Recurrence,82,0.21227189898490906,incidental,yet recurrence rates remain high,Recurrence motivates the study. Its measured outcome is the timing of immune responses.
+paper138,D016678,Genome,66,0.2714923322200775,clear,genomic mechanisms underlying adaptation,Genomic characteristics are central to the study aim.

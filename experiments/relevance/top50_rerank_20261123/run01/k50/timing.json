@@ -1,0 +1,10 @@
+{
+  "wall_s": 710.5659616159974,
+  "fresh_papers": 200,
+  "papers": 200,
+  "scores": 10000,
+  "max_input_tokens": 4590,
+  "request_s_total": 2833.0924313468277,
+  "retries": 0,
+  "top_tied_papers": 136
+}
