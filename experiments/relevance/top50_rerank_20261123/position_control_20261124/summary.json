@@ -1,0 +1,41 @@
+{
+  "papers": 24,
+  "paired_interests": 1200,
+  "exact_score_matches": 912,
+  "mean_absolute_score_change": 14.0475,
+  "prior_forward_matches": 1144,
+  "prior_forward_mean_absolute_change": 1.6333333333333333,
+  "forward_zeros": 1071,
+  "reversed_zeros": 1032,
+  "paired_first_last": {
+    "n": 480,
+    "early_zeros": 349,
+    "late_zeros": 470,
+    "nonzero_to_zero": 128,
+    "zero_to_nonzero": 7,
+    "early_score_mean": 16.516666666666666,
+    "late_score_mean": 0.3125,
+    "papers_more_zeros_late": 24
+  },
+  "top5_shared_placements": 21,
+  "papers_with_same_top5_set": 0,
+  "papers_with_same_top1": 3,
+  "forward_all_zero_papers": 3,
+  "reversed_all_zero_papers": 2,
+  "audited_forward_top5": 1,
+  "audited_reversed_top5": 2,
+  "audited_forward_nonzero": 1,
+  "audited_reversed_nonzero": 2,
+  "execution_first_arm": {
+    "reversed": 12,
+    "forward": 12
+  },
+  "timing": {
+    "wall_s": 168.69199088704772,
+    "papers": 24,
+    "requests": 48,
+    "fresh_requests": 48,
+    "retries": 0,
+    "max_input_tokens": 4512
+  }
+}

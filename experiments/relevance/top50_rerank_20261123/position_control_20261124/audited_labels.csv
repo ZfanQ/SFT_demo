@@ -1,0 +1,10 @@
+paper_id,cohort,interest_id,semantic_rank,forward_position,reversed_position,prior_forward_score,forward_score,reversed_score,forward_rank,reversed_rank,label
+paper037,known_clear_omission,D000097103,30,13,38,13,0,0,30,32,Digital Health
+paper057,known_clear_omission,D016629,20,36,15,0,0,100,21,1,Esophagectomy
+paper083,known_clear_omission,D005919,20,15,36,60,60,0,3,20,Glomerular Filtration Rate
+paper095,known_clear_omission,D003920,37,18,33,60,0,0,37,38,Diabetes Mellitus
+paper125,known_clear_omission,D007249,43,24,27,0,0,0,43,44,Inflammation
+paper153,known_clear_omission,D016207,38,34,17,0,0,65,38,2,Cytokines
+paper171,known_clear_omission,D049109,36,37,14,0,0,0,36,37,Cell Proliferation
+paper177,known_clear_omission,D016678,19,30,21,0,0,0,21,20,Genome
+paper193,known_clear_omission,D004930,19,18,33,0,0,0,21,25,Inuit

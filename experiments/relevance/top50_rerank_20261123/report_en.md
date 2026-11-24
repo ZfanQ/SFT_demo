@@ -62,3 +62,26 @@ The successful comparison pass took **1,054.85 seconds (17 min 35 s)** and reuse
 Six strict changes at first place and six strict preference changes across the fifth-place boundary were sampled with seed 501205, using distinct papers. Candidate labels were randomized to A and B. The assistant assessed only the abstract and definitions, then unblinded which item each method favored. Among these 12 changed cases, 3 favored Qwen's comparison, 7 favored the original semantic ordering, and 2 had no clear preference. The audit concerns selected reversals and is neither an independent human review nor an estimate of population ranking accuracy. For example, comparison correctly promoted Chronic Cough over Asthma for a chronic-cough cohort, but incorrectly favored a childhood fluency disorder over Myasthenia Gravis for a study explicitly about myasthenia gravis. [Blinded pair judgments and excerpts](tie_comparison_audit.csv)
 
 Top-50 is useful for finding more candidate labels. Top-30 is the provisional baseline for a five-item display because it took less time and surfaced two of the audited labels before tie comparison. A larger labeled set is needed to select a production budget. The present second-pass prompt reduced ties but took more time than initial Top-50 scoring, and its changed choices did not improve the blinded sample overall. Keep explicit ties and use the semantic rank for stable ordering when a strict display limit requires one. Stronger relevance judgments and a shorter, evidence-constrained comparison prompt would make a useful next comparison.
+
+## November 24 follow-up on score stability
+
+The saved Top-50 score vectors show a concentration of zero scores late in the prompt. The first 10 positions received 1,374 zeros out of 2,000 scores (68.7%). The last 10 received 1,881 out of 2,000 (94.1%). Across the entire arm, 8,432 of 10,000 scores were zero, and 22 papers received zero on all 50 interests. The inputs were ordered by descriptor ID, so the observed difference could reflect the descriptors that occupy those positions, where they appear, or both. [Per-position counts for all three arms](score_position_diagnostics.csv)
+
+The GPU24 control scored the same 50 descriptors in forward and reverse order for 24 papers. It kept the Qwen3.5-9B checkpoint, rubric, response format, four request slots, and context and output budgets fixed. The frozen panel included the nine clear omissions that entered Top-50 and 15 papers drawn at random from the remaining papers. The assigned execution order started with forward for 12 papers and reverse for 12. All 48 requests completed in 168.69 seconds with zero retries. The server offloaded all 33 model layers. [Frozen sample](position_control_sample.json) · [Run configuration](position_control_20261124/run01/config.json) · [Timing](position_control_20261124/run01/timing.json)
+
+| Paired outcome | Result |
+| --- | ---: |
+| Paper–interest scores changed after reversal | 288/1,200 (24.0%) |
+| Mean absolute score change after reversal | 14.05/100 |
+| Mean absolute change between the two forward runs | 1.63/100 |
+| Zero scores overall, forward and reverse | 1,071/1,200 (89.3%) and 1,032/1,200 (86.0%) |
+| Same interests scored zero when placed in the first 10 and last 10 | 349/480 (72.7%) and 470/480 (97.9%) |
+| Shared Top-5 placements | 21/120 (17.5%) |
+| Papers retaining the same complete Top-5 set | 0/24 |
+| Papers retaining the same first interest | 3/24 |
+
+The first-to-last calculation uses the same 20 descriptors per paper that cross between the first 10 and last 10 input positions. Of the 480 paired descriptors, 128 went from nonzero early to zero late, and seven changed in the opposite direction. All 24 papers had more zero scores among these descriptors when they appeared late. The 15 randomly drawn papers showed the same pattern, from 226/300 zeros early to 300/300 late. Top-5 overlap uses exact IDs and the same original semantic rank to break equal scores in both arms. Three papers received all zeros in forward order and two in reverse order, so their Top-5 lists consist entirely of the semantic ranking. [Paired scores](position_control_20261124/paired_scores.csv) · [Per-paper Top-5 sets](position_control_20261124/top5_comparison.csv) · [Verified summary](position_control_20261124/summary.json)
+
+Position sensitivity also affected the earlier audited labels. Esophagectomy moved from position 36 to 15 and its score rose from 0 to 100, moving its rank from 21 to 1. Glomerular Filtration Rate moved from position 15 to 36 and fell from 60 to 0, moving its rank from 3 to 20. Overall, one of the nine audited labels appeared in the forward Top-5 and two appeared in the reverse Top-5. [Audited labels and both rankings](position_control_20261124/audited_labels.csv)
+
+For this panel, the control shows that changing the descriptor order changes scores and display choices. It measures sensitivity to the order of the full list, which also changes the surrounding descriptors. It does not establish that reverse ordering is more accurate. The next diagnostic should score the same candidates in shorter groups and repeat the order check. Independent relevance judgments are needed to measure whether the resulting Top-5 rankings improve.

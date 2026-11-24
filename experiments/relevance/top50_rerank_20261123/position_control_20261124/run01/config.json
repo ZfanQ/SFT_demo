@@ -1,0 +1,18 @@
+{
+  "sample_sha256": "95ed5d0dd3c67a2ec9a553bb3cf1f453cdd3704fb30ade1350aba8ae4524c46a",
+  "prior_protocol_sha256": "5fa9629d084bbca6640ee96f0bd8181827d52d951126a1156fd3160a4182661d",
+  "driver_sha256": "ba0ebd4057ce51a603810896d47145353b671fb8c718213cd0cf8623545c21f0",
+  "scoring_library_sha256": "2d7ab44494ec566d57b292a3f3ea3f709c4d7ff77afff3b275924f30b1d6e3f3",
+  "model_sha256": "02d45dc1cf451ba2475ac33b301c2dd8f985abe4c182ce04a1f2f5bf0260278d",
+  "input_sha256": {
+    "dataset": "d7167d37541c88eb8f98a36f117821f467174680107990cfccd4b0c63410949a",
+    "catalogue": "4ec21fee1cddc9d9039a27ef0599e62edb0ed5ac0c60df1b135c5a9061fb0b30",
+    "matrix": "c30f9cc201643930d0bdae30160604c36fa62b437d7604062104a5f360e7812e"
+  },
+  "candidate_budget": 50,
+  "workers": 4,
+  "context_per_slot": 8192,
+  "output_cap": 400,
+  "display_cutoff": 5,
+  "score_seed": 42
+}
