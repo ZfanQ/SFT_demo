@@ -1,5 +1,15 @@
 # Candidate budget and tie comparisons for paper-to-interest ranking
 
+## Progress summary for November 23–24
+
+We ran semantic matching on all **200 abstracts × 2,000 MeSH interests** and used Qwen to score and rerank the top 12, 30, or 50 candidates for each paper. A larger pool recovered more relevant labels in the audit, but the 50-interest scoring run was sensitive to input order. Top-30 remains the provisional baseline for displaying five interests.
+
+- **Candidate coverage.** Of 12 clearly relevant labels identified in a targeted audit of Top-12 omissions, Top-30 recovered 5 and Top-50 recovered 9. After Qwen scoring and the standard semantic tie-break, 2 of those labels appeared in the Top-30 lists' first five positions and 1 appeared in the Top-50 lists' first five. These counts describe the audited omissions. [Coverage and visibility details](#candidate-omissions)
+- **Tie comparison.** A second Qwen pass reduced the number of papers tied for first from 136 to 63. In a blinded assistant review of 12 changed choices, 3 favored Qwen's adjustment, 7 favored the original semantic order, and 2 had no clear preference. [Blinded spot check](#blinded-spot-check-of-changed-choices)
+- **Input order.** For 24 papers, we scored the same 50 interests in forward and reverse order. Across the 480 paired labels that moved between the first and last ten input positions, the zero-score rate rose from 72.7% early to 97.9% late. The two Top-5 lists shared 21 of 120 placements, fewer than one per paper on average. [Order control](#november-24-follow-up-on-score-stability)
+
+**Next step.** Score the same candidates in smaller groups and repeat the order control to see whether the scores and the first five interests become more stable.
+
 The experiment compares three candidate budgets for assigning research interests to each of 200 frozen abstracts. It reuses the 400,000 cosine scores from the preceding all-MiniLM-L6-v2 run and the same 2,000 MeSH descriptor IDs. Each paper receives a ranking of interests. The earlier run and the Top-50 extension share a GPU24 model family and a 100-point rubric, with the protocol below defining a fresh matched comparison across all three budgets. [Frozen source run](../full_interest_20261123/report_en.md)
 
 ## Matched protocol
