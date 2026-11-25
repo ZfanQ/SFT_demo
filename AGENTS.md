@@ -7,6 +7,10 @@
 - Existing supervisor-facing experimental reports are historical records with stated limitations. Do not delete them or rewrite their history merely to apply the new destination policy.
 - See `docs/PUBLISHING.md` for experiment status and the review process.
 
+## Team coordination
+
+- Use [the ChatGPT Web discussion hub](docs/web-discussions/README.md) to share project progress and task updates through Git, and raise decisions about project direction with ChatGPT Web.
+
 ## Research records
 
 - Write supervisor-facing reports in English.
