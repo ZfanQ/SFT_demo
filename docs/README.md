@@ -25,6 +25,7 @@
 
 ## Meetings and planning
 
+- [ChatGPT Web discussions](web-discussions/README.md) · Discussion briefs and team decisions on project direction.
 - [October 23 meeting records](../meetings/notes/meeting_20261023).
 - [October 13 meeting records](../meetings/notes/meeting_20261013) and [requirements audit](../meetings/notes/meeting_requirements_audit_20261013).
 - [Meeting materials](../meetings/recordings).
