@@ -4,7 +4,7 @@ Use this folder to coordinate project progress and upcoming work through Git and
 
 | Topic | Discussion status |
 | --- | --- |
-| [November 25 · SciCommons relevance delivery](2026-11-25-scicommons-relevance-delivery.md) | Discussion brief ready for review. Feedback and team decisions are pending. |
+| [November 25 · SciCommons relevance delivery](2026-11-25-scicommons-relevance-delivery.md) | Web feedback recorded, one rule revision evaluated, and formal scoring underway. |
 
 Keep one file per topic and add dated updates as the work progresses.
 
