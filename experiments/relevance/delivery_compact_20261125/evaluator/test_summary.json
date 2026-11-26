@@ -1,0 +1,30 @@
+{
+  "test_reference_sha256": "82b15e5a69ea52f7cfbbb63a877526c4d285edbf3d7d3d131ab88193c71f2263",
+  "score_matrix_sha256": "afd35b59bd79c32899b5357c6d12cdec87fb2811b872fc5caef3b4763f6fa81e",
+  "formal_pairs": 400000,
+  "judged_test_pairs": 800,
+  "selected_arm": "baseline",
+  "qwen": {
+    "balanced_agreement": 0.875,
+    "recall": 0.9375,
+    "specificity": 0.8125,
+    "exact_agreement": 0.70125,
+    "paper_interest_ndcg5": 0.7972464897257567,
+    "interest_paper_ndcg5": 0.8294732327957361,
+    "paper_queries_with_positives": 40,
+    "interest_queries_with_positives": 6,
+    "pairs": 800,
+    "reference_positives": 192
+  },
+  "semantic": {
+    "paper_interest_ndcg5": 0.5755958372629411,
+    "interest_paper_ndcg5": 0.825982689495403
+  },
+  "misses_by_gpt_grade": {
+    "2": 4,
+    "3": 8
+  },
+  "audit_queue_pairs": 12,
+  "full_wall_s": 37870.238411426544,
+  "scope": "Agreement with human-unreviewed GPT reference judgments on the frozen judged pools."
+}

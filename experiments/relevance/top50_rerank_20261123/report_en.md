@@ -95,3 +95,17 @@ The first-to-last calculation uses the same 20 descriptors per paper that cross 
 Position sensitivity also affected the earlier audited labels. Esophagectomy moved from position 36 to 15 and its score rose from 0 to 100, moving its rank from 21 to 1. Glomerular Filtration Rate moved from position 15 to 36 and fell from 60 to 0, moving its rank from 3 to 20. Overall, one of the nine audited labels appeared in the forward Top-5 and two appeared in the reverse Top-5. [Audited labels and both rankings](position_control_20261124/audited_labels.csv)
 
 For this panel, the control shows that changing the descriptor order changes scores and display choices. It measures sensitivity to the order of the full list, which also changes the surrounding descriptors. It does not establish that reverse ordering is more accurate. The next diagnostic should score the same candidates in shorter groups and repeat the order check. Independent relevance judgments are needed to measure whether the resulting Top-5 rankings improve.
+
+## November 26 full matrix and held-out evaluation
+
+GPU24 completed 400,000 scores in 37,870 seconds (10 hours 31 minutes), within the 16-hour budget. The export passed the locked-configuration, uniqueness, grade-range and coverage checks for 200 papers and 2,000 interests per paper.
+
+| Metric on judged test pools | Semantic baseline | Qwen3.5-9B with baseline prompt |
+| --- | ---: | ---: |
+| Paper-to-interest nDCG@5, 40 papers | 0.576 | 0.797 |
+| Interest-to-paper nDCG@5, six shared interests | 0.826 | 0.829 |
+| Balanced agreement at grade ≥2 | — | 87.5% |
+| Recall at grade ≥2 | — | 93.75% (180/192) |
+| Specificity at grade ≥2 | — | 81.25% (494/608) |
+
+The 800 held-out GPT judgments cover finite candidate pools. The larger observed ranking gain comes from assigning interests to papers. The six shared interests show a small aggregate difference for recommending papers. These metrics measure agreement with GPT within the judged pools. The miss queue contains all 12 GPT-positive pairs that Qwen scored below 2, including eight GPT grade-3 pairs. Independent review of those cases is pending. [Aggregate evaluation](../delivery_compact_20261125/evaluator/test_summary.json)
