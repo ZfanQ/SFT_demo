@@ -1,0 +1,30 @@
+{
+  "format": "relevance-rationale-messages-v1",
+  "coverage": {
+    "train": {
+      "pairs": 480,
+      "covered_papers": 24,
+      "partition_papers": 128,
+      "covered_interests": 344
+    },
+    "validation": {
+      "pairs": 640,
+      "covered_papers": 32,
+      "partition_papers": 32,
+      "covered_interests": 355
+    }
+  },
+  "catalogue_interests": 2000,
+  "training_grade_counts": {
+    "0": 282,
+    "1": 52,
+    "2": 23,
+    "3": 123
+  },
+  "training_rows_with_titles": 0,
+  "source_sha256": {
+    "train": "df07ebfd06bb45da4cd283cf5cd3df82b980a89ceb660c6915a83ae03e24818c",
+    "validation": "a67b23d08449bdc8e820dfdc4952ae5a5eeff974c58d133e6c99aa59a644d352"
+  },
+  "training_export_sha256": "a284fbec6a1b3111a7906f1deba8d9b2ab69047cb0eccd85b0bad440af80dbac"
+}
