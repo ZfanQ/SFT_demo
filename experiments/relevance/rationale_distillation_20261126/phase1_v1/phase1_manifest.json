@@ -1,0 +1,72 @@
+{
+  "dataset_version": "phase1-v1",
+  "exact_duplicate_abstracts": 0,
+  "historical_duplicate_check": {
+    "matched_pairs": [],
+    "normalized_exact": true,
+    "token_5gram_jaccard_threshold": 0.8
+  },
+  "input_scope": "abstract and interest definition",
+  "input_sha256": {
+    "catalogue": "4ec21fee1cddc9d9039a27ef0599e62edb0ed5ac0c60df1b135c5a9061fb0b30",
+    "dataset": "d7167d37541c88eb8f98a36f117821f467174680107990cfccd4b0c63410949a",
+    "rubric": "0ad2dd50c6d2c4b7aa059b509da52b8e1494d316550d2df4bb20ffe1327782da",
+    "split": "09258bcec6bdeb411aed18e0dd4404fa87375798176480d5eda1af267368f785"
+  },
+  "interests": 2000,
+  "partitions": {
+    "test": 40,
+    "train": 128,
+    "validation": 32
+  },
+  "phases": {
+    "train": {
+      "batches": 24,
+      "driver_sha256": "a3c61daec9b96568728cdcfc6ecf796dc47d447ead0b4b1733620fd07ee48110",
+      "grades": {
+        "0": 282,
+        "1": 52,
+        "2": 23,
+        "3": 123
+      },
+      "pairs": 480,
+      "papers": 24,
+      "protocol_sha256": "9e84bf08dd6256a8d134fdeb57caa27a895322c18b717a8ca7ecea9da53ba279",
+      "roles": {
+        "ambiguous": 1,
+        "background_or_covariate": 51,
+        "primary_question": 123,
+        "secondary_analysis": 23,
+        "unrelated": 282
+      },
+      "sha256": {
+        "rationale": "6110a2b97e5c87b9717ce78adb0b2e7bda6a7db610c40a170975cda1e9d77447",
+        "score": "744db87a9fbc427292b2df7fba7ad3cf88a910b13f9a205bf51748ef3b132360"
+      }
+    },
+    "validation": {
+      "batches": 32,
+      "driver_sha256": "a3c61daec9b96568728cdcfc6ecf796dc47d447ead0b4b1733620fd07ee48110",
+      "grades": {
+        "0": 447,
+        "1": 43,
+        "2": 24,
+        "3": 126
+      },
+      "pairs": 640,
+      "papers": 32,
+      "protocol_sha256": "1f6b5ed43e0af021d9073898a920ad0d6691540b7f57e300d0884d682e4d2fa4",
+      "roles": {
+        "background_or_covariate": 43,
+        "primary_question": 126,
+        "secondary_analysis": 24,
+        "unrelated": 447
+      },
+      "sha256": {
+        "rationale": "b21c23165d8f72b19e5e123750e7cb067906ae1fbc9eb14a1507a301e0ac23f1",
+        "score": "07e27f531692d5c93d2258f59039287d6bdfc04d36e7db5544fa54db750e1189"
+      }
+    }
+  },
+  "teacher": "gpt-6.1-sol"
+}

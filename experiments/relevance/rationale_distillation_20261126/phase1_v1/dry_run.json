@@ -1,0 +1,41 @@
+{
+  "token_counts": {
+    "train": {
+      "score": {
+        "max_tokens": 957,
+        "p95_tokens": 793,
+        "assistant_target_tokens": 3360,
+        "total_tokens": 250818
+      },
+      "rationale": {
+        "max_tokens": 1010,
+        "p95_tokens": 856,
+        "assistant_target_tokens": 29858,
+        "total_tokens": 281636
+      }
+    },
+    "validation": {
+      "score": {
+        "max_tokens": 737,
+        "p95_tokens": 625,
+        "assistant_target_tokens": 4480,
+        "total_tokens": 323785
+      },
+      "rationale": {
+        "max_tokens": 801,
+        "p95_tokens": 693,
+        "assistant_target_tokens": 39577,
+        "total_tokens": 364642
+      }
+    }
+  },
+  "max_length": 1024,
+  "seed": 20261128,
+  "microbatch": 1,
+  "padding": "none",
+  "truncation": "none",
+  "thinking": false,
+  "chat_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+  "eos_token_id": 248046,
+  "loss": "assistant tokens and EOS only"
+}
